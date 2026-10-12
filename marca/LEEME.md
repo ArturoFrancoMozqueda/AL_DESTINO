@@ -32,3 +32,9 @@ La entrada principal es una guía esencial concisa, con animación reproducible 
 - `archivo/` y `originales/`: historial y fuentes, separados de recursos vigentes.
 
 El ZIP completo organiza `01-logos`, `02-animaciones/horizontal`, `02-animaciones/circular`, `03-elementos-png` y `04-tokens`; incluye manifiesto SHA-256. Para reconstruirlo tras cambiar recursos: `python3 scripts/empaquetar-marca.py`. Todo sigue BORRADOR.
+
+## Enlace para compartir
+
+GitHub Pages: https://arturofrancomozqueda.github.io/AL_DESTINO/
+
+Se publica la carpeta `marca/` desde `main` mediante `.github/workflows/design-system-pages.yml`. Incluye logos, ambas animaciones y descargas. Los cambios de marca se vuelven a publicar al hacer push. El contenido mantiene estado BORRADOR.

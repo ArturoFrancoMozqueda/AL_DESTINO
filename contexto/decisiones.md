@@ -79,3 +79,7 @@ Arturo solicita también una animación del logo circular. Se crea un avatar con
 ## 12 de octubre de 2026 · Entrega consolidada de marca
 
 Arturo solicita dos logos, dos animaciones y todos los PNG descargables y ordenados en el repositorio. Se añade kit ZIP con carpetas por tipo, manifiesto y catálogo individual, conservando fuentes originales e históricos. Estado BORRADOR.
+
+## 12 de octubre de 2026 · Publicación del design system
+
+Arturo autoriza publicar el design system en GitHub Pages para abrirlo desde otros dispositivos y compartir el enlace con Liz. Se publica la carpeta marca, con los dos logos, dos animaciones y recursos descargables. La publicación no cambia el estado BORRADOR de la identidad.
