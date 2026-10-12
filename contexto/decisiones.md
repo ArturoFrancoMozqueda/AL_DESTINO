@@ -83,3 +83,7 @@ Arturo solicita dos logos, dos animaciones y todos los PNG descargables y ordena
 ## 12 de octubre de 2026 · Publicación del design system
 
 Arturo autoriza publicar el design system en GitHub Pages para abrirlo desde otros dispositivos y compartir el enlace con Liz. Se publica la carpeta marca, con los dos logos, dos animaciones y recursos descargables. La publicación no cambia el estado BORRADOR de la identidad.
+
+## 12 de octubre de 2026 · Feeling del canal y redes
+
+Arturo confirma que desea integrar pareja/momentos reales, fotografía de lugares y cercanía/consejos, tomando @elmundoenpareja_ como referente. La preferencia está declarada; sus aplicaciones concretas siguen BORRADOR. Se conserva la identidad y se da protagonismo a fotografía propia y experiencias reales.

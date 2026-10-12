@@ -69,6 +69,13 @@
       "name": "Chavos Vlogs",
       "appeal": "cercanía y dinámica vlog",
       "verified_url": null
+    },
+    {
+      "name": "El Mundo en Pareja",
+      "handle": "elmundoenpareja_",
+      "verified_url": "https://www.instagram.com/elmundoenpareja_/",
+      "appeal": "pareja y momentos reales, fotografía de lugares, cercanía y consejos; las tres prioridades confirmadas por Arturo",
+      "scope": "encabezado y cuadrícula pública parcial; sin análisis de videos completos"
     }
   ],
   "unknowns": [
@@ -87,6 +94,7 @@
     "approval": "borrador",
     "design_system_focus": "marca optimizada para redes sociales, con propuestas basadas en investigación",
     "background_preference": "beige arena, con menos matiz rosado",
-    "working_background_hex": "#E3DEC9"
+    "working_background_hex": "#E3DEC9",
+    "social_feeling": "pareja protagonista, lugares visualmente atractivos, fotografía natural y consejos cercanos"
   }
 }

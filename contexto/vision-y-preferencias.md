@@ -33,3 +33,7 @@ Presupuesto económico, editor de video, duración habitual de episodios, cuenta
 Ver `../planificacion/oportunidades.json`: Pátzcuaro por su pan favorito, mudanza/decoración, entrega de camioneta, dos estancias en diciembre de 2026 y una en abril de 2027. Fechas y nombres oficiales pendientes. Nada se presenta como ya grabado o publicado.
 
 La cartera será de 90 días y el detalle operativo de cuatro semanas. Las recomendaciones de alojamiento priorizarán lugares únicos y visualmente espectaculares con potencial de contenido, sin omitir la calidad de estancia ni el esfuerzo logístico.
+
+## Feeling de redes confirmado · 12 de octubre de 2026
+
+Arturo señala @elmundoenpareja_ y confirma las tres prioridades: pareja y momentos reales en lugares bonitos; tomas de viajes, hoteles y paisajes; cercanía y consejos al contar la experiencia. Ver `../marca/direccion-editorial-redes.md` para observaciones parciales y aplicación propuesta. No asumir equivalencia con el referente anterior «Un Mundo en Pareja».
