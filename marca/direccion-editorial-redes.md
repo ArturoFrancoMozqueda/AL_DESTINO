@@ -26,3 +26,7 @@ Promesa propuesta: «Ven con nosotros: lugares bonitos, momentos reales y lo que
 Ejemplo propuesto para Pátzcuaro, pendiente de grabación: plano de llegada, ustedes entrando a la panadería con permiso, detalle del pan, conversación al probarlo y consejo práctico comprobado. Video largo con historia completa; Reel con un descubrimiento concreto; carrusel con fotos y datos útiles; historias con pequeños momentos. No prometer todas las piezas cada semana: escoger lo viable dentro de las ocho horas conjuntas, reutilizando material.
 
 Antes de publicar: ¿se siente nuestra voz?, ¿la foto representa una experiencia real?, ¿hay un momento o consejo concreto?, ¿la marca acompaña sin tapar?, ¿se respeta nuestra privacidad?
+
+## Revisión integral v0.6
+
+Arturo solicita aplicar el feeling a toda la marca, design system y colores. Se propone paleta gráfica más terrosa, fotografía protagonista, Plus Jakarta como voz principal y Cormorant como acento puntual. Logo original, ambas animaciones y beige arena se conservan. Paleta exacta y contrastes en tokens; aplicaciones concretas BORRADOR.

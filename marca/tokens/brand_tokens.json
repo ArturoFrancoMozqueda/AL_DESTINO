@@ -1,20 +1,20 @@
 {
   "brand": "AL DESTINO",
-  "version": "0.5",
+  "version": "0.6",
   "status": "borrador",
   "date": "2026-10-11",
   "color": {
     "terracota": {
       "$type": "color",
-      "$value": "#E65F3C"
+      "$value": "#C65D3B"
     },
     "turquesa": {
       "$type": "color",
-      "$value": "#158A8A"
+      "$value": "#287C7A"
     },
     "mostaza": {
       "$type": "color",
-      "$value": "#D9A21B"
+      "$value": "#C49A43"
     },
     "arena": {
       "$type": "color",
@@ -22,11 +22,11 @@
     },
     "verde_petroleo": {
       "$type": "color",
-      "$value": "#1F4D4D"
+      "$value": "#244B49"
     },
     "cafe_oscuro": {
       "$type": "color",
-      "$value": "#2B211D"
+      "$value": "#302722"
     }
   },
   "typography": {
@@ -61,37 +61,37 @@
     {
       "foreground": "cafe_oscuro",
       "background": "arena",
-      "ratio": 11.63,
+      "ratio": 10.81,
       "small_text_allowed": true
     },
     {
       "foreground": "verde_petroleo",
       "background": "arena",
-      "ratio": 6.99,
+      "ratio": 7.14,
       "small_text_allowed": true
     },
     {
       "foreground": "turquesa",
       "background": "arena",
-      "ratio": 3.09,
+      "ratio": 3.66,
       "small_text_allowed": false
     },
     {
       "foreground": "terracota",
       "background": "arena",
-      "ratio": 2.56,
+      "ratio": 3.09,
       "small_text_allowed": false
     },
     {
       "foreground": "cafe_oscuro",
       "background": "terracota",
-      "ratio": 4.53,
-      "small_text_allowed": true
+      "ratio": 3.5,
+      "small_text_allowed": false
     },
     {
       "foreground": "cafe_oscuro",
       "background": "mostaza",
-      "ratio": 6.83,
+      "ratio": 5.59,
       "small_text_allowed": true
     }
   ],
@@ -281,5 +281,40 @@
       "ubicación",
       "tema"
     ]
+  },
+  "updated_at": "2026-10-12",
+  "art_direction": {
+    "status": "borrador",
+    "reference": "https://www.instagram.com/elmundoenpareja_/",
+    "reference_scope": "encabezado y cuadrícula pública parcial, consultados 2026-10-12",
+    "feeling": [
+      "pareja protagonista",
+      "lugares visualmente atractivos",
+      "momentos reales",
+      "consejos cercanos"
+    ],
+    "photography": {
+      "source": "fotos propias de experiencias reales",
+      "light": "natural",
+      "grading": "pieles fieles y blancos neutros; conservar color del lugar",
+      "avoid": "filtro beige uniforme, reacciones actuadas, fotografías ficticias presentadas como reales"
+    },
+    "graphic_color_roles": {
+      "arena": "base gráfica y placas de logo",
+      "cafe_oscuro": "lectura y datos",
+      "verde_petroleo": "contraste y llamadas a la acción",
+      "terracota": "detalle cálido",
+      "turquesa": "acento de agua y descubrimiento",
+      "mostaza": "detalle de luz, opcional"
+    },
+    "composition": "una fotografía protagonista; texto corto cuando aporta; firma opcional",
+    "instagram": "fotografía y momentos; portadas limpias",
+    "youtube": "historia clara; miniatura con gancho legible",
+    "logo_color_policy": "conservar colores de los píxeles originales; la paleta gráfica v0.6 no recolorea el logo",
+    "font_roles": {
+      "Plus Jakarta Sans": "voz principal para ganchos, subtítulos y datos",
+      "Cormorant Garamond": "acentos editoriales puntuales"
+    },
+    "legacy_export_path": "v05-png se conserva como ruta compatible; su catálogo registra la revisión vigente"
   }
 }

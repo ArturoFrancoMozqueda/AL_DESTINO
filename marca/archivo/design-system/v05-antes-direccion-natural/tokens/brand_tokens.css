@@ -1,0 +1,24 @@
+/* AL DESTINO v0.5 · BORRADOR */
+:root {
+  --al-terracota: #E65F3C;
+  --al-turquesa: #158A8A;
+  --al-mostaza: #D9A21B;
+  --al-arena: #E3DEC9;
+  --al-verde-petroleo: #1F4D4D;
+  --al-cafe-oscuro: #2B211D;
+  --al-display: "Cormorant Garamond", Georgia, serif;
+  --al-body: "Plus Jakarta Sans", system-ui, sans-serif;
+  --al-space-unit: 8px;
+}
+
+/* Firma propuesta · no sustituye el logo original */
+:root {
+  --al-signature-width: 32px;
+  --al-signature-stroke: 4px;
+  --al-signature-gap: 4px;
+  --al-author-arturo: var(--al-terracota);
+  --al-author-liz: var(--al-turquesa);
+}
+
+/* Fondo de aplicación preferido por Arturo. */
+:root { --al-logo-background: var(--al-arena); }

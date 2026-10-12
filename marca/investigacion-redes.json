@@ -5,13 +5,15 @@
   "measured_findings": [
     {
       "finding": "Contraste terracota/arena",
-      "value": 2.56,
-      "kind": "cálculo propio sobre colores sólidos"
+      "value": 3.09,
+      "kind": "cálculo propio sobre colores sólidos",
+      "measured_at": "2026-10-12"
     },
     {
       "finding": "Contraste turquesa/arena",
-      "value": 3.09,
-      "kind": "cálculo propio sobre colores sólidos"
+      "value": 3.66,
+      "kind": "cálculo propio sobre colores sólidos",
+      "measured_at": "2026-10-12"
     }
   ],
   "design_proposals": [

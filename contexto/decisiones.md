@@ -87,3 +87,7 @@ Arturo autoriza publicar el design system en GitHub Pages para abrirlo desde otr
 ## 12 de octubre de 2026 · Feeling del canal y redes
 
 Arturo confirma que desea integrar pareja/momentos reales, fotografía de lugares y cercanía/consejos, tomando @elmundoenpareja_ como referente. La preferencia está declarada; sus aplicaciones concretas siguen BORRADOR. Se conserva la identidad y se da protagonismo a fotografía propia y experiencias reales.
+
+## 12 de octubre de 2026 · Marca integral v0.6
+
+Arturo solicita actualizar toda la marca y los colores con el feeling confirmado. Propuesta: paleta gráfica natural, fotografía y pareja protagonistas, tipografía sans principal y serif puntual. Se conservan el logo original y ambas animaciones. Los HEX nuevos son propuestas de diseño, no códigos dictados por Arturo. BORRADOR.

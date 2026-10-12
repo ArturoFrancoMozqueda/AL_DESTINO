@@ -1,11 +1,11 @@
-/* AL DESTINO v0.5 · BORRADOR */
+/* AL DESTINO v0.6 · BORRADOR */
 :root {
-  --al-terracota: #E65F3C;
-  --al-turquesa: #158A8A;
-  --al-mostaza: #D9A21B;
+  --al-terracota: #C65D3B;
+  --al-turquesa: #287C7A;
+  --al-mostaza: #C49A43;
   --al-arena: #E3DEC9;
-  --al-verde-petroleo: #1F4D4D;
-  --al-cafe-oscuro: #2B211D;
+  --al-verde-petroleo: #244B49;
+  --al-cafe-oscuro: #302722;
   --al-display: "Cormorant Garamond", Georgia, serif;
   --al-body: "Plus Jakarta Sans", system-ui, sans-serif;
   --al-space-unit: 8px;

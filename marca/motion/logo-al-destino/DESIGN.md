@@ -6,7 +6,7 @@ Logo original descompuesto en PNG transparentes de sus píxeles visibles: A, L, 
 
 ## Colors
 
-Las piezas conservan el color de su raster original. Fondo de la composición: transparente. Para revisar, usar arena #E3DEC9 o papel #FFFCF7. No recolorear ni igualar artificialmente el raster a los tokens. Terracota #E65F3C y turquesa #158A8A siguen siendo los acentos del sistema, no nuevos colores del dibujo original.
+Las piezas conservan el color de su raster original. Fondo de la composición: transparente. Para revisar, usar arena #E3DEC9 o papel #FFFCF7. No recolorear ni igualar artificialmente el raster a los tokens. La paleta gráfica v0.6 usa terracota #C65D3B y turquesa #287C7A. Estos tokens no recolorean las piezas raster originales.
 
 ## Typography
 

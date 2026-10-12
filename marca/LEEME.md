@@ -1,6 +1,6 @@
 # Marca · mapa de archivos · BORRADOR
 
-La entrada vigente es [design-system.html](design-system.html). El [manual](manual.md) y los [tokens JSON](tokens/brand_tokens.json) describen la misma versión v0.5.
+La entrada vigente es [design-system.html](design-system.html). El [manual](manual.md) y los [tokens JSON](tokens/brand_tokens.json) describen la misma versión v0.6.
 
 | Material | Ubicación y uso |
 |---|---|
@@ -38,3 +38,7 @@ El ZIP completo organiza `01-logos`, `02-animaciones/horizontal`, `02-animacione
 GitHub Pages: https://arturofrancomozqueda.github.io/AL_DESTINO/
 
 Se publica la carpeta `marca/` desde `main` mediante `.github/workflows/design-system-pages.yml`. Incluye logos, ambas animaciones y descargas. Los cambios de marca se vuelven a publicar al hacer push. El contenido mantiene estado BORRADOR.
+
+## Dirección vigente v0.6
+
+Paleta gráfica natural y fotografía propia como protagonista; logo y animaciones originales conservados. Las rutas de descarga se mantienen compatibles. Ver [dirección editorial](direccion-editorial-redes.md) y el manual v0.6. La revisión v0.5 previa está en `archivo/design-system/v05-antes-direccion-natural/`.
