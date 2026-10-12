@@ -1,0 +1,50 @@
+{
+  "status": "borrador",
+  "id": null,
+  "skill": null,
+  "experience": null,
+  "angle": null,
+  "objective": null,
+  "audience": null,
+  "evidence": [],
+  "hypothesis": null,
+  "window": {
+    "start": null,
+    "end": null,
+    "tentative": true
+  },
+  "titles": [],
+  "thumbnail": {
+    "concept": null,
+    "own_photo_needed": true
+  },
+  "hook": null,
+  "scenes": [],
+  "shots": [],
+  "logistics": {
+    "origin": null,
+    "destination": null,
+    "transport": null,
+    "guests": null,
+    "pet": null,
+    "filming_permission": null
+  },
+  "cost": {
+    "currency": "MXN",
+    "amount_total": null,
+    "check_in": null,
+    "check_out": null,
+    "guests": null,
+    "included_fees": null,
+    "observed_at": null,
+    "source_url": null,
+    "availability_verified": false,
+    "notes": "No cotizado"
+  },
+  "hours": {
+    "outside_recording_estimated": null,
+    "travel_and_recording_estimated": null
+  },
+  "short_opportunities": [],
+  "unresolved": []
+}

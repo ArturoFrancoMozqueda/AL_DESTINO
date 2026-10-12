@@ -1,0 +1,256 @@
+{
+  "status": "borrador",
+  "date": "2026-10-11",
+  "reason": "Solicitud de Arturo: estructura organizada y elementos en su lugar",
+  "preserved_originals": true,
+  "moves": [
+    {
+      "from": "marca/revision-v03/index.html",
+      "to": "marca/archivo/v03-aplicaciones/index.html"
+    },
+    {
+      "from": "marca/revision-v03/LEEME.md",
+      "to": "marca/archivo/v03-aplicaciones/LEEME.md"
+    },
+    {
+      "from": "marca/revision-v03/plantillas/video-rotulo.svg",
+      "to": "marca/archivo/v03-aplicaciones/plantillas/video-rotulo.svg"
+    },
+    {
+      "from": "marca/revision-v03/plantillas/YT03-vlog.svg",
+      "to": "marca/archivo/v03-aplicaciones/plantillas/YT03-vlog.svg"
+    },
+    {
+      "from": "marca/revision-v03/plantillas/YT-banner.svg",
+      "to": "marca/archivo/v03-aplicaciones/plantillas/YT-banner.svg"
+    },
+    {
+      "from": "marca/revision-v03/plantillas/YT01-estancia.svg",
+      "to": "marca/archivo/v03-aplicaciones/plantillas/YT01-estancia.svg"
+    },
+    {
+      "from": "marca/revision-v03/plantillas/YT02-sabores.svg",
+      "to": "marca/archivo/v03-aplicaciones/plantillas/YT02-sabores.svg"
+    },
+    {
+      "from": "marca/revision-v03/plantillas/vertical-portada.svg",
+      "to": "marca/archivo/v03-aplicaciones/plantillas/vertical-portada.svg"
+    },
+    {
+      "from": "marca/revision-v03/plantillas/video-consejo.svg",
+      "to": "marca/archivo/v03-aplicaciones/plantillas/video-consejo.svg"
+    },
+    {
+      "from": "marca/revision-v03/plantillas/avatar.svg",
+      "to": "marca/archivo/v03-aplicaciones/plantillas/avatar.svg"
+    },
+    {
+      "from": "marca/revision-v03/previews/YT01-estancia.png",
+      "to": "marca/archivo/v03-aplicaciones/previews/YT01-estancia.png"
+    },
+    {
+      "from": "marca/revision-v03/previews/YT-banner.png",
+      "to": "marca/archivo/v03-aplicaciones/previews/YT-banner.png"
+    },
+    {
+      "from": "marca/revision-v03/previews/YT03-vlog.png",
+      "to": "marca/archivo/v03-aplicaciones/previews/YT03-vlog.png"
+    },
+    {
+      "from": "marca/revision-v03/previews/video-rotulo.png",
+      "to": "marca/archivo/v03-aplicaciones/previews/video-rotulo.png"
+    },
+    {
+      "from": "marca/revision-v03/previews/estudio-mobile.png",
+      "to": "marca/archivo/v03-aplicaciones/previews/estudio-mobile.png"
+    },
+    {
+      "from": "marca/revision-v03/previews/avatar.png",
+      "to": "marca/archivo/v03-aplicaciones/previews/avatar.png"
+    },
+    {
+      "from": "marca/revision-v03/previews/tablero-v03.png",
+      "to": "marca/archivo/v03-aplicaciones/previews/tablero-v03.png"
+    },
+    {
+      "from": "marca/revision-v03/previews/video-consejo.png",
+      "to": "marca/archivo/v03-aplicaciones/previews/video-consejo.png"
+    },
+    {
+      "from": "marca/revision-v03/previews/vertical-portada.png",
+      "to": "marca/archivo/v03-aplicaciones/previews/vertical-portada.png"
+    },
+    {
+      "from": "marca/revision-v03/previews/estudio-desktop.png",
+      "to": "marca/archivo/v03-aplicaciones/previews/estudio-desktop.png"
+    },
+    {
+      "from": "marca/revision-v03/previews/YT02-sabores.png",
+      "to": "marca/archivo/v03-aplicaciones/previews/YT02-sabores.png"
+    },
+    {
+      "from": "marca/revision-v03/assets/logo-referencia-original.png",
+      "to": "marca/archivo/v03-aplicaciones/assets/logo-referencia-original.png"
+    },
+    {
+      "from": "marca/revision-v03/assets/pan-mockup.png",
+      "to": "marca/archivo/v03-aplicaciones/assets/pan-mockup.png"
+    },
+    {
+      "from": "marca/revision-v03/assets/hotel-mockup.png",
+      "to": "marca/archivo/v03-aplicaciones/assets/hotel-mockup.png"
+    },
+    {
+      "from": "marca/revision-v03/assets/monograma-original.png",
+      "to": "marca/archivo/v03-aplicaciones/assets/monograma-original.png"
+    },
+    {
+      "from": "marca/revision-v03/assets/lifestyle-mockup.png",
+      "to": "marca/archivo/v03-aplicaciones/assets/lifestyle-mockup.png"
+    },
+    {
+      "from": "marca/revision-v03/assets/procedencia.json",
+      "to": "marca/archivo/v03-aplicaciones/assets/procedencia.json"
+    },
+    {
+      "from": "marca/plantillas/catalogo.json",
+      "to": "marca/archivo/v03-aplicaciones/catalogo.json"
+    },
+    {
+      "from": "marca/plantillas/video-tarjeta-consejo.svg",
+      "to": "marca/archivo/v02-descartado/plantillas/video-tarjeta-consejo.svg"
+    },
+    {
+      "from": "marca/plantillas/YT-banner.svg",
+      "to": "marca/archivo/v02-descartado/plantillas/YT-banner.svg"
+    },
+    {
+      "from": "marca/plantillas/YT02-comida.svg",
+      "to": "marca/archivo/v02-descartado/plantillas/YT02-comida.svg"
+    },
+    {
+      "from": "marca/plantillas/vertical-portada.svg",
+      "to": "marca/archivo/v02-descartado/plantillas/vertical-portada.svg"
+    },
+    {
+      "from": "marca/plantillas/YT03-vlog-lifestyle.svg",
+      "to": "marca/archivo/v02-descartado/plantillas/YT03-vlog-lifestyle.svg"
+    },
+    {
+      "from": "marca/plantillas/video-rotulo-lugar.svg",
+      "to": "marca/archivo/v02-descartado/plantillas/video-rotulo-lugar.svg"
+    },
+    {
+      "from": "marca/plantillas/avatar.svg",
+      "to": "marca/archivo/v02-descartado/plantillas/avatar.svg"
+    },
+    {
+      "from": "marca/plantillas/YT01-lugares-hoteles.svg",
+      "to": "marca/archivo/v02-descartado/plantillas/YT01-lugares-hoteles.svg"
+    },
+    {
+      "from": "marca/assets/logo-horizontal-claro-borrador.svg",
+      "to": "marca/archivo/v02-descartado/assets/logo-horizontal-claro-borrador.svg"
+    },
+    {
+      "from": "marca/assets/logo-horizontal-borrador.png",
+      "to": "marca/archivo/v02-descartado/assets/logo-horizontal-borrador.png"
+    },
+    {
+      "from": "marca/assets/logo-horizontal-borrador.svg",
+      "to": "marca/archivo/v02-descartado/assets/logo-horizontal-borrador.svg"
+    },
+    {
+      "from": "marca/assets/logo-horizontal-claro-borrador.png",
+      "to": "marca/archivo/v02-descartado/assets/logo-horizontal-claro-borrador.png"
+    },
+    {
+      "from": "marca/assets/monograma-borrador.svg",
+      "to": "marca/archivo/v02-descartado/assets/monograma-borrador.svg"
+    },
+    {
+      "from": "marca/assets/logo-horizontal-oscuro-borrador.png",
+      "to": "marca/archivo/v02-descartado/assets/logo-horizontal-oscuro-borrador.png"
+    },
+    {
+      "from": "marca/assets/logo-horizontal-oscuro-borrador.svg",
+      "to": "marca/archivo/v02-descartado/assets/logo-horizontal-oscuro-borrador.svg"
+    },
+    {
+      "from": "marca/assets/monograma-borrador.png",
+      "to": "marca/archivo/v02-descartado/assets/monograma-borrador.png"
+    },
+    {
+      "from": "marca/index-v02-descartado.html",
+      "to": "marca/archivo/v02-descartado/index-v02-descartado.html"
+    },
+    {
+      "from": "marca/manual-v02-descartado.md",
+      "to": "marca/archivo/v02-descartado/manual-v02-descartado.md"
+    },
+    {
+      "from": "marca/canva.md",
+      "to": "marca/archivo/v02-descartado/canva.md"
+    },
+    {
+      "from": "marca/canva-designs.json",
+      "to": "marca/archivo/v02-descartado/canva-designs.json"
+    },
+    {
+      "from": "marca/design-system-v03.html",
+      "to": "marca/archivo/design-system/design-system-v03.html"
+    },
+    {
+      "from": "marca/design-system-v04.html",
+      "to": "marca/archivo/design-system/design-system-v04.html"
+    },
+    {
+      "from": "marca/previews/YT-banner.png",
+      "to": "marca/archivo/v02-descartado/previews/YT-banner.png"
+    },
+    {
+      "from": "marca/previews/estudio-mobile.png",
+      "to": "marca/archivo/v02-descartado/previews/estudio-mobile.png"
+    },
+    {
+      "from": "marca/previews/video-tarjeta-consejo.png",
+      "to": "marca/archivo/v02-descartado/previews/video-tarjeta-consejo.png"
+    },
+    {
+      "from": "marca/previews/YT01-lugares-hoteles.png",
+      "to": "marca/archivo/v02-descartado/previews/YT01-lugares-hoteles.png"
+    },
+    {
+      "from": "marca/previews/avatar.png",
+      "to": "marca/archivo/v02-descartado/previews/avatar.png"
+    },
+    {
+      "from": "marca/previews/video-rotulo-lugar.png",
+      "to": "marca/archivo/v02-descartado/previews/video-rotulo-lugar.png"
+    },
+    {
+      "from": "marca/previews/YT03-vlog-lifestyle.png",
+      "to": "marca/archivo/v02-descartado/previews/YT03-vlog-lifestyle.png"
+    },
+    {
+      "from": "marca/previews/vertical-portada.png",
+      "to": "marca/archivo/v02-descartado/previews/vertical-portada.png"
+    },
+    {
+      "from": "marca/previews/estudio-desktop.png",
+      "to": "marca/archivo/v02-descartado/previews/estudio-desktop.png"
+    },
+    {
+      "from": "marca/previews/YT02-comida.png",
+      "to": "marca/archivo/v02-descartado/previews/YT02-comida.png"
+    },
+    {
+      "from": "scripts/exportar-previews.cjs",
+      "to": "scripts/archivo/exportar-previews-v03.cjs"
+    },
+    {
+      "from": "scripts/exportar-previews-v02.cjs",
+      "to": "scripts/archivo/exportar-previews-v02.cjs"
+    }
+  ]
+}

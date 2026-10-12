@@ -1,0 +1,282 @@
+{
+  "project": "logo-al-destino",
+  "runtime": "all",
+  "compositions": [
+    {
+      "composition": "index.html",
+      "source": "index.html",
+      "tweens": [
+        {
+          "id": "#letra-a-from-100",
+          "target": "#letra-a",
+          "method": "from",
+          "start": 0.1,
+          "duration": 0.5,
+          "end": 0.6,
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.1,
+              "properties": {
+                "x": -32,
+                "y": 12,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.6,
+              "properties": {
+                "x": 0,
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": [
+            {
+              "x": -32,
+              "y": 12
+            },
+            {
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "id": "#letra-l-from-230",
+          "target": "#letra-l",
+          "method": "from",
+          "start": 0.23,
+          "duration": 0.52,
+          "end": 0.75,
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.23,
+              "properties": {
+                "y": -28,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 0.75,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": [
+            {
+              "x": 0,
+              "y": -28
+            },
+            {
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "id": "#sol-from-380",
+          "target": "#sol",
+          "method": "from",
+          "start": 0.38,
+          "duration": 0.62,
+          "end": 1,
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.38,
+              "properties": {
+                "y": 38,
+                "scale": 0.82,
+                "opacity": 0,
+                "transformOrigin": "50% 100%"
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1,
+              "properties": {
+                "y": 0,
+                "scale": 1,
+                "opacity": 1,
+                "transformOrigin": 0
+              }
+            }
+          ],
+          "path": [
+            {
+              "x": 0,
+              "y": 38
+            },
+            {
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "id": "#ola-from-500",
+          "target": "#ola",
+          "method": "from",
+          "start": 0.5,
+          "duration": 0.68,
+          "end": 1.18,
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.5,
+              "properties": {
+                "x": -36,
+                "opacity": 0,
+                "clipPath": "inset(0% 100% 0% 0%)"
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.18,
+              "properties": {
+                "x": 0,
+                "opacity": 1,
+                "clipPath": 0
+              }
+            }
+          ],
+          "path": [
+            {
+              "x": -36,
+              "y": 0
+            },
+            {
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "id": "#divisor-from-670",
+          "target": "#divisor",
+          "method": "from",
+          "start": 0.67,
+          "duration": 0.42,
+          "end": 1.09,
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.67,
+              "properties": {
+                "scaleY": 0,
+                "opacity": 0,
+                "transformOrigin": "50% 50%"
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.09,
+              "properties": {
+                "scaleY": 1,
+                "opacity": 1,
+                "transformOrigin": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "[id^=\"nombre-\"]-from-850",
+          "target": "[id^=\"nombre-\"]",
+          "method": "from",
+          "start": 0.85,
+          "duration": 0.38,
+          "end": 1.23,
+          "shape": "keyframes",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0.85,
+              "properties": {
+                "y": 16,
+                "opacity": 0,
+                "stagger": 55
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.23,
+              "properties": {
+                "y": 0,
+                "opacity": 1,
+                "stagger": 55
+              }
+            }
+          ],
+          "path": [
+            {
+              "x": 0,
+              "y": 16
+            },
+            {
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        {
+          "id": "#tagline-from-1480",
+          "target": "#tagline",
+          "method": "from",
+          "start": 1.48,
+          "duration": 0.45,
+          "end": 1.93,
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.48,
+              "properties": {
+                "y": 10,
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 1.93,
+              "properties": {
+                "y": 0,
+                "opacity": 1
+              }
+            }
+          ],
+          "path": [
+            {
+              "x": 0,
+              "y": 10
+            },
+            {
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    }
+  ],
+  "_meta": {
+    "version": "0.8.145",
+    "latestVersion": "0.8.149",
+    "updateAvailable": true
+  }
+}

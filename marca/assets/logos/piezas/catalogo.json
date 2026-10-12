@@ -1,0 +1,160 @@
+{
+  "status": "borrador",
+  "source": "../logo-original-referencia.png",
+  "source_sha256": "eeccfb2355080ffa461e90d791d74d2d48d8e5577ae16ab9ba3966fc893d781b",
+  "coordinate_space_px": [
+    2172,
+    724
+  ],
+  "crop_origin_px": [
+    230,
+    170
+  ],
+  "method": "Extracción por regiones y color de píxeles visibles; fondo claro descartado y matte claro compensado en bordes de tinta, sin redibujar ni completar zonas ocultas. Separación A/L propuesta en su pie compartido; unión final recompone los píxeles conservados.",
+  "items": [
+    {
+      "id": "divisor",
+      "x": 902,
+      "y": 197,
+      "width": 7,
+      "height": 316,
+      "file": "divisor.png",
+      "sha256": "0e4a96eb5cd1a92ffc06d22ab74d8c0774c2e8757a82fb70697ac7129c890efa"
+    },
+    {
+      "id": "letra-a",
+      "x": 257,
+      "y": 202,
+      "width": 313,
+      "height": 307,
+      "file": "letra-a.png",
+      "sha256": "fd351baa1fa7c638dbbe83854dce1b5584577a097ba8ca6500201c276fc057fb"
+    },
+    {
+      "id": "letra-l",
+      "x": 511,
+      "y": 202,
+      "width": 224,
+      "height": 307,
+      "file": "letra-l.png",
+      "sha256": "ef2e9d9a1e9a5f2250078f5a0e39ef6d5b091e8dc433a1581d8375d54e84925d"
+    },
+    {
+      "id": "nombre",
+      "x": 968,
+      "y": 262,
+      "width": 927,
+      "height": 124,
+      "file": "nombre.png",
+      "sha256": "455e16abecde6b5730eda24bd2f5df391a36d09eae8a288de3390370056876e2"
+    },
+    {
+      "id": "sol",
+      "x": 606,
+      "y": 289,
+      "width": 181,
+      "height": 138,
+      "file": "sol.png",
+      "sha256": "9da4a6e93f53bd52496fc5268c8172fa493eb4bb7d5c0702e2e95a5055184772"
+    },
+    {
+      "id": "ola",
+      "x": 263,
+      "y": 392,
+      "width": 593,
+      "height": 64,
+      "file": "ola.png",
+      "sha256": "35cbdba90ad5f6e98b76e805c85a733f9c66740eea794e2e4a22e3cd08c8610c"
+    },
+    {
+      "id": "tagline",
+      "x": 969,
+      "y": 426,
+      "width": 921,
+      "height": 33,
+      "file": "tagline.png",
+      "sha256": "43da1013ef08d0a80aeeb3270a5cfdea630c7842eac6ad366464815e88eec19c"
+    },
+    {
+      "id": "nombre-01-a",
+      "x": 968,
+      "y": 264,
+      "width": 120,
+      "height": 120,
+      "file": "nombre-01-a.png",
+      "sha256": "172ba672f654f6428cdcb32e8aee5aa816dabc5396bdf3e72d915d037c9c965b"
+    },
+    {
+      "id": "nombre-02-l",
+      "x": 1087,
+      "y": 264,
+      "width": 94,
+      "height": 120,
+      "file": "nombre-02-l.png",
+      "sha256": "250d00e9ee407db044a8a58b424196741a2fc7a0535c5adb93894e9e08521edf"
+    },
+    {
+      "id": "nombre-03-d",
+      "x": 1218,
+      "y": 264,
+      "width": 113,
+      "height": 120,
+      "file": "nombre-03-d.png",
+      "sha256": "0806eaa097c0eeebbaf593256fb5815197ce35192ae100978bdd04bfbf176690"
+    },
+    {
+      "id": "nombre-04-e",
+      "x": 1332,
+      "y": 264,
+      "width": 95,
+      "height": 120,
+      "file": "nombre-04-e.png",
+      "sha256": "8dcf5d59e43ce7d00591fe95072830754c2bce51689dd8ebcb0fad4a8ad98aea"
+    },
+    {
+      "id": "nombre-05-s",
+      "x": 1430,
+      "y": 262,
+      "width": 78,
+      "height": 124,
+      "file": "nombre-05-s.png",
+      "sha256": "4817e1f5f1e1a9f5a6af10a96fcedaf7c0a16d57272c02d5f4e4910fb239e09d"
+    },
+    {
+      "id": "nombre-06-t",
+      "x": 1507,
+      "y": 264,
+      "width": 95,
+      "height": 120,
+      "file": "nombre-06-t.png",
+      "sha256": "a54ff317e53448c39ae976fd5ba3f0a4426eb995af2041c8667e3c7c99ce0ca7"
+    },
+    {
+      "id": "nombre-07-i",
+      "x": 1608,
+      "y": 264,
+      "width": 47,
+      "height": 120,
+      "file": "nombre-07-i.png",
+      "sha256": "a06b09371b538b54924e90f6d77dcfca34ca90b5af1ce10ebc1b883ca1cc1947"
+    },
+    {
+      "id": "nombre-08-n",
+      "x": 1660,
+      "y": 264,
+      "width": 111,
+      "height": 121,
+      "file": "nombre-08-n.png",
+      "sha256": "883ee32f67d4e87a925e4906ae5cfa3068cd8f6bde4e035995f80cc904382c5b"
+    },
+    {
+      "id": "nombre-09-o",
+      "x": 1774,
+      "y": 262,
+      "width": 121,
+      "height": 124,
+      "file": "nombre-09-o.png",
+      "sha256": "6a885d365afdce594ef65ee73c04afcf2d4bed84325b7e975400f1dac0a2ccfe"
+    }
+  ]
+}

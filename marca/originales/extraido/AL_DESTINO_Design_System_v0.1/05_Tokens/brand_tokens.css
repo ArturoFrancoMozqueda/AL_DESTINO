@@ -1,0 +1,12 @@
+/* AL DESTINO — Brand Tokens v0.1 */
+:root {
+  --al-terracota: #E65F3C;
+  --al-turquesa: #158A8A;
+  --al-mostaza: #D9A21B;
+  --al-arena: #F6EBDD;
+  --al-verde-petroleo: #1F4D4D;
+  --al-cafe-oscuro: #2B211D;
+  --al-font-display: "Cormorant Garamond", Georgia, serif;
+  --al-font-body: "Plus Jakarta Sans", Arial, sans-serif;
+}
+/* Nota: instalar/licenciar las tipografias desde fuentes oficiales. No se incluyen archivos de fuentes. */

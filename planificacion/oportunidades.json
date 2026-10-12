@@ -1,0 +1,77 @@
+{
+  "status": "borrador",
+  "source": "Menciones de Arturo; no reservas verificadas",
+  "recorded_at": "2026-10-11",
+  "items": [
+    {
+      "id": "OP01",
+      "title": "Pátzcuaro: pan favorito",
+      "tentative_window": "2026-10-17/2026-10-18",
+      "pending": "Lugar y día exacto pendientes",
+      "angle_draft": "Descubrir un lugar que ya disfrutan; compartir experiencia y consejos",
+      "filmed": null,
+      "published": false,
+      "status": "oportunidad_declarada"
+    },
+    {
+      "id": "OP02",
+      "title": "Mudanza",
+      "tentative_window": null,
+      "pending": "Fecha y límites de exposición pendientes",
+      "angle_draft": "Nuestra vida en movimiento",
+      "filmed": null,
+      "published": false,
+      "status": "oportunidad_declarada"
+    },
+    {
+      "id": "OP03",
+      "title": "Decoración",
+      "tentative_window": null,
+      "pending": "Plan y presupuesto pendientes",
+      "angle_draft": "Decisiones de pareja sin revelar domicilio",
+      "filmed": null,
+      "published": false,
+      "status": "oportunidad_declarada"
+    },
+    {
+      "id": "OP04",
+      "title": "Entrega de camioneta",
+      "tentative_window": null,
+      "pending": "Fecha pendiente",
+      "angle_draft": "Qué cambia para nuestras salidas; ocultar datos personales",
+      "filmed": null,
+      "published": false,
+      "status": "oportunidad_declarada"
+    },
+    {
+      "id": "OP05",
+      "title": "Único de Vallarta",
+      "tentative_window": "2026-12-01/2026-12-07",
+      "pending": "Nombre oficial, noches y fechas pendientes",
+      "angle_draft": "Estancia con historia y consejos",
+      "filmed": null,
+      "published": false,
+      "status": "oportunidad_declarada"
+    },
+    {
+      "id": "OP06",
+      "title": "Hard Rock en Vallarta",
+      "tentative_window": "2026-12-10/2026-12-20",
+      "pending": "Nombre oficial, fechas y reinauguración por verificar",
+      "angle_draft": "Experiencia personal; no prometer cobertura de un evento confirmado",
+      "filmed": null,
+      "published": false,
+      "status": "oportunidad_declarada"
+    },
+    {
+      "id": "OP07",
+      "title": "Único Riviera Maya",
+      "tentative_window": "2027-04-01/2027-04-30",
+      "pending": "Nombre oficial y fechas pendientes; fuera de ventana inicial de 90 días",
+      "angle_draft": "Reserva de oportunidad para futuro ciclo",
+      "filmed": null,
+      "published": false,
+      "status": "oportunidad_declarada"
+    }
+  ]
+}

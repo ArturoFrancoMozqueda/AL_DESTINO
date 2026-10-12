@@ -1,0 +1,28 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=1920,height=1080"><title>AL DESTINO · Logo por elementos · BORRADOR</title><script src="assets/gsap.min.js"></script><style>
+*{box-sizing:border-box;margin:0;padding:0}html,body{width:1920px;height:1080px;overflow:hidden;background:transparent}#al-destino-logo{width:1920px;height:1080px;background:transparent}.scene-content{width:100%;height:100%;padding:160px 220px;display:flex;align-items:center;justify-content:center}#logo-stage{position:relative;width:1360px;height:296px}#logo-stage img{position:absolute;display:block;object-fit:contain}
+</style></head><body><div id="al-destino-logo" data-composition-id="al-destino-logo" data-start="0" data-duration="3.2" data-width="1920" data-height="1080"><div class="scene-content"><div id="logo-stage"><img id="divisor" src="assets/piezas/divisor.png" alt="divisor" style="left:537.6px;top:21.6px;width:5.6000000000000005px;height:252.8px">
+<img id="letra-a" src="assets/piezas/letra-a.png" alt="letra-a" style="left:21.6px;top:25.6px;width:250.4px;height:245.60000000000002px">
+<img id="letra-l" src="assets/piezas/letra-l.png" alt="letra-l" style="left:224.8px;top:25.6px;width:179.20000000000002px;height:245.60000000000002px">
+<img id="sol" src="assets/piezas/sol.png" alt="sol" style="left:300.8px;top:95.2px;width:144.8px;height:110.4px">
+<img id="ola" src="assets/piezas/ola.png" alt="ola" style="left:26.400000000000002px;top:177.60000000000002px;width:474.40000000000003px;height:51.2px">
+<img id="tagline" src="assets/piezas/tagline.png" alt="tagline" style="left:591.2px;top:204.8px;width:736.8000000000001px;height:26.400000000000002px">
+<img id="nombre-01-a" src="assets/piezas/nombre-01-a.png" alt="nombre-01-a" style="left:590.4px;top:75.2px;width:96.0px;height:96.0px">
+<img id="nombre-02-l" src="assets/piezas/nombre-02-l.png" alt="nombre-02-l" style="left:685.6px;top:75.2px;width:75.2px;height:96.0px">
+<img id="nombre-03-d" src="assets/piezas/nombre-03-d.png" alt="nombre-03-d" style="left:790.4000000000001px;top:75.2px;width:90.4px;height:96.0px">
+<img id="nombre-04-e" src="assets/piezas/nombre-04-e.png" alt="nombre-04-e" style="left:881.6px;top:75.2px;width:76.0px;height:96.0px">
+<img id="nombre-05-s" src="assets/piezas/nombre-05-s.png" alt="nombre-05-s" style="left:960.0px;top:73.60000000000001px;width:62.400000000000006px;height:99.2px">
+<img id="nombre-06-t" src="assets/piezas/nombre-06-t.png" alt="nombre-06-t" style="left:1021.6px;top:75.2px;width:76.0px;height:96.0px">
+<img id="nombre-07-i" src="assets/piezas/nombre-07-i.png" alt="nombre-07-i" style="left:1102.4px;top:75.2px;width:37.6px;height:96.0px">
+<img id="nombre-08-n" src="assets/piezas/nombre-08-n.png" alt="nombre-08-n" style="left:1144.0px;top:75.2px;width:88.80000000000001px;height:96.80000000000001px">
+<img id="nombre-09-o" src="assets/piezas/nombre-09-o.png" alt="nombre-09-o" style="left:1235.2px;top:73.60000000000001px;width:96.80000000000001px;height:99.2px"></div></div></div><script>
+const tl=gsap.timeline({paused:true});
+tl.from('#letra-a',{x:-32,y:12,opacity:0,duration:.5,ease:'power3.out'},.1);
+tl.from('#letra-l',{y:-28,opacity:0,duration:.52,ease:'power2.out'},.23);
+tl.from('#sol',{y:38,scale:.82,opacity:0,duration:.62,ease:'circ.out',transformOrigin:'50% 100%'},.38);
+tl.from('#ola',{x:-36,opacity:0,clipPath:'inset(0% 100% 0% 0%)',duration:.68,ease:'sine.out'},.5);
+tl.from('#divisor',{scaleY:0,opacity:0,duration:.42,ease:'power2.out',transformOrigin:'50% 50%'},.67);
+tl.from('[id^="nombre-"]',{y:16,opacity:0,duration:.38,stagger:.055,ease:'power3.out'},.85);
+tl.from('#tagline',{y:10,opacity:0,duration:.45,ease:'power2.out'},1.48);
+tl.addLabel('logo-completo',1.95);
+window.__timelines=window.__timelines||{};window.__timelines['al-destino-logo']=tl;tl.seek(0);
+</script></body></html>

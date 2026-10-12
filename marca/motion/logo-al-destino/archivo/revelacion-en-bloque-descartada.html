@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=1920,height=1080"><title>AL DESTINO · Logo animado · BORRADOR</title>
+<script src="../assets/gsap.min.js"></script>
+<style>
+@font-face{font-family:Jakarta;src:url('../assets/PlusJakartaSans.ttf');font-weight:100 900}
+*{box-sizing:border-box;margin:0;padding:0}html,body{width:1920px;height:1080px;overflow:hidden;background:#F6EBDD}
+#al-destino-logo{width:1920px;height:1080px;background:#F6EBDD}
+#logo-scene{width:100%;height:100%}.scene-content{width:100%;height:100%;padding:160px 220px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:50px}
+#signature{display:flex;flex-direction:column;gap:10px;width:100px;align-self:flex-start;margin-left:80px}
+.stroke{height:8px;width:100px;transform-origin:left center}#stroke-a{background:#E65F3C}#stroke-l{background:#158A8A}
+#logo-stage{width:1360px;height:296px;overflow:hidden;background:#fffdfa}
+#logo-original{display:block;width:1360px;height:296px}
+#author{font:600 26px/1.4 Jakarta,sans-serif;color:#2B211D;letter-spacing:7px;align-self:flex-end;margin-right:80px}
+</style></head><body>
+<div data-hf-id="hf-g26g" id="al-destino-logo" data-composition-id="al-destino-logo" data-start="0" data-duration="3.2" data-width="1920" data-height="1080">
+<div data-hf-id="hf-qomx" id="logo-scene" class="clip" data-start="0" data-duration="3.2" data-track-index="0"><div data-hf-id="hf-cn5c" class="scene-content">
+<div data-hf-id="hf-2va9" id="signature"><div data-hf-id="hf-89as" id="stroke-a" class="stroke"></div><div data-hf-id="hf-fa5t" id="stroke-l" class="stroke"></div></div>
+<div data-hf-id="hf-5jep" id="logo-stage"><svg data-hf-id="hf-5gxq" id="logo-original" data-layout-allow-overflow="" xmlns="http://www.w3.org/2000/svg" viewBox="230 170 1700 370" role="img" aria-label="Logo original AL DESTINO"><image data-hf-id="hf-d3tn" href="../assets/logo-original.png" width="2172" height="724" /></svg></div>
+<div data-hf-id="hf-7gup" id="author">ARTURO + LIZ</div>
+</div></div></div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.addLabel('firma',0.1);
+tl.from('#stroke-a',{scaleX:0,opacity:0,duration:0.4,ease:'power2.out'},0.1);
+tl.from('#stroke-l',{scaleX:0,opacity:0,y:8,duration:0.45,ease:'sine.out'},0.22);
+tl.addLabel('logo',0.42);
+tl.from('#logo-stage',{clipPath:'inset(0% 100% 0% 0%)',duration:0.95,ease:'power3.out'},0.42);
+tl.from('#author',{opacity:0,y:12,duration:0.48,ease:'power2.out'},1.05);
+tl.addLabel('logo-completo',1.6);
+window.__timelines=window.__timelines||{};window.__timelines['al-destino-logo']=tl;tl.seek(0);
+</script></body></html>

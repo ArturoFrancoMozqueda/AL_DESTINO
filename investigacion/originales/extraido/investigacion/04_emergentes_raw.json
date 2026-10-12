@@ -1,0 +1,1245 @@
+{
+  "Hoy vamos a ir": {
+    "channelID": "UCHvKbv7ADl8Pm_JbCrP67HQ",
+    "channelUrl": "https://www.youtube.com/channel/UCHvKbv7ADl8Pm_JbCrP67HQ/videos",
+    "headers": [
+      {
+        "header": {
+          "contentMetadataViewModel": {
+            "metadataRows": [
+              {
+                "metadataParts": [
+                  {
+                    "text": {
+                      "content": "@hoyvamosair",
+                      "styleRuns": [
+                        {
+                          "weightLabel": "FONT_WEIGHT_MEDIUM",
+                          "styleRunExtensions": {
+                            "styleRunColorMapExtension": {
+                              "colorMap": [
+                                {
+                                  "key": "USER_INTERFACE_THEME_DARK",
+                                  "value": 4294967295
+                                },
+                                {
+                                  "key": "USER_INTERFACE_THEME_LIGHT",
+                                  "value": 4279440147
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "enableTruncation": true
+                  }
+                ]
+              },
+              {
+                "metadataParts": [
+                  {
+                    "text": {
+                      "content": "63.7 k suscriptores"
+                    },
+                    "accessibilityLabel": "63.7 mil suscriptores"
+                  },
+                  {
+                    "text": {
+                      "content": "1.3 K videos",
+                      "styleRuns": [
+                        {
+                          "startIndex": 0,
+                          "length": 12
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "delimiter": "•",
+            "rendererContext": {
+              "loggingContext": {
+                "loggingDirectives": {
+                  "trackingParams": "CBsQ9eQKIhMIy-Pn4oymlwMVAbj_BB20rxZ8",
+                  "visibility": {
+                    "types": "12"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Hoy vamos a ir ",
+        "description": "Somos Andrea y Luis, una pareja de venezolanos viviendo en México que hizo de los viajes su forma de vida. 🌎\n\nNos gusta conocer cada lugar más allá de lo turístico: probar su comida, convivir con su gente, entender cómo se vive y atrevernos a vivir experiencias que muchas veces ni siquiera estaban en el plan.\n\nEn este canal les mostramos nuestros viajes completos, tal como los vivimos: lo increíble, lo inesperado, cuánto cuesta, qué vale la pena y también lo que no sale tan bien.\n\nPero más que enseñarles lugares, queremos que viajen con nosotros.\n\nBienvenidos a Hoy Vamos a Ir. ❤️\n",
+        "rssUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHvKbv7ADl8Pm_JbCrP67HQ",
+        "externalId": "UCHvKbv7ADl8Pm_JbCrP67HQ",
+        "keywords": "compra lo mas top",
+        "ownerUrls": [
+          "http://www.youtube.com/@hoyvamosair"
+        ],
+        "avatar": {
+          "thumbnails": [
+            {
+              "url": "https://yt3.googleusercontent.com/kfRYVJZ8_1yyb5iUeEGYqx24Ysm_QD5_wIQQs7wdIPam2vVhdVCLCvd1pblntHMvI91oA3II=s900-c-k-c0x00ffffff-no-rj",
+              "width": 900,
+              "height": 900
+            }
+          ]
+        },
+        "channelUrl": "https://www.youtube.com/channel/UCHvKbv7ADl8Pm_JbCrP67HQ",
+        "isFamilySafe": true,
+        "availableCountryCodes": [
+          "LA",
+          "BJ",
+          "BH",
+          "BV",
+          "SS",
+          "VA",
+          "CK",
+          "DJ",
+          "CU",
+          "CF",
+          "LU",
+          "TZ",
+          "AO",
+          "MN",
+          "SZ",
+          "IQ",
+          "CW",
+          "EE",
+          "CD",
+          "CH",
+          "RU",
+          "UZ",
+          "SN",
+          "EC",
+          "BT",
+          "BB",
+          "LV",
+          "TG",
+          "VN",
+          "CR",
+          "MQ",
+          "VU",
+          "MD",
+          "BN",
+          "SR",
+          "GB",
+          "GR",
+          "VI",
+          "NU",
+          "IE",
+          "FO",
+          "CI",
+          "JP",
+          "SA",
+          "YE",
+          "AL",
+          "AT",
+          "BY",
+          "BM",
+          "CO",
+          "NC",
+          "ZA",
+          "LS",
+          "LC",
+          "GY",
+          "ML",
+          "BO",
+          "LT",
+          "MK",
+          "MA",
+          "PE",
+          "RS",
+          "TV",
+          "LB",
+          "GF",
+          "PS",
+          "VC",
+          "NA",
+          "PM",
+          "SV",
+          "RO",
+          "CY",
+          "EG",
+          "FR",
+          "PG",
+          "WF",
+          "YT",
+          "KM",
+          "ZM",
+          "PL",
+          "BG",
+          "DZ",
+          "KP",
+          "SM",
+          "LR",
+          "CC",
+          "SI",
+          "BF",
+          "LK",
+          "AE",
+          "GE",
+          "BA",
+          "ER",
+          "KZ",
+          "VE",
+          "ST",
+          "LY",
+          "GH",
+          "EH",
+          "HK",
+          "KE",
+          "TW",
+          "HN",
+          "AW",
+          "SE",
+          "BZ",
+          "QA",
+          "BW",
+          "CM",
+          "AS",
+          "AG",
+          "NI",
+          "LI",
+          "TM",
+          "MZ",
+          "GQ",
+          "TC",
+          "MF",
+          "AI",
+          "CZ",
+          "SG",
+          "KR",
+          "PF",
+          "PY",
+          "CN",
+          "BR",
+          "BS",
+          "AF",
+          "FI",
+          "TR",
+          "CV",
+          "NL",
+          "MG",
+          "PT",
+          "CG",
+          "DM",
+          "KH",
+          "BI",
+          "ES",
+          "GM",
+          "JM",
+          "MY",
+          "NP",
+          "SY",
+          "SC",
+          "AR",
+          "NR",
+          "AQ",
+          "PK",
+          "VG",
+          "MH",
+          "OM",
+          "PA",
+          "MO",
+          "DE",
+          "MV",
+          "FJ",
+          "UY",
+          "IN",
+          "NF",
+          "US",
+          "SD",
+          "SX",
+          "RE",
+          "WS",
+          "JE",
+          "NO",
+          "AZ",
+          "TO",
+          "JO",
+          "GI",
+          "IR",
+          "MC",
+          "UA",
+          "RW",
+          "BQ",
+          "FK",
+          "BD",
+          "PW",
+          "KY",
+          "DO",
+          "HM",
+          "BE",
+          "ZW",
+          "CL",
+          "PH",
+          "GA",
+          "MW",
+          "NZ",
+          "GD",
+          "ID",
+          "AD",
+          "TL",
+          "GG",
+          "SO",
+          "GW",
+          "IM",
+          "AM",
+          "TK",
+          "IL",
+          "SJ",
+          "TF",
+          "TJ",
+          "TT",
+          "GS",
+          "TD",
+          "GT",
+          "KW",
+          "CX",
+          "IT",
+          "IS",
+          "KI",
+          "SK",
+          "CA",
+          "UG",
+          "UM",
+          "MR",
+          "SH",
+          "NG",
+          "AU",
+          "ME",
+          "MT",
+          "FM",
+          "GP",
+          "MX",
+          "PR",
+          "SB",
+          "ET",
+          "DK",
+          "BL",
+          "HU",
+          "KN",
+          "MM",
+          "GN",
+          "PN",
+          "IO",
+          "NE",
+          "KG",
+          "TN",
+          "MU",
+          "GU",
+          "MS",
+          "GL",
+          "SL",
+          "HR",
+          "AX",
+          "TH",
+          "MP",
+          "HT"
+        ],
+        "androidDeepLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCHvKbv7ADl8Pm_JbCrP67HQ",
+        "androidAppindexingLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCHvKbv7ADl8Pm_JbCrP67HQ",
+        "iosAppindexingLink": "ios-app://544007664/vnd.youtube/www.youtube.com/channel/UCHvKbv7ADl8Pm_JbCrP67HQ",
+        "vanityChannelUrl": "http://www.youtube.com/@hoyvamosair"
+      }
+    ],
+    "videos": [
+      {
+        "videoId": "qkuKY42giX4",
+        "url": "https://www.youtube.com/watch?v=qkuKY42giX4",
+        "title": "Viajamos a España por una boda y terminamos en la POLICÍA 🇪🇸",
+        "metadata": [
+          "37 k",
+          "hace 4 días"
+        ],
+        "duration": "41:45"
+      },
+      {
+        "videoId": "B2kZM0CHRSY",
+        "url": "https://www.youtube.com/watch?v=B2kZM0CHRSY",
+        "title": "GUÍA de RÍO DE JANEIRO: qué hacer, costos, seguridad y dónde hospedarse 🇧🇷",
+        "metadata": [
+          "4.9 K",
+          "hace 6 días"
+        ],
+        "duration": "43:29"
+      },
+      {
+        "videoId": "HJmJSZsqYgc",
+        "url": "https://www.youtube.com/watch?v=HJmJSZsqYgc",
+        "title": "Mi HERMANA vino a MÉXICO y se ATREVIÓ a probar de TODO 🇲🇽",
+        "metadata": [
+          "138 k",
+          "hace 9 días"
+        ],
+        "duration": "44:56"
+      },
+      {
+        "videoId": "mccLmhOirKc",
+        "url": "https://www.youtube.com/watch?v=mccLmhOirKc",
+        "title": "No esperábamos encontrar ESTO dentro de CIUDAD DE MÉXICO 🇲🇽",
+        "metadata": [
+          "31 k",
+          "hace 10 días"
+        ],
+        "duration": "17:22"
+      },
+      {
+        "videoId": "JnyYFLkgZ5g",
+        "url": "https://www.youtube.com/watch?v=JnyYFLkgZ5g",
+        "title": "De visita en MÉXICO por primera vez… y ya se están MEXICANIZANDO 😂🇲🇽",
+        "metadata": [
+          "27 k",
+          "hace 13 días"
+        ],
+        "duration": "20:59"
+      },
+      {
+        "videoId": "3-v-XerV5XI",
+        "url": "https://www.youtube.com/watch?v=3-v-XerV5XI",
+        "title": "PRIMERA VEZ EN MÉXICO… y tenía que probar ESTO 🇲🇽",
+        "metadata": [
+          "54 k",
+          "hace 2 sem."
+        ],
+        "duration": "15:25"
+      }
+    ],
+    "observedDate": "2026-10-06"
+  },
+  "Viviendo los Momentos": {
+    "channelID": "UCPtTXMaBgR1lIjUQIFy_tfg",
+    "channelUrl": "https://www.youtube.com/channel/UCPtTXMaBgR1lIjUQIFy_tfg/videos",
+    "headers": [
+      {
+        "header": {
+          "contentMetadataViewModel": {
+            "metadataRows": [
+              {
+                "metadataParts": [
+                  {
+                    "text": {
+                      "content": "@viviendolosmomentos",
+                      "styleRuns": [
+                        {
+                          "weightLabel": "FONT_WEIGHT_MEDIUM",
+                          "styleRunExtensions": {
+                            "styleRunColorMapExtension": {
+                              "colorMap": [
+                                {
+                                  "key": "USER_INTERFACE_THEME_DARK",
+                                  "value": 4294967295
+                                },
+                                {
+                                  "key": "USER_INTERFACE_THEME_LIGHT",
+                                  "value": 4279440147
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "enableTruncation": true
+                  }
+                ]
+              },
+              {
+                "metadataParts": [
+                  {
+                    "text": {
+                      "content": "14.4 k suscriptores"
+                    },
+                    "accessibilityLabel": "14.4 mil suscriptores"
+                  },
+                  {
+                    "text": {
+                      "content": "972 videos",
+                      "styleRuns": [
+                        {
+                          "startIndex": 0,
+                          "length": 10
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "delimiter": "•",
+            "rendererContext": {
+              "loggingContext": {
+                "loggingDirectives": {
+                  "trackingParams": "CCIQ9eQKIhMIipzk4oymlwMVsYLlBx2_1TMk",
+                  "visibility": {
+                    "types": "12"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Viviendo los Momentos",
+        "description": "Viviendo los Momentos es un canal donde recorremos México descubriendo playas increíbles de Jalisco, Nayarit y Mexico, pueblos mágicos, pueblos costeros y lugares poco conocidos, siempre acompañados de la mejor comida local y gastronomía mexicana.\n\nSomos Ventura y Mony  una pareja viajera que visita Pueblos Costeros como; Puerto Vallarta, Nayarit, Jalisco y otros destinos de México, compartiendo experiencias reales, recomendaciones honestas de dónde comer, dónde hospedarse y qué vale la pena visitar. Mostramos mariscos frescos, pescado zarandeado, comida frente al mar, restaurantes locales y hospedajes.\n\nAquí encontrarás guías completas de viaje, recorridos reales, tips para viajeros y contenido ideal para quienes buscan viajar en pareja, conocer playas tranquilas y disfrutar la comida típica mexicana.\n\n📍 Videos de viajes por México\n🏖️ Playas y pueblos\n🌮 Comida local\n🎥 Experiencias reales\n\nSuscríbete y vive México con nosotros.\n",
+        "rssUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCPtTXMaBgR1lIjUQIFy_tfg",
+        "externalId": "UCPtTXMaBgR1lIjUQIFy_tfg",
+        "keywords": "\"viviendo los momentos\" \"viajes en mexico\" \"turismo en mexico\" \"playas de mexico\" \"pueblos magicos de mexico\" \"pueblos con playa\" \"playas de nayarit\" \"playas de jalisco\" \"puerto vallarta\" \"viajar en pareja\" \"viajes en pareja mexico\" \"gastronomia mexicana\" \"mariscos frescos\" \"pescado zarandeado\" \"comida frente al mar\" \"restaurantes locales\" \"donde comer en mexico\" \"hospedaje en mexico\" \"hoteles frente al mar\" \"lugares bonitos de mexico\" \"guia de viaje mexico\" \"experiencias reales\"",
+        "ownerUrls": [
+          "http://www.youtube.com/@viviendolosmomentos"
+        ],
+        "avatar": {
+          "thumbnails": [
+            {
+              "url": "https://yt3.googleusercontent.com/9gJQoMIHiKK-EHqoKa0jV8oYmoemiZuw21HKhEuBHDTgIsD-Ju04lGsIEO6cvPelLre4UMiddA=s900-c-k-c0x00ffffff-no-rj",
+              "width": 900,
+              "height": 900
+            }
+          ]
+        },
+        "channelUrl": "https://www.youtube.com/channel/UCPtTXMaBgR1lIjUQIFy_tfg",
+        "isFamilySafe": true,
+        "availableCountryCodes": [
+          "AG",
+          "DJ",
+          "TF",
+          "BO",
+          "UZ",
+          "CG",
+          "CK",
+          "CO",
+          "NA",
+          "TN",
+          "BL",
+          "TW",
+          "PW",
+          "AS",
+          "HR",
+          "MG",
+          "NI",
+          "MR",
+          "IR",
+          "RW",
+          "TH",
+          "GP",
+          "IO",
+          "YT",
+          "IM",
+          "CA",
+          "TT",
+          "PY",
+          "KI",
+          "SO",
+          "TM",
+          "BM",
+          "VC",
+          "BH",
+          "HN",
+          "GS",
+          "VI",
+          "PE",
+          "BA",
+          "SD",
+          "SJ",
+          "FO",
+          "GD",
+          "GH",
+          "BR",
+          "KW",
+          "NR",
+          "CY",
+          "HU",
+          "BS",
+          "MT",
+          "ST",
+          "BZ",
+          "DZ",
+          "SX",
+          "TG",
+          "AU",
+          "QA",
+          "TD",
+          "AI",
+          "SS",
+          "LA",
+          "TR",
+          "MK",
+          "MS",
+          "RO",
+          "ML",
+          "MA",
+          "MU",
+          "AR",
+          "KG",
+          "MX",
+          "OM",
+          "KY",
+          "MQ",
+          "HM",
+          "ME",
+          "ID",
+          "LU",
+          "CX",
+          "JE",
+          "SB",
+          "SV",
+          "NO",
+          "GL",
+          "RU",
+          "BD",
+          "KH",
+          "PM",
+          "EH",
+          "LK",
+          "PA",
+          "CR",
+          "UG",
+          "AX",
+          "US",
+          "AD",
+          "CI",
+          "IL",
+          "CW",
+          "GR",
+          "HK",
+          "SN",
+          "MZ",
+          "GT",
+          "SZ",
+          "NC",
+          "VU",
+          "NU",
+          "BQ",
+          "UA",
+          "JP",
+          "PG",
+          "IE",
+          "AW",
+          "AO",
+          "CZ",
+          "MC",
+          "MY",
+          "GG",
+          "PL",
+          "JM",
+          "CN",
+          "VE",
+          "PN",
+          "PR",
+          "SM",
+          "BJ",
+          "DE",
+          "UM",
+          "YE",
+          "GN",
+          "KP",
+          "CM",
+          "BF",
+          "BI",
+          "SI",
+          "NG",
+          "LB",
+          "MD",
+          "RE",
+          "IT",
+          "PF",
+          "AT",
+          "KZ",
+          "LI",
+          "PK",
+          "AM",
+          "MM",
+          "FM",
+          "CF",
+          "KN",
+          "IS",
+          "MO",
+          "JO",
+          "TZ",
+          "BG",
+          "FJ",
+          "AQ",
+          "ER",
+          "FI",
+          "BY",
+          "LV",
+          "SL",
+          "TO",
+          "MW",
+          "ZM",
+          "GY",
+          "HT",
+          "MP",
+          "SE",
+          "NL",
+          "SH",
+          "LS",
+          "EE",
+          "BW",
+          "PT",
+          "DO",
+          "FK",
+          "KE",
+          "AZ",
+          "KR",
+          "CC",
+          "AE",
+          "MV",
+          "CV",
+          "GU",
+          "EC",
+          "GQ",
+          "KM",
+          "TC",
+          "GB",
+          "GM",
+          "ET",
+          "UY",
+          "VA",
+          "MF",
+          "LR",
+          "ES",
+          "MH",
+          "TK",
+          "BB",
+          "GF",
+          "NE",
+          "IN",
+          "SC",
+          "IQ",
+          "NP",
+          "TJ",
+          "BN",
+          "BE",
+          "PH",
+          "BV",
+          "RS",
+          "SK",
+          "BT",
+          "WF",
+          "CH",
+          "GE",
+          "GI",
+          "MN",
+          "NZ",
+          "AL",
+          "TL",
+          "WS",
+          "SR",
+          "VG",
+          "ZW",
+          "LY",
+          "SA",
+          "VN",
+          "CU",
+          "DK",
+          "PS",
+          "LC",
+          "AF",
+          "CL",
+          "GW",
+          "NF",
+          "ZA",
+          "EG",
+          "FR",
+          "LT",
+          "SG",
+          "TV",
+          "SY",
+          "DM",
+          "GA",
+          "CD"
+        ],
+        "androidDeepLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCPtTXMaBgR1lIjUQIFy_tfg",
+        "androidAppindexingLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCPtTXMaBgR1lIjUQIFy_tfg",
+        "iosAppindexingLink": "ios-app://544007664/vnd.youtube/www.youtube.com/channel/UCPtTXMaBgR1lIjUQIFy_tfg",
+        "vanityChannelUrl": "http://www.youtube.com/@viviendolosmomentos"
+      }
+    ],
+    "videos": [
+      {
+        "videoId": "-v5chY1FI4Q",
+        "url": "https://www.youtube.com/watch?v=-v5chY1FI4Q",
+        "title": "UN FIN DE SEMANA EN PUERTO VALLARTA 🌴 | Comida, Playa, Río y Lugares Increíbles",
+        "metadata": [
+          "7.7 K",
+          "hace 4 días"
+        ],
+        "duration": "47:04"
+      },
+      {
+        "videoId": "2Vd5zrbBoYQ",
+        "url": "https://www.youtube.com/watch?v=2Vd5zrbBoYQ",
+        "title": "De PUERTO VALLARTA a BOCA DE TOMATLÁN ¡Un Tour por Playas Increíbles!",
+        "metadata": [
+          "9.3 K",
+          "hace 11 días"
+        ],
+        "duration": "35:48"
+      },
+      {
+        "videoId": "SfdCQz3CMTA",
+        "url": "https://www.youtube.com/watch?v=SfdCQz3CMTA",
+        "title": "PUERTO VALLARTA 2026 🌴 | Así Disfrutamos un Día Completo",
+        "metadata": [
+          "11 k",
+          "hace 2 sem."
+        ],
+        "duration": "50:50"
+      },
+      {
+        "videoId": "d3NebVEB3uU",
+        "url": "https://www.youtube.com/watch?v=d3NebVEB3uU",
+        "title": "De PUERTO VALLARTA a MASCOTA 🚗 | ¡Qué Ruta! Sierra, Comida y Paisajes",
+        "metadata": [
+          "22 k",
+          "hace 3 sem."
+        ],
+        "duration": "42:31"
+      },
+      {
+        "videoId": "glnB4hEm1-M",
+        "url": "https://www.youtube.com/watch?v=glnB4hEm1-M",
+        "title": "De PUERTO VALLARTA a EL TUITO 🚗 | Ruta por la Sierra, Comida y Río",
+        "metadata": [
+          "14 k",
+          "hace 1 m"
+        ],
+        "duration": "47:43"
+      },
+      {
+        "videoId": "96BiBmyxRnA",
+        "url": "https://www.youtube.com/watch?v=96BiBmyxRnA",
+        "title": "¿QUÉ HACER EN PUERTO VALLARTA 2026? 😍 ¡Playa, Comida y Hospedaje!",
+        "metadata": [
+          "15 k",
+          "hace 1 m"
+        ],
+        "duration": "36:40"
+      }
+    ],
+    "observedDate": "2026-10-06"
+  },
+  "Un blog de viaje diferente": {
+    "channelID": "UCHa2d-ci8_21aQA2dv3Gkcw",
+    "channelUrl": "https://www.youtube.com/channel/UCHa2d-ci8_21aQA2dv3Gkcw/videos",
+    "headers": [
+      {
+        "header": {
+          "contentMetadataViewModel": {
+            "metadataRows": [
+              {
+                "metadataParts": [
+                  {
+                    "text": {
+                      "content": "@Unblogdeviajediferente",
+                      "styleRuns": [
+                        {
+                          "weightLabel": "FONT_WEIGHT_MEDIUM",
+                          "styleRunExtensions": {
+                            "styleRunColorMapExtension": {
+                              "colorMap": [
+                                {
+                                  "key": "USER_INTERFACE_THEME_DARK",
+                                  "value": 4294967295
+                                },
+                                {
+                                  "key": "USER_INTERFACE_THEME_LIGHT",
+                                  "value": 4279440147
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "enableTruncation": true
+                  }
+                ]
+              },
+              {
+                "metadataParts": [
+                  {
+                    "text": {
+                      "content": "2.57 K suscriptores"
+                    },
+                    "accessibilityLabel": "2.57 mil suscriptores"
+                  },
+                  {
+                    "text": {
+                      "content": "209 videos",
+                      "styleRuns": [
+                        {
+                          "startIndex": 0,
+                          "length": 10
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ],
+            "delimiter": "•",
+            "rendererContext": {
+              "loggingContext": {
+                "loggingDirectives": {
+                  "trackingParams": "CCQQ9eQKIhMIvczk4oymlwMVxg0VBR3WGTJn",
+                  "visibility": {
+                    "types": "12"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "title": "Un blog de viaje diferente ",
+        "description": "¡Hola amigos, bienvenidos al canal! 🌍✈️\n\nSomos Clau y Edwin, y compartimos nuestras experiencias de viajes en pareja, con guías completas, recomendaciones reales y tips para planear vacaciones inolvidables.\n\nEn este canal encontrarás contenido sobre destinos de playa en México 🏝️ como Cancún, Riviera Maya, Huatulco,  Puerto Vallarta, Manzanillo, Los Cabos e Ixtapa, incluyendo hoteles todo incluido, hoteles frente al mar, playas, tours e itinerarios para todo tipo de presupuesto.\n\nTambién exploramos pueblos mágicos, ciudades y algunos viajes internacionales, siempre con un enfoque práctico: qué hacer, dónde comer y cómo aprovechar al máximo cada destino.\n\nAdemás, contamos con agencia de viajes **Destino Diferente**, especializada en destinos de playa en México, donde te ayudamos a reservar hoteles todo incluido y paquetes vacacionales adaptados a tu estilo de viaje.\n\n✨ Suscríbete para descubrir los mejores hoteles, playas y experiencias en México y el mundo.\n",
+        "rssUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCHa2d-ci8_21aQA2dv3Gkcw",
+        "externalId": "UCHa2d-ci8_21aQA2dv3Gkcw",
+        "keywords": "\"viajes en pareja\" \"viajes México\" \"destinos de playa México\" \"playas México\" \"hoteles todo incluido México\" \"hoteles Cancún\" \"Riviera Maya hoteles\" \"Puerto Vallarta viajes\" \"Los Cabos viajes\" \"Ixtapa Zihuatanejo\" \"turismo México\" \"hoteles frente al mar\" \"mejores hoteles México\" \"qué hacer en Cancún\" \"itinerarios México\" \"viajes internacionales\" \"Destino Diferente\" \"Huatulco todo incluido\" \"huatulco viajes\" \"hoteles todo incluido\" \"all inclusive\"",
+        "ownerUrls": [
+          "http://www.youtube.com/@Unblogdeviajediferente"
+        ],
+        "avatar": {
+          "thumbnails": [
+            {
+              "url": "https://yt3.googleusercontent.com/GH_GwuS2MdE-r_R9DZ9djs2ucrRQoY6c6XL0k6KIsJg0yT6uqwxF-GQhfmAUx5hvXEUy2aJJZ0A=s900-c-k-c0x00ffffff-no-rj",
+              "width": 900,
+              "height": 900
+            }
+          ]
+        },
+        "channelUrl": "https://www.youtube.com/channel/UCHa2d-ci8_21aQA2dv3Gkcw",
+        "isFamilySafe": true,
+        "facebookProfileId": "profile",
+        "availableCountryCodes": [
+          "AG",
+          "DJ",
+          "TF",
+          "BO",
+          "UZ",
+          "CG",
+          "CK",
+          "CO",
+          "NA",
+          "TN",
+          "BL",
+          "TW",
+          "PW",
+          "AS",
+          "HR",
+          "MG",
+          "NI",
+          "MR",
+          "IR",
+          "RW",
+          "TH",
+          "GP",
+          "IO",
+          "YT",
+          "IM",
+          "CA",
+          "TT",
+          "PY",
+          "KI",
+          "SO",
+          "TM",
+          "BM",
+          "VC",
+          "BH",
+          "HN",
+          "GS",
+          "VI",
+          "PE",
+          "BA",
+          "SD",
+          "SJ",
+          "FO",
+          "GD",
+          "GH",
+          "BR",
+          "KW",
+          "NR",
+          "CY",
+          "HU",
+          "BS",
+          "MT",
+          "ST",
+          "BZ",
+          "DZ",
+          "SX",
+          "TG",
+          "AU",
+          "QA",
+          "TD",
+          "AI",
+          "SS",
+          "LA",
+          "TR",
+          "MK",
+          "MS",
+          "RO",
+          "ML",
+          "MA",
+          "MU",
+          "AR",
+          "KG",
+          "MX",
+          "OM",
+          "KY",
+          "MQ",
+          "HM",
+          "ME",
+          "ID",
+          "LU",
+          "CX",
+          "JE",
+          "SB",
+          "SV",
+          "NO",
+          "GL",
+          "RU",
+          "BD",
+          "KH",
+          "PM",
+          "EH",
+          "LK",
+          "PA",
+          "CR",
+          "UG",
+          "AX",
+          "US",
+          "AD",
+          "CI",
+          "IL",
+          "CW",
+          "GR",
+          "HK",
+          "SN",
+          "MZ",
+          "GT",
+          "SZ",
+          "NC",
+          "VU",
+          "NU",
+          "BQ",
+          "UA",
+          "JP",
+          "PG",
+          "IE",
+          "AW",
+          "AO",
+          "CZ",
+          "MC",
+          "MY",
+          "GG",
+          "PL",
+          "JM",
+          "CN",
+          "VE",
+          "PN",
+          "PR",
+          "SM",
+          "BJ",
+          "DE",
+          "UM",
+          "YE",
+          "GN",
+          "KP",
+          "CM",
+          "BF",
+          "BI",
+          "SI",
+          "NG",
+          "LB",
+          "MD",
+          "RE",
+          "IT",
+          "PF",
+          "AT",
+          "KZ",
+          "LI",
+          "PK",
+          "AM",
+          "MM",
+          "FM",
+          "CF",
+          "KN",
+          "IS",
+          "MO",
+          "JO",
+          "TZ",
+          "BG",
+          "FJ",
+          "AQ",
+          "ER",
+          "FI",
+          "BY",
+          "LV",
+          "SL",
+          "TO",
+          "MW",
+          "ZM",
+          "GY",
+          "HT",
+          "MP",
+          "SE",
+          "NL",
+          "SH",
+          "LS",
+          "EE",
+          "BW",
+          "PT",
+          "DO",
+          "FK",
+          "KE",
+          "AZ",
+          "KR",
+          "CC",
+          "AE",
+          "MV",
+          "CV",
+          "GU",
+          "EC",
+          "GQ",
+          "KM",
+          "TC",
+          "GB",
+          "GM",
+          "ET",
+          "UY",
+          "VA",
+          "MF",
+          "LR",
+          "ES",
+          "MH",
+          "TK",
+          "BB",
+          "GF",
+          "NE",
+          "IN",
+          "SC",
+          "IQ",
+          "NP",
+          "TJ",
+          "BN",
+          "BE",
+          "PH",
+          "BV",
+          "RS",
+          "SK",
+          "BT",
+          "WF",
+          "CH",
+          "GE",
+          "GI",
+          "MN",
+          "NZ",
+          "AL",
+          "TL",
+          "WS",
+          "SR",
+          "VG",
+          "ZW",
+          "LY",
+          "SA",
+          "VN",
+          "CU",
+          "DK",
+          "PS",
+          "LC",
+          "AF",
+          "CL",
+          "GW",
+          "NF",
+          "ZA",
+          "EG",
+          "FR",
+          "LT",
+          "SG",
+          "TV",
+          "SY",
+          "DM",
+          "GA",
+          "CD"
+        ],
+        "androidDeepLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCHa2d-ci8_21aQA2dv3Gkcw",
+        "androidAppindexingLink": "android-app://com.google.android.youtube/http/www.youtube.com/channel/UCHa2d-ci8_21aQA2dv3Gkcw",
+        "iosAppindexingLink": "ios-app://544007664/vnd.youtube/www.youtube.com/channel/UCHa2d-ci8_21aQA2dv3Gkcw",
+        "vanityChannelUrl": "http://www.youtube.com/@Unblogdeviajediferente"
+      }
+    ],
+    "videos": [
+      {
+        "videoId": "6JXyBQ-UEGc",
+        "url": "https://www.youtube.com/watch?v=6JXyBQ-UEGc",
+        "title": "🏖️ Así recorrimos la Zona Hotelera de Cancún 🌴 | Transporte BARATO + playas",
+        "metadata": [
+          "3.5 K",
+          "hace 4 días"
+        ],
+        "duration": "16:43"
+      },
+      {
+        "videoId": "g4u9IoFpK-Y",
+        "url": "https://www.youtube.com/watch?v=g4u9IoFpK-Y",
+        "title": "HOTEL FONTAN IXTAPA | Así es este Todo Incluido mas BARATO 🏖️",
+        "metadata": [
+          "6.9 K",
+          "hace 1 m"
+        ],
+        "duration": "41:28"
+      },
+      {
+        "videoId": "mnVpqZSSqIU",
+        "url": "https://www.youtube.com/watch?v=mnVpqZSSqIU",
+        "title": "🌊 PLAYA LA ENTREGA HUATULCO 🐠 | Hicimos SNORKEL en una de las playas más famosas de Huatulco",
+        "metadata": [
+          "1.1 K",
+          "hace 2 m"
+        ],
+        "duration": "23:19"
+      },
+      {
+        "videoId": "OA0hOsSze8Y",
+        "url": "https://www.youtube.com/watch?v=OA0hOsSze8Y",
+        "title": "Hotel Binniguenda Huatulco | Tour Completo TODO INCLUIDO 🌴 Habitaciones, Comida e Instalaciones",
+        "metadata": [
+          "6.8 K",
+          "hace 3 m"
+        ],
+        "duration": "1:15:35"
+      },
+      {
+        "videoId": "wIBGABJpLwI",
+        "url": "https://www.youtube.com/watch?v=wIBGABJpLwI",
+        "title": "🏖️ Holiday Inn Resort Ixtapa Todo Incluido | ¿Vale la pena? ¿El mejor hotel familiar calidad-precio?",
+        "metadata": [
+          "11 k",
+          "hace 4 m"
+        ],
+        "duration": "1:03:31"
+      },
+      {
+        "videoId": "-xIjBlcfTGI",
+        "url": "https://www.youtube.com/watch?v=-xIjBlcfTGI",
+        "title": "¿Vale la pena XPLOR by Xcaret en 2026? 🌿 Tirolesas, Toboganxote y más",
+        "metadata": [
+          "11 k",
+          "hace 5 m"
+        ],
+        "duration": "53:55"
+      }
+    ],
+    "observedDate": "2026-10-06"
+  }
+}

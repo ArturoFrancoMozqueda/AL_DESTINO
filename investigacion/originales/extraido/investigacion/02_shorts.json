@@ -1,0 +1,96 @@
+{
+  "Misias pero viajeras": {
+    "channelShortsUrl": "https://www.youtube.com/@misiasperoviajeras/shorts",
+    "observedDate": "2026-10-06",
+    "shortsTabVisible": true,
+    "selectedTab": "Shorts",
+    "sample": [
+      {
+        "videoId": "y5bwqpHKkLA",
+        "url": "https://www.youtube.com/shorts/y5bwqpHKkLA",
+        "title": "#Adiós 2024, hola #2025 🥺",
+        "viewsVisible": "41 k vistas",
+        "datePublished": "2024-12-31T12:32:53-08:00",
+        "viewsExact": "41105",
+        "lengthSeconds": "19",
+        "titleExact": "#Adiós 2024, hola #2025 🥺"
+      },
+      {
+        "videoId": "1PIhVY3bBXY",
+        "url": "https://www.youtube.com/shorts/1PIhVY3bBXY",
+        "title": "Renovando #contrato de #viajes 😝✈️",
+        "viewsVisible": "27 k vistas",
+        "datePublished": "2024-12-30T13:40:37-08:00",
+        "viewsExact": "27796",
+        "lengthSeconds": "8",
+        "titleExact": "Renovando #contrato de #viajes 😝✈️"
+      },
+      {
+        "videoId": "Z0DClMLOmWM",
+        "url": "https://www.youtube.com/shorts/Z0DClMLOmWM",
+        "title": "#Navidad siendo #latino 😝🎄",
+        "viewsVisible": "20 k vistas",
+        "datePublished": "2024-12-23T10:02:53-08:00",
+        "viewsExact": "20301",
+        "lengthSeconds": "13",
+        "titleExact": "#Navidad siendo #latino 😝🎄"
+      }
+    ],
+    "frequency": "ND; muestra de 3 o ausencia pública de pestaña; no sumar a Videos"
+  },
+  "Viajando con Vero": {
+    "channelShortsUrl": "https://www.youtube.com/@ViajandoconVero/shorts",
+    "observedDate": "2026-10-06",
+    "shortsTabVisible": true,
+    "selectedTab": "Shorts",
+    "sample": [
+      {
+        "videoId": "yicAvf4ofvY",
+        "url": "https://www.youtube.com/shorts/yicAvf4ofvY",
+        "title": "¡No podrás parar de jugar Tasty Travels! Descárgalo para tus ratos libres 😍",
+        "viewsVisible": "23 k vistas",
+        "datePublished": "2026-09-27T07:41:53-07:00",
+        "viewsExact": "23558",
+        "lengthSeconds": "38",
+        "titleExact": "¡No podrás parar de jugar Tasty Travels! Descárgalo para tus ratos libres 😍"
+      },
+      {
+        "videoId": "yL1HfxhXoIs",
+        "url": "https://www.youtube.com/shorts/yL1HfxhXoIs",
+        "title": "GANA DINERO MIENTRAS VIAJAS",
+        "viewsVisible": "419 k vistas",
+        "datePublished": "2026-03-02T14:17:29-08:00",
+        "viewsExact": "419870",
+        "lengthSeconds": "81",
+        "titleExact": "GANA DINERO MIENTRAS VIAJAS"
+      },
+      {
+        "videoId": "9OrBOzU6Jjc",
+        "url": "https://www.youtube.com/shorts/9OrBOzU6Jjc",
+        "title": "ASÍ REACCIONAN A MIS BIKINIS EN PLAYAS DE INDIA 🇮🇳  #india #playasdeindia",
+        "viewsVisible": "795 k vistas",
+        "datePublished": "2025-10-18T19:40:47-07:00",
+        "viewsExact": "795354",
+        "lengthSeconds": "37",
+        "titleExact": "ASÍ REACCIONAN A MIS BIKINIS EN PLAYAS DE INDIA 🇮🇳  #india #playasdeindia"
+      }
+    ],
+    "frequency": "ND; muestra de 3 o ausencia pública de pestaña; no sumar a Videos"
+  },
+  "La Vida de Viaje": {
+    "channelShortsUrl": "https://www.youtube.com/lavidadeviaje/shorts",
+    "observedDate": "2026-10-06",
+    "shortsTabVisible": false,
+    "selectedTab": "Principal",
+    "sample": [],
+    "frequency": "ND; muestra de 3 o ausencia pública de pestaña; no sumar a Videos"
+  },
+  "PlanetaJuan": {
+    "channelShortsUrl": "https://www.youtube.com/@planetajuan/shorts",
+    "observedDate": "2026-10-06",
+    "shortsTabVisible": false,
+    "selectedTab": "Principal",
+    "sample": [],
+    "frequency": "ND; muestra de 3 o ausencia pública de pestaña; no sumar a Videos"
+  }
+}

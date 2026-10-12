@@ -1,0 +1,285 @@
+{
+  "brand": "AL DESTINO",
+  "version": "0.5",
+  "status": "borrador",
+  "date": "2026-10-11",
+  "color": {
+    "terracota": {
+      "$type": "color",
+      "$value": "#E65F3C"
+    },
+    "turquesa": {
+      "$type": "color",
+      "$value": "#158A8A"
+    },
+    "mostaza": {
+      "$type": "color",
+      "$value": "#D9A21B"
+    },
+    "arena": {
+      "$type": "color",
+      "$value": "#E3DEC9"
+    },
+    "verde_petroleo": {
+      "$type": "color",
+      "$value": "#1F4D4D"
+    },
+    "cafe_oscuro": {
+      "$type": "color",
+      "$value": "#2B211D"
+    }
+  },
+  "typography": {
+    "display": {
+      "family": "Cormorant Garamond",
+      "weight": 600
+    },
+    "body": {
+      "family": "Plus Jakarta Sans",
+      "weight": 500
+    },
+    "thumbnail": {
+      "title_px_at_1280": 88,
+      "line_height": 0.95,
+      "max_lines": 2,
+      "label_px_at_1280": 22
+    },
+    "video": {
+      "title_px_at_1920": 96,
+      "label_px_at_1920": 36
+    }
+  },
+  "spacing_px_at_1280": [
+    8,
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "contrast_checks": [
+    {
+      "foreground": "cafe_oscuro",
+      "background": "arena",
+      "ratio": 11.63,
+      "small_text_allowed": true
+    },
+    {
+      "foreground": "verde_petroleo",
+      "background": "arena",
+      "ratio": 6.99,
+      "small_text_allowed": true
+    },
+    {
+      "foreground": "turquesa",
+      "background": "arena",
+      "ratio": 3.09,
+      "small_text_allowed": false
+    },
+    {
+      "foreground": "terracota",
+      "background": "arena",
+      "ratio": 2.56,
+      "small_text_allowed": false
+    },
+    {
+      "foreground": "cafe_oscuro",
+      "background": "terracota",
+      "ratio": 4.53,
+      "small_text_allowed": true
+    },
+    {
+      "foreground": "cafe_oscuro",
+      "background": "mostaza",
+      "ratio": 6.83,
+      "small_text_allowed": true
+    }
+  ],
+  "formats_px": {
+    "youtube_thumbnail_master": [
+      3840,
+      2160
+    ],
+    "youtube_thumbnail_light": [
+      1280,
+      720
+    ],
+    "youtube_banner": [
+      2560,
+      1440
+    ],
+    "youtube_safe_center_conservative": [
+      1540,
+      420
+    ],
+    "vertical_cover": [
+      1080,
+      1920
+    ],
+    "instagram_portrait_working": [
+      1080,
+      1350
+    ],
+    "avatar": [
+      1080,
+      1080
+    ],
+    "video_overlay": [
+      1920,
+      1080
+    ]
+  },
+  "copy": {
+    "brand": "AL DESTINO",
+    "tagline": "LUGARES · SABORES · EXPERIENCIAS",
+    "emotional_phrase": "Más historias por vivir"
+  },
+  "logo": {
+    "source": "assets/logos/logo-original-referencia.png",
+    "treatment": "Original intacto conservado; aplicaciones con extracción PNG transparente sobre arena",
+    "reconstruction": "v0.2 descartada",
+    "working_source": "assets/logos/piezas/logo-horizontal-transparente.png",
+    "preferred_background": "arena"
+  },
+  "social": {
+    "status": "propuesta_de_optimizacion",
+    "reviewed_at": "2026-10-11",
+    "main_platforms": [
+      "YouTube",
+      "Instagram",
+      "TikTok"
+    ],
+    "logo": {
+      "avatar": "monograma de la extracción original sobre arena #E3DEC9",
+      "test_sizes_css_px": [
+        32,
+        48,
+        98
+      ],
+      "full_lockup": "banner y piezas grandes, comprobar lectura del tagline"
+    },
+    "typography": {
+      "editorial": {
+        "family": "Cormorant Garamond",
+        "weights": [
+          400,
+          600
+        ]
+      },
+      "hook": {
+        "family": "Plus Jakarta Sans",
+        "weights": [
+          700,
+          800
+        ]
+      },
+      "captions": {
+        "family": "Plus Jakarta Sans",
+        "weight": 600,
+        "lines_max_working": 2
+      }
+    },
+    "thumbnail": {
+      "copy_words_working": [
+        2,
+        5
+      ],
+      "width_tests_css_px": [
+        160,
+        320
+      ],
+      "title_px_at_1280_working": [
+        80,
+        112
+      ],
+      "brand_signature": "opcional cuando aporta reconocimiento sin competir con la escena"
+    },
+    "vertical": {
+      "working_size_px": [
+        1080,
+        1920
+      ],
+      "caption_px_working": [
+        48,
+        64
+      ],
+      "hook_px_working": [
+        72,
+        112
+      ],
+      "internal_guide_fraction": {
+        "left": 0.08,
+        "right": 0.16,
+        "top": 0.18,
+        "bottom": 0.34
+      },
+      "guide_status": "margen interno de trabajo, no zona oficial universal",
+      "crop_tests": [
+        "9:16",
+        "4:5",
+        "3:4",
+        "1:1"
+      ]
+    },
+    "color": {
+      "reading_pairs": [
+        [
+          "cafe_oscuro",
+          "arena"
+        ],
+        [
+          "arena",
+          "verde_petroleo"
+        ],
+        [
+          "cafe_oscuro",
+          "mostaza"
+        ]
+      ],
+      "avoid_text_pair": [
+        "terracota",
+        "arena"
+      ],
+      "accent_policy": "un acento protagonista; la firma y las notas A/L pueden usar terracota y turquesa como código funcional"
+    },
+    "validation": "probar reconocimiento, lectura y recortes; luego evaluar con datos propios sin promesa de crecimiento"
+  },
+  "signature": {
+    "status": "propuesta_borrador",
+    "concept": "A de Arturo, L de Liz; dos miradas con autor",
+    "gesture": {
+      "kind": "dos_trazos_paralelos",
+      "colors": [
+        "terracota",
+        "turquesa"
+      ],
+      "stroke_width_css_px": 32,
+      "stroke_height_css_px": 4,
+      "gap_css_px": 4,
+      "rotation_deg": 0,
+      "replaces_logo": false
+    },
+    "author_notes": {
+      "arturo": "terracota",
+      "liz": "turquesa",
+      "text": "cafe_oscuro",
+      "background": "arena",
+      "mapping_status": "propuesta, no rol personal declarado"
+    },
+    "place_line": "ubicación de la historia; Morelia sólo cuando corresponda",
+    "photo_policy": "fotografía propia de la experiencia; ejemplos actuales son tipográficos",
+    "optional_on_small_pieces": true,
+    "invariants": [
+      "logo original",
+      "pareja de trazos en orden terracota/turquesa",
+      "firma Arturo + Liz",
+      "contraste de lectura"
+    ],
+    "variables": [
+      "foto",
+      "gancho",
+      "ubicación",
+      "tema"
+    ]
+  }
+}

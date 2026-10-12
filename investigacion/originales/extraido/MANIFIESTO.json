@@ -1,0 +1,246 @@
+{
+  "project": "AL Destino",
+  "research_date": "2026-10-06",
+  "handoff_date": "2026-10-11",
+  "start_with": [
+    "output/CONTEXTO_AL_DESTINO.txt",
+    "output/pdf/estrategia_y_benchmark_v2.pdf"
+  ],
+  "files": [
+    {
+      "path": "investigacion/00_analisis_editorial.html",
+      "bytes": 26570,
+      "sha256": "2847cfd4c8766dbb351e36cc38cdab96c460471ee08fcada4e8e91773127cdbc"
+    },
+    {
+      "path": "investigacion/00_instagram_grandes_grids.json",
+      "bytes": 28268,
+      "sha256": "706ae2419832ec07b87eb0c5d040840e81a4f3b0486ede91e69f23f014f7071b"
+    },
+    {
+      "path": "investigacion/00_instagram_grids.json",
+      "bytes": 73608,
+      "sha256": "ded6c90d16c34b6eb5afb39b29a3d7fc316d94fbce7bdcf0e2bd86633161a686"
+    },
+    {
+      "path": "investigacion/00_instagram_posts.json",
+      "bytes": 80152,
+      "sha256": "15e41e3a6e0b581bf10a6a1adef896216e478fc9c2b7f0f105fbb86e12fb93ae"
+    },
+    {
+      "path": "investigacion/00_muestra_referencias.json",
+      "bytes": 32915,
+      "sha256": "90c5b350f1bbc9221fc513e2ae0dd2a0e49b2dbd7ff3544fcacb4fe35dd1a885"
+    },
+    {
+      "path": "investigacion/00_referencias_datos.json",
+      "bytes": 35654,
+      "sha256": "593174efeeb1f3128886063da341f4921d77aa793b9cb77c86898e768d7cc93d"
+    },
+    {
+      "path": "investigacion/00_shorts.json",
+      "bytes": 4104,
+      "sha256": "cd29eaa0e54ed3cd1414f3637c009f5fce931a3411cde626f71e9f5c7de10189"
+    },
+    {
+      "path": "investigacion/01_referentes_grandes.md",
+      "bytes": 26320,
+      "sha256": "ae03cf2a5ed9f7a0f21ee8c6e2b070fe59ce1f699da6356fd1fed7ab79aae15a"
+    },
+    {
+      "path": "investigacion/01_shorts.json",
+      "bytes": 5959,
+      "sha256": "0381b4c294e30a491958b40eca4c04bd5b301b70561f9b75c9f7ac448a168583"
+    },
+    {
+      "path": "investigacion/01_shorts_apartado.md",
+      "bytes": 3273,
+      "sha256": "6948fef3c6f3c33eddbe9ad9649b93cbeb9bdfea7e5c1c3ee4245f9d25c423e6"
+    },
+    {
+      "path": "investigacion/02_instagram_posts.json",
+      "bytes": 16563,
+      "sha256": "c259536fde21d447120224c09ba56a08f7375a58c798b3ed997c9b3e83356f4d"
+    },
+    {
+      "path": "investigacion/02_parejas_nomadas.md",
+      "bytes": 40519,
+      "sha256": "118b401e62a9dfa83cac775fa738ac9e34c4def1b1e94a188f6c11194c90c66a"
+    },
+    {
+      "path": "investigacion/02_parejas_nomadas_datos.json",
+      "bytes": 74197,
+      "sha256": "3ec25857221bb5b4ac6e71ba2932c958b73e8d0cc811eab6e685303a7bdceee4"
+    },
+    {
+      "path": "investigacion/02_shorts.json",
+      "bytes": 3689,
+      "sha256": "f9470417288329e9d81d9f38916492249eb86d3d3f81bcf07cbdbf2dd1ceb64a"
+    },
+    {
+      "path": "investigacion/02_shorts_raw.json",
+      "bytes": 87202,
+      "sha256": "630e61c76bb15ab2c2b25e287b876cd97b5ff5b9054ea611c41bb21ef167e101"
+    },
+    {
+      "path": "investigacion/03_aventura_datos.json",
+      "bytes": 38876,
+      "sha256": "953cb32a0eedaeb31f0b12638dc237ef67bb2f424ec829b2bedb7e19c1627668"
+    },
+    {
+      "path": "investigacion/03_aventura_utilidad.md",
+      "bytes": 29403,
+      "sha256": "14ec9065066844b9ce39c141c09f1a7fa6bd1c28af4c17ad95fb99ee94fb7fc3"
+    },
+    {
+      "path": "investigacion/03_instagram_datos.json",
+      "bytes": 8930,
+      "sha256": "97f7cf739f5316a7f4ec2e7c81eb23b5b716676e3686e6810242e2cb8d550942"
+    },
+    {
+      "path": "investigacion/03_shorts.json",
+      "bytes": 2750,
+      "sha256": "e60bfbef49e31fffc6a093391b12e6f86a9c36aa8e656110461a625cf873f09a"
+    },
+    {
+      "path": "investigacion/03_videos_normalizados.json",
+      "bytes": 15716,
+      "sha256": "120e6f7b5571286a74721faf0f15f6270206a9bf0b0a1a563bffcd9e8b1bc5df"
+    },
+    {
+      "path": "investigacion/04_emergentes_raw.json",
+      "bytes": 32469,
+      "sha256": "3cf491c312f4a571c7caf7c37092805ec109346efad6d306d727e4beb3be1ef6"
+    },
+    {
+      "path": "investigacion/04_referentes_emergentes.html",
+      "bytes": 16108,
+      "sha256": "71502e7fe7b6379ce783ff7504721f028dbebaa3b29a875ed59753c076001249"
+    },
+    {
+      "path": "investigacion/04_referentes_emergentes.json",
+      "bytes": 66884,
+      "sha256": "7475a64185c9d28c728a86ae8e23d5afeb6a541d2cfe2913049695035ca15382"
+    },
+    {
+      "path": "investigacion/05_auditoria_cuantitativa.html",
+      "bytes": 90398,
+      "sha256": "0204e4925fb6030b4e6823b56152a8740abcff21a340cbb40bad434cfb593869"
+    },
+    {
+      "path": "investigacion/05_auditoria_cuantitativa.json",
+      "bytes": 156447,
+      "sha256": "80020dc7cc1a33bd3a50eda107ce1356504d29b66e1b272f158d3d08520bdfb0"
+    },
+    {
+      "path": "investigacion/06_distribucion_fuentes.json",
+      "bytes": 5501,
+      "sha256": "653655dfc0266b50ca7055eda0df808717693ee4b6cbd8a61e7d097fab5d7ba1"
+    },
+    {
+      "path": "investigacion/06_distribucion_medicion.html",
+      "bytes": 24250,
+      "sha256": "cbbcd0bfad7662d29249bd490ed5406690c659831ba147163361df2ff58f0c14"
+    },
+    {
+      "path": "investigacion/07_estrategia_accion.html",
+      "bytes": 26173,
+      "sha256": "88d54219790c3681cdc4d9e518637dbab87a214e2a7e964f32821335e47cd31b"
+    },
+    {
+      "path": "investigacion/complete_parejas_report.py",
+      "bytes": 14071,
+      "sha256": "ee22717d6e0c185563d586815eff590a2fddcdd875149ff4f75b18171ea4a076"
+    },
+    {
+      "path": "investigacion/crear_estrategia_v2.py",
+      "bytes": 15388,
+      "sha256": "4a1d87252ed35d0f8b5f5c769bfb8f6106c9f39f9229f8f54131d180ec528129"
+    },
+    {
+      "path": "investigacion/crear_informe.py",
+      "bytes": 24454,
+      "sha256": "b35615a43497d814740f0782e66499091d0724872eb4204bc6c02b76816bf3e5"
+    },
+    {
+      "path": "investigacion/evidencia_grandes/auditar_benchmark.py",
+      "bytes": 18290,
+      "sha256": "80a0bcb489dd7099904ad996c49ca6737b0dc64e0ec2d2de1848403034a6ebd5"
+    },
+    {
+      "path": "investigacion/extract_emergentes.py",
+      "bytes": 2512,
+      "sha256": "38fb8f1214b805c76f9ab5b1d05eeec17a0789b14fd11360b273c295b5fcfdea"
+    },
+    {
+      "path": "investigacion/extract_ig_sample.py",
+      "bytes": 1111,
+      "sha256": "6a51f87f9c0f5426a9f5bb945fe123ae9d641ed181842dd857f17822d0e8fb2b"
+    },
+    {
+      "path": "investigacion/extract_public_channels.py",
+      "bytes": 3119,
+      "sha256": "af11fcc890201f1eaa23a17b7ec0565f9c0a540d8bbfea0dc47fd575f4c3e822"
+    },
+    {
+      "path": "investigacion/extract_referencias.py",
+      "bytes": 3041,
+      "sha256": "d7bc3049f86f25de637f72a6b812a6b6d2813d868104e143c97b1ab1dd6253c1"
+    },
+    {
+      "path": "investigacion/write_emergentes_fragment.py",
+      "bytes": 13158,
+      "sha256": "5fd78bc82184a6ffe3ad456fe7e83ca9f11237dc2301f4fcf1597b16ddf7db4d"
+    },
+    {
+      "path": "investigacion/write_parejas_report.py",
+      "bytes": 20867,
+      "sha256": "e1bec49d582141852fed2463907d36653621dcf1e1ece75ecb76bca2284c39fb"
+    },
+    {
+      "path": "output/CONTEXTO_AL_DESTINO.txt",
+      "bytes": 7064,
+      "sha256": "e7abb4b492005c60a5667a94c1c1937ae407f3a16e723dc7acee653110104874"
+    },
+    {
+      "path": "output/analisis_youtube_instagram_viajes.html",
+      "bytes": 2513265,
+      "sha256": "bfcb8843d9b8f436bfe412dc89726ebd2bceabd602266b716ab628365cefac27"
+    },
+    {
+      "path": "output/auditoria_cuantitativa.html",
+      "bytes": 90432,
+      "sha256": "63cf87e524da55eefbba77a97b5b399cd5dc313c7db8b4e8ad2d9048e99409d3"
+    },
+    {
+      "path": "output/datos_benchmark.json",
+      "bytes": 217376,
+      "sha256": "3f568f615e77da88a692d4a6ce8d02b4c5316a98b67a3c317a400e8502629ffa"
+    },
+    {
+      "path": "output/datos_benchmark_v2.json",
+      "bytes": 284594,
+      "sha256": "aa2c2676789d44a7980e8e3f2a7b947f7f75f1f4818e7fa39f280dae2a3f4115"
+    },
+    {
+      "path": "output/estrategia_youtube_viajes_v2.html",
+      "bytes": 96579,
+      "sha256": "a25ca4e2152917b123773698ae817d5f8ca385be6a92535a8edf6451ad305e86"
+    },
+    {
+      "path": "output/pdf/analisis_youtube_instagram_viajes.pdf",
+      "bytes": 2714925,
+      "sha256": "9e600c9182acb6bd48bcda720cb40f26cfd5a40c256a165c96aa62bd816fa62c"
+    },
+    {
+      "path": "output/pdf/estrategia_y_benchmark_v2.pdf",
+      "bytes": 2949951,
+      "sha256": "9e4b96e32549e7cf7fa46c5ee637bca80aedb49273ca7eb6557f2d4e7f4d1e23"
+    },
+    {
+      "path": "output/registro_experimentos.json",
+      "bytes": 9274,
+      "sha256": "595465b1d8fb2048cb553c489634b5184275c28be8520905a5fecd8d98985670"
+    }
+  ]
+}

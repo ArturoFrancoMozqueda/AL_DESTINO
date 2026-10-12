@@ -1,0 +1,107 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "brand": "AL DESTINO",
+  "version": "0.1",
+  "status": "Direcciones visuales aprobadas, archivos maestros vectoriales pendientes",
+  "color": {
+    "terracota": {
+      "$type": "color",
+      "$value": "#E65F3C",
+      "description": "Acento solar, enfasis"
+    },
+    "turquesa": {
+      "$type": "color",
+      "$value": "#158A8A",
+      "description": "Ola, lineas y detalles"
+    },
+    "mostaza": {
+      "$type": "color",
+      "$value": "#D9A21B",
+      "description": "Acento ocasional"
+    },
+    "arena": {
+      "$type": "color",
+      "$value": "#F6EBDD",
+      "description": "Fondos y superficies"
+    },
+    "verde_petroleo": {
+      "$type": "color",
+      "$value": "#1F4D4D",
+      "description": "Fondos oscuros"
+    },
+    "cafe_oscuro": {
+      "$type": "color",
+      "$value": "#2B211D",
+      "description": "Tipografia y fondos"
+    }
+  },
+  "typography": {
+    "display": {
+      "family": "Cormorant Garamond",
+      "weights": [
+        "Regular",
+        "Semibold",
+        "Italic"
+      ],
+      "usage": "Titulares y acentos editoriales"
+    },
+    "body": {
+      "family": "Plus Jakarta Sans",
+      "weights": [
+        "Regular",
+        "Medium",
+        "Semibold"
+      ],
+      "usage": "Subtitulos, descripciones y etiquetas"
+    }
+  },
+  "copy": {
+    "brand": "AL DESTINO",
+    "tagline": "LUGARES · SABORES · EXPERIENCIAS",
+    "emotional_phrase": "Mas historias por vivir"
+  },
+  "formats_px": {
+    "youtube_banner": [
+      2560,
+      1440
+    ],
+    "youtube_safe_center": [
+      1546,
+      423
+    ],
+    "youtube_thumbnail": [
+      1280,
+      720
+    ],
+    "vertical_video_cover": [
+      1080,
+      1920
+    ],
+    "instagram_feed_portrait": [
+      1080,
+      1350
+    ],
+    "profile": [
+      1080,
+      1080
+    ],
+    "video_graphics_landscape": [
+      1920,
+      1080
+    ]
+  },
+  "visual_style": {
+    "brand_concept": "Escena Compartida",
+    "traits": [
+      "Editorial",
+      "Calida",
+      "Autentica",
+      "Cinematografica",
+      "Cercana"
+    ]
+  },
+  "notes": [
+    "No sustituye un manual vectorial maestro",
+    "Algunos visuales son propuestas rasterizadas sin elementos editables"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "status": "borrador_revision",
+  "version": "0.3",
+  "history": "v0.2 descartado por Arturo; originales y archivos previos conservados",
+  "items": [
+    {
+      "id": "YT01-estancia",
+      "status": "borrador_revision",
+      "svg": "archivo/v03-aplicaciones/plantillas/YT01-estancia.svg",
+      "preview": "archivo/v03-aplicaciones/previews/YT01-estancia.png",
+      "width": 3840,
+      "height": 2160,
+      "viewbox": [
+        1280,
+        720
+      ],
+      "logo_source": "referencia_original_sin_modificar",
+      "photo": "mockup_generado",
+      "description": "Miniatura fotográfica de estancia con foco en experiencia y decisión."
+    },
+    {
+      "id": "YT02-sabores",
+      "status": "borrador_revision",
+      "svg": "archivo/v03-aplicaciones/plantillas/YT02-sabores.svg",
+      "preview": "archivo/v03-aplicaciones/previews/YT02-sabores.png",
+      "width": 3840,
+      "height": 2160,
+      "viewbox": [
+        1280,
+        720
+      ],
+      "logo_source": "referencia_original_sin_modificar",
+      "photo": "mockup_generado",
+      "description": "Miniatura de gastronomía: alimento protagonista, texto editorial y luz natural."
+    },
+    {
+      "id": "YT03-vlog",
+      "status": "borrador_revision",
+      "svg": "archivo/v03-aplicaciones/plantillas/YT03-vlog.svg",
+      "preview": "archivo/v03-aplicaciones/previews/YT03-vlog.png",
+      "width": 3840,
+      "height": 2160,
+      "viewbox": [
+        1280,
+        720
+      ],
+      "logo_source": "referencia_original_sin_modificar",
+      "photo": "mockup_generado",
+      "description": "Miniatura de lifestyle en pareja: espacio para una historia personal sin exposición íntima."
+    },
+    {
+      "id": "YT-banner",
+      "status": "borrador_revision",
+      "svg": "archivo/v03-aplicaciones/plantillas/YT-banner.svg",
+      "preview": "archivo/v03-aplicaciones/previews/YT-banner.png",
+      "width": 2560,
+      "height": 1440,
+      "viewbox": [
+        2560,
+        1440
+      ],
+      "logo_source": "referencia_original_sin_modificar",
+      "photo": "mockup_generado",
+      "description": "Banner con composición original y fotografía ambiental fuera del centro seguro."
+    },
+    {
+      "id": "avatar",
+      "status": "borrador_revision",
+      "svg": "archivo/v03-aplicaciones/plantillas/avatar.svg",
+      "preview": "archivo/v03-aplicaciones/previews/avatar.png",
+      "width": 1080,
+      "height": 1080,
+      "viewbox": [
+        1080,
+        1080
+      ],
+      "logo_source": "referencia_original_sin_modificar",
+      "photo": "mockup_generado",
+      "description": "Avatar mediante recorte fiel del monograma de la referencia, sin reconstrucción."
+    },
+    {
+      "id": "vertical-portada",
+      "status": "borrador_revision",
+      "svg": "archivo/v03-aplicaciones/plantillas/vertical-portada.svg",
+      "preview": "archivo/v03-aplicaciones/previews/vertical-portada.png",
+      "width": 1080,
+      "height": 1920,
+      "viewbox": [
+        1080,
+        1920
+      ],
+      "logo_source": "referencia_original_sin_modificar",
+      "photo": "mockup_generado",
+      "description": "Portada vertical fotográfica con zona de texto amplia y marca original."
+    },
+    {
+      "id": "video-rotulo",
+      "status": "borrador_revision",
+      "svg": "archivo/v03-aplicaciones/plantillas/video-rotulo.svg",
+      "preview": "archivo/v03-aplicaciones/previews/video-rotulo.png",
+      "width": 1920,
+      "height": 1080,
+      "viewbox": [
+        1920,
+        1080
+      ],
+      "logo_source": "referencia_original_sin_modificar",
+      "photo": "mockup_generado",
+      "description": "Rótulo transparente de lectura sencilla para superponer en video."
+    },
+    {
+      "id": "video-consejo",
+      "status": "borrador_revision",
+      "svg": "archivo/v03-aplicaciones/plantillas/video-consejo.svg",
+      "preview": "archivo/v03-aplicaciones/previews/video-consejo.png",
+      "width": 1920,
+      "height": 1080,
+      "viewbox": [
+        1920,
+        1080
+      ],
+      "logo_source": "referencia_original_sin_modificar",
+      "photo": "mockup_generado",
+      "description": "Tarjeta de consejo con fotografía ambiental y frase editable."
+    }
+  ]
+}

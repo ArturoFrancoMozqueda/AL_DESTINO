@@ -1,0 +1,77 @@
+{
+  "clavero": {
+    "channelUrl": "https://www.youtube.com/@clavero/shorts",
+    "visible_items_in_response": 0,
+    "observedDate": "2026-10-06",
+    "shorts": [],
+    "availability": "Pestaña Shorts no presente en navegación pública; /shorts devuelve Principal seleccionado. Sin muestra pública de Shorts en el canal principal."
+  },
+  "ramilladeaventura": {
+    "channelUrl": "https://www.youtube.com/@ramilladeaventura/shorts",
+    "visible_items_in_response": 48,
+    "observedDate": "2026-10-06",
+    "shorts": [
+      {
+        "videoId": "dlfGGHbix28",
+        "url": "https://www.youtube.com/shorts/dlfGGHbix28",
+        "title": "Pusimos a prueba a la afición de Uruguay 🇺🇾 con Gemini",
+        "viewsDisplay": "15 k vistas",
+        "datePublished": "2026-07-01T07:00:04-07:00",
+        "lengthSeconds": "63",
+        "viewsExact": "15338"
+      },
+      {
+        "videoId": "CDAj3fGmbPg",
+        "url": "https://www.youtube.com/shorts/CDAj3fGmbPg",
+        "title": "Siguiendo a LA SELECCIÓN desde la otra punta del mundo",
+        "viewsDisplay": "16 k vistas",
+        "datePublished": "2026-06-19T05:38:48-07:00",
+        "lengthSeconds": "37",
+        "viewsExact": "16301"
+      },
+      {
+        "videoId": "i0Ma9ZDeBy8",
+        "url": "https://www.youtube.com/shorts/i0Ma9ZDeBy8",
+        "title": "el vuelo más lujoso del mundo!",
+        "viewsDisplay": "24 k vistas",
+        "datePublished": "2026-05-29T09:00:20-07:00",
+        "lengthSeconds": "36",
+        "viewsExact": "24638"
+      }
+    ]
+  },
+  "molaviajar": {
+    "channelUrl": "https://www.youtube.com/@molaviajar/shorts",
+    "visible_items_in_response": 48,
+    "observedDate": "2026-10-06",
+    "shorts": [
+      {
+        "videoId": "Z5jIDcPaong",
+        "url": "https://www.youtube.com/shorts/Z5jIDcPaong",
+        "title": "Tiendas temáticas que no te puedes perder en NY 🗽",
+        "viewsDisplay": "5.4 K vistas",
+        "datePublished": "2026-09-30T06:03:37-07:00",
+        "lengthSeconds": "61",
+        "viewsExact": "5411"
+      },
+      {
+        "videoId": "tLJWokO-E_c",
+        "url": "https://www.youtube.com/shorts/tLJWokO-E_c",
+        "title": "Fans de Alicia en el País de las Maravillas 👧🐇🎩",
+        "viewsDisplay": "9.6 K vistas",
+        "datePublished": "2026-09-27T00:30:26-07:00",
+        "lengthSeconds": "27",
+        "viewsExact": "9622"
+      },
+      {
+        "videoId": "45yM12u0i4k",
+        "url": "https://www.youtube.com/shorts/45yM12u0i4k",
+        "title": "Nuevo puzzle de 1.000 piezas del mapa del mundo 🧩",
+        "viewsDisplay": "2.7 K vistas",
+        "datePublished": "2026-09-23T04:00:17-07:00",
+        "lengthSeconds": "75",
+        "viewsExact": "2740"
+      }
+    ]
+  }
+}

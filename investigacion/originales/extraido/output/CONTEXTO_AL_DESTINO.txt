@@ -1,0 +1,86 @@
+AL DESTINO - CONTEXTO PARA CONTINUAR EN OTRO CHAT
+Actualización del contexto: 11 de octubre de 2026.
+Fecha de la investigación y de los datos de competidores: 6 de octubre de 2026.
+
+PROYECTO Y DATOS CONFIRMADOS
+El usuario es Arturo. Quiere desarrollar un canal de YouTube e Instagram de viajes y vlogs con su novia Liz.
+El nombre pensado hasta ahora es "AL Destino": A de Arturo y L de Liz. Es provisional.
+Sus referencias iniciales fueron:
+https://www.youtube.com/@heyitspriguel2
+https://www.youtube.com/@elmundoenpareja/videos
+
+TRABAJO SOLICITADO Y COMPLETADO
+Se investigaron referentes con un equipo de tres agentes y navegación de fuentes públicas.
+El primer informe estudia 12 creadores, 96 entradas de la pestaña Videos, 27 Shorts por separado, 39 publicaciones de Instagram con caption y al menos 36 miniaturas inspeccionadas.
+La ampliación añade tres canales activos de menor escala y 18 entradas de Videos: 15 identidades y 114 entradas en total.
+Se completó una auditoría cuantitativa de las 96 entradas originales, una revisión de documentación oficial de YouTube y Meta y una estrategia operativa. Los PDFs fueron renderizados e inspeccionados.
+
+ARCHIVOS PRINCIPALES
+output/pdf/estrategia_y_benchmark_v2.pdf
+Informe ampliado de 69 páginas. Incluye estrategia, tres referentes adicionales, auditoría, distribución, registro de trabajo y las 41 páginas originales como anexo. Es el documento principal para continuar.
+
+output/pdf/analisis_youtube_instagram_viajes.pdf
+Informe original de 41 páginas. Ya está incluido en el PDF ampliado; se conserva como documento independiente.
+
+output/estrategia_youtube_viajes_v2.html
+Versión web de la ampliación. Enlaza al benchmark original, auditoría y datos.
+
+output/analisis_youtube_instagram_viajes.html
+Benchmark original con galería de miniaturas embebida y explorador de 96 registros.
+
+output/auditoria_cuantitativa.html
+Auditoría con clasificación y filtros de los 96 registros originales.
+
+output/datos_benchmark_v2.json
+Datos consolidados de 114 entradas y metadatos de los referentes.
+
+output/datos_benchmark.json
+Datos originales de 96 entradas.
+
+output/registro_experimentos.json
+Plantilla VACÍA para seis pilotos. Sus campos nulos no son resultados medidos.
+
+Dentro del paquete también se incluyen archivos de investigación y fuentes. Conservar la estructura output/ e investigacion/ al extraer para que funcionen los enlaces locales de las versiones web.
+
+REFERENTES
+heyitspriguel; El Mundo en Pareja; Alan por el mundo; Luisito Comunica; Lethal Crysis; Viajando con Vero; PlanetaJuan; Ramilla de Aventura; Clavero; Molaviajar; Misias pero viajeras; La Vida de Viaje.
+Adicionales: Hoy vamos a ir; Viviendo los Momentos; Un blog de viaje diferente.
+Los tres adicionales tienen trayectoria y catálogos amplios: no describirlos como canales recién creados.
+
+ESTRATEGIA PROPUESTA, TODAVÍA NO ELEGIDA POR ARTURO
+Hipótesis inicial: escapadas cercanas por México, contadas por Arturo y Liz, con costos completos, tiempos, rutas y decisiones reales. México como base y el tipo de viajes siguen pendientes de confirmación.
+Tres pilares: escapada real; decisión que importa; misión cercana.
+Escenario base: seis pilotos, dos por pilar, durante aproximadamente 90 días; después repetir tres veces la dirección candidata si existen recursos y señales útiles.
+Medir a 7 y 28 días desde cada publicación. Comparar fuentes de tráfico y formatos, además de consumo, continuidad, costo y horas.
+El informe contiene doce ideas, conceptos de títulos/miniaturas, un brief de episodio, escenarios de capacidad y presupuesto, calendario y reglas para repetir, rediseñar, declarar inconcluso o aplazar.
+Los presupuestos y horas son escenarios hipotéticos, no cotizaciones, recursos confirmados ni autorización para gastar. No se promete número de suscriptores, ingresos ni una probabilidad de éxito.
+
+PRECISIONES IMPORTANTES DE LA EVIDENCIA
+La clasificación detallada y las comparaciones de edades se aplican sólo a las 96 entradas originales, no automáticamente a las 18 adicionales.
+De las 96 originales, 90 son editoriales; también hay tres trailers, un sorteo, un cierre y una pieza breve.
+Las vistas son acumuladas a la fecha de consulta y los videos tienen distintas edades. No permiten atribuir causalidad a un título, tema, duración o miniatura ni calcular un ranking general fiable.
+No se vieron íntegros los 114 videos. El análisis de estructura usa títulos, descripciones, capítulos y secuencias. No inventar aperturas, ritmo de montaje ni retención.
+La auditoría visual y la muestra profunda de Instagram corresponden a los doce referentes originales. En los tres adicionales se verificaron videos e identidades enlazadas en Instagram; no hubo una nueva muestra profunda de sus publicaciones ni de miniaturas.
+No hay analíticas privadas, CTR, retención, presupuesto, ingresos ni conversiones de competidores. La muestra es intencional y tiene sesgo de supervivencia.
+Las herramientas y recomendaciones de plataforma tienen fuentes oficiales enlazadas. Actualizar información temporal si se usa mucho después del corte.
+
+SIGUIENTE ETAPA DISCUTIDA
+Arturo preguntó si esta investigación basta para crear skills de miniaturas, logo e identidad del canal.
+Se propusieron cuatro capacidades reutilizables:
+1. Identidad: colores, tipografías, tono y reglas de logo, avatar y banner.
+2. Títulos y miniaturas: conceptos por episodio, fotos reales y variantes de prueba.
+3. Guiones y grabación: historia, escenas y pruebas que capturar.
+4. Medición: ajustar las publicaciones con métricas propias.
+El logo, avatar y banner serían entregables visuales, mientras la skill conservaría las reglas para reutilizarlos.
+Todavía NO se crearon skills, logo, paleta, tipografías, banner ni miniaturas para AL Destino. No presentarlos como terminados ni como decisiones aceptadas.
+
+INFORMACIÓN PENDIENTE
+- Qué quieren mostrar: escapadas por México, viajes internacionales, aventuras económicas, hoteles, comida o mezcla.
+- Qué les gusta de los dos referentes iniciales: convivencia, humor, recomendaciones, edición o identidad visual.
+- Ciudad de partida, horas semanales, presupuesto, equipo, viajes planeados y canal existente.
+- Personalidad visual, fotos de los protagonistas y preferencias para el diseño.
+El nombre y los protagonistas están confirmados como propuesta; no volver a preguntar quiénes son Arturo y Liz.
+No se verificó disponibilidad del nombre, usuarios sociales, dominios o registro de marca.
+
+MENSAJE SUGERIDO PARA PEGAR EN EL OTRO CHAT
+Lee el contexto de AL Destino y el informe ampliado adjuntos. Continúa el desarrollo de nuestro canal de viajes y vlogs en pareja: Arturo y Liz. Usa la investigación como base para definir nuestra identidad y preparar skills reutilizables de títulos y miniaturas, guiones y medición. Distingue los datos confirmados de las propuestas del informe y pide únicamente las decisiones que todavía faltan. El nombre provisional es AL Destino. Todavía no tenemos logo ni skills creadas.

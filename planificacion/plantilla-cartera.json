@@ -1,0 +1,24 @@
+{
+  "status": "borrador",
+  "created_at": null,
+  "query": {
+    "origin": null,
+    "destination": null,
+    "window_start": null,
+    "window_end": null,
+    "flexible_dates": true,
+    "nights": null,
+    "transport": null,
+    "budget": null,
+    "currency": "MXN",
+    "guests": null,
+    "pet": null
+  },
+  "horizon_days": 90,
+  "detailed_weeks": 4,
+  "weekly_hours_limit": 8,
+  "ideas": [],
+  "weeks": [],
+  "sources": [],
+  "unresolved": []
+}

@@ -1,0 +1,92 @@
+{
+  "status": "borrador",
+  "updated_at": "2026-10-12",
+  "timezone": "America/Mexico_City",
+  "source": "Respuestas de Arturo en esta conversación; sin entrevista separada de Liz",
+  "brand": "AL DESTINO",
+  "creators": [
+    "Arturo",
+    "Liz"
+  ],
+  "base": {
+    "city": "Morelia",
+    "state": "Michoacán",
+    "country": "México"
+  },
+  "goal": "Comunidad y marca con intención de negocio de contenido",
+  "audience": "Personas que disfrutan vlogs, reseñas, lifestyle y lugares en pareja",
+  "style": [
+    "conversación natural",
+    "tomas bonitas",
+    "experiencia personal",
+    "consejos útiles"
+  ],
+  "privacy": {
+    "personal_life": "reservada",
+    "work": "mención superficial",
+    "lifestyle": "faceta vlogger"
+  },
+  "production": {
+    "weekly_hours_total": 8,
+    "long_videos_weekly_goal": 1,
+    "editor": "Liz",
+    "experience": "inicial",
+    "editing_software": null,
+    "episode_duration_minutes": null
+  },
+  "equipment_declared": [
+    "micrófonos inalámbricos básicos",
+    "iPhone 17 Pro Max",
+    "iPhone 18 Pro Max",
+    "computadoras Mac y Windows"
+  ],
+  "equipment_pending": [
+    "tripié de celular"
+  ],
+  "pet": {
+    "species": "perro",
+    "breed": "pastor australiano",
+    "name": null,
+    "travels": "confirmar por consulta"
+  },
+  "research": {
+    "radius_hours": null,
+    "budget_per_night_mxn": null,
+    "destination": null,
+    "dates": null,
+    "horizon_days": 90,
+    "detailed_weeks": 4,
+    "lodging_priority": "singularidad visual y potencial de contenido",
+    "booking_occupancy": null
+  },
+  "references_declared": [
+    {
+      "name": "Un Mundo en Pareja",
+      "appeal": "tomas y edición",
+      "verified_url": null
+    },
+    {
+      "name": "Chavos Vlogs",
+      "appeal": "cercanía y dinámica vlog",
+      "verified_url": null
+    }
+  ],
+  "unknowns": [
+    "cuentas del canal",
+    "presupuesto",
+    "fechas exactas de viajes",
+    "nombres oficiales de hoteles",
+    "duración de episodios",
+    "preferencias separadas de Liz"
+  ],
+  "visual": {
+    "working_editor": "local",
+    "logo_policy": "conservar composición original de referencia, sin redibujar",
+    "previous_canva_designs": "descartados por Arturo",
+    "active_revision": "v0.5",
+    "approval": "borrador",
+    "design_system_focus": "marca optimizada para redes sociales, con propuestas basadas en investigación",
+    "background_preference": "beige arena, con menos matiz rosado",
+    "working_background_hex": "#E3DEC9"
+  }
+}

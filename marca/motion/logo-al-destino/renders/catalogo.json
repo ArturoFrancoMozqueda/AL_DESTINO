@@ -1,0 +1,27 @@
+{
+  "status": "borrador",
+  "source": "../index.html",
+  "framework": "HyperFrames",
+  "version": "0.8.145",
+  "duration_seconds": 3.2,
+  "fps": 30,
+  "size_px": [
+    1920,
+    1080
+  ],
+  "layers": 15,
+  "animated_png": "AL-DESTINO-logo-animado.png",
+  "sequence_dir": "secuencia-png",
+  "frame_count": 96,
+  "alpha": true,
+  "audio": false,
+  "proof_times": [
+    0.35,
+    0.6,
+    1.1,
+    1.6,
+    2,
+    3.15
+  ],
+  "render": "HyperFrames png-sequence; APNG desde RGBA con FFmpeg, sin video intermedio"
+}

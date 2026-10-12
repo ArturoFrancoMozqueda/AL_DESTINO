@@ -1,0 +1,86 @@
+[
+  {
+    "id": "YT1",
+    "title": "YouTube: recomendaciones, frecuencia y horario",
+    "url": "https://support.google.com/youtube/answer/141805?hl=en-7",
+    "access": "Web oficial abierta",
+    "facts": "YouTube recomienda según respuesta del público y relevancia. Los cambios de título/miniatura actúan mediante esa respuesta, no por el cambio en sí. Sus análisis no encuentran correlación entre crecimiento de vistas e intervalo entre subidas. El horario no tiene impacto demostrado a largo plazo; directos y estrenos son excepciones operativas.",
+    "verifiedDate": "2026-10-06"
+  },
+  {
+    "id": "YT2",
+    "title": "YouTube: impresiones y CTR, preguntas frecuentes",
+    "url": "https://support.google.com/youtube/answer/7628154?hl=en",
+    "access": "Web oficial abierta",
+    "facts": "CTR depende de público y fuente de tráfico. Pocas impresiones suelen concentrarse en audiencia más afín. No decidir con datos escasos ni atribuir pequeñas variaciones a cambios de miniatura. Algunas vistas no proceden de impresiones registradas.",
+    "verifiedDate": "2026-10-06"
+  },
+  {
+    "id": "YT3",
+    "title": "YouTube: A/B de títulos y miniaturas",
+    "url": "https://support.google.com/youtube/answer/16391400?hl=en",
+    "access": "Web oficial abierta",
+    "facts": "Hasta tres variantes concurrentes de título, miniatura o combinación. Studio en ordenador y funciones avanzadas. No admite Shorts. Optimiza tiempo de visualización y puede resultar ganador, rendimiento similar o inconcluso; pocas impresiones pueden impedir una conclusión. Puede durar hasta dos semanas.",
+    "verifiedDate": "2026-10-06"
+  },
+  {
+    "id": "YT4",
+    "title": "YouTube: momentos clave de retención",
+    "url": "https://support.google.com/youtube/answer/9314415?hl=en",
+    "access": "Web oficial abierta",
+    "facts": "El informe de retención puede tardar uno o dos días. Mide la apertura a los treinta segundos, caídas y picos; un pico puede indicar repetición o falta de claridad. Algunas señales destacadas requieren vídeo de al menos sesenta segundos y cien vistas.",
+    "verifiedDate": "2026-10-06"
+  },
+  {
+    "id": "YT5",
+    "title": "YouTube: vídeo relacionado en Shorts",
+    "url": "https://support.google.com/youtube/answer/14075157?hl=en",
+    "access": "Web oficial abierta",
+    "facts": "Con funciones avanzadas, se puede asociar otro vídeo del propio canal, público o no listado. Aparece un enlace clicable debajo del identificador del canal en el reproductor del Short.",
+    "verifiedDate": "2026-10-06"
+  },
+  {
+    "id": "YT6",
+    "title": "YouTube: enlaces clicables y límites de Shorts",
+    "url": "https://support.google.com/youtube/answer/13748639?hl=en",
+    "access": "Web oficial abierta",
+    "facts": "Las URLs en descripción y comentarios de Shorts no son clicables; el enlace a vídeo relacionado sí. Links de perfil y pantallas finales tienen rutas clicables. Las vistas externas no deben tratarse como impresiones de miniatura registradas.",
+    "verifiedDate": "2026-10-06"
+  },
+  {
+    "id": "IG1",
+    "title": "Instagram Ranking Explained",
+    "url": "https://about.instagram.com/blog/announcements/instagram-ranking-explained",
+    "publicationDate": "2023-05-31",
+    "access": "HTML oficial directo, evidencia/ig-ranking.html y .txt; web devolvió429",
+    "facts": "Instagram describe distintos sistemas para Feed, Stories, Explore y Reels. Elegibilidad para recomendaciones y publicación permitida son condiciones distintas. Account Status permite conocer problemas de recomendación y apelar. Describe personalización por interacción y señales propias del vídeo.",
+    "verifiedDate": "2026-10-06"
+  },
+  {
+    "id": "IG2",
+    "title": "Adam Mosseri: ranking, alcance conectado y no conectado",
+    "url": "https://www.instagram.com/p/DFFyRp-pINJ/",
+    "publicationDate": "2025-01-21",
+    "access": "Caption primario HTML público, evidencia/ig_mosseri_ranking2025.html",
+    "facts": "Mosseri identifica watch time, likes y sends como señales principales. Propone mirar tiempo medio, likes por alcance y sends por alcance; likes pesan algo más para seguidores y sends para gente que no sigue la cuenta. No publica pesos numéricos.",
+    "verifiedDate": "2026-10-06"
+  },
+  {
+    "id": "YT7",
+    "title": "YouTube: audiencia nueva, recurrente y habitual",
+    "url": "https://support.google.com/youtube/answer/9314416?hl=en",
+    "access": "Web oficial abierta",
+    "facts": "Audiencia mensual estima personas únicas en los últimos veintiocho días; espectadores recurrentes vuelven en el periodo elegido. Regular viewers requiere ver al menos una vez al mes durante más de seis meses del último año. Las métricas de audiencia del canal incluyen vídeos, Shorts y directos.",
+    "verifiedDate": "2026-10-06"
+  },
+  {
+    "id": "IG4",
+    "title": "Meta: Trial Reels con no seguidores",
+    "url": "https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/",
+    "publicationDate": "2024-12-10",
+    "updatedDate": "2025-06-26",
+    "access": "Web oficial abierta; comprobar disponibilidad en cuenta",
+    "facts": "Trial Reels distribuye primero a no seguidores y ofrece métricas aproximadamente veinticuatro horas después. Se puede compartir con todos después o permitir publicación automática según vistas iniciales. Es una prueba de distribución, no una asignación experimental equivalente entre variantes.",
+    "verifiedDate": "2026-10-06"
+  }
+]

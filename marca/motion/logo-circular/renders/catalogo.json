@@ -1,0 +1,413 @@
+{
+  "status": "borrador",
+  "size": [
+    1080,
+    1080
+  ],
+  "fps": 30,
+  "duration": 3.2,
+  "frames": 96,
+  "background": "#E3DEC9",
+  "transparent_exterior": true,
+  "layers": [
+    "arena",
+    "letra-a",
+    "letra-l",
+    "sol",
+    "ola"
+  ],
+  "items": [
+    {
+      "file": "AL-DESTINO-logo-circular-animado.png",
+      "sha256": "622155d16cf2ead0ef32e70ec94a45d3a49a3016e1bfde85136a26fa2735f58d"
+    },
+    {
+      "file": "logo-circular-poster.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000001.png",
+      "sha256": "68b5a35446f251f15689ebde7af85f439e2649a89cd40dc25646ca1cc46b1846"
+    },
+    {
+      "file": "secuencia-png/frame_000002.png",
+      "sha256": "f7688050de7e38cf2450d7f87486169db52f191c5a39aa70987ba0fdf402ebe4"
+    },
+    {
+      "file": "secuencia-png/frame_000003.png",
+      "sha256": "e938ade918fa196152e84d955a373a5737e274886b88e08a7ff6b51d1e0f6a76"
+    },
+    {
+      "file": "secuencia-png/frame_000004.png",
+      "sha256": "09b75154bcec501ec6fd4d384516b2fa3a8c55300f0c7235fc70de90916b1b0b"
+    },
+    {
+      "file": "secuencia-png/frame_000005.png",
+      "sha256": "9d6dba095b7ede9b4215083e6e59c0daf45fe765aa1d88e9d9a53a93cc2f0b9a"
+    },
+    {
+      "file": "secuencia-png/frame_000006.png",
+      "sha256": "c49250d0912957d473dd6ba57be664f61f6395494cfae30036c232965534fc1a"
+    },
+    {
+      "file": "secuencia-png/frame_000007.png",
+      "sha256": "b66181a1cb257685ef43cfab81ef5bbe5a1b32dd456efc83484f6d5c54891f03"
+    },
+    {
+      "file": "secuencia-png/frame_000008.png",
+      "sha256": "e91bf3306816763576c8f4f2669c15175f5c512049d052b4e3e5e92f417e388b"
+    },
+    {
+      "file": "secuencia-png/frame_000009.png",
+      "sha256": "9d8110d7c5f021313e4fbd2c3d1a08f21587a0d8e9b6db684b2d0c531b34d013"
+    },
+    {
+      "file": "secuencia-png/frame_000010.png",
+      "sha256": "9e7991640d219d161fc713b170329547d51f8be6c2cb1d26b12377c3a39cc98b"
+    },
+    {
+      "file": "secuencia-png/frame_000011.png",
+      "sha256": "13e98ed2c5ea8a668b6e8284a92070e6c84b719372d100d2c0df353b342cf845"
+    },
+    {
+      "file": "secuencia-png/frame_000012.png",
+      "sha256": "6dedc5a6e50b470dbedfae954d6999827e61a578816868a40376ba951b4cb892"
+    },
+    {
+      "file": "secuencia-png/frame_000013.png",
+      "sha256": "f540b434f7b61cc7ecf7374050b99ee82ff85af145f0407f48bcf243bc1d381d"
+    },
+    {
+      "file": "secuencia-png/frame_000014.png",
+      "sha256": "262c07207624a728e6bc4e36cac457a72cb38ae00341600c4ae9493453ebba2e"
+    },
+    {
+      "file": "secuencia-png/frame_000015.png",
+      "sha256": "9a4fd9858b2f8de3136f591b07608a3e12223641b7bac25f7fc6a3c746e44912"
+    },
+    {
+      "file": "secuencia-png/frame_000016.png",
+      "sha256": "0c3bb83773ebdf190379919c9cea6463961d3fed9cdf905213dc92e1a44738d0"
+    },
+    {
+      "file": "secuencia-png/frame_000017.png",
+      "sha256": "e9b4e49bfc67655c15b9f94eac1dd623c0cbcc886cbc96ccb90095db1671ce97"
+    },
+    {
+      "file": "secuencia-png/frame_000018.png",
+      "sha256": "d9238437991d7040dc0134345b361a2ed5339cc59a73292a54123d3e5b3f5466"
+    },
+    {
+      "file": "secuencia-png/frame_000019.png",
+      "sha256": "0b2b06934eae1abd54305961a6f91e144d9c96f36560e069e192316b27a8da5c"
+    },
+    {
+      "file": "secuencia-png/frame_000020.png",
+      "sha256": "882c84c1deb41c6c5fb884336bfcc4cb3c034fdaa42cee27c6177132b8817321"
+    },
+    {
+      "file": "secuencia-png/frame_000021.png",
+      "sha256": "ce4d977aaa31bb98326f7b72fd4be2bdb8230ea496256eeefef901ce64fe8768"
+    },
+    {
+      "file": "secuencia-png/frame_000022.png",
+      "sha256": "34b8e1e17de0444d975be563ef628405ba36a99cf13aa1df57da8377409bef5a"
+    },
+    {
+      "file": "secuencia-png/frame_000023.png",
+      "sha256": "04e4a5d3c0599ef30fb3e7608c4265313ad830de1118fedf24e68edce044bd89"
+    },
+    {
+      "file": "secuencia-png/frame_000024.png",
+      "sha256": "9feec51b79267e205359e39bf7d6ebfec494346cfc6c115ec38e1a8395d71529"
+    },
+    {
+      "file": "secuencia-png/frame_000025.png",
+      "sha256": "df143604528b1bb76bb4ffd54a6292eb91d3948ea890669f7a7fc5d42b52b60c"
+    },
+    {
+      "file": "secuencia-png/frame_000026.png",
+      "sha256": "6d1e07bca2d510e7e13e6b7de5787bf00523618ff6bd24345b9726f3456bbf92"
+    },
+    {
+      "file": "secuencia-png/frame_000027.png",
+      "sha256": "6a0edf346e82da3d259f39231a85ad454ee209617f1cf7ee4b6abfd847f82632"
+    },
+    {
+      "file": "secuencia-png/frame_000028.png",
+      "sha256": "6d4e8e794e6944c4def3293954f241641cbbeb163f785a630b0fbb9054b9a6c4"
+    },
+    {
+      "file": "secuencia-png/frame_000029.png",
+      "sha256": "8b861fff4b0cbc18b7e1f49be8e41e41bbbfa3faf34a4269a8f73978aa753c62"
+    },
+    {
+      "file": "secuencia-png/frame_000030.png",
+      "sha256": "b629f6a2558b9f0e451a6e59180b081c591a6b2963bb4a32366d3b6e498de249"
+    },
+    {
+      "file": "secuencia-png/frame_000031.png",
+      "sha256": "e9d228f76c52bcdf35565c19da38d385864d0d001dea66f38ea43e7ccb86b22c"
+    },
+    {
+      "file": "secuencia-png/frame_000032.png",
+      "sha256": "06ce17fbab51e533b3894c16d34208e56e12829ce8668458c3c1f2425c963713"
+    },
+    {
+      "file": "secuencia-png/frame_000033.png",
+      "sha256": "6efac08927be11b381d46d0d4f8b544750d0f5b02a01efdbaadeb0f1073b407f"
+    },
+    {
+      "file": "secuencia-png/frame_000034.png",
+      "sha256": "c045b3b929be9aa1501f3884f4d220e805d2922a2ea52953089e038b87001dc2"
+    },
+    {
+      "file": "secuencia-png/frame_000035.png",
+      "sha256": "76ba5cd0098d1afb5f9afc3b118e161ba88c20a806a16681f226574df717088e"
+    },
+    {
+      "file": "secuencia-png/frame_000036.png",
+      "sha256": "1b760e6fa0accaf0cec7b82ab93b090906a524d7649dd91bc9a9c5478b35f5bf"
+    },
+    {
+      "file": "secuencia-png/frame_000037.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000038.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000039.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000040.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000041.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000042.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000043.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000044.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000045.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000046.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000047.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000048.png",
+      "sha256": "fa0c7ae69a4827517a0003347c99ce7d2fcd9df8235f0cda30ed61519da3de88"
+    },
+    {
+      "file": "secuencia-png/frame_000049.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000050.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000051.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000052.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000053.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000054.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000055.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000056.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000057.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000058.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000059.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000060.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000061.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000062.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000063.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000064.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000065.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000066.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000067.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000068.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000069.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000070.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000071.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000072.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000073.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000074.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000075.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000076.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000077.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000078.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000079.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000080.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000081.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000082.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000083.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000084.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000085.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000086.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000087.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000088.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000089.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000090.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000091.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000092.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000093.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000094.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000095.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    },
+    {
+      "file": "secuencia-png/frame_000096.png",
+      "sha256": "42b923e763782dd7550b5a9bb0b704aa204b3170453a7e0eabdd82240638b37b"
+    }
+  ]
+}

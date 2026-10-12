@@ -1,0 +1,124 @@
+{
+  "status": "borrador",
+  "date": "2026-10-11",
+  "scope": "Optimización del design system HTML para redes; logo y HEX originales preservados",
+  "measured_findings": [
+    {
+      "finding": "Contraste terracota/arena",
+      "value": 2.56,
+      "kind": "cálculo propio sobre colores sólidos"
+    },
+    {
+      "finding": "Contraste turquesa/arena",
+      "value": 3.09,
+      "kind": "cálculo propio sobre colores sólidos"
+    }
+  ],
+  "design_proposals": [
+    "Plus Jakarta Bold para ganchos y Semibold para subtítulos; Cormorant editorial",
+    "Monograma sin tagline para avatar, pruebas 32/48/98 px",
+    "Gancho corto y pocas capas; firma opcional en miniatura",
+    "Márgenes verticales internos y recortes simulados",
+    "Un acento principal y pares de lectura de alto contraste",
+    "Firma de dos trazos a partir de Arturo y Liz, con notas de autor",
+    "Ejemplos tipográficos desde contexto declarado, sin reseñas inventadas"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "YouTube · miniaturas y títulos",
+      "url": "https://support.google.com/youtube/answer/12340300?hl=en",
+      "access": "leído",
+      "scope": "Contenido orgánico; legibilidad, simplicidad y coherencia del título",
+      "applied": "Jerarquía de gancho y prueba de reducción",
+      "consulted_at": "2026-10-11",
+      "timezone": "America/Mexico_City"
+    },
+    {
+      "id": "S2",
+      "title": "YouTube · identidad del canal",
+      "url": "https://support.google.com/youtube/answer/10456525?hl=en",
+      "access": "leído",
+      "scope": "Branding; perfil, banner y recortes",
+      "applied": "Prueba de avatar y formato de banner",
+      "consulted_at": "2026-10-11",
+      "timezone": "America/Mexico_City"
+    },
+    {
+      "id": "S3",
+      "title": "YouTube · miniaturas personalizadas",
+      "url": "https://support.google.com/youtube/answer/72431?hl=en",
+      "access": "leído",
+      "scope": "Dimensiones y límites de archivo según dispositivo",
+      "applied": "Maestros horizontal/vertical y copias ligeras",
+      "consulted_at": "2026-10-11",
+      "timezone": "America/Mexico_City"
+    },
+    {
+      "id": "S4",
+      "title": "TikTok · recomendaciones creativas",
+      "url": "https://ads.tiktok.com/resources/help/article/creative-best-practices?lang=en",
+      "access": "leído",
+      "scope": "Anuncios; verticalidad, presencia de personas y estética natural",
+      "applied": "Inferencia de diseño: identidad que admita vlogs espontáneos",
+      "consulted_at": "2026-10-11",
+      "timezone": "America/Mexico_City"
+    },
+    {
+      "id": "S5",
+      "title": "TikTok · especificaciones y zona segura",
+      "url": "https://ads.tiktok.com/resources/help/article/tiktok-auction-in-feed-ads?lang=en",
+      "access": "leído",
+      "scope": "Anuncios; zona dependiente del formato y variantes de interfaz",
+      "applied": "Simulador con márgenes internos, sin garantía universal",
+      "consulted_at": "2026-10-11",
+      "timezone": "America/Mexico_City"
+    },
+    {
+      "id": "S6",
+      "title": "W3C · contraste mínimo",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+      "access": "leído",
+      "scope": "Accesibilidad web; guía de lectura, no métrica de rendimiento",
+      "applied": "Objetivos de contraste como referencia; cálculo propio de pares",
+      "consulted_at": "2026-10-11",
+      "timezone": "America/Mexico_City"
+    },
+    {
+      "id": "S7",
+      "title": "Meta · Reels",
+      "url": "https://www.facebook.com/business/ads/facebook-instagram-reels-ads",
+      "access": "resultado oficial indexado; apertura directa redirige a login",
+      "scope": "Anuncios; evidencia parcial, sin extrapolar resultados a canal orgánico",
+      "applied": "Contexto de investigación; no se usan porcentajes de zona segura",
+      "consulted_at": "2026-10-11",
+      "timezone": "America/Mexico_City"
+    },
+    {
+      "id": "S8",
+      "title": "Instagram · resolución de imágenes",
+      "url": "https://help.instagram.com/1631821640426723",
+      "access": "no verificable: respuesta 429",
+      "scope": "Resolución de imágenes; especificación pendiente de acceso",
+      "applied": "Recortes se muestran como pruebas, no requisitos oficiales",
+      "consulted_at": "2026-10-11",
+      "timezone": "America/Mexico_City"
+    },
+    {
+      "id": "S9",
+      "title": "YouTube · personalidad y coherencia de marca",
+      "url": "https://support.google.com/youtube/answer/12950272",
+      "access": "leído",
+      "scope": "Identidad del creador, singularidad y consistencia visual y de voz",
+      "applied": "Inferencia propia: construir la firma desde Arturo y Liz, con ejemplos específicos de su contexto",
+      "consulted_at": "2026-10-11",
+      "timezone": "America/Mexico_City"
+    }
+  ],
+  "limitations": [
+    "Guías TikTok consultadas son de anuncios",
+    "Meta/Instagram acceso parcial; no se validan reglas universales de crop",
+    "Tamaños y conteos tipográficos son propuestas propias, no leyes de rendimiento",
+    "No se investigó ni prometió un efecto de la marca sobre vistas, CTR o ingresos"
+  ]
+}

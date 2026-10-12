@@ -1,0 +1,48 @@
+{
+  "status": "borrador",
+  "episode_id": null,
+  "url": null,
+  "format": "long",
+  "published_at": null,
+  "production": {
+    "hours_actual": null,
+    "cost_total": null,
+    "currency": "MXN",
+    "enjoyment_notes": null
+  },
+  "observations": [
+    {
+      "age_days": 7,
+      "observed_at": null,
+      "source": "YouTube Studio propio",
+      "views": null,
+      "impressions": null,
+      "ctr_percent": null,
+      "average_view_duration_seconds": null,
+      "retention_30s_percent": null,
+      "traffic_sources": null,
+      "new_viewers": null,
+      "subscribers_gained": null,
+      "qualitative_notes": null,
+      "availability_notes": "Pendiente: todavía no hay resultados"
+    },
+    {
+      "age_days": 28,
+      "observed_at": null,
+      "source": "YouTube Studio propio",
+      "views": null,
+      "impressions": null,
+      "ctr_percent": null,
+      "average_view_duration_seconds": null,
+      "retention_30s_percent": null,
+      "traffic_sources": null,
+      "new_viewers": null,
+      "subscribers_gained": null,
+      "qualitative_notes": null,
+      "availability_notes": "Pendiente: todavía no hay resultados"
+    }
+  ],
+  "hypothesis": null,
+  "learning": null,
+  "next_action": null
+}

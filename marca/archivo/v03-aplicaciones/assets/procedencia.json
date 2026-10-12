@@ -1,0 +1,20 @@
+{
+  "status": "borrador_mockups_generados",
+  "mode": "built-in image_gen",
+  "date": "2026-10-11",
+  "assets": [
+    {
+      "file": "hotel-mockup.png",
+      "prompt": "Use case: photorealistic-natural. Create a high-end editorial travel photograph to use as a FICTIONAL DESIGN MOCKUP for the Mexican couple travel/vlog brand AL DESTINO. A sophisticated coastal Mexican boutique hotel terrace with an infinity pool, sculptural pale plaster architecture, a single palm and warm terracotta lounge furniture, expansive turquoise ocean and hazy mountains in the distance. Wide horizontal 16:9 framing, camera low enough for strong architectural foreground, warm early morning sunlight, tactile materials, rich natural shadows, premium travel magazine art direction, understated film color and depth, no oversaturation. Composition: visually compelling architecture/pool on right two-thirds, darker palm/shadow foreground on left third leaving natural negative space for later typography. Absolutely NO text, NO logos, NO people, NO signage, no real recognizable property, no collage. This is a fictional visual sample, not evidence of a visit. Aim for exceptional photographic detail and art direction rather than a generic resort stock image."
+    },
+    {
+      "file": "pan-mockup.png",
+      "prompt": "Use case: photorealistic-natural. Create a fictional editorial food photograph for a design mockup of AL DESTINO, a Mexican couple's lifestyle and travel vlog. Horizontal 16:9 premium magazine photograph: a rustic Mexican bakery cafe table by a window, beautifully textured golden artisan conchas and flaky pastries in a warm woven basket on RIGHT two-thirds, ceramic coffee cup and linen napkin, a subtle old colonial courtyard in distant bokeh. LEFT third has dark warm wooden table and soft out-of-focus window shadow providing uncluttered negative space for typography later. Late morning light, delicious crisp crumb texture, restrained warm film tones, tactile authentic composition, elegant and inviting but not luxury advertising, shallow depth of field. No text, no logo, no signage, no people or hands. No identifiable real bakery. This is a fictional sample, not a photo of their actual favorite bread."
+    },
+    {
+      "file": "lifestyle-mockup.png",
+      "prompt": "Use case: photorealistic-natural. Create a fictional editorial lifestyle photo for an AL DESTINO design mockup, not documentary evidence. Wide horizontal 16:9 composition inside a light-filled warm modern Mexican apartment: a couple of unpacked moving boxes, rolled neutral rug, a leafy plant, beautiful terracotta and teal ceramic pieces on the floor, sofa, sunlight casting interesting window shadows, one adult Australian shepherd dog with blue-merle coat lounging naturally on RIGHT half, candid charming calm domestic chaos, not slapstick. No humans. Camera eye level slightly wide, photorealistic premium lifestyle magazine art direction, rich materials, airy warmth, analog film nuance without heavy filter. LEFT third darker foreground and restrained negative space for later type. No text, logos, addresses, paperwork or readable box labels. The dog is fictional and must not be represented as the users' actual pet."
+    }
+  ],
+  "note": "Escenas ficticias. El perro no representa al perro real de Arturo y Liz. Los logos se colocan desde originales sin regeneración."
+}

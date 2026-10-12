@@ -1,0 +1,74 @@
+{
+  "status": "descartado_por_usuario",
+  "created_at": "2026-10-11",
+  "method": "Conversión image_to_design desde previews locales; no equivalencia exacta con SVG",
+  "verified_editability": {
+    "template": "YT02-comida",
+    "text_regions": 5,
+    "editable_image_fills": 6,
+    "page_size": [
+      1280,
+      720
+    ],
+    "limitation": "El monograma fue interpretado parcialmente como texto; revisar y sustituir por asset maestro."
+  },
+  "items": [
+    {
+      "template": "YT02-comida",
+      "design_id": "DAHXw922cBU",
+      "edit_url": "https://www.canva.com/d/A8NW5ulu5E3IAn0",
+      "view_url": "https://www.canva.com/d/ZSr7lQ5XPjgCB7v",
+      "status": "descartado_por_usuario"
+    },
+    {
+      "template": "YT01-lugares-hoteles",
+      "design_id": "DAHXwz7kwWI",
+      "edit_url": "https://www.canva.com/d/JaeXvhYPzwWiidr",
+      "view_url": "https://www.canva.com/d/tp4qt5lNrE95-4S",
+      "status": "descartado_por_usuario"
+    },
+    {
+      "template": "YT03-vlog-lifestyle",
+      "design_id": "DAHXw0jb-us",
+      "edit_url": "https://www.canva.com/d/RmTmRD28QYaE__y",
+      "view_url": "https://www.canva.com/d/v0UwSBrrFM3gr0j",
+      "status": "descartado_por_usuario"
+    },
+    {
+      "template": "YT-banner",
+      "design_id": "DAHXw6L0CP0",
+      "edit_url": "https://www.canva.com/d/NCvxlfGoAVRJMB6",
+      "view_url": "https://www.canva.com/d/2RnYGGeaxOcgMyI",
+      "status": "descartado_por_usuario"
+    },
+    {
+      "template": "avatar",
+      "design_id": "DAHXw8kdYT8",
+      "edit_url": "https://www.canva.com/d/bSljFw9kL5YxvSJ",
+      "view_url": "https://www.canva.com/d/cW3fDrnVzkqGFmN",
+      "status": "descartado_por_usuario"
+    },
+    {
+      "template": "vertical-portada",
+      "design_id": "DAHXw7Ju9XA",
+      "edit_url": "https://www.canva.com/d/eaDUm4h_D3pRPVZ",
+      "view_url": "https://www.canva.com/d/Boy4Er9b8WBXrbx",
+      "status": "descartado_por_usuario"
+    },
+    {
+      "template": "video-rotulo-lugar",
+      "design_id": "DAHXw2_QHyE",
+      "edit_url": "https://www.canva.com/d/cgWBH8BYOJc2f0w",
+      "view_url": "https://www.canva.com/d/xaVNf5i96ros5Pu",
+      "status": "descartado_por_usuario"
+    },
+    {
+      "template": "video-tarjeta-consejo",
+      "design_id": "DAHXw0zjUH4",
+      "edit_url": "https://www.canva.com/d/MbXvz5Yf2v32wpx",
+      "view_url": "https://www.canva.com/d/-ntiv2sRkz95ZSj",
+      "status": "descartado_por_usuario"
+    }
+  ],
+  "reason": "Calidad visual rechazada; nueva dirección: aplicaciones locales con logo original"
+}

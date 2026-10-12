@@ -1,0 +1,6 @@
+interface:
+  display_name: "AL DESTINO · Airbnb"
+  short_description: "Ideas verificables y planificación para AL DESTINO"
+  default_prompt: "Usa $al-destino-airbnb para investigar oportunidades de contenido según nuestra ubicación, fechas y recursos."
+policy:
+  allow_implicit_invocation: true

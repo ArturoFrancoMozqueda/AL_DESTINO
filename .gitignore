@@ -1,0 +1,11 @@
+__pycache__/
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+
+# Cachés locales de HyperFrames; conservar assets y renders entregables.
+.hyperframes/
+
+.thumbnails/
