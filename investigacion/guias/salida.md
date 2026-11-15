@@ -12,6 +12,8 @@
 
 Crear `informe.md`, `fuentes.json` e `ideas.json` cuando se solicite guardar o planificar. Reutilizar `../../planificacion/plantilla-cartera.json` y `../../planificacion/plantilla-idea.json`. Fuentes: `url`, `consulted_at`, `published_at` si existe, `claim`, `kind`, `limitations`. Propuestas: ID estable, experiencia, ángulo, skill de origen, estado borrador, evidencia, ventana, costes y disponibilidad verificados o nulos, horas y próximos pasos.
 
+Guardar la consulta en `investigacion/consultas/<id>/`, como define el [flujo compartido](../../produccion/flujo.md). Al pasar a cartera o episodio, enlazar ese informe y sus IDs de ideas; no copiar la misma investigación como un nuevo hallazgo. El mapa general está en [proyecto.json](../../proyecto.json).
+
 Precio verificable: moneda, check-in, check-out, huéspedes, total, desglose conocido, fecha de consulta y fuente. Si falta alguno de los datos necesarios para comparar, mantener coste no comparable y explicarlo; no completar con cero.
 
 Resumen semanal: video candidato, fuentes, logística pendiente y horas presupuestadas/estimadas. Si supera ocho horas, proponer reducción de edición, agrupar captura o mover publicación; no prometer capacidad semanal ilimitada.

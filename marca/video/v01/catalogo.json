@@ -1,0 +1,650 @@
+{
+  "brand": "AL DESTINO",
+  "version": "0.1",
+  "status": "borrador",
+  "created_at": "2026-11-14",
+  "brand_version": "0.6",
+  "color_values": {
+    "terracota": "#C65D3B",
+    "turquesa": "#287C7A",
+    "mostaza": "#C49A43",
+    "arena": "#E3DEC9",
+    "verde_petroleo": "#244B49",
+    "cafe_oscuro": "#302722"
+  },
+  "source": "Dibujos geométricos y muestras tipográficas creados en este proyecto; no derivados del referente audiovisual",
+  "reference_scope": "mockups_sin_material_real",
+  "motion": "motion.json",
+  "font": {
+    "file": "../../assets/fuentes/PlusJakartaSans[wght].ttf",
+    "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8",
+    "license": "../../assets/fuentes/plusjakartasans-OFL.txt",
+    "svg_embedding": true
+  },
+  "icon_style": {
+    "viewBox": [
+      0,
+      0,
+      32,
+      32
+    ],
+    "stroke": 1.8,
+    "linecap": "round",
+    "linejoin": "round"
+  },
+  "icons": [
+    {
+      "id": "ubicacion",
+      "title": "Ubicación",
+      "status": "borrador",
+      "source": "iconos/ubicacion.svg",
+      "source_sha256": "ce8cd2eb3f9b422fcb9022536ae334f3901d0d7c79e7cef94e2761d74efb960e",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/ubicacion.png",
+          "sha256": "be666f5664a7e32e1bb234d98897a01068ec0e12c419640bf51dd4df54d2bf28",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/ubicacion.png",
+          "sha256": "61faefc551d5f2d79036cbf71e59404364d8e1e39ee76147c9bc6259e6451a9c",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/ubicacion.png",
+          "sha256": "6a458711d9e0804cb5c46e375e63c371dbba0d2d2d1809dcaf8cd4a0e6b7a031",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "restaurante",
+      "title": "Restaurante",
+      "status": "borrador",
+      "source": "iconos/restaurante.svg",
+      "source_sha256": "4d0eba84db4d3c5cc3a5066a17a4c11181236f9aba40a4579bcc320a519319f9",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/restaurante.png",
+          "sha256": "5a034a3d6eccf204e38e03b8ef45822513d4cc63ec429a699b77207280932cb3",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/restaurante.png",
+          "sha256": "0c0b4337614338a4a758a165cfbe3c9f285dc898dc56739fb505bfce46a02132",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/restaurante.png",
+          "sha256": "f3699662c7e975216deb234e18b735ce0bab86e0827c772581c05f84bf82820f",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "hotel",
+      "title": "Estancia",
+      "status": "borrador",
+      "source": "iconos/hotel.svg",
+      "source_sha256": "509c094d2ab9f0b728902fab9bc78e73cd23adaed6f10dfb4045e5a402c67289",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/hotel.png",
+          "sha256": "065369507c1677ce79224912fa0ae9fb75a4461f584f39db5261fa8c4910b80c",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/hotel.png",
+          "sha256": "7043969d59f265d93b3b5d28b2024cc7370eeb7e504d606a0fd363152444ce57",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/hotel.png",
+          "sha256": "6307fa849768d38527bd52576b37b7e6b4a7dc7b62349ad74c880ba17864c8bc",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "precio",
+      "title": "Precio",
+      "status": "borrador",
+      "source": "iconos/precio.svg",
+      "source_sha256": "047056a115b3ce8ed13384ba5567c1a380e8696979d6f18f1676021554cfae30",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/precio.png",
+          "sha256": "33b3680bca0b0dd1db44a3b6fb64798ef4d874811e5aad0ef0af92a4a97faff5",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/precio.png",
+          "sha256": "79a23226b9dfe4d1998d2f5b61fc3b49e60d18dfb1df170c237629c4dd844360",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/precio.png",
+          "sha256": "da893239fb8419f5dfe38714d3eaaf16de54f0566893137e3610ca389031f153",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "horario",
+      "title": "Horario",
+      "status": "borrador",
+      "source": "iconos/horario.svg",
+      "source_sha256": "5839e76abf1a1f57d6587766fbcef270078084e1fea056cc0dec60153663a40b",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/horario.png",
+          "sha256": "d1b3270a7553a98c1658189e41b2f38e6b4b42fc0c367a3f04d862ca9c56d598",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/horario.png",
+          "sha256": "41da828cb37e618136e205a3bd8311a7e139dd8fb351b29784da563194a02825",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/horario.png",
+          "sha256": "f352f96eb36e8cf7c94fb1a6434d7d47233fd5fab726a23f8cc952eaa5279124",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "estacionamiento",
+      "title": "Estacionamiento",
+      "status": "borrador",
+      "source": "iconos/estacionamiento.svg",
+      "source_sha256": "0a8a41a64884ec50bad8d9f079640ebb676a7176865429411514e6ff37052ebf",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/estacionamiento.png",
+          "sha256": "3c967d5a4ba1044028324320171272590fad0286f70a79bff11562d5d569742e",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/estacionamiento.png",
+          "sha256": "9034dbc30a1bc76dfee5c9ea034d2cf654b91976b57b102a333d7b467f7fd57c",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/estacionamiento.png",
+          "sha256": "7068e223aabe1241b399e4d11e8c9b470c757dfad72a19423e2d73b7bdc3d8a9",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "reservacion",
+      "title": "Reservación",
+      "status": "borrador",
+      "source": "iconos/reservacion.svg",
+      "source_sha256": "1a82a64b7eb498e211b3ac75e0809f04e76107a9d8970e2cbd216e8950550036",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/reservacion.png",
+          "sha256": "8cd2a6131a9d847b42679fc883ec5b1e20ceebfb0a040835095a78e31885e499",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/reservacion.png",
+          "sha256": "a462d8723bc4c80b2fb0a22865d64256c0c5594a62cd1ff839477012d268b2c8",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/reservacion.png",
+          "sha256": "463bc322c8ef945df85c54640ec95b272ca49ab2c0bf4936ed4c7963349b37a2",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "consejo",
+      "title": "Consejo",
+      "status": "borrador",
+      "source": "iconos/consejo.svg",
+      "source_sha256": "e440aff8b54362d8c914afba4f26f4b4a8deedf744632b57984b9dc71af3b42c",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/consejo.png",
+          "sha256": "420b7144635dbc5468d42372fd76e42a0b1d6e21daeac1b74c9e980601d73df7",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/consejo.png",
+          "sha256": "931210aca3950c381af4f11e72903233a25eab9da3022a32187d0e3545d391f8",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/consejo.png",
+          "sha256": "f9cdb0c9450f9e4ea87e1c5b36df5928455d3af4d4af5811e0057cf35c333dc8",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "pulgar-arriba",
+      "title": "Nos gustó",
+      "status": "borrador",
+      "source": "iconos/pulgar-arriba.svg",
+      "source_sha256": "8c45eb2f74621608fc524e292bae95b1c52e7584b14b2181dbdc8eedcadb2ed2",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/pulgar-arriba.png",
+          "sha256": "503e37777117b20f74a1889c1b336d645ee8a8ba373fbb131b3e08e6b989080d",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/pulgar-arriba.png",
+          "sha256": "a5b34dbb5e181fa089d7b5ac98ae31e5472e058f5a33a47272bb9daebda4ce70",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/pulgar-arriba.png",
+          "sha256": "5e552dc477ec34fc9aa7b6be18aefffce9029f5ea8e01211f425f5eafb7a8fd7",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "pulgar-abajo",
+      "title": "A considerar",
+      "status": "borrador",
+      "source": "iconos/pulgar-abajo.svg",
+      "source_sha256": "f2b7e3c944642d188b7f46588242ee94b8fb016d4941714834982310e38c8ebc",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/pulgar-abajo.png",
+          "sha256": "c20bb8f113085f455f0563c0449af8ae01a9520683c02414be53186eacd34476",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/pulgar-abajo.png",
+          "sha256": "8cbf7c7d25fb6d996c40a29ca769fde45712a0426a96679d4355a3ba84a5fb44",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/pulgar-abajo.png",
+          "sha256": "5423be86acb6f1846133c482eb4a53e957cd9c04c00ef256b1bce1a1fcb0a1c0",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "detalle",
+      "title": "Detalle",
+      "status": "borrador",
+      "source": "iconos/detalle.svg",
+      "source_sha256": "f11330901ca287dfa5f84937e20dbf5a2433e928cbd7da6b08e37fa8360abadc",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/detalle.png",
+          "sha256": "9c6efa601e26c03fb2d507e8d15288fa48ef2629e978da304aec7770183aac69",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/detalle.png",
+          "sha256": "875ea189dfded65b7d8418f5486a0e7948f80186031faafd41468cf334ed93eb",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/detalle.png",
+          "sha256": "ffb79dd90702237cdce330cc4b9cc92adb42812ecd44840368a984958575f102",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "redes",
+      "title": "Redes · genérico",
+      "status": "borrador",
+      "source": "iconos/redes.svg",
+      "source_sha256": "e6b701e2fd4a9ff71b547353dfefde1c400531351b5e2e2fc0bc7fe160fe864e",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/redes.png",
+          "sha256": "3c41a7c853ae0559768e0018411c63674f94046a6368695ff75513f590bb0f4e",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/redes.png",
+          "sha256": "d66710baff64c349768ff0378fb8ca17f51ff2b2d59892651db80dbbd576699a",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/redes.png",
+          "sha256": "1b3479e446e8253d691dd579efdf5f9a881a028198542b510f76ebc65b592e7b",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "flecha-curva-derecha",
+      "title": "Mira aquí →",
+      "status": "borrador",
+      "source": "iconos/flecha-curva-derecha.svg",
+      "source_sha256": "1d152496cb64241b7271dbb32cc7a8eaed57fe4a051c5fe807d8b65df8255336",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/flecha-curva-derecha.png",
+          "sha256": "2ed70b298a1907098953f8351ea05103076497f6178bbd83ed06eb174b3fe952",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/flecha-curva-derecha.png",
+          "sha256": "bd2170cd40bcabd9f1eedb50e59561134194c6635036cdc24b6a7a393c1403b0",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/flecha-curva-derecha.png",
+          "sha256": "f5bea691ee288c16c0470449c46c4ab3a4e7987c602ea64d7fcb588ac4a3b0e5",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "flecha-curva-izquierda",
+      "title": "← Mira aquí",
+      "status": "borrador",
+      "source": "iconos/flecha-curva-izquierda.svg",
+      "source_sha256": "dc1ac646fd9a250609b3c15ce511f2897df646af1d68d8d771062aca05a498b0",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/flecha-curva-izquierda.png",
+          "sha256": "3002f798dc67cc17940486edfb0f54d98c870639dadc2fb628e24e95a0ccce80",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/flecha-curva-izquierda.png",
+          "sha256": "e538bb6dd03d856a976717ff1e8fa4df18d1be51f54bf63dc0e22ab81b45497b",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/flecha-curva-izquierda.png",
+          "sha256": "3d8645b2753ae17108bf8c62c809a23f6c91fbac0d5155e72a8f1146fba2ae10",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "confirmado",
+      "title": "Confirmado",
+      "status": "borrador",
+      "source": "iconos/confirmado.svg",
+      "source_sha256": "d8a9b00e2cfd46fe2507c0381fd82571c0eb7f19e51a3a2d7a97243874487c35",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/confirmado.png",
+          "sha256": "871f04d7d2ab372c821e8f4523fd7465ddbbc31b0d711be91013d373d6fd328e",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/confirmado.png",
+          "sha256": "9a54a3ccdd690889e4e236f9a76b7e2622fbd43c076e4b1f977fed8ee138535a",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/confirmado.png",
+          "sha256": "781efd0ab1a7838cf7aa43a7a18bf6ba52d00068876f93eff054a7acaf1f77c2",
+          "width": 256,
+          "height": 256
+        }
+      }
+    },
+    {
+      "id": "atencion",
+      "title": "Atención",
+      "status": "borrador",
+      "source": "iconos/atencion.svg",
+      "source_sha256": "5f95d06024a41ae2db10c5bc75b6b70c3d6cc6a24dfed6cb6c8713d512153a27",
+      "png": {
+        "cafe_oscuro": {
+          "file": "../../exportaciones/video-v01/iconos/cafe_oscuro/atencion.png",
+          "sha256": "3f08490797db33a1450c801e6e6c54e8d5b3f2c892b8e648e2ad687a44cf31ed",
+          "width": 256,
+          "height": 256
+        },
+        "arena": {
+          "file": "../../exportaciones/video-v01/iconos/arena/atencion.png",
+          "sha256": "f3084676b97c3f4594ab08eb6d5dae08da839b65c7a68b9a62de5c9d0e554acf",
+          "width": 256,
+          "height": 256
+        },
+        "turquesa": {
+          "file": "../../exportaciones/video-v01/iconos/turquesa/atencion.png",
+          "sha256": "22b59028a77ebbf94adeea50c5e17204a77e695b9ea9cf41d6e5bf580ca6a085",
+          "width": 256,
+          "height": 256
+        }
+      }
+    }
+  ],
+  "components": [
+    {
+      "id": "lugar",
+      "title": "Dónde estamos",
+      "status": "borrador",
+      "source": "componentes/lugar.svg",
+      "source_sha256": "630b6be174297fd30f0b357ff5da83d7614aaaf0ae23c21c35ed015d12fcbf9e",
+      "preview": {
+        "file": "../../exportaciones/video-v01/componentes/lugar.png",
+        "sha256": "4f6e80138de66de1e3c89f45ac9c8d7f3410695876684fa6d8ef4f8f11b06f79",
+        "width": 1200,
+        "height": 240
+      },
+      "fields": [
+        "nombre",
+        "ciudad",
+        "categoria"
+      ],
+      "layers": [
+        "fondo",
+        "acento",
+        "icono",
+        "etiqueta",
+        "titulo",
+        "detalle",
+        "firma"
+      ],
+      "motion_preset": "deslizar",
+      "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente"
+    },
+    {
+      "id": "precio",
+      "title": "Precio con contexto",
+      "status": "borrador",
+      "source": "componentes/precio.svg",
+      "source_sha256": "c9fb8bcbef3288d815dbe2c02627bcd8305da7f5dd08ad42399555ccff981b2b",
+      "preview": {
+        "file": "../../exportaciones/video-v01/componentes/precio.png",
+        "sha256": "e448ee5856228d6c3d79c7740eb56f3a91ca1b63d42f05c5bb8a417a5f3f5049",
+        "width": 1200,
+        "height": 240
+      },
+      "fields": [
+        "importe",
+        "moneda",
+        "unidad",
+        "fecha",
+        "condiciones"
+      ],
+      "layers": [
+        "fondo",
+        "acento",
+        "icono",
+        "etiqueta",
+        "titulo",
+        "moneda",
+        "detalle",
+        "firma"
+      ],
+      "motion_preset": "enfatizar",
+      "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente"
+    },
+    {
+      "id": "consejo",
+      "title": "Un consejo útil",
+      "status": "borrador",
+      "source": "componentes/consejo.svg",
+      "source_sha256": "c265c70c1b86dcd28feec813596cc73b7153a85bdee7d056c36d44a689a3eda7",
+      "preview": {
+        "file": "../../exportaciones/video-v01/componentes/consejo.png",
+        "sha256": "bdab32fc8b8e1d3766eea4225015f63b0560458dee2bc72de1b3ba981c731376",
+        "width": 1200,
+        "height": 240
+      },
+      "fields": [
+        "titulo",
+        "detalle",
+        "icono"
+      ],
+      "layers": [
+        "fondo",
+        "acento",
+        "icono",
+        "etiqueta",
+        "titulo",
+        "detalle",
+        "firma"
+      ],
+      "motion_preset": "deslizar",
+      "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente"
+    },
+    {
+      "id": "opinion",
+      "title": "Nuestra opinión, con autor",
+      "status": "borrador",
+      "source": "componentes/opinion.svg",
+      "source_sha256": "ab394ac4276111f06261c576b9e7c1ebbe937ecd7008de802e438b32f9bc08a0",
+      "preview": {
+        "file": "../../exportaciones/video-v01/componentes/opinion.png",
+        "sha256": "869f65560a03570e95ee3531f1c39ec156e3c7ddefdb98aba092fe0dfb079821",
+        "width": 1200,
+        "height": 240
+      },
+      "fields": [
+        "autor",
+        "criterio",
+        "comentario",
+        "contexto",
+        "valoracion_opcional"
+      ],
+      "layers": [
+        "fondo",
+        "acento",
+        "icono",
+        "etiqueta",
+        "titulo",
+        "detalle",
+        "firma"
+      ],
+      "motion_preset": "aparecer",
+      "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente"
+    },
+    {
+      "id": "presentacion",
+      "title": "Dos personas, una historia",
+      "status": "borrador",
+      "source": "componentes/presentacion.svg",
+      "source_sha256": "99f9068a660578d85dbd25e8893075f14ec5664b5de8f93c71243202f477afa4",
+      "preview": {
+        "file": "../../exportaciones/video-v01/componentes/presentacion.png",
+        "sha256": "07bcff1935b86b145e7a364c7fa5e7e2dc11095eeb1a559d79c86ea3d55b9130",
+        "width": 1200,
+        "height": 240
+      },
+      "fields": [
+        "nombres",
+        "descripcion"
+      ],
+      "layers": [
+        "fondo",
+        "acento",
+        "etiqueta",
+        "titulo",
+        "detalle",
+        "firma"
+      ],
+      "motion_preset": "deslizar",
+      "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente"
+    },
+    {
+      "id": "cierre",
+      "title": "La conversación continúa",
+      "status": "borrador",
+      "source": "componentes/cierre.svg",
+      "source_sha256": "6144b8ff872723e7e6adc99b5a18feeb5b47d4e9c732d1d1b7bc9df522df8752",
+      "preview": {
+        "file": "../../exportaciones/video-v01/componentes/cierre.png",
+        "sha256": "cefe5400ce97af82f83f296c6878c6995e205ccbd32c07a4cc00e3a38600085e",
+        "width": 1200,
+        "height": 240
+      },
+      "fields": [
+        "mensaje",
+        "cuenta_opcional"
+      ],
+      "layers": [
+        "fondo",
+        "acento",
+        "etiqueta",
+        "titulo",
+        "detalle",
+        "firma"
+      ],
+      "motion_preset": "aparecer",
+      "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente"
+    }
+  ],
+  "board": {
+    "file": "../../exportaciones/video-v01/mesa-de-revision.png",
+    "sha256": "d1df34763931f5287c02c9885b27955a5e5d6d37b256aa865188a427c6d53d7a"
+  }
+}

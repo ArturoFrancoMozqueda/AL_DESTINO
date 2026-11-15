@@ -1,6 +1,6 @@
 {
   "status": "borrador",
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-11-14",
   "timezone": "America/Mexico_City",
   "source": "Respuestas de Arturo en esta conversación; sin entrevista separada de Liz",
   "brand": "AL DESTINO",
@@ -32,7 +32,16 @@
     "editor": "Liz",
     "experience": "inicial",
     "editing_software": null,
-    "episode_duration_minutes": null
+    "episode_duration_minutes": null,
+    "editing_direction": {
+      "status": "preferencia_declarada",
+      "declared_by": "Arturo",
+      "declared_at": "2026-11-14",
+      "feeling": "profesional y elegante",
+      "reference_url": "https://www.youtube.com/watch?v=vPsSfW0X_sI",
+      "scope": "referencia de edición adaptada a AL DESTINO; aplicaciones concretas en borrador",
+      "review_scope": "muestreo visual por puntos; sin escucha crítica ni medición de curvas o ritmo continuo"
+    }
   },
   "equipment_declared": [
     "micrófonos inalámbricos básicos",

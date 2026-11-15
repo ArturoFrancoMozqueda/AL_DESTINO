@@ -56,3 +56,11 @@ Fuentes del sistema: HTML, tokens JSON/CSS y composiciones HyperFrames. `guia-de
 Una salida puede producir video, Reel, carrusel e historias, sin prometer todas las piezas cada semana. Priorizar un video largo semanal dentro de ocho horas conjuntas iniciales, ajustando al esfuerzo real. Registrar lo observado y el consejo verificable. Los presupuestos y destinos siguen abiertos por consulta.
 
 Verificar con `python3 scripts/validar.py`. Exportar PNG con `scripts/exportar-design-system.cjs` y reconstruir el kit con `scripts/empaquetar-marca.py`. Guardar fuentes y exportaciones por separado; no cambiar BORRADOR a aprobado por haber publicado la guía.
+
+## Aplicaciones de video y uso por el agente · 14 de noviembre de 2026
+
+El apartado de video de `design-system.html` lleva a `video/v01/index.html`. Es una aplicación de esta misma identidad: reutiliza tokens, fuentes, logo y ambas animaciones existentes. Arturo pide acabado profesional y elegante; tipografía clara, espacio y acentos contenidos son propuestas de aplicación, no una aprobación de cada muestra. La voz sigue siendo natural y cercana.
+
+`recursos.json` es el índice común generado para el agente: IDs estables, rutas de fuentes/exportaciones, hashes y limitaciones. Vincula el material existente, sin mover originales ni crear otro logo. Los catálogos detallados conservan sus rutas. `video/v01/motion.json` contiene movimientos propuestos; las animaciones del logo en `motion/` sí tienen renders, pero su importación/reproducción en Clipo sigue pendiente de prueba. Usarlas como firma/cierre cuando aporten y conservar su duración/fps originales al importarlas.
+
+La skill de contenido trabaja concepto y voz; la de edición decide selección, montaje y colocación de recursos; Clipo/MCP aplica lo que sus capacidades permitan. La aprobación de una pieza, la prueba técnica y la autorización de publicar son hechos distintos y se registran por separado.

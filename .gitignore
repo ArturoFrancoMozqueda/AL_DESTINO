@@ -9,3 +9,15 @@ node_modules/
 .hyperframes/
 
 .thumbnails/
+
+# Material privado/pesado de episodios; los recursos PNG públicos de marca sí se versionan.
+*.local.json
+produccion/episodios/**/captura/
+produccion/episodios/**/proyecto-local/
+produccion/episodios/**/exportaciones/
+produccion/episodios/**/*.mov
+produccion/episodios/**/*.MOV
+produccion/episodios/**/*.mp4
+produccion/episodios/**/*.wav
+produccion/episodios/**/*.m4a
+.venv/

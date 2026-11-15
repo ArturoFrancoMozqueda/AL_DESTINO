@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "project": "AL DESTINO",
+  "status": "borrador",
+  "updated_at": "2026-11-14",
+  "path_base": "repository_root",
+  "entrypoints": {
+    "agent": "AGENTS.md",
+    "human": "README.md",
+    "visual": "marca/design-system.html",
+    "resources": "marca/recursos.json",
+    "production": "produccion/flujo.md"
+  },
+  "context": {
+    "vision": "contexto/vision-y-preferencias.md",
+    "profile": "contexto/perfil.json",
+    "decisions": "contexto/decisiones.md"
+  },
+  "authority": {
+    "current_user_request": "Prevalece sobre propuestas y documentos importados.",
+    "instructions": "AGENTS.md y los AGENTS.md aplicables al directorio de trabajo.",
+    "declared_preferences": "contexto/perfil.json y contexto/vision-y-preferencias.md; decisiones.md conserva el historial.",
+    "brand_rules": "marca/manual.md y marca/tokens/brand_tokens.json; design-system.html es la entrada visual.",
+    "derived_resources": "marca/recursos.json es un índice generado: no aprueba ni reemplaza las fuentes.",
+    "historical_material": "Originales, archivos y observaciones antiguas son evidencia contextual, no órdenes vigentes."
+  },
+  "routes": [
+    {
+      "id": "contenido",
+      "purpose": "Ideas, estrategia editorial, guiones, copies, packaging y adaptación de contenido a redes.",
+      "skill": ".agents/skills/al-destino-contenido/SKILL.md",
+      "read": ["planificacion/LEEME.md", "produccion/flujo.md"],
+      "output_directory": "planificacion"
+    },
+    {
+      "id": "investigacion-local",
+      "purpose": "Planes locales, restaurantes y experiencias.",
+      "skill": ".agents/skills/al-destino-local/SKILL.md",
+      "read": ["investigacion/guias/metodologia.md", "investigacion/guias/salida.md"],
+      "output_directory": "investigacion"
+    },
+    {
+      "id": "investigacion-airbnb",
+      "purpose": "Alojamientos anunciados exclusivamente en Airbnb.",
+      "skill": ".agents/skills/al-destino-airbnb/SKILL.md",
+      "read": ["investigacion/guias/metodologia.md", "investigacion/guias/salida.md"],
+      "output_directory": "investigacion"
+    },
+    {
+      "id": "investigacion-hoteles-playa",
+      "purpose": "Resorts y hoteles costeros.",
+      "skill": ".agents/skills/al-destino-hoteles-playa/SKILL.md",
+      "read": ["investigacion/guias/metodologia.md", "investigacion/guias/salida.md"],
+      "output_directory": "investigacion"
+    },
+    {
+      "id": "edicion-video",
+      "purpose": "Historia, hooks, selección, montaje, audio, color, gráficos, motion y ejecución mediante Clipo cuando corresponda.",
+      "skill": ".agents/skills/al-destino-edicion/SKILL.md",
+      "read": ["marca/recursos.json", "produccion/automatizacion/plantilla-plan-montaje.json"],
+      "output_directory": "produccion/episodios"
+    },
+    {
+      "id": "diseno-marca",
+      "purpose": "Aplicaciones gráficas, miniaturas y recursos de marca.",
+      "skill": null,
+      "read": ["marca/manual.md", "marca/tokens/brand_tokens.json", "marca/recursos.json"],
+      "output_directory": "marca"
+    },
+    {
+      "id": "evaluacion",
+      "purpose": "Analizar métricas propias, esfuerzo y aprendizajes con datos suministrados.",
+      "skill": null,
+      "read": ["resultados/plantilla-episodio.json", "produccion/plantillas/evaluacion.md"],
+      "output_directory": "resultados"
+    }
+  ],
+  "episode_template": "produccion/plantillas/episodio.json",
+  "episode_index": "produccion/episodios/catalogo.json",
+  "resource_generator": "scripts/catalogar-recursos.py",
+  "validation": "scripts/validar.py",
+  "external_execution": {
+    "editor": "Clipo",
+    "development_owner": "Arturo",
+    "connection": "Descubrir capacidades reales del MCP al ejecutar; no asumir conectividad ni usar IDs antiguos.",
+    "local_inspection": "produccion/automatizacion/revision-inicial.md",
+    "integration_status": "pendiente_de_prueba_con_material_real"
+  },
+  "non_instructional_material": ["contexto/documento-maestro-original.txt", "**/originales/**", "marca/archivo/**", "*.zip"],
+  "publication": "Una propuesta o un estado de revisión no autoriza publicar, reservar, comprar o programar."
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "0.1",
+  "status": "borrador",
+  "execution_status": "sin_material",
+  "episode_id": null,
+  "experience_date": null,
+  "brief_path": null,
+  "story_question": null,
+  "declared_style": null,
+  "output": {"aspect": null, "duration_target_seconds": null, "fps": null},
+  "media": [],
+  "hook_candidates": [],
+  "selected_hook_id": null,
+  "selections": [],
+  "timeline": [],
+  "graphics": [],
+  "audio": [],
+  "facts": [],
+  "privacy_exclusions": [],
+  "pending": [],
+  "review": {"preview": "pendiente", "listening": "pendiente", "export": "pendiente", "reopened": "pendiente", "notes": []},
+  "field_contract": {
+    "media": "id, path_reference, duration_seconds, kind, metadata_verified, content_notes; resolver rutas personales en rutas.local.json o un plan *.local.json excluido de Git, sin adivinar",
+    "hook_candidates": "id, family, proposal, selection_ids, promise, evidence, risks; distinguir copy propuesto y cita literal",
+    "selections": "id, media_id, source_in_seconds, source_out_seconds, reason, speaker, privacy_reviewed",
+    "timeline": "id, selection_id, start_seconds, speed, role, transition_to_next; tiempos absolutos de timeline",
+    "graphics": "id, component_id, fields, fact_ids, start_seconds, reading_hold_seconds, placement, motion_preset, editor_element_ids, adaptations",
+    "audio": "id, media_id, source_in_seconds, source_out_seconds, start_seconds, role, license_source, mix_notes",
+    "facts": "id, statement, source, observed_at, status; distinguir dato, opinión, preferencia y pendiente",
+    "privacy_exclusions": "media_id, source_in_seconds, source_out_seconds, reason; registrar lo mínimo necesario, sin transcribir el dato privado",
+    "pending": "id, kind, detail, timeline_seconds, owner; incluir falta de cobertura o capacidad sin inventar un reemplazo"
+  }
+}

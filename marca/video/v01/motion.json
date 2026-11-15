@@ -1,0 +1,128 @@
+{
+  "version": "0.1",
+  "status": "borrador",
+  "date": "2026-11-14",
+  "implementation": "especificacion_sin_render",
+  "units": {
+    "time": "milliseconds",
+    "offset": "local pixels at 1920x1080",
+    "scale": "multiplier",
+    "opacity": "0..1"
+  },
+  "hold": "reading_hold_ms from episode; duration=entry_ms+reading_hold_ms+exit_ms; exit.t_ms relative to beginning of exit",
+  "easing_intent": {
+    "entry": "ease-out",
+    "exit": "ease-in"
+  },
+  "editor_mapping": "pendiente_de_capacidades_reales",
+  "presets": [
+    {
+      "id": "aparecer",
+      "entry_ms": 180,
+      "exit_ms": 140,
+      "entry": [
+        {
+          "t_ms": 0,
+          "opacity": 0
+        },
+        {
+          "t_ms": 180,
+          "opacity": 1
+        }
+      ],
+      "exit": [
+        {
+          "t_ms": 0,
+          "opacity": 1
+        },
+        {
+          "t_ms": 140,
+          "opacity": 0
+        }
+      ]
+    },
+    {
+      "id": "deslizar",
+      "entry_ms": 240,
+      "exit_ms": 160,
+      "entry": [
+        {
+          "t_ms": 0,
+          "opacity": 0,
+          "offset_x_px": -24
+        },
+        {
+          "t_ms": 240,
+          "opacity": 1,
+          "offset_x_px": 0
+        }
+      ],
+      "exit": [
+        {
+          "t_ms": 0,
+          "opacity": 1,
+          "offset_x_px": 0
+        },
+        {
+          "t_ms": 160,
+          "opacity": 0,
+          "offset_x_px": -12
+        }
+      ]
+    },
+    {
+      "id": "enfatizar",
+      "entry_ms": 220,
+      "exit_ms": 140,
+      "entry": [
+        {
+          "t_ms": 0,
+          "opacity": 0,
+          "scale": 0.96
+        },
+        {
+          "t_ms": 220,
+          "opacity": 1,
+          "scale": 1
+        }
+      ],
+      "exit": [
+        {
+          "t_ms": 0,
+          "opacity": 1
+        },
+        {
+          "t_ms": 140,
+          "opacity": 0
+        }
+      ]
+    },
+    {
+      "id": "trazar",
+      "entry_ms": 360,
+      "exit_ms": 140,
+      "requires": "stroke_reveal",
+      "fallback": "aparecer",
+      "entry": [
+        {
+          "t_ms": 0,
+          "stroke_progress": 0
+        },
+        {
+          "t_ms": 360,
+          "stroke_progress": 1
+        }
+      ],
+      "exit": [
+        {
+          "t_ms": 0,
+          "opacity": 1
+        },
+        {
+          "t_ms": 140,
+          "opacity": 0
+        }
+      ]
+    }
+  ]
+}

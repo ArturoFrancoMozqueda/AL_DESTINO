@@ -1,0 +1,6 @@
+interface:
+  display_name: "AL DESTINO · Contenido"
+  short_description: "Ideas, guiones, copies y packaging con nuestra voz"
+  default_prompt: "Usa $al-destino-contenido para transformar esta idea o experiencia en contenido con la voz y los recursos de AL DESTINO."
+policy:
+  allow_implicit_invocation: true

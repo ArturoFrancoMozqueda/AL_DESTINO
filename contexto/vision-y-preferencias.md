@@ -37,3 +37,9 @@ La cartera será de 90 días y el detalle operativo de cuatro semanas. Las recom
 ## Feeling de redes confirmado · 12 de octubre de 2026
 
 Arturo señala @elmundoenpareja_ y confirma las tres prioridades: pareja y momentos reales en lugares bonitos; tomas de viajes, hoteles y paisajes; cercanía y consejos al contar la experiencia. Ver `../marca/direccion-editorial-redes.md` para observaciones parciales y aplicación propuesta. No asumir equivalencia con el referente anterior «Un Mundo en Pareja».
+
+## Edición y organización del proyecto · 14 de noviembre de 2026
+
+Arturo desarrolla Clipo y su MCP; aquí se construye el paquete editorial y visual que los utilizará para preparar montajes editables. Pide un acabado profesional y elegante, con el video de Hard Rock Vallarta de El Mundo en Pareja como referencia de edición. La inspección visual es parcial; audio, ritmo continuo y curvas no están medidos. No cambia la voz natural de Arturo y Liz ni aprueba todavía los recursos o presets propuestos.
+
+Arturo solicita consolidar el repo para el agente de contenido: una entrada visual, recursos compartidos, skills por tarea y decisiones conservadas. Las grabaciones y pruebas con material real siguen pendientes; organizar el proyecto no convierte oportunidades anteriores en experiencias realizadas.

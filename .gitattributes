@@ -1,0 +1,10 @@
+# Estos archivos se verifican por SHA-256. Conservar bytes entre Windows y Linux.
+marca/assets/** -text
+marca/motion/** -text
+marca/video/** -text
+marca/exportaciones/** -text
+
+# Los originales importados no se normalizan ni se reescriben al hacer checkout.
+**/originales/** -text
+contexto/documento-maestro-original.txt -text
+*.zip -text

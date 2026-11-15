@@ -11,4 +11,4 @@ ID / archivo / plataforma / fecha propuesta:
 - [ ] Archivo exportado correcto y proyecto respaldado.
 - [ ] Publicación solicitada expresamente; este checklist no la ejecuta.
 
-Registrar URL y fecha efectiva sólo después de publicar. Programar evaluación manual a 7 y 28 días.
+Registrar URL y fecha efectiva sólo después de publicar. Proponer revisión de resultados a 7 y 28 días; crear recordatorios o automatizaciones únicamente cuando se soliciten.

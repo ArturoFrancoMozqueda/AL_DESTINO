@@ -25,7 +25,7 @@ Guadalajara aparece en ideas antiguas; la base vigente declarada es Morelia. El 
 
 ## Pendientes
 
-Editor de video; presupuesto por salida; fechas y ocupación; identidades oficiales de hoteles y referentes; cuentas del canal; datos separados de Liz; fotos propias para sustituir placeholders; revisión visual del vector; comprobación en interfaces reales antes de publicar.
+Editor definitivo y prueba real de Clipo/MCP; presupuesto por salida; fechas y ocupación; identidades oficiales de hoteles y referentes pendientes; cuentas del canal; datos separados de Liz; fotos propias para sustituir placeholders; revisión visual de la extracción PNG A/L y bordes (sin vector maestro nuevo); comprobación en interfaces reales antes de publicar.
 
 Para registrar nuevas decisiones: ID, fecha, quién respondió, texto concreto, estado y documento afectado. Actualizar `perfil.json` sin borrar el historial.
 
@@ -91,3 +91,19 @@ Arturo confirma que desea integrar pareja/momentos reales, fotografía de lugare
 ## 12 de octubre de 2026 · Marca integral v0.6
 
 Arturo solicita actualizar toda la marca y los colores con el feeling confirmado. Propuesta: paleta gráfica natural, fotografía y pareja protagonistas, tipografía sans principal y serif puntual. Se conservan el logo original y ambas animaciones. Los HEX nuevos son propuestas de diseño, no códigos dictados por Arturo. BORRADOR.
+
+## 14 de noviembre de 2026 · Exploración de montaje automatizado
+
+ID: D-AUTO-01. Fuente: petición de Arturo en esta conversación. Estado: alcance solicitado, sin aprobación de implementación. Arturo pide explorar un sistema de primer montaje editable desde grabaciones y datos reales, para que Arturo y Liz lo revisen y terminen. Primera entrega: inventario de recursos y skills, capacidades reales de Clipo y comparación de importación/API/MCP; después brainstorming y pruebas pequeñas. Clipo se evalúa como candidato, sin elegir todavía una integración ni aprobar un paquete de skill. La referencia de YouTube y los hallazgos visuales aportados son provisionales, sin análisis audiovisual exhaustivo. Documento afectado: [revisión inicial](../produccion/automatizacion/revision-inicial.md). No cambia aún el editor pendiente del perfil ni el estado BORRADOR de marca.
+
+## 14 de noviembre de 2026 · Corrección de alcance del paquete de edición
+
+ID: D-AUTO-02. Fuente: corrección expresa de Arturo en esta conversación. Estado: alcance solicitado. Arturo se encarga de desarrollar Clipo y su MCP. Este proyecto debe crear el paquete de skill editorial y visual: iconos, estructura de historia, hooks, criterios de montaje, transiciones y animaciones. La skill utilizará después el MCP para editar según lo definido juntos. La infraestructura de Clipo deja de ser la tarea principal aquí; no se pospone el diseño del paquete a que exista una integración terminada. Se autoriza elaborar borradores concretos para brainstorming y pruebas; no equivale a aprobar un estilo, duración, icono o preset. Afecta a `.agents/skills/al-destino-edicion/`, `marca/video/v01/` y producción/automatización. D-AUTO-01 queda como antecedente de la revisión inicial.
+
+## 14 de noviembre de 2026 · Referencia y acabado del paquete
+
+ID: D-AUTO-03. Fuente: respuesta de Arturo a la pregunta de ritmo y aclaración posterior. Estado: preferencia declarada. Arturo pide algo al estilo de https://www.youtube.com/watch?v=vPsSfW0X_sI y precisa: «Tiene que verse profesional elegante». Se toma el video como referencia de edición y la elegancia profesional como dirección del paquete, adaptándolo a la identidad propia. No se aprueban con ello las muestras, bandas de color, tiempos, iconos o presets. La inspección nueva fue visual y parcial; audio, ritmo continuo y curvas siguen pendientes. Afecta a [referencia editorial](../.agents/skills/al-destino-edicion/references/referencia-video.md), perfil y kit visual.
+
+## 14 de noviembre de 2026 · Consolidación del repositorio para el agente
+
+ID: D-REPO-01. Fuente: petición expresa de Arturo de aplicar buenas prácticas para usar el repo con el agente de creación de contenido, videos y trabajo de AL DESTINO. Estado: alcance solicitado. Se unifican entradas, rutas de tarea, índice común de recursos, flujo por episodio y comprobaciones; se mantienen las fuentes, originales e historial. El design system es la entrada visual y su módulo de video aplica esa identidad. No autoriza publicar nuevos cambios ni cambia la aprobación de los recursos o la responsabilidad de Arturo sobre Clipo/MCP. Documentos afectados: AGENTS.md, README.md, proyecto.json, flujo, skills, índice y guías de marca. El registro de organización conserva las rutas históricas.

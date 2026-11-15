@@ -2,6 +2,8 @@
 
 La entrada vigente es [design-system.html](design-system.html). El [manual](manual.md) y los [tokens JSON](tokens/brand_tokens.json) describen la misma versión v0.6.
 
+El [índice común](recursos.json) es la entrada de recursos para el agente. Une los catálogos existentes con IDs estables, fuentes y exportaciones. Se reconstruye con `scripts/catalogar-recursos.py` desde la raíz del repo. No se mantienen copias de los logos/animaciones dentro del módulo de video.
+
 | Material | Ubicación y uso |
 |---|---|
 | Fuentes de identidad | `assets/fuentes/` y `assets/logos/`; conservar las licencias y el original |
@@ -12,6 +14,7 @@ La entrada vigente es [design-system.html](design-system.html). El [manual](manu
 | Control visual | `previews/`: capturas de escritorio y móvil del sistema vigente |
 | Fuentes heredadas | `originales/`: no modificar ni interpretar “aprobado” como decisión actual |
 | Revisiones anteriores | [Archivo histórico](archivo/LEEME.md); no usar automáticamente como identidad vigente |
+| Paquete gráfico de edición v0.1 | [Mesa de revisión](video/v01/index.html), [catálogo](video/v01/catalogo.json) y [motion propuesto](video/v01/motion.json); PNG en `exportaciones/video-v01/`. Recursos nuevos, separados de los 72 PNG de marca. |
 
 Las piezas del logo son PNG extraídos de los píxeles visibles del raster original. No constituyen un vector maestro. Se conservan aparte el original con fondo claro y la propuesta con transparencia. El límite entre A/L en el pie compartido y la compensación del matte son decisiones de extracción documentadas en `assets/logos/piezas/catalogo.json`; no se han reconstruido partes ocultas por la ola.
 

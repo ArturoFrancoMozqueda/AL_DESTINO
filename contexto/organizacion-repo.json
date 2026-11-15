@@ -252,5 +252,23 @@
       "from": "scripts/exportar-previews-v02.cjs",
       "to": "scripts/archivo/exportar-previews-v02.cjs"
     }
+  ],
+  "consolidations": [
+    {
+      "date": "2026-11-14",
+      "source": "Solicitud expresa de Arturo en esta conversación",
+      "status": "borrador",
+      "reason": "Entradas, recursos y flujo compartidos para el agente de AL DESTINO",
+      "moves": [],
+      "preserved_originals": true,
+      "entrypoints": [
+        "AGENTS.md",
+        "README.md",
+        "proyecto.json",
+        "marca/design-system.html"
+      ],
+      "resource_registry": "marca/recursos.json",
+      "validation": "scripts/validar.py"
+    }
   ]
 }
