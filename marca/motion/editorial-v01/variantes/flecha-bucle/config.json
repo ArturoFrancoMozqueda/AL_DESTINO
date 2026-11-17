@@ -1,0 +1,9 @@
+{
+  "id": "flecha-bucle",
+  "slug": "flecha-bucle",
+  "title": "Flecha con bucle",
+  "kind": "flecha",
+  "duration": 4,
+  "shape": "bucle",
+  "is_mockup": false
+}

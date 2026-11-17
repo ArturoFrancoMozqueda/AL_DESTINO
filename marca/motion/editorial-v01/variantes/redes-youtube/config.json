@@ -1,0 +1,12 @@
+{
+  "id": "redes.youtube",
+  "slug": "redes-youtube",
+  "title": "Youtube",
+  "kind": "redes",
+  "duration": 6,
+  "platform": "youtube",
+  "account": "[cuenta por confirmar]",
+  "invitation": "Síguenos en",
+  "confirmed": false,
+  "is_mockup": true
+}

@@ -1,13 +1,15 @@
-# Gráficos, transiciones y movimiento · v0.5 · BORRADOR
+# Gráficos, transiciones y movimiento · v0.6 · BORRADOR
 
 Fuente visual: `marca/manual.md` y tokens v0.6. Para el acabado editorial, consultar `marca/video/v04/catalogo.json`: likes, pin de ubicación, corazón y firma con el logo original; PNG en `marca/exportaciones/video-v04/`. V03 conserva ilustraciones opcionales de alimentos, fuera del kit editorial; V02 es antecedente con papel descartado. El índice `marca/recursos.json` enlaza fuentes y exportaciones.
+
+Para rótulos animados de lugares/redes, capturas reales de Google Maps/Instagram y flechas, aplicar [rótulos, redes y mapas](rotulos-mapas.md) y consultar el paquete `marca/motion/editorial-v01/`. Esta ampliación convive con el kit v04 y las firmas existentes; los renders con datos de muestra siguen siendo mockups. La presentación de capturas se resuelve según esa referencia, sin asumir que existe una plantilla específica ya renderizada.
 
 Dirección vigente: profesional y elegante, con fotografía protagonista, jerarquía tipográfica, espacio y acentos medidos. La referencia anterior de [edición](referencia-video.md) se conserva; la preferencia posterior por gráficos sin fondo sustituye la propuesta de placas para estos insertos. Plus Jakarta Sans sigue llevando los datos. Forma, tamaño y timing concretos se comprueban sobre el material y conservan su revisión propia.
 
 ## Preparar el acabado gráfico antes del montaje
 
 
-El acabado se centra en iconos editoriales y firma: likes, ubicación y logo. Una petición de esos elementos no se resuelve creando ilustraciones de comida u objetos de la escena. Preparar primero la familia funcional necesaria y probarla sobre metraje; usar ilustraciones sólo si una necesidad editorial concreta las justifica.
+El acabado se centra en recursos editoriales: likes, ubicación, firma, identificación de lugares/cuentas y señalamiento cuando aporten. Una petición de esos elementos no se resuelve creando ilustraciones de comida u objetos de la escena. Preparar primero la familia funcional necesaria y probarla sobre metraje; usar ilustraciones sólo si una necesidad editorial concreta las justifica.
 
 | Función | Recurso y criterio |
 |---|---|
@@ -51,7 +53,7 @@ Un gráfico debe localizar, explicar, atribuir o comparar. Mostrar el mínimo ne
 | `presentacion` | Arturo, Liz, descripción opcional | Primer contexto/conversación; no ocupa la apertura entera. |
 | `cierre` | pregunta o mensaje, cuenta opcional | Cierre de la historia; cuenta/URL sólo confirmada. Reutilizar el logo existente si aporta. |
 
-Los SVG de componentes son muestras con capas identificadas y textos de ejemplo editables en su fuente. Los PNG son referencias visuales aplanadas; Clipo debe colocar texto, fondo e icono por separado cuando sus herramientas lo permitan. Mapas/rutas, QR y rótulos de plataforma se diseñarán cuando tengamos el contenido concreto. `redes` es un icono genérico de cámara; no es el logo oficial de Instagram.
+Los SVG de componentes v01 son muestras con capas identificadas y textos de ejemplo editables en su fuente. Sus PNG son referencias visuales aplanadas, no el acabado vigente que haya que colocar. El paquete editorial animado aporta fuentes configurables de lugares, redes y mapa; personalizarlo con datos reales según `rotulos-mapas.md`. Los QR y las rutas concretas requieren su destino verificado. `redes` de v01 sigue siendo un icono genérico de cámara, distinto del símbolo de plataforma del paquete nuevo.
 
 ## Posición y lectura
 

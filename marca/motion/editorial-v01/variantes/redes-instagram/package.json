@@ -1,0 +1,8 @@
+{
+  "name": "al-destino-redes-instagram",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "hyperframes": "0.9.59"
+  }
+}

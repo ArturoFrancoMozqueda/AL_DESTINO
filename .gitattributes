@@ -8,6 +8,7 @@ marca/exportaciones/** -text
 marca/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 # Dependencia vendorizada: conservar el archivo de distribución intacto.
 marca/motion/logo-al-destino/premium/assets/gsap.min.js -whitespace
+marca/motion/editorial-v01/variantes/*/assets/gsap.min.js -whitespace
 
 # Los originales importados no se normalizan ni se reescriben al hacer checkout.
 **/originales/** -text

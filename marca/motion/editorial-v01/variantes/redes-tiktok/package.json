@@ -1,0 +1,8 @@
+{
+  "name": "al-destino-redes-tiktok",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "hyperframes": "0.9.59"
+  }
+}

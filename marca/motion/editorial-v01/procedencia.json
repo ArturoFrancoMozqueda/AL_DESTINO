@@ -1,0 +1,44 @@
+{
+  "status": "borrador",
+  "sources": [
+    {
+      "id": "instagram",
+      "file": "assets/social/instagram.svg",
+      "source_url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/instagram.svg",
+      "provider": "Simple Icons (trazados de plataforma; no dibujo propio)",
+      "sha256": "f53af2d1fc5292ba1433b5c1faf50005ce6a997fa302d1816989929f379a59dc",
+      "license": "CC0-1.0 de la biblioteca; las marcas conservan derechos de sus titulares",
+      "retrieved_at": "2026-11-16"
+    },
+    {
+      "id": "youtube",
+      "file": "assets/social/youtube.svg",
+      "source_url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/youtube.svg",
+      "provider": "Simple Icons (trazados de plataforma; no dibujo propio)",
+      "sha256": "5038808acbbc4e6edda16cbeb1cc6dec80e4e4ee4e227e039c41229fa222aa8c",
+      "license": "CC0-1.0 de la biblioteca; las marcas conservan derechos de sus titulares",
+      "retrieved_at": "2026-11-16"
+    },
+    {
+      "id": "tiktok",
+      "file": "assets/social/tiktok.svg",
+      "source_url": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/tiktok.svg",
+      "provider": "Simple Icons (trazados de plataforma; no dibujo propio)",
+      "sha256": "6f54ac8d325faacea8935bdc44cbed60206a6b408641799e5fea1cba7c1a0af7",
+      "license": "CC0-1.0 de la biblioteca; las marcas conservan derechos de sus titulares",
+      "retrieved_at": "2026-11-16"
+    }
+  ],
+  "reuse": [
+    {
+      "id": "video.editorial.ubicacion",
+      "source": "../../video/v04/ubicacion.svg"
+    },
+    {
+      "id": "video.editorial.like",
+      "source": "../../video/v04/like.svg"
+    }
+  ],
+  "brand_policy": "Logo actual no modificado. No se incluyen fotogramas propios ni copias del referente.",
+  "mockups": "Cuentas y lugares en demostracion no confirmados. Mapa es esquema ilustrativo sin geografia real."
+}

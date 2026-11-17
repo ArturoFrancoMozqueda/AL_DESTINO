@@ -1,0 +1,12 @@
+{
+  "id": "redes.instagram",
+  "slug": "redes-instagram",
+  "title": "Instagram",
+  "kind": "redes",
+  "duration": 6,
+  "platform": "instagram",
+  "account": "[cuenta por confirmar]",
+  "invitation": "Síguenos en",
+  "confirmed": false,
+  "is_mockup": true
+}

@@ -1,0 +1,953 @@
+{
+  "brand": "AL DESTINO",
+  "version": "1.0",
+  "status": "borrador",
+  "generator": "scripts/generar-editorial-premium.cjs",
+  "renderer": "scripts/renderizar-editorial-premium.cjs",
+  "framework": "HyperFrames",
+  "framework_version": "0.9.59",
+  "audio": false,
+  "items": [
+    {
+      "id": "redes.instagram",
+      "slug": "redes-instagram",
+      "title": "Instagram",
+      "kind": "redes",
+      "composition_file": "variantes/redes-instagram/index.html",
+      "config_file": "variantes/redes-instagram/config.json",
+      "is_mockup": true,
+      "fields": [
+        "platform",
+        "account",
+        "account_url",
+        "invitation",
+        "confirmed"
+      ],
+      "duration_seconds": 6,
+      "fps": 30,
+      "size_px": [
+        1920,
+        1080
+      ],
+      "source_files": [
+        {
+          "file": "variantes/redes-instagram/index.html",
+          "sha256": "278cd84bc5772c7746938088ee5b85ff0f8a094aeb92a97ed1fba309b142878c",
+          "role": "editable_composition"
+        },
+        {
+          "file": "variantes/redes-instagram/config.json",
+          "sha256": "3321750119ed5c5c72afc7de4b1c9c1140f1c7e5151f120fb0ad3fd931fa4e85",
+          "role": "configuration"
+        },
+        {
+          "file": "variantes/redes-instagram/assets/fonts/PlusJakartaSans.ttf",
+          "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8",
+          "role": "font"
+        },
+        {
+          "file": "variantes/redes-instagram/assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+          "role": "animation_runtime"
+        },
+        {
+          "file": "assets/social/instagram.svg",
+          "sha256": "f53af2d1fc5292ba1433b5c1faf50005ce6a997fa302d1816989929f379a59dc",
+          "role": "platform_symbol"
+        }
+      ],
+      "provenance_file": "procedencia.json",
+      "exports": {
+        "webm": {
+          "file": "../../exportaciones/editorial-v01/redes-instagram.webm",
+          "sha256": "c8351a88b20d47254a2438c16ac1b69d917cbc98e53846634b4974a8ed353420",
+          "width": 1920,
+          "height": 1080
+        },
+        "apng": {
+          "file": "../../exportaciones/editorial-v01/redes-instagram.png",
+          "sha256": "162f8441b02415cc50f9b2efb218e17d8b84dbe12139b797fb5d47f92043353c",
+          "width": 1920,
+          "height": 1080
+        },
+        "poster": {
+          "file": "../../exportaciones/editorial-v01/redes-instagram-poster.png",
+          "sha256": "6058251eee00e62adf43635987f3ba786a2cdf2757945445834c42c6b56231a3",
+          "width": 1920,
+          "height": 1080
+        },
+        "icon_png": {
+          "file": "../../exportaciones/editorial-v01/redes-instagram-simbolo.png",
+          "sha256": "225fa040b1687f7dc97c69838b6e4c56e4637860b7a049ce7416af99e9dcf197",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "compatibility": "pendiente_de_prueba_en_clipo",
+      "checks": {
+        "hyperframes_ok": true,
+        "hyperframes_version": "0.9.59",
+        "lint_errors": 0,
+        "runtime_errors": 0,
+        "layout_errors": 0,
+        "motion_errors": 0,
+        "contrast_checks": 0,
+        "accepted_warnings": [
+          {
+            "code": "first_frame_empty",
+            "reason": "Entrada y salida transparentes de overlay; poster separado."
+          }
+        ],
+        "frame_count": 180,
+        "webm_alpha_decoded": true,
+        "alpha_first_frame_max": 0,
+        "alpha_last_frame_max": 0,
+        "duration_verified_seconds": 6,
+        "fps_verified": "30/1",
+        "apng_frames": 180,
+        "visual_review": "muestras_de_entrada_lectura_salida",
+        "audio": false,
+        "compatibility": "pendiente_de_prueba_en_clipo",
+        "render_source_fingerprint": "708107e014e85b63b72c0e0aca8e767df68ae8d48594288f7c27d73f39a816ad",
+        "visual_proof_times": [
+          0.2,
+          0.55,
+          1.5,
+          5.8
+        ],
+        "reading_hold_stable": true,
+        "validation_pending": false,
+        "validation_fingerprint": "4ed1f44ab59941a5fd0ec8a3428b494082f26e6539714608bf7bb80e50d37522"
+      },
+      "validation_files": [
+        {
+          "file": "variantes/redes-instagram/index.motion.json",
+          "sha256": "4d12b4c6f887f0444d3e18558ca07bcbb0567595b7689229343a0dac946f4449",
+          "role": "motion_assertions"
+        }
+      ],
+      "source_fingerprint": "708107e014e85b63b72c0e0aca8e767df68ae8d48594288f7c27d73f39a816ad",
+      "validation_fingerprint": "4ed1f44ab59941a5fd0ec8a3428b494082f26e6539714608bf7bb80e50d37522",
+      "render_status": "render_verificado",
+      "validation_status": "verificado"
+    },
+    {
+      "id": "redes.youtube",
+      "slug": "redes-youtube",
+      "title": "Youtube",
+      "kind": "redes",
+      "composition_file": "variantes/redes-youtube/index.html",
+      "config_file": "variantes/redes-youtube/config.json",
+      "is_mockup": true,
+      "fields": [
+        "platform",
+        "account",
+        "account_url",
+        "invitation",
+        "confirmed"
+      ],
+      "duration_seconds": 6,
+      "fps": 30,
+      "size_px": [
+        1920,
+        1080
+      ],
+      "source_files": [
+        {
+          "file": "variantes/redes-youtube/index.html",
+          "sha256": "a2f7f352499d9ce301a09317362cc98f89f1ca17dbe917e1ec40cef52c7e5d11",
+          "role": "editable_composition"
+        },
+        {
+          "file": "variantes/redes-youtube/config.json",
+          "sha256": "18cb0da9a3ebaee88e94c9ebcfa3c7729a4be685ec47580372bc7e8a3d73f788",
+          "role": "configuration"
+        },
+        {
+          "file": "variantes/redes-youtube/assets/fonts/PlusJakartaSans.ttf",
+          "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8",
+          "role": "font"
+        },
+        {
+          "file": "variantes/redes-youtube/assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+          "role": "animation_runtime"
+        },
+        {
+          "file": "assets/social/youtube.svg",
+          "sha256": "5038808acbbc4e6edda16cbeb1cc6dec80e4e4ee4e227e039c41229fa222aa8c",
+          "role": "platform_symbol"
+        }
+      ],
+      "provenance_file": "procedencia.json",
+      "exports": {
+        "webm": {
+          "file": "../../exportaciones/editorial-v01/redes-youtube.webm",
+          "sha256": "f0b438b3bca4a6ebe83ada922e6ed0c5de28e1c18553d5d37a249f48876917d5",
+          "width": 1920,
+          "height": 1080
+        },
+        "apng": {
+          "file": "../../exportaciones/editorial-v01/redes-youtube.png",
+          "sha256": "0ebd63a0119469df02a71b8977e8f6df3e04ba71a6c4baac383612cc5434a333",
+          "width": 1920,
+          "height": 1080
+        },
+        "poster": {
+          "file": "../../exportaciones/editorial-v01/redes-youtube-poster.png",
+          "sha256": "80aa93c5e808c5338d855e139469d30cee9264c97f2f19de47e071db0598d192",
+          "width": 1920,
+          "height": 1080
+        },
+        "icon_png": {
+          "file": "../../exportaciones/editorial-v01/redes-youtube-simbolo.png",
+          "sha256": "5c09ca087d7b4ecb8dcacdeae29a1f1e0d6d364810d08475141d3de5f5772a6b",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "compatibility": "pendiente_de_prueba_en_clipo",
+      "checks": {
+        "hyperframes_ok": true,
+        "hyperframes_version": "0.9.59",
+        "lint_errors": 0,
+        "runtime_errors": 0,
+        "layout_errors": 0,
+        "motion_errors": 0,
+        "contrast_checks": 0,
+        "accepted_warnings": [
+          {
+            "code": "first_frame_empty",
+            "reason": "Entrada y salida transparentes de overlay; poster separado."
+          }
+        ],
+        "frame_count": 180,
+        "webm_alpha_decoded": true,
+        "alpha_first_frame_max": 0,
+        "alpha_last_frame_max": 0,
+        "duration_verified_seconds": 6,
+        "fps_verified": "30/1",
+        "apng_frames": 180,
+        "visual_review": "muestras_de_entrada_lectura_salida",
+        "audio": false,
+        "compatibility": "pendiente_de_prueba_en_clipo",
+        "render_source_fingerprint": "95468ee0652ec93c2176b4157078cc9ea0f5abe6675d7be93784d969f1534fa1",
+        "visual_proof_times": [
+          0.2,
+          0.55,
+          1.5,
+          5.8
+        ],
+        "reading_hold_stable": true,
+        "validation_pending": false,
+        "validation_fingerprint": "a8ed5814f9f2df3d29f67d31f8b97b0b697a309f712d87580d42cec538a5cbd2"
+      },
+      "validation_files": [
+        {
+          "file": "variantes/redes-youtube/index.motion.json",
+          "sha256": "4d12b4c6f887f0444d3e18558ca07bcbb0567595b7689229343a0dac946f4449",
+          "role": "motion_assertions"
+        }
+      ],
+      "source_fingerprint": "95468ee0652ec93c2176b4157078cc9ea0f5abe6675d7be93784d969f1534fa1",
+      "validation_fingerprint": "a8ed5814f9f2df3d29f67d31f8b97b0b697a309f712d87580d42cec538a5cbd2",
+      "render_status": "render_verificado",
+      "validation_status": "verificado"
+    },
+    {
+      "id": "redes.tiktok",
+      "slug": "redes-tiktok",
+      "title": "Tiktok",
+      "kind": "redes",
+      "composition_file": "variantes/redes-tiktok/index.html",
+      "config_file": "variantes/redes-tiktok/config.json",
+      "is_mockup": true,
+      "fields": [
+        "platform",
+        "account",
+        "account_url",
+        "invitation",
+        "confirmed"
+      ],
+      "duration_seconds": 6,
+      "fps": 30,
+      "size_px": [
+        1920,
+        1080
+      ],
+      "source_files": [
+        {
+          "file": "variantes/redes-tiktok/index.html",
+          "sha256": "8816713fbcd96958b34d3ae01c9d981e3c1ef2f081ad3e70d6c24e9ad5d887a5",
+          "role": "editable_composition"
+        },
+        {
+          "file": "variantes/redes-tiktok/config.json",
+          "sha256": "a857ec05590c43ca88ac8f246f30700aa63e42bcf401967fb8fe766fab13a41c",
+          "role": "configuration"
+        },
+        {
+          "file": "variantes/redes-tiktok/assets/fonts/PlusJakartaSans.ttf",
+          "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8",
+          "role": "font"
+        },
+        {
+          "file": "variantes/redes-tiktok/assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+          "role": "animation_runtime"
+        },
+        {
+          "file": "assets/social/tiktok.svg",
+          "sha256": "6f54ac8d325faacea8935bdc44cbed60206a6b408641799e5fea1cba7c1a0af7",
+          "role": "platform_symbol"
+        }
+      ],
+      "provenance_file": "procedencia.json",
+      "exports": {
+        "webm": {
+          "file": "../../exportaciones/editorial-v01/redes-tiktok.webm",
+          "sha256": "297db8c2ca28bd23cd4c8462020a670ac7f0d43aec6dd874825a75f6540ee093",
+          "width": 1920,
+          "height": 1080
+        },
+        "apng": {
+          "file": "../../exportaciones/editorial-v01/redes-tiktok.png",
+          "sha256": "4352560df2c2072d5fd3cc12d3c7732fde06cf8c2491c8b1e957b6d234ea71df",
+          "width": 1920,
+          "height": 1080
+        },
+        "poster": {
+          "file": "../../exportaciones/editorial-v01/redes-tiktok-poster.png",
+          "sha256": "8558314bfd3e21a3da60188dab43039f7262851efc4ca6f7ea3a99d8d2c153e4",
+          "width": 1920,
+          "height": 1080
+        },
+        "icon_png": {
+          "file": "../../exportaciones/editorial-v01/redes-tiktok-simbolo.png",
+          "sha256": "88bd56d6c806e2454bbc9355e6054a2f31c02c9b8099698eee0280edb6a0d186",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "compatibility": "pendiente_de_prueba_en_clipo",
+      "checks": {
+        "hyperframes_ok": true,
+        "hyperframes_version": "0.9.59",
+        "lint_errors": 0,
+        "runtime_errors": 0,
+        "layout_errors": 0,
+        "motion_errors": 0,
+        "contrast_checks": 0,
+        "accepted_warnings": [
+          {
+            "code": "first_frame_empty",
+            "reason": "Entrada y salida transparentes de overlay; poster separado."
+          }
+        ],
+        "frame_count": 180,
+        "webm_alpha_decoded": true,
+        "alpha_first_frame_max": 0,
+        "alpha_last_frame_max": 0,
+        "duration_verified_seconds": 6,
+        "fps_verified": "30/1",
+        "apng_frames": 180,
+        "visual_review": "muestras_de_entrada_lectura_salida",
+        "audio": false,
+        "compatibility": "pendiente_de_prueba_en_clipo",
+        "render_source_fingerprint": "a09b9d6ec89143ec48d6b1ba57e3e7b65961290d35dd21229787ab39f8f0fa67",
+        "visual_proof_times": [
+          0.2,
+          0.55,
+          1.5,
+          5.8
+        ],
+        "reading_hold_stable": true,
+        "validation_pending": false,
+        "validation_fingerprint": "7e1fd6ef1249aaa3239c003554c49764e7bc621dedadd605c069c8685a881846"
+      },
+      "validation_files": [
+        {
+          "file": "variantes/redes-tiktok/index.motion.json",
+          "sha256": "4d12b4c6f887f0444d3e18558ca07bcbb0567595b7689229343a0dac946f4449",
+          "role": "motion_assertions"
+        }
+      ],
+      "source_fingerprint": "a09b9d6ec89143ec48d6b1ba57e3e7b65961290d35dd21229787ab39f8f0fa67",
+      "validation_fingerprint": "7e1fd6ef1249aaa3239c003554c49764e7bc621dedadd605c069c8685a881846",
+      "render_status": "render_verificado",
+      "validation_status": "verificado"
+    },
+    {
+      "id": "lugar",
+      "slug": "lugar",
+      "title": "Lugar / restaurante",
+      "kind": "lugar",
+      "composition_file": "variantes/lugar/index.html",
+      "config_file": "variantes/lugar/config.json",
+      "is_mockup": true,
+      "fields": [
+        "category",
+        "place_name",
+        "locality",
+        "show_pin",
+        "source",
+        "observed_at",
+        "confirmed"
+      ],
+      "duration_seconds": 6,
+      "fps": 30,
+      "size_px": [
+        1920,
+        1080
+      ],
+      "source_files": [
+        {
+          "file": "variantes/lugar/index.html",
+          "sha256": "8c330f8ec7381429799cb2ab064651cc7adb48bfd63c18e057655b410b64f813",
+          "role": "editable_composition"
+        },
+        {
+          "file": "variantes/lugar/config.json",
+          "sha256": "581289d12d353e3f8014d61b6029057fca74eabe6cf95a5c952e061435e41ec7",
+          "role": "configuration"
+        },
+        {
+          "file": "variantes/lugar/assets/fonts/PlusJakartaSans.ttf",
+          "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8",
+          "role": "font"
+        },
+        {
+          "file": "variantes/lugar/assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+          "role": "animation_runtime"
+        },
+        {
+          "file": "../../video/v04/ubicacion.svg",
+          "sha256": "69a7240a6040ae5da979b06786a5f3b431d5bb26ac8c092ac1e499995000ef8b",
+          "role": "pin_source"
+        }
+      ],
+      "provenance_file": "procedencia.json",
+      "exports": {
+        "webm": {
+          "file": "../../exportaciones/editorial-v01/lugar.webm",
+          "sha256": "5b81efa341c1e461d8e884c1d98ea7dc7b8f2179d7d1b9440e6bd75d83f2f947",
+          "width": 1920,
+          "height": 1080
+        },
+        "apng": {
+          "file": "../../exportaciones/editorial-v01/lugar.png",
+          "sha256": "7c35f9951b4c70c8d29a56674586d2f123b07626830d02ca9d616ac051a51e37",
+          "width": 1920,
+          "height": 1080
+        },
+        "poster": {
+          "file": "../../exportaciones/editorial-v01/lugar-poster.png",
+          "sha256": "cb032537747f79ae5d18454d162a9f10c5e0927225483a094e247b47601926dc",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "compatibility": "pendiente_de_prueba_en_clipo",
+      "checks": {
+        "hyperframes_ok": true,
+        "hyperframes_version": "0.9.59",
+        "lint_errors": 0,
+        "runtime_errors": 0,
+        "layout_errors": 0,
+        "motion_errors": 0,
+        "contrast_checks": 0,
+        "accepted_warnings": [
+          {
+            "code": "first_frame_empty",
+            "reason": "Entrada y salida transparentes de overlay; poster separado."
+          }
+        ],
+        "frame_count": 180,
+        "webm_alpha_decoded": true,
+        "alpha_first_frame_max": 0,
+        "alpha_last_frame_max": 0,
+        "duration_verified_seconds": 6,
+        "fps_verified": "30/1",
+        "apng_frames": 180,
+        "visual_review": "muestras_de_entrada_lectura_salida",
+        "audio": false,
+        "compatibility": "pendiente_de_prueba_en_clipo",
+        "render_source_fingerprint": "50e8aea912a1043b617f797673514f43025994be86b513a4467866059bfcf3ff",
+        "visual_proof_times": [
+          0.2,
+          0.55,
+          1.5,
+          5.8
+        ],
+        "reading_hold_stable": true,
+        "validation_pending": false,
+        "validation_fingerprint": "2d7f04b3fbabd5a4a7290828e7e580a38ccc7430184db46c2cc0e8e67c1ee652"
+      },
+      "validation_files": [
+        {
+          "file": "variantes/lugar/index.motion.json",
+          "sha256": "4d12b4c6f887f0444d3e18558ca07bcbb0567595b7689229343a0dac946f4449",
+          "role": "motion_assertions"
+        }
+      ],
+      "source_fingerprint": "50e8aea912a1043b617f797673514f43025994be86b513a4467866059bfcf3ff",
+      "validation_fingerprint": "2d7f04b3fbabd5a4a7290828e7e580a38ccc7430184db46c2cc0e8e67c1ee652",
+      "render_status": "render_verificado",
+      "validation_status": "verificado"
+    },
+    {
+      "id": "mapa",
+      "slug": "mapa",
+      "title": "Ubicación / mapa",
+      "kind": "mapa",
+      "composition_file": "variantes/mapa/index.html",
+      "config_file": "variantes/mapa/config.json",
+      "is_mockup": true,
+      "fields": [
+        "place_name",
+        "locality",
+        "place_url",
+        "map_file",
+        "map_width_px",
+        "map_height_px",
+        "map_source",
+        "map_attribution",
+        "pin_x",
+        "pin_y",
+        "location_verified",
+        "observed_at",
+        "confirmed"
+      ],
+      "duration_seconds": 6,
+      "fps": 30,
+      "size_px": [
+        1920,
+        1080
+      ],
+      "source_files": [
+        {
+          "file": "variantes/mapa/index.html",
+          "sha256": "3a6028602c82425ce73912b9035a1b1a3f7e257458363400e6d912514d8ba05d",
+          "role": "editable_composition"
+        },
+        {
+          "file": "variantes/mapa/config.json",
+          "sha256": "c399b8b80dc058c8f42ece11cb9c74faf34ee680a4b5b35c5f7a959eef68a5be",
+          "role": "configuration"
+        },
+        {
+          "file": "variantes/mapa/assets/fonts/PlusJakartaSans.ttf",
+          "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8",
+          "role": "font"
+        },
+        {
+          "file": "variantes/mapa/assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+          "role": "animation_runtime"
+        },
+        {
+          "file": "../../video/v04/ubicacion.svg",
+          "sha256": "69a7240a6040ae5da979b06786a5f3b431d5bb26ac8c092ac1e499995000ef8b",
+          "role": "pin_source"
+        },
+        {
+          "file": "variantes/mapa/assets/mapa.svg",
+          "sha256": "ac6d702e5fd65cd60844409bbb2f22be04c07a842c9fd8c10c664277af5260fb",
+          "role": "map_image"
+        }
+      ],
+      "provenance_file": "procedencia.json",
+      "exports": {
+        "webm": {
+          "file": "../../exportaciones/editorial-v01/mapa.webm",
+          "sha256": "f9a2d0630244e0be084988e899d2d34e78a8b1d602a4efe4dc9d5a1fc7728bee",
+          "width": 1920,
+          "height": 1080
+        },
+        "apng": {
+          "file": "../../exportaciones/editorial-v01/mapa.png",
+          "sha256": "ea36dfd0985e069c8d4343925a8560efc46e65a7a52eae301b6aac9b76f5b2be",
+          "width": 1920,
+          "height": 1080
+        },
+        "poster": {
+          "file": "../../exportaciones/editorial-v01/mapa-poster.png",
+          "sha256": "335f7f01d0278aa1e280d24b2e070104d80380df3e0d68977bea4267fedcc370",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "compatibility": "pendiente_de_prueba_en_clipo",
+      "checks": {
+        "hyperframes_ok": true,
+        "validation_fingerprint": "759b67e3db9d2e3ec2349f0778f7f1b8e0f615ed0067433d1613ae0793e2e2e2",
+        "validation_pending": false,
+        "hyperframes_version": "0.9.59",
+        "lint_errors": 0,
+        "runtime_errors": 0,
+        "layout_errors": 0,
+        "motion_errors": 0,
+        "contrast_checks": 15,
+        "accepted_warnings": [
+          {
+            "code": "first_frame_empty",
+            "reason": "Entrada y salida transparentes de overlay; poster separado."
+          }
+        ],
+        "frame_count": 180,
+        "webm_alpha_decoded": true,
+        "alpha_first_frame_max": 0,
+        "alpha_last_frame_max": 0,
+        "duration_verified_seconds": 6,
+        "fps_verified": "30/1",
+        "apng_frames": 180,
+        "render_source_fingerprint": "d22d9bdf236f6a3736d003176e3dbdab526fefc9e0d585106f3a1af493d67718",
+        "visual_review": "muestras_de_entrada_lectura_salida",
+        "visual_proof_times": [
+          0.2,
+          0.55,
+          1.5,
+          5.8
+        ],
+        "map_zoom": "movimiento suave del fondo y pin juntos; atribucion fija fuera de la imagen",
+        "audio": false,
+        "compatibility": "pendiente_de_prueba_en_clipo"
+      },
+      "validation_files": [
+        {
+          "file": "variantes/mapa/index.motion.json",
+          "sha256": "3e6530c2211c6eab479f962a2261c7e17f8a788e31210f81d804f391ca8036cd",
+          "role": "motion_assertions"
+        }
+      ],
+      "source_fingerprint": "d22d9bdf236f6a3736d003176e3dbdab526fefc9e0d585106f3a1af493d67718",
+      "validation_fingerprint": "759b67e3db9d2e3ec2349f0778f7f1b8e0f615ed0067433d1613ae0793e2e2e2",
+      "render_status": "render_verificado",
+      "validation_status": "verificado"
+    },
+    {
+      "id": "flecha-curva",
+      "slug": "flecha-curva",
+      "title": "Flecha curva",
+      "kind": "flecha",
+      "composition_file": "variantes/flecha-curva/index.html",
+      "config_file": "variantes/flecha-curva/config.json",
+      "is_mockup": false,
+      "fields": [],
+      "duration_seconds": 4,
+      "fps": 30,
+      "size_px": [
+        1920,
+        1080
+      ],
+      "source_files": [
+        {
+          "file": "variantes/flecha-curva/index.html",
+          "sha256": "8b512b24b0bcfa18a7583675c3db67f453dd9a3289b4df6d6b8d1c4f527d32d7",
+          "role": "editable_composition"
+        },
+        {
+          "file": "variantes/flecha-curva/config.json",
+          "sha256": "8264bb7405937a117fd6b26a826fb7544be71887bfef21e2736a616e156ff2e1",
+          "role": "configuration"
+        },
+        {
+          "file": "variantes/flecha-curva/assets/fonts/PlusJakartaSans.ttf",
+          "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8",
+          "role": "font"
+        },
+        {
+          "file": "variantes/flecha-curva/assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+          "role": "animation_runtime"
+        }
+      ],
+      "provenance_file": "procedencia.json",
+      "exports": {
+        "webm": {
+          "file": "../../exportaciones/editorial-v01/flecha-curva.webm",
+          "sha256": "eb484414549fd28f915c6787b3d9fd901b30f08eef71fc095ac12921a0fc8529",
+          "width": 1920,
+          "height": 1080
+        },
+        "apng": {
+          "file": "../../exportaciones/editorial-v01/flecha-curva.png",
+          "sha256": "07c50937683355f4a4c68ec2fc63d32e2cf28c98927ac1c27569aea4946b9e9d",
+          "width": 1920,
+          "height": 1080
+        },
+        "poster": {
+          "file": "../../exportaciones/editorial-v01/flecha-curva-poster.png",
+          "sha256": "27cb5a39ffdede3c01b3a5b2781c25e154380c3fd91e7ba05b8bdc352b62633e",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "compatibility": "pendiente_de_prueba_en_clipo",
+      "checks": {
+        "hyperframes_ok": true,
+        "hyperframes_version": "0.9.59",
+        "lint_errors": 0,
+        "runtime_errors": 0,
+        "layout_errors": 0,
+        "motion_errors": 0,
+        "contrast_checks": 0,
+        "accepted_warnings": [
+          {
+            "code": "first_frame_empty",
+            "reason": "Entrada y salida transparentes de overlay; poster separado."
+          }
+        ],
+        "frame_count": 120,
+        "webm_alpha_decoded": true,
+        "alpha_first_frame_max": 0,
+        "alpha_last_frame_max": 0,
+        "duration_verified_seconds": 4,
+        "fps_verified": "30/1",
+        "apng_frames": 120,
+        "visual_review": "muestras_de_entrada_lectura_salida",
+        "audio": false,
+        "compatibility": "pendiente_de_prueba_en_clipo",
+        "render_source_fingerprint": "a8cfcfff3f40d47e494bdd6ebd9bc6fd5b4ff4dc8d06f425be0a227736e139a8",
+        "visual_proof_times": [
+          0.2,
+          0.55,
+          1.5,
+          3.8
+        ],
+        "reading_hold_stable": true,
+        "validation_pending": false,
+        "validation_fingerprint": "d5946cad71bd0fccda945a127e68cf368a1aeb47679a2c4ff32ded2f4f2add93"
+      },
+      "validation_files": [
+        {
+          "file": "variantes/flecha-curva/index.motion.json",
+          "sha256": "863c7a7af9dfcc82351f7cbdafd70c535f744fa6f649076b8aa92ad2ae0bf192",
+          "role": "motion_assertions"
+        }
+      ],
+      "source_fingerprint": "a8cfcfff3f40d47e494bdd6ebd9bc6fd5b4ff4dc8d06f425be0a227736e139a8",
+      "validation_fingerprint": "d5946cad71bd0fccda945a127e68cf368a1aeb47679a2c4ff32ded2f4f2add93",
+      "render_status": "render_verificado",
+      "validation_status": "verificado"
+    },
+    {
+      "id": "flecha-bucle",
+      "slug": "flecha-bucle",
+      "title": "Flecha con bucle",
+      "kind": "flecha",
+      "composition_file": "variantes/flecha-bucle/index.html",
+      "config_file": "variantes/flecha-bucle/config.json",
+      "is_mockup": false,
+      "fields": [],
+      "duration_seconds": 4,
+      "fps": 30,
+      "size_px": [
+        1920,
+        1080
+      ],
+      "source_files": [
+        {
+          "file": "variantes/flecha-bucle/index.html",
+          "sha256": "21b9d79a2a67aa47bfa0c14a318bbe0ed39e7bd0377a26111d1301188fb3a8ea",
+          "role": "editable_composition"
+        },
+        {
+          "file": "variantes/flecha-bucle/config.json",
+          "sha256": "eb674f1fef66afc0aa46b9c4661ca79ad073a6c6b6f5a385267a6498a47cd184",
+          "role": "configuration"
+        },
+        {
+          "file": "variantes/flecha-bucle/assets/fonts/PlusJakartaSans.ttf",
+          "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8",
+          "role": "font"
+        },
+        {
+          "file": "variantes/flecha-bucle/assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+          "role": "animation_runtime"
+        }
+      ],
+      "provenance_file": "procedencia.json",
+      "exports": {
+        "webm": {
+          "file": "../../exportaciones/editorial-v01/flecha-bucle.webm",
+          "sha256": "034ab436641ac4b078fbaebf8e59b7d170789f7a9ad7697bfe271a7a1d01b2c0",
+          "width": 1920,
+          "height": 1080
+        },
+        "apng": {
+          "file": "../../exportaciones/editorial-v01/flecha-bucle.png",
+          "sha256": "e0d0fbcf1efa1e15dd03c0ef9407845bcb06d2b56da92261e1f266e46d300f67",
+          "width": 1920,
+          "height": 1080
+        },
+        "poster": {
+          "file": "../../exportaciones/editorial-v01/flecha-bucle-poster.png",
+          "sha256": "38b56b9f3dd6ff83950af81859f73dcbd0e407a50b8ee2fed65e349d36db49f8",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "compatibility": "pendiente_de_prueba_en_clipo",
+      "checks": {
+        "hyperframes_ok": true,
+        "hyperframes_version": "0.9.59",
+        "lint_errors": 0,
+        "runtime_errors": 0,
+        "layout_errors": 0,
+        "motion_errors": 0,
+        "contrast_checks": 0,
+        "accepted_warnings": [
+          {
+            "code": "first_frame_empty",
+            "reason": "Entrada y salida transparentes de overlay; poster separado."
+          }
+        ],
+        "frame_count": 120,
+        "webm_alpha_decoded": true,
+        "alpha_first_frame_max": 0,
+        "alpha_last_frame_max": 0,
+        "duration_verified_seconds": 4,
+        "fps_verified": "30/1",
+        "apng_frames": 120,
+        "visual_review": "muestras_de_entrada_lectura_salida",
+        "audio": false,
+        "compatibility": "pendiente_de_prueba_en_clipo",
+        "render_source_fingerprint": "95bb12ae14c64a477c06b22894f1028764284ce415fe46ccc50e5cfad662796c",
+        "visual_proof_times": [
+          0.2,
+          0.55,
+          1.5,
+          3.8
+        ],
+        "reading_hold_stable": true,
+        "validation_pending": false,
+        "validation_fingerprint": "fbdb9bfa2184fda17859625c1cb1f91a86c60715734384cd3ae1ce7586e6a274"
+      },
+      "validation_files": [
+        {
+          "file": "variantes/flecha-bucle/index.motion.json",
+          "sha256": "863c7a7af9dfcc82351f7cbdafd70c535f744fa6f649076b8aa92ad2ae0bf192",
+          "role": "motion_assertions"
+        }
+      ],
+      "source_fingerprint": "95bb12ae14c64a477c06b22894f1028764284ce415fe46ccc50e5cfad662796c",
+      "validation_fingerprint": "fbdb9bfa2184fda17859625c1cb1f91a86c60715734384cd3ae1ce7586e6a274",
+      "render_status": "render_verificado",
+      "validation_status": "verificado"
+    },
+    {
+      "id": "like",
+      "slug": "like",
+      "title": "Like editorial",
+      "kind": "like",
+      "composition_file": "variantes/like/index.html",
+      "config_file": "variantes/like/config.json",
+      "is_mockup": false,
+      "fields": [],
+      "duration_seconds": 4,
+      "fps": 30,
+      "size_px": [
+        1920,
+        1080
+      ],
+      "source_files": [
+        {
+          "file": "variantes/like/index.html",
+          "sha256": "a52e5a931fc1043e92d6a1f8e93fd130ee37d7553451b342c38dc23532ab07e2",
+          "role": "editable_composition"
+        },
+        {
+          "file": "variantes/like/config.json",
+          "sha256": "a7012793caaee532c9de099a52f23c876384f218b003af8d315f8f8f8e467f24",
+          "role": "configuration"
+        },
+        {
+          "file": "variantes/like/assets/fonts/PlusJakartaSans.ttf",
+          "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8",
+          "role": "font"
+        },
+        {
+          "file": "variantes/like/assets/gsap.min.js",
+          "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+          "role": "animation_runtime"
+        },
+        {
+          "file": "../../video/v04/like.svg",
+          "sha256": "b33517817c68bd873240590efa45cb52c6aebcda488a63eb59f7f74a5d210d70",
+          "role": "icon_source"
+        }
+      ],
+      "provenance_file": "procedencia.json",
+      "exports": {
+        "webm": {
+          "file": "../../exportaciones/editorial-v01/like.webm",
+          "sha256": "dbdc1b1a7af615a7116789b3f1bfe0b4a03d8151958f67c2b3864ffe13a3f2fc",
+          "width": 1920,
+          "height": 1080
+        },
+        "apng": {
+          "file": "../../exportaciones/editorial-v01/like.png",
+          "sha256": "cce21edf815270942315df344767600f0425eedd4764f53bd7030eb14f544970",
+          "width": 1920,
+          "height": 1080
+        },
+        "poster": {
+          "file": "../../exportaciones/editorial-v01/like-poster.png",
+          "sha256": "3de53df1112f3fc65a0fa540b967e3580b27e3c3324af67ef157256213bdf324",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      "compatibility": "pendiente_de_prueba_en_clipo",
+      "checks": {
+        "hyperframes_ok": true,
+        "hyperframes_version": "0.9.59",
+        "lint_errors": 0,
+        "runtime_errors": 0,
+        "layout_errors": 0,
+        "motion_errors": 0,
+        "contrast_checks": 0,
+        "accepted_warnings": [
+          {
+            "code": "first_frame_empty",
+            "reason": "Entrada y salida transparentes de overlay; poster separado."
+          }
+        ],
+        "frame_count": 120,
+        "webm_alpha_decoded": true,
+        "alpha_first_frame_max": 0,
+        "alpha_last_frame_max": 0,
+        "duration_verified_seconds": 4,
+        "fps_verified": "30/1",
+        "apng_frames": 120,
+        "visual_review": "muestras_de_entrada_lectura_salida",
+        "audio": false,
+        "compatibility": "pendiente_de_prueba_en_clipo",
+        "render_source_fingerprint": "61ae03afccd633925f4841afca326f2fb9d19b892860b7e43c367e9141719c80",
+        "visual_proof_times": [
+          0.2,
+          0.55,
+          1.5,
+          3.8
+        ],
+        "reading_hold_stable": true,
+        "validation_pending": false,
+        "validation_fingerprint": "c1bd56d268976469d24011aef6c8181c68228f40c4131a6883c60135b573e7fc"
+      },
+      "validation_files": [
+        {
+          "file": "variantes/like/index.motion.json",
+          "sha256": "863c7a7af9dfcc82351f7cbdafd70c535f744fa6f649076b8aa92ad2ae0bf192",
+          "role": "motion_assertions"
+        }
+      ],
+      "source_fingerprint": "61ae03afccd633925f4841afca326f2fb9d19b892860b7e43c367e9141719c80",
+      "validation_fingerprint": "c1bd56d268976469d24011aef6c8181c68228f40c4131a6883c60135b573e7fc",
+      "render_status": "render_verificado",
+      "validation_status": "verificado"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "al-destino-mapa",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "hyperframes": "0.9.59"
+  }
+}

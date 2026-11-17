@@ -1,0 +1,8 @@
+{
+  "name": "al-destino-lugar",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "hyperframes": "0.9.59"
+  }
+}

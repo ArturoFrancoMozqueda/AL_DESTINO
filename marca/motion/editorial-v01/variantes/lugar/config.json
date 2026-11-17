@@ -1,0 +1,13 @@
+{
+  "id": "lugar",
+  "slug": "lugar",
+  "title": "Lugar / restaurante",
+  "kind": "lugar",
+  "duration": 6,
+  "category": "Restaurante · demostración",
+  "place_name": "[Nombre del lugar]",
+  "locality": "[Ciudad por confirmar]",
+  "show_pin": true,
+  "confirmed": false,
+  "is_mockup": true
+}

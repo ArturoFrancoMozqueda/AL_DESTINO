@@ -1,5 +1,7 @@
 # Revisión visual directa de H01 y H02 · BORRADOR · Parcial
 
+La [ampliación de iconos, rótulos y mapa](../../../../produccion/automatizacion/revisiones/2026-11-16-iconos-horizontal.md) añade ventanas más densas de H01, incluidas las flechas curvas y con bucle que este registro original no había confirmado. Sus límites de cobertura y fechas se conservan separados; ninguna de las revisiones acredita escucha ni visionado continuo completo.
+
 Para la corrección posterior de PNG sin placa y el referente de Alan por el Mundo elegido por Arturo, consultar sólo si resulta pertinente la [revisión de gráficos sin fondo](../../../../produccion/automatizacion/revisiones/2026-11-16-alan-sin-placa.md). Es evidencia separada; la política reutilizable vigente está en `visual.md` de la base común. Las propuestas de tarjetas de este antecedente no sustituyen la dirección posterior.
 
 Consulta: 16 de noviembre de 2026, America/Mexico_City. **Consulta opcional:** contrastar un recurso o una secuencia con su fuente y ventana temporal. Observación directa del agente; adaptaciones propuestas. La revisión es visual y parcial: faltan escucha crítica y visionado continuo.

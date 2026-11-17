@@ -1,0 +1,55 @@
+{
+  "status": "borrador",
+  "framework": "HyperFrames",
+  "canvas": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "export": "alpha-overlay",
+  "reference": "https://www.youtube.com/watch?v=vPsSfW0X_sI",
+  "registry_reference": "lt-mask-reveal",
+  "customization": "Revelado sin tarjeta; tipografía AL DESTINO, divisor de redes, entrada lateral con pausa nítida. Extensiones propias para flechas, like y mapa verificado.",
+  "variants": [
+    {
+      "id": "redes.instagram",
+      "duration_seconds": 6,
+      "is_mockup": true
+    },
+    {
+      "id": "redes.youtube",
+      "duration_seconds": 6,
+      "is_mockup": true
+    },
+    {
+      "id": "redes.tiktok",
+      "duration_seconds": 6,
+      "is_mockup": true
+    },
+    {
+      "id": "lugar",
+      "duration_seconds": 6,
+      "is_mockup": true
+    },
+    {
+      "id": "mapa",
+      "duration_seconds": 6,
+      "is_mockup": true
+    },
+    {
+      "id": "flecha-curva",
+      "duration_seconds": 4,
+      "is_mockup": false
+    },
+    {
+      "id": "flecha-bucle",
+      "duration_seconds": 4,
+      "is_mockup": false
+    },
+    {
+      "id": "like",
+      "duration_seconds": 4,
+      "is_mockup": false
+    }
+  ]
+}

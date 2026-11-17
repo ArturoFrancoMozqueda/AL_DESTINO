@@ -216,6 +216,47 @@ for spec in [premium,premium['monogram']]:
   f=premium_base/'renders'/item['file']
   check(f.is_file() and hashlib.sha256(f.read_bytes()).hexdigest()==item['sha256'],f"Entrega de firma divergente: {item['file']}")
 
+# Parametric editorial overlays: source/export coherence and truthful demo state.
+overlay_base=R/'marca/motion/editorial-v01'
+overlays=read('marca/motion/editorial-v01/catalogo.json')
+overlay_ids=[]
+for item in overlays['items']:
+ overlay_ids.append(item['id'])
+ check(isinstance(item['is_mockup'],bool),f"Falta estado de muestra: {item['id']}")
+ check(item['duration_seconds']>0 and item['fps']>0,f"Timing editorial inválido: {item['id']}")
+ check(item['checks'].get('hyperframes_ok') is True,f"Animación sin check de HyperFrames vigente: {item['id']}")
+ check(item['checks'].get('webm_alpha_decoded') is True,f"Animación sin alfa exportado comprobado: {item['id']}")
+ check(item.get('render_status')=='render_verificado',f"Render editorial pendiente o desactualizado: {item['id']}")
+ check(item['checks'].get('render_source_fingerprint')==item.get('source_fingerprint'),f"Render editorial no corresponde a su fuente: {item['id']}")
+ check({'webm','apng','poster'}<=item['exports'].keys(),f"Entregas editoriales incompletas: {item['id']}")
+ for field in ('composition_file','config_file','provenance_file'):
+  path=(overlay_base/item[field]).resolve()
+  check(path.is_relative_to(R) and path.is_file(),f"Fuente editorial ausente: {item['id']}/{field}")
+ for entry in item['source_files']+item.get('validation_files',[]):
+  path=(overlay_base/entry['file']).resolve()
+  check(path.is_relative_to(R) and path.is_file(),f"Dependencia editorial ausente: {entry['file']}")
+  if path.is_file():check(hashlib.sha256(path.read_bytes()).hexdigest()==entry['sha256'],f"Fuente editorial modificada sin regenerar: {entry['file']}")
+ for role,export in item['exports'].items():
+  path=(overlay_base/export['file']).resolve()
+  check(path.is_relative_to(R) and path.is_file(),f"Exportación editorial ausente: {item['id']}/{role}")
+  if not path.is_file():continue
+  data=path.read_bytes()
+  check(hashlib.sha256(data).hexdigest()==export['sha256'],f"Exportación editorial divergente: {item['id']}/{role}")
+  if data.startswith(b'\x89PNG\r\n\x1a\n'):
+   check(struct.unpack('>II',data[16:24])==(export['width'],export['height']),f"Tamaño editorial divergente: {item['id']}/{role}")
+   # The full-screen map's still poster is opaque by design; its animation
+   # retains RGBA for the transparent entrance and exit.
+   if not (item['kind']=='mapa' and role=='poster'):
+    check(data[25]==6,f"PNG editorial sin RGBA: {item['id']}/{role}")
+   if role=='apng':
+    offset=8;count=None
+    while offset+12<=len(data):
+     length=struct.unpack('>I',data[offset:offset+4])[0]
+     if data[offset+4:offset+8]==b'acTL':count=struct.unpack('>I',data[offset+8:offset+12])[0];break
+     offset+=length+12
+    check(count==round(item['duration_seconds']*item['fps']),f"APNG editorial incompleto: {item['id']}")
+check(len(overlay_ids)==len(set(overlay_ids)),'IDs duplicados en animaciones editoriales')
+
 # Portable agent entrypoints and derived resource registry.
 def repo_path(value,label,base=R):
  try:

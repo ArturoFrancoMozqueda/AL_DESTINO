@@ -1,0 +1,10 @@
+{
+  "duration": 4,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#graphic",
+      "bySec": 1.2
+    }
+  ]
+}

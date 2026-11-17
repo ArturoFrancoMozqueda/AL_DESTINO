@@ -3,7 +3,7 @@ name: al-destino-edicion
 description: "Definir la dirección de edición y preparar recursos de AL DESTINO cuando el formato no esté definido. También aporta la base compartida a las skills de montaje horizontal y vertical."
 ---
 
-# Edición de AL DESTINO · Base común v0.5 · BORRADOR
+# Edición de AL DESTINO · Base común v0.7 · BORRADOR
 
 Preparar la edición de AL DESTINO con conversación natural, momentos reales y acabado profesional y elegante. Los montajes y recursos conservan su estado de revisión; esta guía no los aprueba.
 
@@ -29,6 +29,7 @@ El [índice común de recursos](../../../marca/recursos.json) une logos, ambas a
 - Con material real nuevo, inventario completo, exploración de clips grandes y selección por historia: [cobertura y selección](references/cobertura.md).
 - Selección, ritmo, continuidad, sonido y color: [montaje](references/montaje.md), incluidas las fuentes preferidas de SFX gratuitos, Mixkit y Freesound CC0, y su registro de licencia.
 - Crear o colocar recursos, transiciones y movimientos: [lenguaje visual](references/visual.md) y catálogo del kit.
+- Preparar un rótulo de lugar, una cuenta social o capturas reales de Google Maps/Instagram: [búsqueda, captura y presentación](references/rotulos-mapas.md). La frecuencia de estos insertos en horizontal la define su especialización.
 - Ejecutar un montaje en Clipo: [uso del MCP](references/clipo.md), sólo cuando la tarea pida aplicarlo. No asumir herramientas, IDs o capacidades a partir de los nombres de este paquete.
 
 Para brainstorming, mostrar opciones concretas y conservar la elegida y las pendientes. Para recursos, entregar fuente y exportación con estado y catálogo; no exigir grabaciones para definir un icono o movimiento.
@@ -52,6 +53,7 @@ Después de montar, verificar la historia completa con audio, sincronía, lectur
 - Dirección y plan: repositorio, contexto y referencias pertinentes; no requieren conexión con un editor.
 - Montaje en Clipo: MCP disponible y estado/capacidades actuales, según `references/clipo.md`. Arturo desarrolla el editor; esta skill no autoriza desarrollarlo ni instalar herramientas. Sin conexión, entregar el plan y declarar lo no aplicado.
 - Crear o renderizar composiciones animadas: skill `hyperframes` y sus dependencias sólo para esa tarea. Colocar recursos existentes no exige regenerarlos.
+- Capturar Google Maps o Instagram: búsqueda web y acceso real al sitio mediante las capacidades de navegador disponibles. Seguir las instrucciones de la herramienta de captura; un resultado de búsqueda sólo ayuda a descubrir la ficha o cuenta. Sin acceso a la página, dejar la captura pendiente y continuar el resto.
 - Obtener SFX: acceso a la ficha y licencia de Mixkit o Freesound CC0; son bibliotecas web, no dependencias MCP. No instalar ni asumir una API para descargarlos.
 
 ## Mantener el paquete

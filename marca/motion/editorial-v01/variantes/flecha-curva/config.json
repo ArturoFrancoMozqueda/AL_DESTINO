@@ -1,0 +1,9 @@
+{
+  "id": "flecha-curva",
+  "slug": "flecha-curva",
+  "title": "Flecha curva",
+  "kind": "flecha",
+  "duration": 4,
+  "shape": "curva",
+  "is_mockup": false
+}

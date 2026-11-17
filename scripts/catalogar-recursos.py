@@ -160,6 +160,33 @@ def build_catalog():
         compatibility='pendiente_de_prueba_en_editor',
         usage='Recorte de la misma animación, sin redibujar ni recolorear. Usar cuando el logo completo no se lea en pequeño; BORRADOR con alfa verificado.')
 
+    # Parametric overlays keep example renders distinct from production assets.
+    # File paths are resolved from the maintained catalog, never guessed by an agent.
+    overlays_base = 'marca/motion/editorial-v01'
+    overlays = read_json(overlays_base + '/catalogo.json')
+    for item in overlays['items']:
+        files = [(entry['role'], relative(overlays_base, entry['file']))
+                 for entry in item['source_files'] + item.get('validation_files', [])]
+        files.extend((role, relative(overlays_base, export['file']))
+                     for role, export in item['exports'].items())
+        files.append(('provenance', relative(overlays_base, item['provenance_file'])))
+        add('motion.editorial.' + item['id'], item['title'], item['kind'], files,
+            generator='scripts/generar-editorial-premium.cjs',
+            catalog=overlays_base + '/catalogo.json',
+            composition_file=relative(overlays_base, item['composition_file']),
+            config_file=relative(overlays_base, item['config_file']),
+            editability='Composición HyperFrames y configuración; texto y símbolo separados.',
+            is_mockup=item['is_mockup'], fields=item['fields'],
+            duration_seconds=item['duration_seconds'], fps=item['fps'],
+            render_status=item['render_status'],
+            availability='archivo_disponible' if item['render_status']=='render_verificado' else 'especificacion_sin_render',
+            compatibility='pendiente_de_prueba_en_editor',
+            selection_status='plantilla_con_demostracion' if item['is_mockup'] else 'recurso_editorial_reutilizable',
+            usage=('BORRADOR. Configurar y volver a renderizar con datos confirmados; '
+                   'los nombres, cuentas y mapa de demostración no se colocan en un episodio.'
+                   if item['is_mockup'] else
+                   'BORRADOR. Superposición transparente sin placa; elegir por función editorial y probar sobre la toma.'))
+
     return {
         'schema_version': '1.0', 'brand': 'AL DESTINO', 'status': 'borrador',
         'updated_at': read_json('proyecto.json')['updated_at'], 'path_base': 'repository_root',
@@ -172,6 +199,7 @@ def build_catalog():
             {'id': 'video.graficos-viaje', 'path': 'marca/video/v02/catalogo.json', 'role': 'Antecedente con fondo de papel descartado para la dirección vigente'},
             {'id': 'video.recortes', 'path': 'marca/video/v03/catalogo.json', 'role': 'PNG recortados sin placa; propuestas BORRADOR'},
             {'id': 'video.editorial', 'path': 'marca/video/v04/catalogo.json', 'role': 'Likes, pin, corazón y firma original; kit editorial BORRADOR'},
+            {'id': 'motion.editorial', 'path': overlays_base + '/catalogo.json', 'role': 'Redes, lugares, plantilla de mapa, flechas y like animados; distinguir demos y recursos reutilizables'},
             {'id': 'motion.logo.horizontal.premium', 'path': premium_base + '/renders/catalogo.json', 'role': 'Firma de 4 s en APNG y WebM con transparencia verificada'},
             {'id': 'motion.logo.horizontal', 'path': 'marca/motion/logo-al-destino/renders/catalogo.json', 'role': 'Animación horizontal existente'},
             {'id': 'motion.logo.circular', 'path': 'marca/motion/logo-circular/renders/catalogo.json', 'role': 'Animación circular existente'}

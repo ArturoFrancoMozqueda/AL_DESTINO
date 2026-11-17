@@ -1,0 +1,10 @@
+{
+  "duration": 6,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#map-scene",
+      "bySec": 1.2
+    }
+  ]
+}

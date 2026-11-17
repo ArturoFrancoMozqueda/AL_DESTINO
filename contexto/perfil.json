@@ -45,21 +45,23 @@
         "https://www.youtube.com/watch?v=OWaR68LiZLs"
       ],
       "horizontal_references_declared_at": "2026-11-16",
-      "scope": "referencia de edición adaptada a AL DESTINO; procedimiento horizontal operativo v1.5, sin aprobación global de recursos ni episodios",
-      "review_scope": "malla visual de toda la extensión temporal y secuencias de fotogramas concretas; sin escucha crítica ni visionado continuo de los referentes",
+      "scope": "Referencia de edición adaptada a AL DESTINO; base operativa previa conservada y ampliación horizontal v1.7 BORRADOR, sin aprobación global de recursos ni episodios",
+      "review_scope": "Malla visual sobre toda la extensión temporal y ampliaciones de iconos, rótulos, flechas y mapa en ventanas concretas hasta 8 imágenes/s; sin escucha crítica ni visionado continuo de los referentes",
       "horizontal_workflow": {
-        "version": "1.5",
-        "status": "operativo",
+        "version": "1.7",
+        "status": "borrador",
         "effective_at": "2026-11-16",
         "requested_by": "Arturo",
-        "decision_id": "D-EDICION-09",
+        "decision_id": "D-EDICION-12",
         "default_destination": "YouTube",
         "duration_policy": "Según material explorado y desarrollo completo de la historia; sin objetivo universal de minutos ni recortes que eliminen momentos sustantivos.",
         "finishing": "Kit editorial con contraste local dentro del alfa, sin placa; probar el mismo PNG sobre claro, sombra y detalle. Firma animada con piezas originales, APNG/WebM transparentes; verificar importación en el editor antes de afirmar compatibilidad.",
         "skill_path": ".agents/skills/al-destino-edicion-horizontal/SKILL.md",
-        "validation_scope": "validación documental, recursos estáticos y diagnóstico temporal parcial del MP4 existente; no equivale a corregir o aprobar el episodio",
+        "validation_scope": "Ampliación documental y recursos animados con revisión propia; conservar el procedimiento operativo previo y registrar las pruebas efectivamente realizadas, sin aprobar episodios",
         "continuity": "Identificar acciones filmadas desde varias perspectivas antes de recortar; comprobar fases equivalentes y corte durante el movimiento.",
-        "export_review": "Comprobar avance de imagen; hash, capturas y decodificación no descartan congelamientos. Comparar original/copia/exportación ante fallos."
+        "export_review": "Comprobar avance de imagen; hash, capturas y decodificación no descartan congelamientos. Comparar original/copia/exportación ante fallos.",
+        "place_map_policy": "Recibir destino y establecimiento del prompt, buscar y abrir su Google Maps real y capturarlo al presentar el lugar; repetir al cambiar de ubicación o explicar un traslado. Resolver nombre, ciudad y sucursal con fuentes y preguntar sólo ante ambigüedad. Lugares interiores sin pin propio: ubicar el conjunto y aclarar la relación.",
+        "editorial_overlays": "Rótulos de categoría/nombre, redes confirmadas, capturas reales de Google Maps e Instagram del establecimiento y flechas animadas; presentación sucesiva con entrada ágil, acercamiento suave, lectura estable y salida. Conservar las animaciones de redes valoradas favorablemente; recursos y aplicación BORRADOR, sin insertar mockups como datos reales."
       }
     }
   },
@@ -152,6 +154,33 @@
         "scope": "Iconos v04.1 con contraste local y firma animada de 4 s, completa y monograma, mostrados sobre fotogramas del viaje.",
         "use": "Dirección visual preferida para próximos montajes; conservar revisión técnica y aprobación de cada episodio por separado.",
         "decision_id": "D-EDICION-10"
+      },
+      "editorial_extension": {
+        "status": "preferencia_declarada",
+        "declared_at": "2026-11-16",
+        "declared_by": "Arturo",
+        "decision_id": "D-EDICION-11",
+        "reference_url": "https://www.youtube.com/watch?v=vPsSfW0X_sI&t=1677s",
+        "requested_resources": [
+          "rótulos de restaurantes y lugares",
+          "redes sociales",
+          "mapas verificados",
+          "iconos y animaciones con acabado premium"
+        ],
+        "map_frequency": "Al presentar cada lugar; repetir cuando ayude a explicar un traslado o cambio de ubicación",
+        "tool_policy": "Canva o HyperFrames autorizados cuando hagan falta para preparar recursos reutilizables",
+        "proposals_status": "borrador",
+        "reference_review_scope": "Secuencias visuales ampliadas; sin escucha ni visionado continuo completo",
+        "capture_policy": "Buscar por destino y establecimiento, abrir su ficha real de Google Maps y su Instagram oficial y capturar las páginas públicas. Perfil como punto de partida; publicación concreta cuando aporte al relato. Guardar capturas de visitas en el episodio privado con URL y fecha; preguntar sólo ante ambigüedad y dejar pendiente lo inaccesible.",
+        "presentation": "Acabado de vlog de viajes inspirado en Alan por el Mundo y adaptado a AL DESTINO: apariciones sucesivas de mapa y perfil con entradas ágiles, acercamiento suave, pausa legible y salida coordinada, conservando conversación y reacciones.",
+        "latest_feedback": {
+          "declared_at": "2026-11-16",
+          "declared_by": "Arturo",
+          "quote": "me gustaron mucho esas animacones de los iconos de las redes sociales y eso :)",
+          "status": "valoracion_favorable",
+          "scope": "Animaciones de iconos de redes mostradas en movimiento sobre su video; conservarlas como base. La petición posterior precisa capturas reales de Google Maps e Instagram del establecimiento con presentación de vlog.",
+          "decision_id": "D-EDICION-12"
+        }
       }
     }
   }

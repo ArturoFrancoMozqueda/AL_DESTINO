@@ -1,0 +1,14 @@
+{
+  "id": "mapa",
+  "slug": "mapa",
+  "title": "Ubicación / mapa",
+  "kind": "mapa",
+  "duration": 6,
+  "place_name": "[Lugar por confirmar]",
+  "locality": "Plantilla · sustituir por mapa verificado",
+  "map_attribution": "DEMOSTRACIÓN · esquema sin ubicación real",
+  "pin_x": 0.61,
+  "pin_y": 0.48,
+  "confirmed": false,
+  "is_mockup": true
+}

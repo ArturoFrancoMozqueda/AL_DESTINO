@@ -1,0 +1,12 @@
+{
+  "id": "redes.tiktok",
+  "slug": "redes-tiktok",
+  "title": "Tiktok",
+  "kind": "redes",
+  "duration": 6,
+  "platform": "tiktok",
+  "account": "[cuenta por confirmar]",
+  "invitation": "Síguenos en",
+  "confirmed": false,
+  "is_mockup": true
+}
