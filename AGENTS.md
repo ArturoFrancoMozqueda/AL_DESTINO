@@ -10,7 +10,9 @@ Lee `contexto/vision-y-preferencias.md` y `contexto/perfil.json` antes de propon
 |---|---|
 | Ideas, planificación editorial, guiones, copies y packaging | `.agents/skills/al-destino-contenido/SKILL.md` |
 | Investigación local / Airbnb / hoteles de playa | La skill específica correspondiente en `.agents/skills/` y su metodología enlazada |
-| Historia, hooks, selección y edición de video | `.agents/skills/al-destino-edicion/SKILL.md` |
+| Dirección de edición común o formato aún no definido | `.agents/skills/al-destino-edicion/SKILL.md` |
+| Montaje de una pieza vertical | `.agents/skills/al-destino-edicion-vertical/SKILL.md` y su base compartida |
+| Montaje de una pieza horizontal | `.agents/skills/al-destino-edicion-horizontal/SKILL.md` y su base compartida |
 | Diseño de piezas o elección de recursos | `marca/manual.md`, tokens y `marca/recursos.json` |
 | Episodios, revisión y resultados | `produccion/flujo.md`, `produccion/episodios/catalogo.json` y las plantillas existentes |
 
@@ -35,6 +37,7 @@ Antes de crear una idea/episodio, busca si ya existe el mismo concepto. Guarda c
 
 ## Ubicación de gráficos y entregables
 
+- Videos finales fuera del repositorio y de las carpetas de skills; aplicar la ubicación de exportaciones finales de `produccion/flujo.md`. Rutas personales y recibos en `*.local.json`, fuera de Git. Los recursos reutilizables de marca conservan las ubicaciones siguientes.
 - Guía vigente: `marca/design-system.html`; contexto de marca: `marca/manual.md` y `marca/tokens/`.
 - Índice común para el agente: `marca/recursos.json`. Se genera con `python3 scripts/catalogar-recursos.py`; contiene IDs estables, fuentes, exportaciones, hashes y límites de uso. No editarlo a mano ni interpretar las láminas de referencia como recursos listos para colocar en video.
 - Fuentes de trabajo: `marca/assets/fuentes/` y `marca/assets/logos/`. Para animar el logo, usa las piezas PNG y su catálogo de coordenadas en `marca/assets/logos/piezas/`; no las reinterpretes como un vector maestro.
@@ -47,6 +50,8 @@ Antes de crear una idea/episodio, busca si ya existe el mismo concepto. Guarda c
 La entrada `marca/design-system.html` es la guía esencial concisa. `marca/guia-detallada.html` conserva simuladores y referencias completas; el exportador PNG usa esta última para mantener todos los elementos reproducibles.
 
 ## Entrega y comprobaciones
+
+Al crear o mantener skills, usar `skill-creator`: descripciones centradas en tarea y activación, instrucciones compartidas en una sola fuente, referencias leídas según necesidad y dependencias condicionadas a la tarea real. Las skills de edición se mantienen en `.agents/skills/`; sus copias personales se generan y comprueban con `scripts/sincronizar-skills-edicion.py`, sin mantener dos versiones a mano. Conservar separadas las instrucciones reutilizables y la evidencia de episodios o revisiones históricas.
 
 Guardar entregables como BORRADOR, con fuentes y pendientes pertinentes, e informar qué se produjo y qué se verificó. Una captura valida imagen; escucha, exportación y reapertura comprueban aspectos diferentes. No afirmar que se revisaron si no ocurrió.
 

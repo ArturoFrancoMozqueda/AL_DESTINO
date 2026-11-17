@@ -1,0 +1,15 @@
+{
+  "status": "borrador",
+  "observed_at": "2026-11-16",
+  "timezone": "America/Mexico_City",
+  "source_url": "https://www.youtube.com/watch?v=OWaR68LiZLs",
+  "source_title": "Me quedé en el Resort MAS ULTRA LUJOSO del mundo",
+  "source_channel": "alanxelmundo",
+  "player_duration_seconds": 2465.741,
+  "method": "muestreo_visual_en_reproductor_de_navegador",
+  "continuous_playback_reviewed": false,
+  "listened": false,
+  "sample_times_seconds": [5,15,25,35,45,55,65,75,85,95,125,155,185,245,305,365,425,485,545,605,665,725,785,845,905,965,1025,1085,1145,1205,1265,1325,1360,1385,1400,1430,1445,1470,1505,1565,1600,1625,1640,1670,1685,1745,1805,1865,1925,1985,2045,2105,2115,2165,2190,2225,2260,2285,2345,2350,2405,2450],
+  "private_evidence": "ad-0001/proyecto-local/alan-resort-*.png; alan-resort-contacto-1.jpg, -2.jpg y -detalle.jpg",
+  "limitations": ["Los intervalos entre muestras no se declaran vistos.", "No se verificaron mezcla, ritmo continuo ni técnicas internas de los gráficos.", "No se copiaron recursos del referente a la marca."]
+}

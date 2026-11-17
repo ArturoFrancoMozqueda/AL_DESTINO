@@ -1,0 +1,48 @@
+{
+  "brand": "AL DESTINO",
+  "version": "0.2",
+  "status": "borrador",
+  "created_at": "2026-11-16",
+  "brand_version": "0.6",
+  "generator": "scripts/generar-graficos-viaje.cjs",
+  "source": "Ilustraciones SVG originales y tipografía de marca; sin fotos de lugares ni recursos de terceros.",
+  "items": [
+    {
+      "id": "ubicacion",
+      "title": "Mapa y ubicación",
+      "source": "ubicacion.svg",
+      "png": "../../exportaciones/video-v02/ubicacion.png",
+      "width": 280,
+      "height": 280,
+      "alpha": true,
+      "status": "borrador",
+      "source_sha256": "20020ddb15a6eda0c45fa87430d4735a0c03d06e749f81cfc233ef6394398500",
+      "png_sha256": "bfac0bd93c6f3d61a45a679a0b3e8aaa39118da1ad535234067e878411503f12"
+    },
+    {
+      "id": "sabores",
+      "title": "Pan y café",
+      "source": "sabores.svg",
+      "png": "../../exportaciones/video-v02/sabores.png",
+      "width": 280,
+      "height": 280,
+      "alpha": true,
+      "status": "borrador",
+      "source_sha256": "ad87cff22102934271db5e9ee6f0aa0fa5f3af30ee92a6f3184bd4ee7f44c3e6",
+      "png_sha256": "c9758907ba67de6811aac9813de3b6c87da6bcb3a589fc82060787b73a0720d6"
+    },
+    {
+      "id": "consejo",
+      "title": "Cuaderno y brújula",
+      "source": "consejo.svg",
+      "png": "../../exportaciones/video-v02/consejo.png",
+      "width": 280,
+      "height": 280,
+      "alpha": true,
+      "status": "borrador",
+      "source_sha256": "42f39175a76cd928e2e76537f0e247b8caafed199018ab3ca8b6efa11c02e9de",
+      "png_sha256": "787bfa524225d06293a6b206f6f9868df2456d407187d2cf143d2e85103c2fb5"
+    }
+  ],
+  "board": "../../exportaciones/video-v02/mesa-de-revision.png"
+}

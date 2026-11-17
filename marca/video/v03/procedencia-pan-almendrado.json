@@ -1,0 +1,14 @@
+{
+  "kind": "generate_from_reference",
+  "transparent_background": true,
+  "prompt": "Use case: illustration-story. Create a new original editorial food spot illustration for a refined travel vlog, using the attached photo ONLY as a visual reference for the almond pastry. Subject: ONLY the single folded golden-brown almond pastry visible in the person's hands: irregular triangular/diamond folded flaky pastry, thick cream-colored almond slices across its baked top, warm crisp layers and slightly uneven artisan form. Preserve those recognizable pastry characteristics instead of replacing it with a concha, a croissant crescent, or a round bun. Render it as a beautifully finished semirealistic painterly editorial illustration, believable appetizing material, refined detail and clear compact silhouette, gentle three-quarter view. This is an illustrative accent, not a photograph or reproduction of the whole scene. Fully isolated on TRUE transparent alpha. NO people, face, hands, fingers, arms, clothes, nails, drinks, plate, paper, table, scenery, buildings, ground, shadow puddle, background panel, sticker border, white outline, glow, text or logos. Pastry only. Fully visible object with 12 percent transparent clear margin on all sides. No color haze outside the precise physical pastry silhouette.",
+  "reference": {
+    "episode_id": "ad-0001",
+    "source_name": "IMG_9127.MOV",
+    "source_seconds": 66,
+    "kind": "fotograma_propio_privado",
+    "public_reference_image_included": false
+  },
+  "selected_source": "fuentes/pan-almendrado-master.png",
+  "limitation": "Ilustración derivada, no fotografía del pan exacto. No incluye personas, manos ni lugar."
+}

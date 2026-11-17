@@ -1,0 +1,209 @@
+{
+  "brand": "AL DESTINO",
+  "version": "0.4.1",
+  "status": "borrador",
+  "created_at": "2026-11-16",
+  "generator": "scripts/generar-kit-iconos-editoriales.cjs",
+  "direction": "Kit editorial de likes, ubicación y firma; PNG transparentes sin placa.",
+  "colors": {
+    "universal": "#FFFDF5",
+    "claro": "#FFFDF5",
+    "oscuro": "#302722",
+    "acento": "#287C7A"
+  },
+  "default_variant": "universal",
+  "source": "Geometrías propias y raster original del logo conservado.",
+  "items": [
+    {
+      "id": "like",
+      "title": "Like · contorno",
+      "role": "Opinión contextual o CTA según el evento; no implica una cantidad de likes.",
+      "source": "like.svg",
+      "source_sha256": "b33517817c68bd873240590efa45cb52c6aebcda488a63eb59f7f74a5d210d70",
+      "png": {
+        "universal": {
+          "file": "../../exportaciones/video-v04/universal/like.png",
+          "sha256": "801f1b1d88ee3d418c22e67695c33dc1bc7e8183a2cc65d7b9a42aca957d140a",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "claro": {
+          "file": "../../exportaciones/video-v04/claro/like.png",
+          "sha256": "801f1b1d88ee3d418c22e67695c33dc1bc7e8183a2cc65d7b9a42aca957d140a",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "oscuro": {
+          "file": "../../exportaciones/video-v04/oscuro/like.png",
+          "sha256": "e07ccdff1d0cac67cfa89ba2518d2d242c883f9ace718a005fa4b7721ff7dfa0",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "acento": {
+          "file": "../../exportaciones/video-v04/acento/like.png",
+          "sha256": "52ea034837109ba484ce0e36250848ddfa9cc471ec8c3b6c8274a5baf652b5ed",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        }
+      },
+      "status": "borrador"
+    },
+    {
+      "id": "like-activo",
+      "title": "Like · énfasis",
+      "role": "Estado visual alternativo del like; no es animación ni puntuación por sí mismo.",
+      "source": "like-activo.svg",
+      "source_sha256": "9e0257ed169f14db75180e602b893c2864778f1f5381095cd1f5fa4d4bc2a6b5",
+      "png": {
+        "universal": {
+          "file": "../../exportaciones/video-v04/universal/like-activo.png",
+          "sha256": "f6e2ccaf6c2a90ce0dff1c1d6f432b22417ef7187bcb5464906e35ca7c916b6e",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "claro": {
+          "file": "../../exportaciones/video-v04/claro/like-activo.png",
+          "sha256": "f6e2ccaf6c2a90ce0dff1c1d6f432b22417ef7187bcb5464906e35ca7c916b6e",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "oscuro": {
+          "file": "../../exportaciones/video-v04/oscuro/like-activo.png",
+          "sha256": "848b66fa3dd5a088073f9dc57faba9226fa747387b31878c1171e3ab3f1292f4",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "acento": {
+          "file": "../../exportaciones/video-v04/acento/like-activo.png",
+          "sha256": "557b4590064ecf270962cd9cb5ebcba8639a901de00e45639b8547d1bdb9e445",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        }
+      },
+      "status": "borrador"
+    },
+    {
+      "id": "ubicacion",
+      "title": "Pin de ubicación",
+      "role": "Junto al nombre confirmado del lugar; el pin no representa coordenadas ni un mapa exacto.",
+      "source": "ubicacion.svg",
+      "source_sha256": "69a7240a6040ae5da979b06786a5f3b431d5bb26ac8c092ac1e499995000ef8b",
+      "png": {
+        "universal": {
+          "file": "../../exportaciones/video-v04/universal/ubicacion.png",
+          "sha256": "74d304a7718815aebc9008624185bbe1018452dda6b6cc7ceccde00489da6073",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "claro": {
+          "file": "../../exportaciones/video-v04/claro/ubicacion.png",
+          "sha256": "74d304a7718815aebc9008624185bbe1018452dda6b6cc7ceccde00489da6073",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "oscuro": {
+          "file": "../../exportaciones/video-v04/oscuro/ubicacion.png",
+          "sha256": "2fda3722523cd4cc5bc4cb4eb5e98cd6038ffab54e6620b22d45599230f856ae",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "acento": {
+          "file": "../../exportaciones/video-v04/acento/ubicacion.png",
+          "sha256": "1ee79523e2e220b159e6a86d667853c2be7a64ab36ea1f8b41be941a4c7dded6",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        }
+      },
+      "status": "borrador"
+    },
+    {
+      "id": "corazon",
+      "title": "Corazón",
+      "role": "Afinidad o invitación contextual; no sustituye ni inventa una reacción de Arturo o Liz.",
+      "source": "corazon.svg",
+      "source_sha256": "8620fa29cc9c1cd71755b51a7e81b6ead7abc877cfb39e3ba033c8706a530ddd",
+      "png": {
+        "universal": {
+          "file": "../../exportaciones/video-v04/universal/corazon.png",
+          "sha256": "091239ca12d176f04383c5cfc85b1886a920e01953f35faaee59030310fbe91b",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "claro": {
+          "file": "../../exportaciones/video-v04/claro/corazon.png",
+          "sha256": "091239ca12d176f04383c5cfc85b1886a920e01953f35faaee59030310fbe91b",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "oscuro": {
+          "file": "../../exportaciones/video-v04/oscuro/corazon.png",
+          "sha256": "09c1c9f6eea5b0b2f6462a652f1d44acf8dedbdd1f9b72bffc578c3b4cb10c1c",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        },
+        "acento": {
+          "file": "../../exportaciones/video-v04/acento/corazon.png",
+          "sha256": "69f5949c9aacf6230821aa1bbc6b46b112cf3ef19747c346fa06b7a0dda24b86",
+          "width": 512,
+          "height": 512,
+          "alpha": true
+        }
+      },
+      "status": "borrador"
+    }
+  ],
+  "logos": {
+    "source": "../../assets/logos/piezas/logo-horizontal-transparente.png",
+    "source_sha256": "c02f45fde6bac378e0856c2fb03ef9076c3e4c2ef78f4f2b639bd1c3c9a1095a",
+    "horizontal": {
+      "file": "../../exportaciones/video-v04/logo-horizontal.png",
+      "sha256": "c02f45fde6bac378e0856c2fb03ef9076c3e4c2ef78f4f2b639bd1c3c9a1095a",
+      "method": "copia_exacta"
+    },
+    "monogram": {
+      "file": "../../exportaciones/video-v04/monograma-transparente.png",
+      "sha256": "f9d84a04de4b3265728acd9d948fa4315f2c653f4617ed9ba3a9731f17c555aa",
+      "crop_xywh": {
+        "x": 27,
+        "y": 32,
+        "width": 599,
+        "height": 307
+      },
+      "method": "recorte_sin_escalado_del_raster_existente"
+    },
+    "horizontal_overlay": {
+      "file": "../../exportaciones/video-v04/logo-horizontal-contraste.png",
+      "sha256": "12dc842dbc52789ba717e6239b14d94de2410bee002595d8d8f7b76447e0a473",
+      "padding_px": 14,
+      "method": "raster_original_con_apoyo_de_alfa_detras_sin_placa"
+    },
+    "monogram_overlay": {
+      "file": "../../exportaciones/video-v04/monograma-contraste.png",
+      "sha256": "b074caf88ab8a2ab34648fa5c359f76d70e19eacdd76aaf5d3f2ac9a007ca411",
+      "padding_px": 14,
+      "method": "raster_original_con_apoyo_de_alfa_detras_sin_placa"
+    },
+    "policy": "Rasters originales conservados; variantes overlay con apoyo de alfa por detrás, sin redibujar ni recolorear el frente."
+  },
+  "motion_references": [
+    "marca/motion/logo-al-destino/renders/catalogo.json",
+    "marca/motion/logo-circular/renders/catalogo.json",
+    "marca/motion/logo-al-destino/premium/renders/catalogo.json"
+  ],
+  "compatibility": "sin_prueba_en_clipo"
+}

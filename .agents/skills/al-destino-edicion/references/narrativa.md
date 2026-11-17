@@ -34,6 +34,10 @@ Punto de partida para ensayar: apertura de 5–15 s, contexto breve y primer mom
 
 ## Desarrollo y cierre
 
+Antes de pulir gráficos o música, ordenar un montaje de la historia con bloques vinculados a la pregunta central. Comprobar qué cambia entre uno y otro y por qué el siguiente plano pertenece ahí. La cobertura y la selección de todos los archivos del encargo se registran según [cobertura del material](cobertura.md); no ordenar la historia por facilidad de importación.
+
 Alternar contexto, acción/detalle y presencia de ustedes cuando el material lo permita. Un bloque debe añadir experiencia, información o relación; no cambiar plano sólo por un contador. Conservar pausas, risas y desacuerdos que expresen personalidad, recortando repeticiones que no aportan. Dar salida a la pregunta central: respuesta, matiz o «no pudimos comprobarlo».
 
 Cierre propuesto: experiencia personal → a quién le puede servir → un consejo comprobado. Invitación a comentar sólo si encaja; QR/reservas y redes dependen de destino/cuenta confirmados. La firma o el logo pueden acompañar el final sin sustituir ese cierre.
+
+Cuando el usuario dé una duración posible o máxima, adaptar la historia sin llenar tiempo por obligación. Si pide acortar un bloque, conservar los momentos que lo hacen entendible y sus reacciones útiles; revisar continuidad y tiempos de las pistas afectadas. Una degustación breve en un episodio no fija la duración de futuras degustaciones.

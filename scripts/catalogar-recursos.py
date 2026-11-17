@@ -46,7 +46,8 @@ def build_catalog():
         usage='Referencia de integridad, conservar intacta. Aplicaciones con extracción de trabajo.')
     add('marca.logo.horizontal', 'Logo horizontal', 'logo',
         [('raster_transparent', 'marca/assets/logos/piezas/logo-horizontal-transparente.png'),
-         ('raster_arena', 'marca/exportaciones/v05-png/logos/logo-horizontal.png')],
+         ('raster_arena', 'marca/exportaciones/v05-png/logos/logo-horizontal.png'),
+         ('png_overlay_contrast', 'marca/exportaciones/video-v04/logo-horizontal-contraste.png')],
         editability='raster; capas PNG originales disponibles en el catálogo de piezas',
         usage='Identificación/firma; conservar proporciones y píxeles originales.')
     add('marca.logo.circular', 'Logo circular', 'logo',
@@ -92,13 +93,72 @@ def build_catalog():
                 metadata = {'fields': item['fields'], 'layers': item['layers'],
                             'motion_id': 'motion.video.' + item['motion_preset'],
                             'editability': item['editability'], 'is_mockup': True,
-                            'generator': 'scripts/generar-kit-video.cjs'}
+                            'generator': 'scripts/generar-kit-video.cjs',
+                            'visual_selection': 'Muestra v01; no usar como acabado premium por defecto. Consultar visual.md y preparar el texto real.'}
             add(prefix + item['id'], item['title'], 'icon' if group == 'icons' else 'video_component', files, **metadata)
     for preset in motion['presets']:
         add('motion.video.' + preset['id'], 'Movimiento: ' + preset['id'], 'motion_specification',
             [('specification', 'marca/video/v01/motion.json')],
             availability='especificacion_sin_render', selector=preset['id'],
             implementation='pendiente', usage='Valor de ensayo propio; no medido del referente ni validado en Clipo.')
+
+    travel = read_json('marca/video/v02/catalogo.json')
+    for item in travel['items']:
+        add('video.ilustracion.' + item['id'], item['title'], 'illustration',
+            [('svg_source', relative('marca/video/v02', item['source'])),
+             ('png_transparent', relative('marca/video/v02', item['png']))],
+            generator=travel['generator'], editability='SVG fuente; PNG transparente independiente',
+            selection_status='descartado_para_direccion_vigente',
+            compatibility='pendiente_de_prueba_en_editor',
+            usage='Antecedente v02 con fondo de papel rechazado por Arturo. Conservar para trazabilidad; no seleccionar como acabado vigente.')
+
+    cutouts = read_json('marca/video/v03/catalogo.json')
+    for item in cutouts['items']:
+        add('video.ilustracion.' + item['id'], item['title'], 'illustration',
+            [('raster_source', relative('marca/video/v03', item['source'])),
+             ('png_transparent', relative('marca/video/v03', item['png'])),
+             ('provenance', 'marca/video/v03/' + cutouts['provenance'])],
+            generator=cutouts['generator'], editability='Maestro raster y prompts; sin capas vectoriales',
+            compatibility='pendiente_de_prueba_en_editor', selection_status='ilustracion_opcional_fuera_del_kit_editorial',
+            usage=item['usage'] + ' PNG sin fondo; revisar tamaño y oportunidad sobre la toma. BORRADOR.')
+
+    editorial = read_json('marca/video/v04/catalogo.json')
+    for item in editorial['items']:
+        add('video.editorial.' + item['id'], item['title'], 'editorial_icon',
+            [('svg_source', relative('marca/video/v04', item['source']))] +
+            [('png_' + variant, relative('marca/video/v04', data['file'])) for variant, data in item['png'].items()],
+            generator=editorial['generator'], editability='SVG geométrico propio; PNG transparente por variante',
+            compatibility='pendiente_de_prueba_en_editor', selection_status='propuesta_kit_editorial',
+            default_variant='universal',
+            usage=item['role'] + ' Contraste local incorporado, sin placa. Prueba sobre metraje requerida; no implica movimiento implementado ni aprobación.')
+    add('marca.logo.monograma-video', 'Monograma original transparente para video', 'logo',
+        [('raster_source', 'marca/assets/logos/piezas/logo-horizontal-transparente.png'),
+         ('png_transparent', relative('marca/video/v04', editorial['logos']['monogram']['file'])),
+         ('png_overlay_contrast', relative('marca/video/v04', editorial['logos']['monogram_overlay']['file']))],
+        generator=editorial['generator'], editability='recorte raster; conserva los píxeles del original',
+        catalog='marca/video/v04/catalogo.json', compatibility='pendiente_de_prueba_en_editor',
+        usage='Firma pequeña cuando se lea mejor que el logo completo. No recolorear ni deformar; reutilizar animaciones existentes si corresponde.')
+
+    premium_base = 'marca/motion/logo-al-destino/premium'
+    premium = read_json(premium_base + '/renders/catalogo.json')
+    add('motion.logo.horizontal.premium', 'Firma por piezas con contraste local', 'logo_animation',
+        [('editable_composition', premium_base + '/index.html'),
+         ('animated_png', premium_base + '/renders/' + premium['animated_png']),
+         ('webm_alpha', premium_base + '/renders/' + premium['webm']),
+         ('poster', premium_base + '/renders/' + premium['poster'])],
+        catalog=premium_base + '/renders/catalogo.json', sequence_directory=premium_base + '/renders/secuencia-png',
+        duration_seconds=premium['duration_seconds'], fps=premium['fps'], audio=False,
+        compatibility='pendiente_de_prueba_en_editor', generator='scripts/generar-logo-premium.cjs',
+        usage='Piezas raster originales con apoyo de alfa detrás; entrada coordinada, pausa y salida transparente. APNG/WebM renderizados y alfa verificado, sin prueba de importación en Clipo. BORRADOR.')
+    add('motion.logo.monograma.premium', 'Monograma animado para firma en esquina', 'logo_animation',
+        [('editable_composition', premium_base + '/index.html'),
+         ('animated_png', premium_base + '/renders/' + premium['monogram']['animated_png']),
+         ('webm_alpha', premium_base + '/renders/' + premium['monogram']['webm']),
+         ('poster', premium_base + '/renders/' + premium['monogram']['poster'])],
+        catalog=premium_base + '/renders/catalogo.json', selector='monogram',
+        sequence_directory=premium_base + '/renders/monograma-png', duration_seconds=4, fps=30, audio=False,
+        compatibility='pendiente_de_prueba_en_editor',
+        usage='Recorte de la misma animación, sin redibujar ni recolorear. Usar cuando el logo completo no se lea en pequeño; BORRADOR con alfa verificado.')
 
     return {
         'schema_version': '1.0', 'brand': 'AL DESTINO', 'status': 'borrador',
@@ -109,6 +169,10 @@ def build_catalog():
             {'id': 'marca.png', 'path': 'marca/exportaciones/v05-png/catalogo.json', 'role': '72 PNG de marca; incluye láminas de referencia y placeholders'},
             {'id': 'marca.piezas-logo', 'path': 'marca/assets/logos/piezas/catalogo.json', 'role': 'Coordenadas y PNG extraídos del logo original'},
             {'id': 'video', 'path': 'marca/video/v01/catalogo.json', 'role': 'Iconos y componentes editables/muestras'},
+            {'id': 'video.graficos-viaje', 'path': 'marca/video/v02/catalogo.json', 'role': 'Antecedente con fondo de papel descartado para la dirección vigente'},
+            {'id': 'video.recortes', 'path': 'marca/video/v03/catalogo.json', 'role': 'PNG recortados sin placa; propuestas BORRADOR'},
+            {'id': 'video.editorial', 'path': 'marca/video/v04/catalogo.json', 'role': 'Likes, pin, corazón y firma original; kit editorial BORRADOR'},
+            {'id': 'motion.logo.horizontal.premium', 'path': premium_base + '/renders/catalogo.json', 'role': 'Firma de 4 s en APNG y WebM con transparencia verificada'},
             {'id': 'motion.logo.horizontal', 'path': 'marca/motion/logo-al-destino/renders/catalogo.json', 'role': 'Animación horizontal existente'},
             {'id': 'motion.logo.circular', 'path': 'marca/motion/logo-circular/renders/catalogo.json', 'role': 'Animación circular existente'}
         ],

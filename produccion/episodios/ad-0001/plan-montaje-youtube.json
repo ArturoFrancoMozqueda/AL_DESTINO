@@ -1,0 +1,3814 @@
+{
+  "schema_version": "0.4",
+  "status": "borrador",
+  "execution_status": "aplicado_exportado_verificado_en_tramos_y_reabierto",
+  "episode_id": "ad-0001",
+  "variant_id": "horizontal-viaje-completo",
+  "source_variant_id": null,
+  "source_coverage_reference": null,
+  "experience_date": null,
+  "brief_path": "brief.md",
+  "story_question": "¿Qué encontramos al venir a Pátzcuaro por ese pan que nos gusta y aprovechar el paseo?",
+  "declared_style": "Profesional y elegante; conversación natural, momentos reales y color fiel.",
+  "output": {
+    "aspect": "16:9",
+    "width_px": 1920,
+    "height_px": 1080,
+    "duration_target_seconds": 584.6,
+    "fps": 30,
+    "destination": "YouTube",
+    "duration_exported_seconds": 584.618667
+  },
+  "media": [
+    {
+      "id": "src-img_9103",
+      "name": "IMG_9103.MOV",
+      "duration_seconds": 4.8167,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 33138949,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Salida en coche; Liz"
+    },
+    {
+      "id": "src-img_9104",
+      "name": "IMG_9104.MOV",
+      "duration_seconds": 177.313333,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 1302827742,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Intención del viaje y conversación en carretera; Arturo y Liz"
+    },
+    {
+      "id": "src-img_9105",
+      "name": "IMG_9105.MOV",
+      "duration_seconds": 71.7317,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 329810946,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Carretera y Arturo conduciendo"
+    },
+    {
+      "id": "src-img_9106",
+      "name": "IMG_9106.MOV",
+      "duration_seconds": 40.473333,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 69812033,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Llegada; calles desde el coche"
+    },
+    {
+      "id": "src-img_9107",
+      "name": "IMG_9107.MOV",
+      "duration_seconds": 6.468333,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 11060469,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Tráfico y fachadas"
+    },
+    {
+      "id": "src-img_9108",
+      "name": "IMG_9108.MOV",
+      "duration_seconds": 5.418333,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 9730244,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Violinista en calle"
+    },
+    {
+      "id": "src-img_9109",
+      "name": "IMG_9109.MOV",
+      "duration_seconds": 57.081667,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 417071571,
+      "codec": "hevc",
+      "fps": "60000/1001",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Llegada y conversación en coche"
+    },
+    {
+      "id": "src-img_9110",
+      "name": "IMG_9110.MOV",
+      "duration_seconds": 27.211667,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 193462941,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Conversación en coche"
+    },
+    {
+      "id": "src-img_9111",
+      "name": "IMG_9111.PNG",
+      "duration_seconds": null,
+      "kind": "image",
+      "width": 1320,
+      "height": 2868,
+      "size_bytes": 5154383,
+      "codec": "png",
+      "fps": null,
+      "color_transfer": "iec61966-2-1",
+      "color_primaries": "smpte432",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Captura de pantalla personal; excluida"
+    },
+    {
+      "id": "src-img_9112",
+      "name": "IMG_9112.MOV",
+      "duration_seconds": 8.0867,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 14173092,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Liz caminando; placas cercanas"
+    },
+    {
+      "id": "src-img_9113",
+      "name": "IMG_9113.MOV",
+      "duration_seconds": 5.585,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 9828697,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Paseo hacia el centro; placas cercanas"
+    },
+    {
+      "id": "src-img_9114",
+      "name": "IMG_9114.MOV",
+      "duration_seconds": 8.27,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 56199513,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Arranque accidental y calle"
+    },
+    {
+      "id": "src-img_9115",
+      "name": "IMG_9115.MOV",
+      "duration_seconds": 17.873333,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 141438961,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Cámara inclinada, suelo y local"
+    },
+    {
+      "id": "src-img_9116",
+      "name": "IMG_9116.MOV",
+      "duration_seconds": 5.585,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 37272985,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Arquitectura y calle"
+    },
+    {
+      "id": "src-img_9117",
+      "name": "IMG_9117.MOV",
+      "duration_seconds": 12.421667,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 83200215,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Paseo y fachadas"
+    },
+    {
+      "id": "src-img_9118",
+      "name": "IMG_9118.MOV",
+      "duration_seconds": 21.025,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 194634671,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Pies caminando y calle"
+    },
+    {
+      "id": "src-img_9119",
+      "name": "IMG_9119.MOV",
+      "duration_seconds": 18.741667,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 126261621,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Paseo hacia el centro"
+    },
+    {
+      "id": "src-img_9120",
+      "name": "IMG_9120.MOV",
+      "duration_seconds": 13.155,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 88377594,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Calle y arquitectura"
+    },
+    {
+      "id": "src-img_9121",
+      "name": "IMG_9121.MOV",
+      "duration_seconds": 9.77,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 69463557,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Portales decorados"
+    },
+    {
+      "id": "src-img_9123",
+      "name": "IMG_9123.MOV",
+      "duration_seconds": 76.733333,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 133436199,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Acceso a panadería y escaparate de pan"
+    },
+    {
+      "id": "src-img_9124",
+      "name": "IMG_9124.MOV",
+      "duration_seconds": 23.11,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 70454964,
+      "codec": "hevc",
+      "fps": "60000/1001",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Entrada y recorrido hacia la mesa"
+    },
+    {
+      "id": "src-img_9125",
+      "name": "IMG_9125.MOV",
+      "duration_seconds": 12.6717,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 27735497,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Menú"
+    },
+    {
+      "id": "src-img_9126",
+      "name": "IMG_9126.MOV",
+      "duration_seconds": 6.926667,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 47240309,
+      "codec": "hevc",
+      "fps": "60000/1001",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Terraza y Arturo en la mesa"
+    },
+    {
+      "id": "src-img_9127",
+      "name": "IMG_9127.MOV",
+      "duration_seconds": 130.608333,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 873517253,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Café y degustación juntos"
+    },
+    {
+      "id": "src-img_9128",
+      "name": "IMG_9128.MOV",
+      "duration_seconds": 30.38,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 210474682,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Otra pieza de pan y reacción"
+    },
+    {
+      "id": "src-img_9129",
+      "name": "IMG_9129.MOV",
+      "duration_seconds": 19.358333,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 33353818,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Elegir pan para llevar"
+    },
+    {
+      "id": "src-img_9130",
+      "name": "IMG_9130.MOV",
+      "duration_seconds": 9.653333,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "size_bytes": 101589354,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Pan embolsado"
+    },
+    {
+      "id": "src-img_9131",
+      "name": "IMG_9131.MOV",
+      "duration_seconds": 106.33,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 197038778,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Bolsa de pan, pareja y plaza"
+    },
+    {
+      "id": "src-img_9132",
+      "name": "IMG_9132.MOV",
+      "duration_seconds": 12.7117,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 22699353,
+      "codec": "hevc",
+      "fps": "60000/1001",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Portales y puestos"
+    },
+    {
+      "id": "src-img_9133",
+      "name": "IMG_9133.MOV",
+      "duration_seconds": 50.1717,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 101471917,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Conversación después de la visita"
+    },
+    {
+      "id": "src-img_9134",
+      "name": "IMG_9134.MOV",
+      "duration_seconds": 4.651667,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 8123903,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Regreso al estacionamiento"
+    },
+    {
+      "id": "src-img_9135",
+      "name": "IMG_9135.MOV",
+      "duration_seconds": 3.283333,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 5814551,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Subir al coche"
+    },
+    {
+      "id": "src-img_9136",
+      "name": "IMG_9136.MOV",
+      "duration_seconds": 5.968333,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 10301797,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Liz en el coche"
+    },
+    {
+      "id": "src-img_9137",
+      "name": "IMG_9137.MOV",
+      "duration_seconds": 30.145,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 54224805,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Despedida de la pareja"
+    },
+    {
+      "id": "src-img_9138",
+      "name": "IMG_9138.MOV",
+      "duration_seconds": 12.1217,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "size_bytes": 30369098,
+      "codec": "hevc",
+      "fps": "60/1",
+      "color_transfer": "arib-std-b67",
+      "color_primaries": "bt2020",
+      "metadata_verified": "ffprobe original; 16 de noviembre de 2026",
+      "content_notes": "Paisaje de regreso"
+    }
+  ],
+  "source_coverage": [
+    {
+      "media_id": "src-img_9103",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 4.8167,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            1.2,
+            2.41,
+            3.61,
+            4.52
+          ],
+          "findings": "Salida en coche; Liz"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 4.8,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9104",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 177.313333,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.3,
+            10,
+            25,
+            40,
+            55,
+            70,
+            85,
+            100,
+            115,
+            130,
+            145,
+            160,
+            175,
+            177.01
+          ],
+          "findings": "Intención del viaje y conversación en carretera; Arturo y Liz"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 177.313333,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9105",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 71.7317,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.3,
+            10,
+            25,
+            40,
+            55,
+            70,
+            71.43
+          ],
+          "findings": "Carretera y Arturo conduciendo"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 71.7317,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9106",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 40.473333,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.3,
+            10,
+            25,
+            40.17
+          ],
+          "findings": "Llegada; calles desde el coche"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 40.473333,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9107",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 6.468333,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            1.62,
+            3.23,
+            4.85,
+            6.17
+          ],
+          "findings": "Tráfico y fachadas"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 6.468333,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9108",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 5.418333,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            1.35,
+            2.71,
+            4.06,
+            5.12
+          ],
+          "findings": "Violinista en calle"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 5.418333,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9109",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 57.081667,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.3,
+            10,
+            25,
+            40,
+            55,
+            56.78
+          ],
+          "findings": "Llegada y conversación en coche"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 57.081667,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9110",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 27.211667,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            6.8,
+            13.61,
+            20.41,
+            26.91
+          ],
+          "findings": "Conversación en coche"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 27.211667,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9111",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": null,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0
+          ],
+          "findings": "Captura de pantalla personal; excluida"
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9112",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 8.0867,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            2.02,
+            4.04,
+            6.07,
+            7.79
+          ],
+          "findings": "Liz caminando; placas cercanas"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 8.0867,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9113",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 5.585,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            1.4,
+            2.79,
+            4.19,
+            5.29
+          ],
+          "findings": "Paseo hacia el centro; placas cercanas"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 5.585,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9114",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 8.27,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            2.07,
+            4.13,
+            6.2,
+            7.97
+          ],
+          "findings": "Arranque accidental y calle"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 8.27,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9115",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 17.873333,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            4.47,
+            8.94,
+            13.4,
+            17.57
+          ],
+          "findings": "Cámara inclinada, suelo y local"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 17.873333,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9116",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 5.585,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            1.4,
+            2.79,
+            4.19,
+            5.29
+          ],
+          "findings": "Arquitectura y calle"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 5.585,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9117",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 12.421667,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            3.11,
+            6.21,
+            9.32,
+            12.12
+          ],
+          "findings": "Paseo y fachadas"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 12.421667,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9118",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 21.025,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            5.26,
+            10.51,
+            15.77,
+            20.72
+          ],
+          "findings": "Pies caminando y calle"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 21.025,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9119",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 18.741667,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            4.69,
+            9.37,
+            14.06,
+            18.44
+          ],
+          "findings": "Paseo hacia el centro"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 18.741667,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9120",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 13.155,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            3.29,
+            6.58,
+            9.87,
+            12.85
+          ],
+          "findings": "Calle y arquitectura"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 13.155,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9121",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 9.77,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            2.44,
+            4.88,
+            7.33,
+            9.47
+          ],
+          "findings": "Portales decorados"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 9.77,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9123",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 76.733333,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.3,
+            10,
+            25,
+            40,
+            55,
+            70,
+            76.43
+          ],
+          "findings": "Acceso a panadería y escaparate de pan"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 76.733333,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9124",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 23.11,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            5.78,
+            11.55,
+            17.33,
+            22.81
+          ],
+          "findings": "Entrada y recorrido hacia la mesa"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 23.11,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9125",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 12.6717,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            3.17,
+            6.34,
+            9.5,
+            12.37
+          ],
+          "findings": "Menú"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 12.6717,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9126",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 6.926667,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            1.73,
+            3.46,
+            5.2,
+            6.63
+          ],
+          "findings": "Terraza y Arturo en la mesa"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 6.926667,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9127",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 130.608333,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.3,
+            10,
+            25,
+            40,
+            55,
+            70,
+            85,
+            100,
+            115,
+            130.31
+          ],
+          "findings": "Café y degustación juntos"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 130.608333,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 120,
+          "method": "muestreo_visual_detallado",
+          "sample_times": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20,
+            22,
+            24,
+            26,
+            28,
+            30,
+            32,
+            34,
+            36,
+            38,
+            40,
+            42,
+            44,
+            46,
+            48,
+            50,
+            52,
+            54,
+            56,
+            58,
+            60,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            78,
+            80,
+            82,
+            84,
+            86,
+            88,
+            90,
+            92,
+            94,
+            96,
+            98,
+            100,
+            102,
+            104,
+            106,
+            108,
+            110,
+            112,
+            114,
+            116,
+            118
+          ],
+          "findings": "Primer sorbo de Arturo y luego Liz; bocado de Liz alrededor de 66 s y Arturo alrededor de 74 s. Los últimos bocados repiten la acción; la selección conserva contexto y reacción."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9128",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 30.38,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.3,
+            10,
+            25,
+            30.08
+          ],
+          "findings": "Otra pieza de pan y reacción"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 30.38,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 30,
+          "method": "muestreo_visual_detallado",
+          "sample_times": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "findings": "Arturo prueba alrededor de 5 s, Liz alrededor de 13–16 s; gesto posterior conservado. Acercamiento accidental después de 26 s retirado."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9129",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 19.358333,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            4.84,
+            9.68,
+            14.52,
+            19.06
+          ],
+          "findings": "Elegir pan para llevar"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 19.358333,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9130",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 9.653333,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            2.41,
+            4.83,
+            7.24,
+            9.35
+          ],
+          "findings": "Pan embolsado"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 9.653333,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9131",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 106.33,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.3,
+            10,
+            25,
+            40,
+            55,
+            70,
+            85,
+            100,
+            106.03
+          ],
+          "findings": "Bolsa de pan, pareja y plaza"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 106.33,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9132",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 12.7117,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            3.18,
+            6.36,
+            9.53,
+            12.41
+          ],
+          "findings": "Portales y puestos"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 12.7117,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9133",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 50.1717,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.3,
+            10,
+            25,
+            40,
+            49.87
+          ],
+          "findings": "Conversación después de la visita"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 50.1717,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9134",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 4.651667,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            1.16,
+            2.33,
+            3.49,
+            4.35
+          ],
+          "findings": "Regreso al estacionamiento"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 4.651667,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9135",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 3.283333,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            0.82,
+            1.64,
+            2.46,
+            2.98
+          ],
+          "findings": "Subir al coche"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 3.283333,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9136",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 5.968333,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            1.49,
+            2.98,
+            4.48,
+            5.67
+          ],
+          "findings": "Liz en el coche"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 5.968333,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9137",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 30.145,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.3,
+            10,
+            25,
+            29.84
+          ],
+          "findings": "Despedida de la pareja"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 30.145,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    },
+    {
+      "media_id": "src-img_9138",
+      "intervals": [
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 12.1217,
+          "method": "muestreo_visual_distribuido",
+          "sample_times": [
+            0.2,
+            3.03,
+            6.06,
+            9.09,
+            11.82
+          ],
+          "findings": "Paisaje de regreso"
+        },
+        {
+          "source_in_seconds": 0,
+          "source_out_seconds": 12.1217,
+          "method": "ASR_local_rapido",
+          "findings": "Transcripción orientativa para localizar contexto, acciones y respuestas. Errores y repeticiones detectados; no se queman como subtítulos."
+        }
+      ],
+      "unexplored_intervals": [],
+      "required_moments": [],
+      "limitations": [
+        "Muestreo distribuido; no equivale a reproducción continua ni escucha."
+      ]
+    }
+  ],
+  "story_beats": [
+    {
+      "id": "apertura",
+      "contribution_to_story": "Ubicar el lugar, el pan y la pareja antes del contexto.",
+      "selection_ids": [
+        "yt-01",
+        "yt-02",
+        "yt-03"
+      ],
+      "link_to_next": "La intención en carretera explica por qué vinieron."
+    },
+    {
+      "id": "camino",
+      "contribution_to_story": "Conocer la intención, el origen del gusto por ese pan y la dinámica de pareja.",
+      "selection_ids": [
+        "yt-04",
+        "yt-05",
+        "yt-06",
+        "yt-07",
+        "yt-08",
+        "yt-09",
+        "yt-10"
+      ],
+      "link_to_next": "La llegada convierte la intención en una situación real."
+    },
+    {
+      "id": "llegada",
+      "contribution_to_story": "Mostrar la búsqueda de estacionamiento y conservar la broma con su aclaración.",
+      "selection_ids": [
+        "yt-11",
+        "yt-12",
+        "yt-13",
+        "yt-14",
+        "yt-15"
+      ],
+      "link_to_next": "El cambio a caminar da continuidad al paseo."
+    },
+    {
+      "id": "paseo",
+      "contribution_to_story": "Relacionar calles, caminar juntos y portales, sin acumular fachadas.",
+      "selection_ids": [
+        "yt-16",
+        "yt-17",
+        "yt-18",
+        "yt-19",
+        "yt-20",
+        "yt-21"
+      ],
+      "link_to_next": "El recorrido conduce al acceso de la panadería."
+    },
+    {
+      "id": "panaderia",
+      "contribution_to_story": "Encontrar el local y mostrar las piezas de pan que justifican la visita.",
+      "selection_ids": [
+        "yt-22",
+        "yt-23",
+        "yt-24"
+      ],
+      "link_to_next": "La elección lleva a sentarse y probar."
+    },
+    {
+      "id": "mesa",
+      "contribution_to_story": "Relacionar entrada, elección de mesa, carta y terraza.",
+      "selection_ids": [
+        "yt-25",
+        "yt-26",
+        "yt-27",
+        "yt-28"
+      ],
+      "link_to_next": "Con el espacio entendido, se pasa a las respuestas de ambos."
+    },
+    {
+      "id": "degustacion",
+      "contribution_to_story": "Conservar el sorbo y la diferencia de gustos por el café, los bocados de ambos y los gestos posteriores.",
+      "selection_ids": [
+        "yt-29",
+        "yt-30",
+        "yt-31"
+      ],
+      "link_to_next": "La compra para llevar muestra el resultado del objetivo."
+    },
+    {
+      "id": "para-llevar",
+      "contribution_to_story": "Elegir, embolsar y celebrar que ya tienen pan; ubicar el local desde lo vivido.",
+      "selection_ids": [
+        "yt-32",
+        "yt-33",
+        "yt-34",
+        "yt-35"
+      ],
+      "link_to_next": "Cumplido el objetivo, el paseo continúa por la plaza."
+    },
+    {
+      "id": "plaza",
+      "contribution_to_story": "Dar una pausa después del resultado y acompañar el paseo.",
+      "selection_ids": [
+        "yt-36",
+        "yt-37",
+        "yt-38"
+      ],
+      "link_to_next": "La conversación al salir recoge lo aprendido."
+    },
+    {
+      "id": "conclusion",
+      "contribution_to_story": "Matizar el consejo inicial sobre llegar temprano con lo que vivieron ese domingo.",
+      "selection_ids": [
+        "yt-39"
+      ],
+      "link_to_next": "Mostrar el estacionamiento cumple lo que anuncian enseñar."
+    },
+    {
+      "id": "regreso",
+      "contribution_to_story": "Mostrar el estacionamiento y el regreso al coche con un momento real de Liz.",
+      "selection_ids": [
+        "yt-40",
+        "yt-41",
+        "yt-42"
+      ],
+      "link_to_next": "La despedida responde al cierre del día."
+    },
+    {
+      "id": "despedida",
+      "contribution_to_story": "Conservar despedida, paisaje y firma original como cierre.",
+      "selection_ids": [
+        "yt-43",
+        "yt-44"
+      ],
+      "link_to_next": "Final del episodio."
+    }
+  ],
+  "technical_checks": [
+    {
+      "id": "originales",
+      "media_id": null,
+      "tested_source_interval": null,
+      "representation": "Metadata de 34 MOV y una imagen; originales intactos.",
+      "observed_import_decode_audio_export": "Inventario ffprobe completo; 29 representaciones de fuentes elegidas importadas por MCP sin fallos. Prueba HDR inicial exportada y validada por recibo.",
+      "color_comparison": "Muestreo de fuente Hable y preview sobre piel, blancos y vegetación; comprobar también exportación.",
+      "background_progress": "Exportación completa progresa en modo rápido con el chat en primer plano.",
+      "limitations": "La reproducción de preview avanzó alrededor de 1.4 s durante una ventana de 6.5 s; no acredita visionado continuo."
+    },
+    {
+      "id": "revision-v02",
+      "media_id": null,
+      "tested_source_interval": "IMG_9105 2.2–7.7 y 57.5–64; IMG_9135–9137 para perspectivas.",
+      "representation": "Nuevas copias H.264 SDR con recibos nativos verificados; originales intactos.",
+      "observed_import_decode_audio_export": "Pruebas nativas 1080p de 34.35 s (alfa y perspectivas) y 12 s (tramo corregido), artefactos descargados con SHA-256. Audio presente; escucha pendiente.",
+      "color_comparison": "Carrocería, piel y vegetación visibles en muestras; no se aplica una nueva estética de color.",
+      "background_progress": "Exportador nativo en modo rápido; trabajos persistentes consultados hasta terminal.",
+      "limitations": "Dos pruebas de originales HEVC sin normalizar fallaron; no se usaron como entregables."
+    }
+  ],
+  "hook_candidates": [
+    {
+      "id": "lugar-pan-pareja",
+      "family": "ambiente",
+      "proposal": "Lugar, pan y pareja antes de la intención a cámara.",
+      "selection_ids": [
+        "yt-01",
+        "yt-02",
+        "yt-03"
+      ],
+      "promise": "Acompañar el viaje por pan.",
+      "evidence": "El episodio desarrolla la intención, degustación y compra.",
+      "risks": "Anticipo visual; no usar reacción al café como reacción al pan."
+    },
+    {
+      "id": "intencion-directa",
+      "family": "objetivo_del_dia",
+      "proposal": "Comenzar con la intención en carretera.",
+      "selection_ids": [
+        "yt-04"
+      ],
+      "promise": "Ir por pan y pasear.",
+      "evidence": "Intención y resultado grabados.",
+      "risks": "Menos contexto visual antes del diálogo."
+    }
+  ],
+  "selected_hook_id": "lugar-pan-pareja",
+  "selections": [
+    {
+      "id": "yt-01",
+      "media_id": "src-img_9123",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 3.7,
+      "reason": "Lugar y entrada de la experiencia"
+    },
+    {
+      "id": "yt-02",
+      "media_id": "src-img_9127",
+      "source_in_seconds": 0.3,
+      "source_out_seconds": 3.6,
+      "reason": "Anticipo del pan que motiva el viaje"
+    },
+    {
+      "id": "yt-03",
+      "media_id": "src-img_9103",
+      "source_in_seconds": 1.1,
+      "source_out_seconds": 2.8,
+      "reason": "Liz: presencia de pareja antes del contexto"
+    },
+    {
+      "id": "yt-04",
+      "media_id": "src-img_9104",
+      "source_in_seconds": 33.7,
+      "source_out_seconds": 58.3,
+      "reason": "Intención: venir por pan"
+    },
+    {
+      "id": "yt-05",
+      "media_id": "src-img_9104",
+      "source_in_seconds": 62.6,
+      "source_out_seconds": 74.5,
+      "reason": "Relación previa con Pátzcuaro"
+    },
+    {
+      "id": "yt-06",
+      "media_id": "src-img_9104",
+      "source_in_seconds": 74.8,
+      "source_out_seconds": 106,
+      "reason": "Cómo descubrieron el pan y gusto de Liz"
+    },
+    {
+      "id": "yt-07",
+      "media_id": "src-img_9104",
+      "source_in_seconds": 106.2,
+      "source_out_seconds": 123.3,
+      "reason": "Anticipación y aprovechar el paseo"
+    },
+    {
+      "id": "yt-08",
+      "media_id": "src-img_9104",
+      "source_in_seconds": 123.4,
+      "source_out_seconds": 145.5,
+      "reason": "Conversación espontánea de pareja en el camino"
+    },
+    {
+      "id": "yt-09",
+      "media_id": "src-img_9105",
+      "source_in_seconds": 2.2,
+      "source_out_seconds": 7.7,
+      "reason": "Carretera continua; excluir huecos temporales del original."
+    },
+    {
+      "id": "yt-10",
+      "media_id": "src-img_9105",
+      "source_in_seconds": 57.5,
+      "source_out_seconds": 64,
+      "reason": "Arturo al volante y paneo a carretera; tramo sin las pausas de 53–57 s."
+    },
+    {
+      "id": "yt-11",
+      "media_id": "src-img_9106",
+      "source_in_seconds": 24,
+      "source_out_seconds": 29,
+      "reason": "Llegada a las calles"
+    },
+    {
+      "id": "yt-12",
+      "media_id": "src-img_9108",
+      "source_in_seconds": 0.7,
+      "source_out_seconds": 4.7,
+      "reason": "Ambiente visual del músico callejero"
+    },
+    {
+      "id": "yt-13",
+      "media_id": "src-img_9109",
+      "source_in_seconds": 2.5,
+      "source_out_seconds": 44.7,
+      "reason": "Dificultad real para estacionarse y consejo contextual"
+    },
+    {
+      "id": "yt-14",
+      "media_id": "src-img_9109",
+      "source_in_seconds": 50.3,
+      "source_out_seconds": 55.5,
+      "reason": "Remate sobre orientarse con el mapa"
+    },
+    {
+      "id": "yt-15",
+      "media_id": "src-img_9110",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 27.15,
+      "reason": "Broma sobre la combi conservando la aclaración de Liz"
+    },
+    {
+      "id": "yt-16",
+      "media_id": "src-img_9112",
+      "source_in_seconds": 1,
+      "source_out_seconds": 6.2,
+      "reason": "Liz caminando y sonrisa"
+    },
+    {
+      "id": "yt-17",
+      "media_id": "src-img_9116",
+      "source_in_seconds": 0.4,
+      "source_out_seconds": 4.4,
+      "reason": "Arquitectura y transición al paseo a pie"
+    },
+    {
+      "id": "yt-18",
+      "media_id": "src-img_9118",
+      "source_in_seconds": 5,
+      "source_out_seconds": 10,
+      "reason": "Caminar juntos"
+    },
+    {
+      "id": "yt-19",
+      "media_id": "src-img_9119",
+      "source_in_seconds": 3.5,
+      "source_out_seconds": 8.5,
+      "reason": "Avanzar hacia el centro"
+    },
+    {
+      "id": "yt-20",
+      "media_id": "src-img_9120",
+      "source_in_seconds": 1,
+      "source_out_seconds": 6,
+      "reason": "Relación entre calles"
+    },
+    {
+      "id": "yt-21",
+      "media_id": "src-img_9121",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 7,
+      "reason": "Portales decorados"
+    },
+    {
+      "id": "yt-22",
+      "media_id": "src-img_9123",
+      "source_in_seconds": 6,
+      "source_out_seconds": 21.2,
+      "reason": "Encontrar el acceso y aproximarse"
+    },
+    {
+      "id": "yt-23",
+      "media_id": "src-img_9123",
+      "source_in_seconds": 35.5,
+      "source_out_seconds": 44.5,
+      "reason": "Entrada al local"
+    },
+    {
+      "id": "yt-24",
+      "media_id": "src-img_9123",
+      "source_in_seconds": 60,
+      "source_out_seconds": 73,
+      "reason": "Elección y detalle de las piezas"
+    },
+    {
+      "id": "yt-25",
+      "media_id": "src-img_9124",
+      "source_in_seconds": 0.6,
+      "source_out_seconds": 3.4,
+      "reason": "Seguir a Arturo hacia las mesas"
+    },
+    {
+      "id": "yt-26",
+      "media_id": "src-img_9124",
+      "source_in_seconds": 17.4,
+      "source_out_seconds": 22.5,
+      "reason": "Elección de mesa"
+    },
+    {
+      "id": "yt-27",
+      "media_id": "src-img_9125",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 8.5,
+      "reason": "Elegir de la carta"
+    },
+    {
+      "id": "yt-28",
+      "media_id": "src-img_9126",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 6.7,
+      "reason": "Terraza, contexto y sonrisa de Arturo"
+    },
+    {
+      "id": "yt-29",
+      "media_id": "src-img_9127",
+      "source_in_seconds": 3.7,
+      "source_out_seconds": 58.6,
+      "reason": "Probar el café y conservar la diferencia de gustos"
+    },
+    {
+      "id": "yt-30",
+      "media_id": "src-img_9127",
+      "source_in_seconds": 60.4,
+      "source_out_seconds": 82.5,
+      "reason": "Bocado de Liz, bocado de Arturo y reacción al pan"
+    },
+    {
+      "id": "yt-31",
+      "media_id": "src-img_9128",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 26.4,
+      "reason": "Segunda pieza: compartir y observar reacción"
+    },
+    {
+      "id": "yt-32",
+      "media_id": "src-img_9129",
+      "source_in_seconds": 4.5,
+      "source_out_seconds": 17,
+      "reason": "Escoger pan para llevar"
+    },
+    {
+      "id": "yt-33",
+      "media_id": "src-img_9130",
+      "source_in_seconds": 0.8,
+      "source_out_seconds": 7.8,
+      "reason": "Embolsado como resultado de la elección"
+    },
+    {
+      "id": "yt-34",
+      "media_id": "src-img_9131",
+      "source_in_seconds": 0.1,
+      "source_out_seconds": 12,
+      "reason": "Ya tenemos pan: resultado y humor de pareja"
+    },
+    {
+      "id": "yt-35",
+      "media_id": "src-img_9131",
+      "source_in_seconds": 12.9,
+      "source_out_seconds": 49,
+      "reason": "Ubicar el lugar desde la experiencia de la pareja"
+    },
+    {
+      "id": "yt-36",
+      "media_id": "src-img_9131",
+      "source_in_seconds": 62,
+      "source_out_seconds": 72,
+      "reason": "Paseo por la plaza después del pan"
+    },
+    {
+      "id": "yt-37",
+      "media_id": "src-img_9131",
+      "source_in_seconds": 82,
+      "source_out_seconds": 94,
+      "reason": "Fuente y espacio de la plaza"
+    },
+    {
+      "id": "yt-38",
+      "media_id": "src-img_9132",
+      "source_in_seconds": 5,
+      "source_out_seconds": 12.3,
+      "reason": "Portales y nieves como parte del paseo; sin afirmar compra"
+    },
+    {
+      "id": "yt-39",
+      "media_id": "src-img_9133",
+      "source_in_seconds": 6.7,
+      "source_out_seconds": 49.2,
+      "reason": "Matiz al consejo inicial: experiencia de ese domingo y estacionamiento"
+    },
+    {
+      "id": "yt-40",
+      "media_id": "src-img_9134",
+      "source_in_seconds": 0.4,
+      "source_out_seconds": 4.4,
+      "reason": "Mostrar el estacionamiento que mencionan"
+    },
+    {
+      "id": "yt-41",
+      "media_id": "src-img_9135",
+      "source_in_seconds": 0.7,
+      "source_out_seconds": 3.15,
+      "reason": "Mano a la manija, apertura y entrada de Liz en cuadro."
+    },
+    {
+      "id": "yt-42",
+      "media_id": "src-img_9136",
+      "source_in_seconds": 2.2,
+      "source_out_seconds": 5.8,
+      "reason": "Liz ya sentada vista a través de la ventana cerrada; elipsis deliberada."
+    },
+    {
+      "id": "yt-43",
+      "media_id": "src-img_9137",
+      "source_in_seconds": 5.2,
+      "source_out_seconds": 28.9,
+      "reason": "Restituir ventana y paneo interior hacia la pareja antes de la despedida completa."
+    },
+    {
+      "id": "yt-44",
+      "media_id": "src-img_9138",
+      "source_in_seconds": 1,
+      "source_out_seconds": 9.5,
+      "reason": "Paisaje final y firma"
+    }
+  ],
+  "exclusions": [
+    {
+      "media_id": "src-img_9107",
+      "reason": "Fachadas y tráfico repetidos; llegada cubierta con 9106 y contexto de 9109.",
+      "kind": "editorial"
+    },
+    {
+      "media_id": "src-img_9111",
+      "reason": "Captura personal de pantalla; no pertenece a la experiencia que se edita.",
+      "kind": "editorial"
+    },
+    {
+      "media_id": "src-img_9113",
+      "reason": "Paseo reiterado y placas cercanas; se prefiere la sonrisa de 9112 con recorte.",
+      "kind": "editorial"
+    },
+    {
+      "media_id": "src-img_9114",
+      "reason": "Manipulación de cámara y plano de calle redundante.",
+      "kind": "editorial"
+    },
+    {
+      "media_id": "src-img_9115",
+      "reason": "Cámara inclinada y suelo; sin nueva acción necesaria para la historia.",
+      "kind": "editorial"
+    },
+    {
+      "media_id": "src-img_9117",
+      "reason": "Fachadas reiteradas frente a los planos elegidos del paseo.",
+      "kind": "editorial"
+    }
+  ],
+  "working_representations": [
+    {
+      "selection_id": "yt-01",
+      "source_name": "IMG_9123.MOV",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 3.7,
+      "representation_source_in_seconds": 0.3,
+      "representation_source_out_seconds": 73.2,
+      "working_name": "IMG_9123_SDR_300-73200.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 3.4,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-02",
+      "source_name": "IMG_9127.MOV",
+      "source_in_seconds": 0.3,
+      "source_out_seconds": 3.6,
+      "representation_source_in_seconds": 0.1,
+      "representation_source_out_seconds": 82.7,
+      "working_name": "IMG_9127_SDR_100-82700.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 3.5,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-03",
+      "source_name": "IMG_9103.MOV",
+      "source_in_seconds": 1.1,
+      "source_out_seconds": 2.8,
+      "representation_source_in_seconds": 0,
+      "representation_source_out_seconds": 4.8167,
+      "working_name": "IMG_9103_compatible.mp4",
+      "working_in_seconds": 1.1,
+      "working_out_seconds": 2.8,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-04",
+      "source_name": "IMG_9104.MOV",
+      "source_in_seconds": 33.7,
+      "source_out_seconds": 58.3,
+      "representation_source_in_seconds": 33.5,
+      "representation_source_out_seconds": 145.7,
+      "working_name": "IMG_9104_SDR_33500-145700.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 24.8,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-05",
+      "source_name": "IMG_9104.MOV",
+      "source_in_seconds": 62.6,
+      "source_out_seconds": 74.5,
+      "representation_source_in_seconds": 33.5,
+      "representation_source_out_seconds": 145.7,
+      "working_name": "IMG_9104_SDR_33500-145700.mp4",
+      "working_in_seconds": 29.1,
+      "working_out_seconds": 41.0,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-06",
+      "source_name": "IMG_9104.MOV",
+      "source_in_seconds": 74.8,
+      "source_out_seconds": 106,
+      "representation_source_in_seconds": 33.5,
+      "representation_source_out_seconds": 145.7,
+      "working_name": "IMG_9104_SDR_33500-145700.mp4",
+      "working_in_seconds": 41.3,
+      "working_out_seconds": 72.5,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-07",
+      "source_name": "IMG_9104.MOV",
+      "source_in_seconds": 106.2,
+      "source_out_seconds": 123.3,
+      "representation_source_in_seconds": 33.5,
+      "representation_source_out_seconds": 145.7,
+      "working_name": "IMG_9104_SDR_33500-145700.mp4",
+      "working_in_seconds": 72.7,
+      "working_out_seconds": 89.8,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-08",
+      "source_name": "IMG_9104.MOV",
+      "source_in_seconds": 123.4,
+      "source_out_seconds": 145.5,
+      "representation_source_in_seconds": 33.5,
+      "representation_source_out_seconds": 145.7,
+      "working_name": "IMG_9104_SDR_33500-145700.mp4",
+      "working_in_seconds": 89.9,
+      "working_out_seconds": 112.0,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-09",
+      "source_name": "IMG_9105.MOV",
+      "source_in_seconds": 2.2,
+      "source_out_seconds": 7.7,
+      "representation_source_in_seconds": 2,
+      "representation_source_out_seconds": 8,
+      "working_name": "IMG_9105_compatible_2000-8000.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 5.7,
+      "color_transform": "Importación normalizada nativa Clipo: HEVC HLG BT.2020 → H.264 SDR BT.709; Hable peak=10, primarias antes del mapeo. Recibo verified=true.",
+      "originals_unchanged": true,
+      "path_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json"
+    },
+    {
+      "selection_id": "yt-10",
+      "source_name": "IMG_9105.MOV",
+      "source_in_seconds": 57.5,
+      "source_out_seconds": 64,
+      "representation_source_in_seconds": 57.3,
+      "representation_source_out_seconds": 64.2,
+      "working_name": "IMG_9105_compatible_57300-64200.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 6.7,
+      "color_transform": "Importación normalizada nativa Clipo: HEVC HLG BT.2020 → H.264 SDR BT.709; Hable peak=10, primarias antes del mapeo. Recibo verified=true.",
+      "originals_unchanged": true,
+      "path_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json"
+    },
+    {
+      "selection_id": "yt-11",
+      "source_name": "IMG_9106.MOV",
+      "source_in_seconds": 24,
+      "source_out_seconds": 29,
+      "representation_source_in_seconds": 23.8,
+      "representation_source_out_seconds": 29.2,
+      "working_name": "IMG_9106_SDR_23800-29200.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 5.2,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-12",
+      "source_name": "IMG_9108.MOV",
+      "source_in_seconds": 0.7,
+      "source_out_seconds": 4.7,
+      "representation_source_in_seconds": 0.5,
+      "representation_source_out_seconds": 4.9,
+      "working_name": "IMG_9108_SDR_500-4900.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 4.2,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-13",
+      "source_name": "IMG_9109.MOV",
+      "source_in_seconds": 2.5,
+      "source_out_seconds": 44.7,
+      "representation_source_in_seconds": 2.3,
+      "representation_source_out_seconds": 55.7,
+      "working_name": "IMG_9109_SDR_2300-55700.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 42.4,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-14",
+      "source_name": "IMG_9109.MOV",
+      "source_in_seconds": 50.3,
+      "source_out_seconds": 55.5,
+      "representation_source_in_seconds": 2.3,
+      "representation_source_out_seconds": 55.7,
+      "working_name": "IMG_9109_SDR_2300-55700.mp4",
+      "working_in_seconds": 48.0,
+      "working_out_seconds": 53.2,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-15",
+      "source_name": "IMG_9110.MOV",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 27.15,
+      "representation_source_in_seconds": 0.3,
+      "representation_source_out_seconds": 27.212,
+      "working_name": "IMG_9110_SDR_300-27212.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 26.85,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-16",
+      "source_name": "IMG_9112.MOV",
+      "source_in_seconds": 1,
+      "source_out_seconds": 6.2,
+      "representation_source_in_seconds": 0.8,
+      "representation_source_out_seconds": 6.4,
+      "working_name": "IMG_9112_SDR_800-6400.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 5.4,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-17",
+      "source_name": "IMG_9116.MOV",
+      "source_in_seconds": 0.4,
+      "source_out_seconds": 4.4,
+      "representation_source_in_seconds": 0.2,
+      "representation_source_out_seconds": 4.6,
+      "working_name": "IMG_9116_SDR_200-4600.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 4.2,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-18",
+      "source_name": "IMG_9118.MOV",
+      "source_in_seconds": 5,
+      "source_out_seconds": 10,
+      "representation_source_in_seconds": 4.8,
+      "representation_source_out_seconds": 10.2,
+      "working_name": "IMG_9118_SDR_4800-10200.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 5.2,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-19",
+      "source_name": "IMG_9119.MOV",
+      "source_in_seconds": 3.5,
+      "source_out_seconds": 8.5,
+      "representation_source_in_seconds": 3.3,
+      "representation_source_out_seconds": 8.7,
+      "working_name": "IMG_9119_SDR_3300-8700.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 5.2,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-20",
+      "source_name": "IMG_9120.MOV",
+      "source_in_seconds": 1,
+      "source_out_seconds": 6,
+      "representation_source_in_seconds": 0.8,
+      "representation_source_out_seconds": 6.2,
+      "working_name": "IMG_9120_SDR_800-6200.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 5.2,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-21",
+      "source_name": "IMG_9121.MOV",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 7,
+      "representation_source_in_seconds": 0.3,
+      "representation_source_out_seconds": 7.2,
+      "working_name": "IMG_9121_SDR_300-7200.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 6.7,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-22",
+      "source_name": "IMG_9123.MOV",
+      "source_in_seconds": 6,
+      "source_out_seconds": 21.2,
+      "representation_source_in_seconds": 0.3,
+      "representation_source_out_seconds": 73.2,
+      "working_name": "IMG_9123_SDR_300-73200.mp4",
+      "working_in_seconds": 5.7,
+      "working_out_seconds": 20.9,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-23",
+      "source_name": "IMG_9123.MOV",
+      "source_in_seconds": 35.5,
+      "source_out_seconds": 44.5,
+      "representation_source_in_seconds": 0.3,
+      "representation_source_out_seconds": 73.2,
+      "working_name": "IMG_9123_SDR_300-73200.mp4",
+      "working_in_seconds": 35.2,
+      "working_out_seconds": 44.2,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-24",
+      "source_name": "IMG_9123.MOV",
+      "source_in_seconds": 60,
+      "source_out_seconds": 73,
+      "representation_source_in_seconds": 0.3,
+      "representation_source_out_seconds": 73.2,
+      "working_name": "IMG_9123_SDR_300-73200.mp4",
+      "working_in_seconds": 59.7,
+      "working_out_seconds": 72.7,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-25",
+      "source_name": "IMG_9124.MOV",
+      "source_in_seconds": 0.6,
+      "source_out_seconds": 3.4,
+      "representation_source_in_seconds": 0.4,
+      "representation_source_out_seconds": 22.7,
+      "working_name": "IMG_9124_SDR_400-22700.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 3.0,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-26",
+      "source_name": "IMG_9124.MOV",
+      "source_in_seconds": 17.4,
+      "source_out_seconds": 22.5,
+      "representation_source_in_seconds": 0.4,
+      "representation_source_out_seconds": 22.7,
+      "working_name": "IMG_9124_SDR_400-22700.mp4",
+      "working_in_seconds": 17.0,
+      "working_out_seconds": 22.1,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-27",
+      "source_name": "IMG_9125.MOV",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 8.5,
+      "representation_source_in_seconds": 0.3,
+      "representation_source_out_seconds": 8.7,
+      "working_name": "IMG_9125_SDR_300-8700.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 8.2,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-28",
+      "source_name": "IMG_9126.MOV",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 6.7,
+      "representation_source_in_seconds": 0.3,
+      "representation_source_out_seconds": 6.9,
+      "working_name": "IMG_9126_SDR_300-6900.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 6.4,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-29",
+      "source_name": "IMG_9127.MOV",
+      "source_in_seconds": 3.7,
+      "source_out_seconds": 58.6,
+      "representation_source_in_seconds": 0.1,
+      "representation_source_out_seconds": 82.7,
+      "working_name": "IMG_9127_SDR_100-82700.mp4",
+      "working_in_seconds": 3.6,
+      "working_out_seconds": 58.5,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-30",
+      "source_name": "IMG_9127.MOV",
+      "source_in_seconds": 60.4,
+      "source_out_seconds": 82.5,
+      "representation_source_in_seconds": 0.1,
+      "representation_source_out_seconds": 82.7,
+      "working_name": "IMG_9127_SDR_100-82700.mp4",
+      "working_in_seconds": 60.3,
+      "working_out_seconds": 82.4,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-31",
+      "source_name": "IMG_9128.MOV",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 26.4,
+      "representation_source_in_seconds": 0.3,
+      "representation_source_out_seconds": 26.6,
+      "working_name": "IMG_9128_SDR_300-26600.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 26.1,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-32",
+      "source_name": "IMG_9129.MOV",
+      "source_in_seconds": 4.5,
+      "source_out_seconds": 17,
+      "representation_source_in_seconds": 4.3,
+      "representation_source_out_seconds": 17.2,
+      "working_name": "IMG_9129_SDR_4300-17200.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 12.7,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-33",
+      "source_name": "IMG_9130.MOV",
+      "source_in_seconds": 0.8,
+      "source_out_seconds": 7.8,
+      "representation_source_in_seconds": 0.6,
+      "representation_source_out_seconds": 8,
+      "working_name": "IMG_9130_SDR_600-8000.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 7.2,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-34",
+      "source_name": "IMG_9131.MOV",
+      "source_in_seconds": 0.1,
+      "source_out_seconds": 12,
+      "representation_source_in_seconds": 0,
+      "representation_source_out_seconds": 94.2,
+      "working_name": "IMG_9131_SDR_0-94200.mp4",
+      "working_in_seconds": 0.1,
+      "working_out_seconds": 12,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-35",
+      "source_name": "IMG_9131.MOV",
+      "source_in_seconds": 12.9,
+      "source_out_seconds": 49,
+      "representation_source_in_seconds": 0,
+      "representation_source_out_seconds": 94.2,
+      "working_name": "IMG_9131_SDR_0-94200.mp4",
+      "working_in_seconds": 12.9,
+      "working_out_seconds": 49,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-36",
+      "source_name": "IMG_9131.MOV",
+      "source_in_seconds": 62,
+      "source_out_seconds": 72,
+      "representation_source_in_seconds": 0,
+      "representation_source_out_seconds": 94.2,
+      "working_name": "IMG_9131_SDR_0-94200.mp4",
+      "working_in_seconds": 62,
+      "working_out_seconds": 72,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-37",
+      "source_name": "IMG_9131.MOV",
+      "source_in_seconds": 82,
+      "source_out_seconds": 94,
+      "representation_source_in_seconds": 0,
+      "representation_source_out_seconds": 94.2,
+      "working_name": "IMG_9131_SDR_0-94200.mp4",
+      "working_in_seconds": 82,
+      "working_out_seconds": 94,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-38",
+      "source_name": "IMG_9132.MOV",
+      "source_in_seconds": 5,
+      "source_out_seconds": 12.3,
+      "representation_source_in_seconds": 4.8,
+      "representation_source_out_seconds": 12.5,
+      "working_name": "IMG_9132_SDR_4800-12500.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 7.5,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-39",
+      "source_name": "IMG_9133.MOV",
+      "source_in_seconds": 6.7,
+      "source_out_seconds": 49.2,
+      "representation_source_in_seconds": 6.5,
+      "representation_source_out_seconds": 49.4,
+      "working_name": "IMG_9133_SDR_6500-49400.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 42.7,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-40",
+      "source_name": "IMG_9134.MOV",
+      "source_in_seconds": 0.4,
+      "source_out_seconds": 4.4,
+      "representation_source_in_seconds": 0.2,
+      "representation_source_out_seconds": 4.6,
+      "working_name": "IMG_9134_SDR_200-4600.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 4.2,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    },
+    {
+      "selection_id": "yt-41",
+      "source_name": "IMG_9135.MOV",
+      "source_in_seconds": 0.7,
+      "source_out_seconds": 3.15,
+      "representation_source_in_seconds": 0,
+      "representation_source_out_seconds": 3.283,
+      "working_name": "IMG_9135_SDR_0-3283.mp4",
+      "working_in_seconds": 0.7,
+      "working_out_seconds": 3.15,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json"
+    },
+    {
+      "selection_id": "yt-42",
+      "source_name": "IMG_9136.MOV",
+      "source_in_seconds": 2.2,
+      "source_out_seconds": 5.8,
+      "representation_source_in_seconds": 0,
+      "representation_source_out_seconds": 5.968,
+      "working_name": "IMG_9136_compatible_0-5968.mp4",
+      "working_in_seconds": 2.2,
+      "working_out_seconds": 5.8,
+      "color_transform": "Importación normalizada nativa Clipo: HEVC HLG BT.2020 → H.264 SDR BT.709; Hable peak=10, primarias antes del mapeo. Recibo verified=true.",
+      "originals_unchanged": true,
+      "path_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json"
+    },
+    {
+      "selection_id": "yt-43",
+      "source_name": "IMG_9137.MOV",
+      "source_in_seconds": 5.2,
+      "source_out_seconds": 28.9,
+      "representation_source_in_seconds": 5,
+      "representation_source_out_seconds": 29.1,
+      "working_name": "IMG_9137_compatible_5000-29100.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 23.9,
+      "color_transform": "Importación normalizada nativa Clipo: HEVC HLG BT.2020 → H.264 SDR BT.709; Hable peak=10, primarias antes del mapeo. Recibo verified=true.",
+      "originals_unchanged": true,
+      "path_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json"
+    },
+    {
+      "selection_id": "yt-44",
+      "source_name": "IMG_9138.MOV",
+      "source_in_seconds": 1,
+      "source_out_seconds": 9.5,
+      "representation_source_in_seconds": 0.8,
+      "representation_source_out_seconds": 9.7,
+      "working_name": "IMG_9138_SDR_800-9700.mp4",
+      "working_in_seconds": 0.2,
+      "working_out_seconds": 8.7,
+      "color_transform": "HLG BT.2020 a SDR BT.709; Hable pico 10, primarias antes del mapeo, 1080p30.",
+      "originals_unchanged": true,
+      "path_reference": "rutas-youtube.local.json"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "yt-01-tl",
+      "selection_id": "yt-01",
+      "start_seconds": 0,
+      "speed": 1,
+      "role": "apertura",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-02-tl",
+      "selection_id": "yt-02",
+      "start_seconds": 3.2,
+      "speed": 1,
+      "role": "apertura",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-03-tl",
+      "selection_id": "yt-03",
+      "start_seconds": 6.5,
+      "speed": 1,
+      "role": "apertura",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-04-tl",
+      "selection_id": "yt-04",
+      "start_seconds": 8.2,
+      "speed": 1,
+      "role": "camino",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-05-tl",
+      "selection_id": "yt-05",
+      "start_seconds": 32.8,
+      "speed": 1,
+      "role": "camino",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-06-tl",
+      "selection_id": "yt-06",
+      "start_seconds": 44.7,
+      "speed": 1,
+      "role": "camino",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-07-tl",
+      "selection_id": "yt-07",
+      "start_seconds": 75.9,
+      "speed": 1,
+      "role": "camino",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-08-tl",
+      "selection_id": "yt-08",
+      "start_seconds": 93,
+      "speed": 1,
+      "role": "camino",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-09-tl",
+      "selection_id": "yt-09",
+      "start_seconds": 115.1,
+      "speed": 1,
+      "role": "camino",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-10-tl",
+      "selection_id": "yt-10",
+      "start_seconds": 120.6,
+      "speed": 1,
+      "role": "camino",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-11-tl",
+      "selection_id": "yt-11",
+      "start_seconds": 127.1,
+      "speed": 1,
+      "role": "llegada",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-12-tl",
+      "selection_id": "yt-12",
+      "start_seconds": 132.1,
+      "speed": 1,
+      "role": "llegada",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-13-tl",
+      "selection_id": "yt-13",
+      "start_seconds": 136.1,
+      "speed": 1,
+      "role": "llegada",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-14-tl",
+      "selection_id": "yt-14",
+      "start_seconds": 178.3,
+      "speed": 1,
+      "role": "llegada",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-15-tl",
+      "selection_id": "yt-15",
+      "start_seconds": 183.5,
+      "speed": 1,
+      "role": "llegada",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-16-tl",
+      "selection_id": "yt-16",
+      "start_seconds": 210.15,
+      "speed": 1,
+      "role": "paseo",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-17-tl",
+      "selection_id": "yt-17",
+      "start_seconds": 215.35,
+      "speed": 1,
+      "role": "paseo",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-18-tl",
+      "selection_id": "yt-18",
+      "start_seconds": 219.35,
+      "speed": 1,
+      "role": "paseo",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-19-tl",
+      "selection_id": "yt-19",
+      "start_seconds": 224.35,
+      "speed": 1,
+      "role": "paseo",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-20-tl",
+      "selection_id": "yt-20",
+      "start_seconds": 229.35,
+      "speed": 1,
+      "role": "paseo",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-21-tl",
+      "selection_id": "yt-21",
+      "start_seconds": 234.35,
+      "speed": 1,
+      "role": "paseo",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-22-tl",
+      "selection_id": "yt-22",
+      "start_seconds": 240.85,
+      "speed": 1,
+      "role": "panaderia",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-23-tl",
+      "selection_id": "yt-23",
+      "start_seconds": 256.05,
+      "speed": 1,
+      "role": "panaderia",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-24-tl",
+      "selection_id": "yt-24",
+      "start_seconds": 265.05,
+      "speed": 1,
+      "role": "panaderia",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-25-tl",
+      "selection_id": "yt-25",
+      "start_seconds": 278.05,
+      "speed": 1,
+      "role": "mesa",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-26-tl",
+      "selection_id": "yt-26",
+      "start_seconds": 280.85,
+      "speed": 1,
+      "role": "mesa",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-27-tl",
+      "selection_id": "yt-27",
+      "start_seconds": 285.95,
+      "speed": 1,
+      "role": "mesa",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-28-tl",
+      "selection_id": "yt-28",
+      "start_seconds": 293.95,
+      "speed": 1,
+      "role": "mesa",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-29-tl",
+      "selection_id": "yt-29",
+      "start_seconds": 300.15,
+      "speed": 1,
+      "role": "degustacion",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-30-tl",
+      "selection_id": "yt-30",
+      "start_seconds": 355.05,
+      "speed": 1,
+      "role": "degustacion",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-31-tl",
+      "selection_id": "yt-31",
+      "start_seconds": 377.15,
+      "speed": 1,
+      "role": "degustacion",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-32-tl",
+      "selection_id": "yt-32",
+      "start_seconds": 403.05,
+      "speed": 1,
+      "role": "para-llevar",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-33-tl",
+      "selection_id": "yt-33",
+      "start_seconds": 415.55,
+      "speed": 1,
+      "role": "para-llevar",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-34-tl",
+      "selection_id": "yt-34",
+      "start_seconds": 422.55,
+      "speed": 1,
+      "role": "para-llevar",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-35-tl",
+      "selection_id": "yt-35",
+      "start_seconds": 434.45,
+      "speed": 1,
+      "role": "para-llevar",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-36-tl",
+      "selection_id": "yt-36",
+      "start_seconds": 470.55,
+      "speed": 1,
+      "role": "plaza",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-37-tl",
+      "selection_id": "yt-37",
+      "start_seconds": 480.55,
+      "speed": 1,
+      "role": "plaza",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-38-tl",
+      "selection_id": "yt-38",
+      "start_seconds": 492.55,
+      "speed": 1,
+      "role": "plaza",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-39-tl",
+      "selection_id": "yt-39",
+      "start_seconds": 499.85,
+      "speed": 1,
+      "role": "conclusion",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-40-tl",
+      "selection_id": "yt-40",
+      "start_seconds": 542.35,
+      "speed": 1,
+      "role": "regreso",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-41-tl",
+      "selection_id": "yt-41",
+      "start_seconds": 546.35,
+      "speed": 1,
+      "role": "regreso",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-42-tl",
+      "selection_id": "yt-42",
+      "start_seconds": 548.8,
+      "speed": 1,
+      "role": "regreso",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-43-tl",
+      "selection_id": "yt-43",
+      "start_seconds": 552.4,
+      "speed": 1,
+      "role": "despedida",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "yt-44-tl",
+      "selection_id": "yt-44",
+      "start_seconds": 576.1,
+      "speed": 1,
+      "role": "despedida",
+      "transition_to_next": "corte"
+    }
+  ],
+  "graphics": [
+    {
+      "id": "titulo",
+      "component_id": null,
+      "fields": {
+        "text": "Pátzcuaro"
+      },
+      "fact_ids": [],
+      "start_seconds": 0.3,
+      "duration_seconds": 5.4,
+      "reading_hold_seconds": 4.82,
+      "source_file": "proyecto-local/revision-v02/titulo.png",
+      "motion_preset": "Posición y opacidad por keyframes: entrada 0.28 s, pausa, salida 0.30 s.",
+      "editor_element_ids": [],
+      "editor_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json",
+      "adaptations": "Rótulos PNG con Plus Jakarta Sans y Cormorant Garamond locales; sólo letras y sombra local. Iconos universales originales del kit v04. Sin placas.",
+      "transparency_checked": true,
+      "export_verified": true
+    },
+    {
+      "id": "subtitulo",
+      "component_id": null,
+      "fields": {
+        "text": "UN VIAJE POR PAN"
+      },
+      "fact_ids": [],
+      "start_seconds": 0.65,
+      "duration_seconds": 4.8,
+      "reading_hold_seconds": 4.22,
+      "source_file": "proyecto-local/revision-v02/subtitulo.png",
+      "motion_preset": "Posición y opacidad por keyframes: entrada 0.28 s, pausa, salida 0.30 s.",
+      "editor_element_ids": [],
+      "editor_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json",
+      "adaptations": "Rótulos PNG con Plus Jakarta Sans y Cormorant Garamond locales; sólo letras y sombra local. Iconos universales originales del kit v04. Sin placas.",
+      "transparency_checked": true,
+      "export_verified": true
+    },
+    {
+      "id": "lugar",
+      "component_id": "video.editorial.ubicacion",
+      "fields": {
+        "text": "Pátzcuaro · Michoacán"
+      },
+      "fact_ids": [],
+      "start_seconds": 138,
+      "duration_seconds": 5.5,
+      "reading_hold_seconds": 4.92,
+      "source_file": "marca/exportaciones/video-v04/universal/ubicacion.png",
+      "motion_preset": "Posición y opacidad por keyframes: entrada 0.28 s, pausa, salida 0.30 s.",
+      "editor_element_ids": [],
+      "editor_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json",
+      "adaptations": "Rótulos PNG con Plus Jakarta Sans y Cormorant Garamond locales; sólo letras y sombra local. Iconos universales originales del kit v04. Sin placas.",
+      "transparency_checked": true,
+      "export_verified": true
+    },
+    {
+      "id": "mesa",
+      "component_id": null,
+      "fields": {
+        "text": "Una mesa para dos"
+      },
+      "fact_ids": [],
+      "start_seconds": 281.3,
+      "duration_seconds": 5.5,
+      "reading_hold_seconds": 4.92,
+      "source_file": "proyecto-local/revision-v02/mesa.png",
+      "motion_preset": "Posición y opacidad por keyframes: entrada 0.28 s, pausa, salida 0.30 s.",
+      "editor_element_ids": [],
+      "editor_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json",
+      "adaptations": "Rótulos PNG con Plus Jakarta Sans y Cormorant Garamond locales; sólo letras y sombra local. Iconos universales originales del kit v04. Sin placas.",
+      "transparency_checked": true,
+      "export_verified": true
+    },
+    {
+      "id": "domingo",
+      "component_id": null,
+      "fields": {
+        "text": "Así lo vivimos un domingo"
+      },
+      "fact_ids": [
+        "domingo"
+      ],
+      "start_seconds": 505.3,
+      "duration_seconds": 6.5,
+      "reading_hold_seconds": 5.92,
+      "source_file": "proyecto-local/revision-v02/domingo.png",
+      "motion_preset": "Posición y opacidad por keyframes: entrada 0.28 s, pausa, salida 0.30 s.",
+      "editor_element_ids": [],
+      "editor_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json",
+      "adaptations": "Rótulos PNG con Plus Jakarta Sans y Cormorant Garamond locales; sólo letras y sombra local. Iconos universales originales del kit v04. Sin placas.",
+      "transparency_checked": true,
+      "export_verified": true
+    },
+    {
+      "id": "like",
+      "component_id": "video.editorial.like",
+      "fields": {
+        "text": "¿Te gustó el viaje?"
+      },
+      "fact_ids": [],
+      "start_seconds": 567.2,
+      "duration_seconds": 5,
+      "reading_hold_seconds": 4.42,
+      "source_file": "marca/exportaciones/video-v04/universal/like.png",
+      "motion_preset": "Posición y opacidad por keyframes: entrada 0.28 s, pausa, salida 0.30 s.",
+      "editor_element_ids": [],
+      "editor_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json",
+      "adaptations": "Rótulos PNG con Plus Jakarta Sans y Cormorant Garamond locales; sólo letras y sombra local. Iconos universales originales del kit v04. Sin placas.",
+      "transparency_checked": true,
+      "export_verified": true
+    },
+    {
+      "id": "monograma",
+      "component_id": "motion.logo.monograma.premium",
+      "fields": {},
+      "fact_ids": [],
+      "start_seconds": 0.3,
+      "duration_seconds": 4,
+      "reading_hold_seconds": null,
+      "source_file": "marca/motion/logo-al-destino/premium/renders/AL-DESTINO-monograma-premium.webm",
+      "motion_preset": "WebM alfa por piezas del logo original, 4 s; salida transparente.",
+      "editor_element_ids": [],
+      "editor_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json",
+      "adaptations": "Rótulos PNG con Plus Jakarta Sans y Cormorant Garamond locales; sólo letras y sombra local. Iconos universales originales del kit v04. Sin placas.",
+      "transparency_checked": true,
+      "export_verified": true
+    },
+    {
+      "id": "firma",
+      "component_id": "motion.logo.horizontal.premium",
+      "fields": {},
+      "fact_ids": [],
+      "start_seconds": 580.3,
+      "duration_seconds": 4,
+      "reading_hold_seconds": null,
+      "source_file": "marca/motion/logo-al-destino/premium/renders/AL-DESTINO-firma-premium.webm",
+      "motion_preset": "WebM alfa por piezas del logo original, 4 s; salida transparente.",
+      "editor_element_ids": [],
+      "editor_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json",
+      "adaptations": "Rótulos PNG con Plus Jakarta Sans y Cormorant Garamond locales; sólo letras y sombra local. Iconos universales originales del kit v04. Sin placas.",
+      "transparency_checked": true,
+      "export_verified": true
+    }
+  ],
+  "audio": [
+    {
+      "id": "iacegz8sslbg",
+      "media_id": "mixkit-sfx-2568",
+      "source_in_seconds": 0,
+      "source_out_seconds": 0.199,
+      "start_seconds": 0.3,
+      "role": "sfx",
+      "file": "mixkit-cool-interface-click-tone-2568.mp3",
+      "author": "Mixkit; autor individual no indicado en ficha",
+      "license_source": "https://mixkit.co/free-sound-effects/interface/",
+      "license": "Mixkit Sound Effects Free License",
+      "license_url": "https://mixkit.co/license/modal/sfxFree/",
+      "consulted_at": "2026-11-16",
+      "license_receipt_reference": "proyecto-local/licencia-mixkit-2568.local.json",
+      "event": "Entrada de ubicación inicial o de la mesa.",
+      "editor_element_ids": [
+        "iacegz8sslbg"
+      ],
+      "mix_notes": {
+        "volume": 0.13,
+        "fade_in": 0.01,
+        "fade_out": 0.05,
+        "listening": "Pendiente: host sin entrada de audio."
+      }
+    },
+    {
+      "id": "8tlbzy2mslbg",
+      "media_id": "mixkit-sfx-2568",
+      "source_in_seconds": 0,
+      "source_out_seconds": 0.199,
+      "start_seconds": 281.3,
+      "role": "sfx",
+      "file": "mixkit-cool-interface-click-tone-2568.mp3",
+      "author": "Mixkit; autor individual no indicado en ficha",
+      "license_source": "https://mixkit.co/free-sound-effects/interface/",
+      "license": "Mixkit Sound Effects Free License",
+      "license_url": "https://mixkit.co/license/modal/sfxFree/",
+      "consulted_at": "2026-11-16",
+      "license_receipt_reference": "proyecto-local/licencia-mixkit-2568.local.json",
+      "event": "Entrada de ubicación inicial o de la mesa.",
+      "editor_element_ids": [
+        "8tlbzy2mslbg"
+      ],
+      "mix_notes": {
+        "volume": 0.1,
+        "fade_in": 0.01,
+        "fade_out": 0.05,
+        "listening": "Pendiente: host sin entrada de audio."
+      }
+    },
+    {
+      "id": "ib3igcquyy4r",
+      "media_id": "mixkit-musica-963",
+      "source_in_seconds": 0,
+      "source_out_seconds": 8.2,
+      "start_seconds": 0,
+      "role": "music",
+      "file": "mixkit-just-keep-walking-963.mp3",
+      "author": "Michael Ramir C.",
+      "license_source": "https://mixkit.co/free-stock-music/discover/acoustic/",
+      "license": "Mixkit Stock Music Free License",
+      "license_url": "https://mixkit.co/license/modal/musicFree/",
+      "consulted_at": "2026-11-16",
+      "license_receipt_reference": "proyecto-local/licencia-mixkit-musica.local.json",
+      "event": "Pausa visual, trayecto o firma; sin música añadida bajo conversaciones principales.",
+      "editor_element_ids": [
+        "ib3igcquyy4r"
+      ],
+      "mix_notes": {
+        "volume": 0.16,
+        "fade_in": 0.5,
+        "fade_out": 1.1,
+        "listening": "Pendiente: host sin entrada de audio."
+      }
+    },
+    {
+      "id": "a9sq7etmyy4r",
+      "media_id": "mixkit-musica-963",
+      "source_in_seconds": 8.2,
+      "source_out_seconds": 29.2,
+      "start_seconds": 115.1,
+      "role": "music",
+      "file": "mixkit-just-keep-walking-963.mp3",
+      "author": "Michael Ramir C.",
+      "license_source": "https://mixkit.co/free-stock-music/discover/acoustic/",
+      "license": "Mixkit Stock Music Free License",
+      "license_url": "https://mixkit.co/license/modal/musicFree/",
+      "consulted_at": "2026-11-16",
+      "license_receipt_reference": "proyecto-local/licencia-mixkit-musica.local.json",
+      "event": "Pausa visual, trayecto o firma; sin música añadida bajo conversaciones principales.",
+      "editor_element_ids": [
+        "a9sq7etmyy4r"
+      ],
+      "mix_notes": {
+        "volume": 0.15,
+        "fade_in": 0.7,
+        "fade_out": 1.1,
+        "listening": "Pendiente: host sin entrada de audio."
+      }
+    },
+    {
+      "id": "xwffrargyy4r",
+      "media_id": "mixkit-musica-963",
+      "source_in_seconds": 29.2,
+      "source_out_seconds": 59.9,
+      "start_seconds": 210.15,
+      "role": "music",
+      "file": "mixkit-just-keep-walking-963.mp3",
+      "author": "Michael Ramir C.",
+      "license_source": "https://mixkit.co/free-stock-music/discover/acoustic/",
+      "license": "Mixkit Stock Music Free License",
+      "license_url": "https://mixkit.co/license/modal/musicFree/",
+      "consulted_at": "2026-11-16",
+      "license_receipt_reference": "proyecto-local/licencia-mixkit-musica.local.json",
+      "event": "Pausa visual, trayecto o firma; sin música añadida bajo conversaciones principales.",
+      "editor_element_ids": [
+        "xwffrargyy4r"
+      ],
+      "mix_notes": {
+        "volume": 0.13,
+        "fade_in": 0.7,
+        "fade_out": 1.1,
+        "listening": "Pendiente: host sin entrada de audio."
+      }
+    },
+    {
+      "id": "c83hxduuyy4r",
+      "media_id": "mixkit-musica-963",
+      "source_in_seconds": 59.9,
+      "source_out_seconds": 84.7,
+      "start_seconds": 256.05,
+      "role": "music",
+      "file": "mixkit-just-keep-walking-963.mp3",
+      "author": "Michael Ramir C.",
+      "license_source": "https://mixkit.co/free-stock-music/discover/acoustic/",
+      "license": "Mixkit Stock Music Free License",
+      "license_url": "https://mixkit.co/license/modal/musicFree/",
+      "consulted_at": "2026-11-16",
+      "license_receipt_reference": "proyecto-local/licencia-mixkit-musica.local.json",
+      "event": "Pausa visual, trayecto o firma; sin música añadida bajo conversaciones principales.",
+      "editor_element_ids": [
+        "c83hxduuyy4r"
+      ],
+      "mix_notes": {
+        "volume": 0.13,
+        "fade_in": 0.7,
+        "fade_out": 1.1,
+        "listening": "Pendiente: host sin entrada de audio."
+      }
+    },
+    {
+      "id": "gp5qqwqoyy4r",
+      "media_id": "mixkit-musica-963",
+      "source_in_seconds": 84.7,
+      "source_out_seconds": 98.9,
+      "start_seconds": 285.95,
+      "role": "music",
+      "file": "mixkit-just-keep-walking-963.mp3",
+      "author": "Michael Ramir C.",
+      "license_source": "https://mixkit.co/free-stock-music/discover/acoustic/",
+      "license": "Mixkit Stock Music Free License",
+      "license_url": "https://mixkit.co/license/modal/musicFree/",
+      "consulted_at": "2026-11-16",
+      "license_receipt_reference": "proyecto-local/licencia-mixkit-musica.local.json",
+      "event": "Pausa visual, trayecto o firma; sin música añadida bajo conversaciones principales.",
+      "editor_element_ids": [
+        "gp5qqwqoyy4r"
+      ],
+      "mix_notes": {
+        "volume": 0.1,
+        "fade_in": 0.7,
+        "fade_out": 1.1,
+        "listening": "Pendiente: host sin entrada de audio."
+      }
+    },
+    {
+      "id": "zsj9sg08yy4r",
+      "media_id": "mixkit-musica-963",
+      "source_in_seconds": 90,
+      "source_out_seconds": 109.5,
+      "start_seconds": 403.05,
+      "role": "music",
+      "file": "mixkit-just-keep-walking-963.mp3",
+      "author": "Michael Ramir C.",
+      "license_source": "https://mixkit.co/free-stock-music/discover/acoustic/",
+      "license": "Mixkit Stock Music Free License",
+      "license_url": "https://mixkit.co/license/modal/musicFree/",
+      "consulted_at": "2026-11-16",
+      "license_receipt_reference": "proyecto-local/licencia-mixkit-musica.local.json",
+      "event": "Pausa visual, trayecto o firma; sin música añadida bajo conversaciones principales.",
+      "editor_element_ids": [
+        "zsj9sg08yy4r"
+      ],
+      "mix_notes": {
+        "volume": 0.13,
+        "fade_in": 0.7,
+        "fade_out": 1.1,
+        "listening": "Pendiente: host sin entrada de audio."
+      }
+    },
+    {
+      "id": "gat348dsyy4r",
+      "media_id": "mixkit-musica-963",
+      "source_in_seconds": 12,
+      "source_out_seconds": 34,
+      "start_seconds": 470.55,
+      "role": "music",
+      "file": "mixkit-just-keep-walking-963.mp3",
+      "author": "Michael Ramir C.",
+      "license_source": "https://mixkit.co/free-stock-music/discover/acoustic/",
+      "license": "Mixkit Stock Music Free License",
+      "license_url": "https://mixkit.co/license/modal/musicFree/",
+      "consulted_at": "2026-11-16",
+      "license_receipt_reference": "proyecto-local/licencia-mixkit-musica.local.json",
+      "event": "Pausa visual, trayecto o firma; sin música añadida bajo conversaciones principales.",
+      "editor_element_ids": [
+        "gat348dsyy4r"
+      ],
+      "mix_notes": {
+        "volume": 0.13,
+        "fade_in": 0.7,
+        "fade_out": 1.1,
+        "listening": "Pendiente: host sin entrada de audio."
+      }
+    },
+    {
+      "id": "y7bb7thbyy4r",
+      "media_id": "mixkit-musica-963",
+      "source_in_seconds": 36,
+      "source_out_seconds": 47.85,
+      "start_seconds": 542.35,
+      "role": "music",
+      "file": "mixkit-just-keep-walking-963.mp3",
+      "author": "Michael Ramir C.",
+      "license_source": "https://mixkit.co/free-stock-music/discover/acoustic/",
+      "license": "Mixkit Stock Music Free License",
+      "license_url": "https://mixkit.co/license/modal/musicFree/",
+      "consulted_at": "2026-11-16",
+      "license_receipt_reference": "proyecto-local/licencia-mixkit-musica.local.json",
+      "event": "Pausa visual, trayecto o firma; sin música añadida bajo conversaciones principales.",
+      "editor_element_ids": [
+        "y7bb7thbyy4r"
+      ],
+      "mix_notes": {
+        "volume": 0.12,
+        "fade_in": 0.7,
+        "fade_out": 1.1,
+        "listening": "Pendiente: host sin entrada de audio."
+      }
+    },
+    {
+      "id": "ka936yxpyy4r",
+      "media_id": "mixkit-musica-963",
+      "source_in_seconds": 114,
+      "source_out_seconds": 122.5,
+      "start_seconds": 576.1,
+      "role": "music",
+      "file": "mixkit-just-keep-walking-963.mp3",
+      "author": "Michael Ramir C.",
+      "license_source": "https://mixkit.co/free-stock-music/discover/acoustic/",
+      "license": "Mixkit Stock Music Free License",
+      "license_url": "https://mixkit.co/license/modal/musicFree/",
+      "consulted_at": "2026-11-16",
+      "license_receipt_reference": "proyecto-local/licencia-mixkit-musica.local.json",
+      "event": "Pausa visual, trayecto o firma; sin música añadida bajo conversaciones principales.",
+      "editor_element_ids": [
+        "ka936yxpyy4r"
+      ],
+      "mix_notes": {
+        "volume": 0.14,
+        "fade_in": 0.7,
+        "fade_out": 2,
+        "listening": "Pendiente: host sin entrada de audio."
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "visita",
+      "statement": "La experiencia es un viaje propio a Pátzcuaro.",
+      "source": "Encargo actual y medios propios",
+      "observed_at": "2026-11-16",
+      "status": "confirmado_por_usuario"
+    },
+    {
+      "id": "domingo",
+      "statement": "Las observaciones sobre afluencia y estacionamiento corresponden a ese domingo.",
+      "source": "IMG_9133, ASR orientativo y contexto a cámara; escucha pendiente",
+      "observed_at": "2026-11-16",
+      "status": "experiencia_personal_no_horario_vigente"
+    },
+    {
+      "id": "monetizacion",
+      "statement": "En videos ya monetizados, ocho minutos permiten anuncios intermedios; no garantizan monetización del canal.",
+      "source": "https://support.google.com/youtube/answer/6175006?hl=es",
+      "observed_at": "2026-11-16",
+      "status": "fuente_oficial_actual"
+    }
+  ],
+  "privacy_exclusions": [
+    {
+      "media_id": "src-img_9111",
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "reason": "Captura personal excluida completa."
+    },
+    {
+      "media_id": "src-img_9112",
+      "source_in_seconds": 1,
+      "source_out_seconds": 6.2,
+      "reason": "Excluir placa cercana mediante recorte; verificar en preview y exportación."
+    }
+  ],
+  "pending": [
+    {
+      "id": "escucha-final",
+      "kind": "revision",
+      "detail": "Escuchar el episodio completo, especialmente 115.1–127.1 s y 546.35–576.1 s; comprobar inteligibilidad, sincronía y niveles. Host sin entrada auditiva.",
+      "timeline_seconds": null,
+      "owner": "Arturo/Liz"
+    },
+    {
+      "id": "sfx-musica",
+      "kind": "revision",
+      "detail": "Escuchar SFX en 0.3 y 281.3 s; comparar música/ambiente en pausas y transición hacia conversación. Elementos aplicados, niveles propuestos sin escucha crítica.",
+      "timeline_seconds": 0.3,
+      "owner": "Arturo/Liz"
+    },
+    {
+      "id": "privacidad-final",
+      "kind": "revision",
+      "detail": "La placa cercana de 210.15–215.35 s se excluyó por recorte y se comprobó por muestras. Revisar privacidad del resto del episodio de forma continua antes de publicar.",
+      "timeline_seconds": 210.15,
+      "owner": "Arturo/Liz"
+    },
+    {
+      "id": "nombre-local",
+      "kind": "revision",
+      "detail": "Confirmar por escucha el nombre que mencionan al ubicar el local, IMG_9131 31–49 s (timeline 452.55–470.55 s). No se creó un rótulo con ese nombre incierto.",
+      "timeline_seconds": 452.55,
+      "owner": "Arturo/Liz"
+    },
+    {
+      "id": "ausente",
+      "kind": "cobertura",
+      "detail": "IMG_9122 no estaba en la carpeta indicada. No se sustituyó ni se registró como descarte editorial.",
+      "timeline_seconds": null,
+      "owner": null
+    }
+  ],
+  "review": {
+    "preview": "Pin y texto en 140 s sin placa; pruebas cortas exportadas con título, monograma y firma alfa. Muestras de coche y avance de carretera.",
+    "listening": "Pendiente: host sin entrada auditiva. Mediciones, decodificación y ASR no son escucha.",
+    "export": "MP4 H.264/AAC, 1920×1080, 30 fps, SDR BT.709, 584.618667 s. Hash local coincidente con artefacto MCP; video/audio decodificados completos sin errores. Muestras finales de gráficos, fases de firma, coche y tramo 2:00. No equivale a visionado continuo ni escucha.",
+    "reopened": "Guardado, cambio a QA y reapertura desde almacenamiento: 44 clips, 8 stickers, 2 overlays, 11 audios, cero medios ausentes. Abierto en 546.35 s para revisar coche.",
+    "notes": [
+      "Montaje y MP4 anteriores conservados.",
+      "La continuidad del coche incluye una elipsis; no se afirma un corte sobre apertura desde dentro que no existe en los clips revisados.",
+      "Sin nuevos SFX: se conservan los dos acentos del montaje previo; no se simula otro sonido de puerta.",
+      "El like funciona como CTA; no añade puntuación ni atribuye una opinión a la pareja.",
+      "Los textos son PNG separados editables por sustitución; generador y fuentes conservados en proyecto-local/revision-v02."
+    ]
+  },
+  "revision_number": 2,
+  "revision_history": [
+    {
+      "revision": 1,
+      "duration_seconds": 584.05,
+      "record": "proyecto-local/revision-v02/plan-montaje-youtube-v01.local.json",
+      "note": "Montaje y MP4 previos conservados; revisión temporal reabierta por Arturo."
+    },
+    {
+      "revision": 2,
+      "date": "2026-11-16",
+      "request": "Aplicar iconos y firma premium, corregir 2:00 y enlazar perspectivas del coche.",
+      "status": "borrador"
+    }
+  ],
+  "action_sequences": [
+    {
+      "id": "coche-perspectivas",
+      "action": "Volver al coche, abrir puerta y pasar a la perspectiva interior.",
+      "media_ids": [
+        "src-img_9135",
+        "src-img_9136",
+        "src-img_9137"
+      ],
+      "source_phases": [
+        {
+          "media_id": "src-img_9135",
+          "source_in_seconds": 0.7,
+          "source_out_seconds": 3.15,
+          "phase": "Manija y apertura exterior",
+          "anchor": "La mano llega a la manija y la puerta se abre."
+        },
+        {
+          "media_id": "src-img_9136",
+          "source_in_seconds": 2.2,
+          "source_out_seconds": 5.8,
+          "phase": "Liz sentada, vista desde fuera",
+          "anchor": "Misma puerta; ventana ya cerrada."
+        },
+        {
+          "media_id": "src-img_9137",
+          "source_in_seconds": 5.2,
+          "source_out_seconds": 28.9,
+          "phase": "Ventana desde dentro, paneo a pareja y despedida",
+          "anchor": "Correspondencia de ventana y espejo; cámara gira hacia los dos."
+        }
+      ],
+      "proposed_order": [
+        "yt-41",
+        "yt-42",
+        "yt-43"
+      ],
+      "continuity_checks": {
+        "hand": "Apertura completa en IMG_9135; no se duplica el tirón.",
+        "object_state": "Corte de puerta abierta a cerrada: elipsis explícita, no falso corte de una apertura continua.",
+        "direction": "Exterior de la puerta → persona tras ventana → misma ventana desde dentro → pareja.",
+        "axis": "Cambio exterior/interior con referencia de ventana y espejo.",
+        "equivalent_phase": "No hay ángulo interior equivalente de la apertura en estas tres tomas. Se recupera el paneo interior 5.2–7.1 s, antes recortado."
+      },
+      "cut_decision": "Cortes directos en 548.8 y 552.4 s; sin invertir toma ni disolver estados incompatibles.",
+      "editor_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json",
+      "review_evidence": "Originales muestreados, prueba corta MCP 1080p y MP4 completo exportado leídos de vuelta; final-coche.jpg y recibo exportacion-youtube.local.json.",
+      "pending": [
+        "Escucha de los enlaces y visionado continuo final con Arturo/Liz."
+      ]
+    }
+  ],
+  "temporal_review": [
+    {
+      "id": "congelamiento-2min",
+      "export_reference": "exportacion-youtube.local.json",
+      "timeline_interval": [
+        115.1,
+        127.1
+      ],
+      "mapped_source_interval": {
+        "previous": [
+          [
+            8,
+            14
+          ],
+          [
+            52,
+            58
+          ]
+        ],
+        "revised": [
+          [
+            2.2,
+            7.7
+          ],
+          [
+            57.5,
+            64
+          ]
+        ]
+      },
+      "working_reference": "proyecto-local/revision-v02/proyecto-aplicado.local.json",
+      "method": "Comparación original recuperado de caché, copia SDR y MP4 previo; inspección de PTS de paquetes, muestras de imagen y detector de baja variación. Prueba corta corregida con exportación nativa MCP 1080p.",
+      "parameters": {
+        "noise": "-45dB",
+        "min_duration_seconds": 0.25,
+        "analysis_width": 480
+      },
+      "candidates": {
+        "previous_export": [
+          [
+            119.566667,
+            120.366667
+          ],
+          [
+            122.3,
+            125.166667
+          ],
+          [
+            125.2,
+            125.966667
+          ]
+        ],
+        "corrected_12s_test": [],
+        "final_export": []
+      },
+      "visual_findings": "Avance de carretera, conductor y paneo en la prueba corregida de 12 s. El original contiene huecos PTS de 0.801667 s en 12.455–13.256667 y 2.851667 s en 53.208333–56.06; coinciden con la pausa observada.",
+      "comparison_result": "No es exclusivo de la exportación: los intervalos reportados también quedan detenidos al decodificar el original. Se sustituyen por otros tramos del mismo archivo con movimiento continuo. MP4 final: avance de imagen comprobado en 115.1–127.1 s y cero candidatos en análisis de los 17 538 fotogramas completos (umbral 0.75 s).",
+      "resolution_status": "corregido_verificado_en_tramo_exportado",
+      "limitations": [
+        "El detector no certifica fluidez; se contrasta con imagen y fuente.",
+        "Sin escucha humana ni reproducción audiovisual continua en este host."
+      ]
+    }
+  ]
+}

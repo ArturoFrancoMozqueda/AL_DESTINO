@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "project": "AL DESTINO",
   "status": "borrador",
-  "updated_at": "2026-11-14",
+  "updated_at": "2026-11-16",
   "path_base": "repository_root",
   "entrypoints": {
     "agent": "AGENTS.md",
@@ -55,9 +55,23 @@
     },
     {
       "id": "edicion-video",
-      "purpose": "Historia, hooks, selección, montaje, audio, color, gráficos, motion y ejecución mediante Clipo cuando corresponda.",
+      "purpose": "Base común de marca, cobertura de medios, historia y ejecución MCP; dirección compartida y selección de formato.",
       "skill": ".agents/skills/al-destino-edicion/SKILL.md",
       "read": ["marca/recursos.json", "produccion/automatizacion/plantilla-plan-montaje.json"],
+      "output_directory": "produccion/episodios"
+    },
+    {
+      "id": "edicion-vertical",
+      "purpose": "Piezas verticales con historia autónoma, reencuadres por toma y lectura móvil; plataforma y duración se resuelven por encargo.",
+      "skill": ".agents/skills/al-destino-edicion-vertical/SKILL.md",
+      "read": [".agents/skills/al-destino-edicion/SKILL.md"],
+      "output_directory": "produccion/episodios"
+    },
+    {
+      "id": "edicion-horizontal",
+      "purpose": "Piezas horizontales con desarrollo de experiencia, presencia de pareja y lugar, continuidad y ritmo por bloques.",
+      "skill": ".agents/skills/al-destino-edicion-horizontal/SKILL.md",
+      "read": [".agents/skills/al-destino-edicion/SKILL.md"],
       "output_directory": "produccion/episodios"
     },
     {

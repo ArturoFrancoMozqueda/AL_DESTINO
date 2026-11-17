@@ -1,16 +1,46 @@
-# Gráficos, transiciones y movimiento · v0.1 · BORRADOR
+# Gráficos, transiciones y movimiento · v0.5 · BORRADOR
 
-Fuente visual: `marca/manual.md` y tokens v0.6. Recursos nuevos en `marca/video/v01/`; exportaciones en `marca/exportaciones/video-v01/`. El catálogo enlaza iconos, fuentes SVG de componentes y especificaciones de movimiento. No reemplaza logos ni animaciones vigentes.
+Fuente visual: `marca/manual.md` y tokens v0.6. Para el acabado editorial, consultar `marca/video/v04/catalogo.json`: likes, pin de ubicación, corazón y firma con el logo original; PNG en `marca/exportaciones/video-v04/`. V03 conserva ilustraciones opcionales de alimentos, fuera del kit editorial; V02 es antecedente con papel descartado. El índice `marca/recursos.json` enlaza fuentes y exportaciones.
 
-Preferencia expresa de Arturo, 14 de noviembre de 2026: profesional y elegante, tomando el [video elegido como referencia](referencia-video.md). Propuesta de aplicación: placas limpias, jerarquía tipográfica, espacio, acentos medidos y movimiento preciso. La serif puede distinguir la presentación; Plus Jakarta Sans sigue llevando los datos. La forma, tamaño y timing de cada muestra siguen BORRADOR.
+Dirección vigente: profesional y elegante, con fotografía protagonista, jerarquía tipográfica, espacio y acentos medidos. La referencia anterior de [edición](referencia-video.md) se conserva; la preferencia posterior por gráficos sin fondo sustituye la propuesta de placas para estos insertos. Plus Jakarta Sans sigue llevando los datos. Forma, tamaño y timing concretos se comprueban sobre el material y conservan su revisión propia.
 
-## Familia gráfica propuesta
+## Preparar el acabado gráfico antes del montaje
+
+
+El acabado se centra en iconos editoriales y firma: likes, ubicación y logo. Una petición de esos elementos no se resuelve creando ilustraciones de comida u objetos de la escena. Preparar primero la familia funcional necesaria y probarla sobre metraje; usar ilustraciones sólo si una necesidad editorial concreta las justifica.
+
+| Función | Recurso y criterio |
+|---|---|
+| Like | `video.editorial.like` y `video.editorial.like-activo`. Distinguir opinión de una persona y CTA de interacción. Atribuir la opinión; no fabricar un contador ni asumir una escala de puntuación. El estado lleno es una alternativa gráfica, no aprobación de la experiencia. |
+| Ubicación | `video.editorial.ubicacion` junto al lugar confirmado, en texto separado. Alinear ópticamente pin y nombre; mantener ambos estables durante la lectura. La punta no demuestra coordenadas ni una ruta exacta. |
+| Firma | `marca.logo.horizontal` o `marca.logo.monograma-video` según legibilidad; sus archivos `png_overlay_contrast` incluyen apoyo de alfa para superposición. Conservar proporciones y colores; no redibujar, recolorear ni añadir el disco de una versión circular al logo horizontal. Revisar contraste y espacio libre sobre la toma. Para la animación con contraste local, usar `motion.logo.horizontal.premium` o `motion.logo.monograma.premium`: 4 s, APNG/WebM con alfa. Las versiones anteriores siguen disponibles. No generar otra identidad para resolver el acabado; verificar en el editor el formato elegido antes de declararlo compatible. |
+| Afinidad | `video.editorial.corazon` cuando tenga sentido. No sustituye una reacción real ni obliga a añadir un CTA a cada bloque. |
+
+La revisión de iconos v04 incorpora contraste local dentro del PNG: variante `universal` como punto de partida y otras alternativas disponibles. Su legibilidad debe comprobarse sobre fotogramas claros, oscuros y con detalle, al tamaño final, usando el mismo archivo. Una lámina sobre verde o beige no acredita que funcione sobre video. Una línea de apoyo fina y sombra contenida pueden seguir el alfa del recurso, sin convertirse en placa ni borde grueso de sticker. Conservar el raster original del logo en el frente y separar cualquier apoyo de contraste detrás; no confundirlo con recolorear el dibujo. Los fondos de las mesas de revisión no pertenecen a los PNG. Registrar la función (`cta_like`, `opinion`, `ubicacion` o `firma`), el anclaje editorial y los IDs reales al aplicarlos. Entrada, pausa y salida se adaptan a las herramientas disponibles; los estados estáticos no acreditan animación. No animar continuamente el texto o el pin durante su lectura.
+
+Usar PNG recortados, aislados sobre el metraje, con Alan por el Mundo como referencia de intención y diseño propio de AL DESTINO. No añadir tarjeta, franja, papel recortado, disco de soporte ni borde grueso de sticker por defecto. La barra verde y la propuesta de papel fueron rechazadas. Canva u otra herramienta pueden preparar los elementos cuando haga falta; conservar el logo existente.
+
+La toma puede funcionar sin gráfico. No convertir cada bloque en un rótulo ni ilustrar lo que ya se entiende. Elegir un inserto puntual cuando localiza, aclara o aporta un acento pertinente; darle entrada, pausa y salida contenidas. La ausencia de placa no obliga a añadir textos flotantes. Cuando hagan falta, mantener texto y recorte independientes, con palabras mínimas y contraste suficiente. Reubicar, acortar o retirar antes de reconstruir una tarjeta por comodidad. Evitar contornos gruesos; una sombra local y discreta en letras puede ensayarse si la toma la necesita.
+
+Diseñar por función: ubicación, sabor, consejo o atribución. Buscar silueta reconocible, ilustración pertinente y pocos acentos. «Premium» no se resuelve añadiendo serif, dorado, sombra o una placa grande. Al estudiar un referente, observar momentos concretos y registrar qué se vio; no atribuirle formatos PNG, fuentes o técnicas que la imagen no permite comprobar ni copiar su identidad.
+
+Distinguir el gráfico incrustado del contenido y los controles del reproductor: barra de avance, botones de YouTube y sus contadores no son recursos de la edición del creador. Estudiar el elemento que el usuario señaló, sin generalizar desde una firma a toda la identidad del referente.
+
+Antes del lote, preparar una pieza representativa y verla sobre un fotograma propio, a tamaño completo y reducido; usar texto real sólo si corresponde. Ajustar lectura, contraste, proporción y espacio para caras, manos, producto y reacción. Consultar `selection_status` en el catálogo: el kit editorial v04 es una propuesta BORRADOR; las ilustraciones v03 son opcionales; los recursos con papel v02 quedan fuera de la selección vigente. Un archivo disponible no es un estilo aprobado ni un paquete obligatorio.
+
+Exportar PNG RGBA y comprobar transparencia por composición sobre claro, oscuro y metraje: tener canal alfa no descarta una placa opaca o halos. Revisar agujeros interiores y márgenes; el RGB de píxeles con alfa cero no es un fondo visible y algunas vistas lo muestran mal. Conservar maestro, procedencia/prompts cuando se genere, tamaño y hash. Un raster no se declara vector editable. Para alimentos, conservar las características del producto real si el inserto lo identifica; distinguir una ilustración genérica de una derivada del material propio y de una foto exacta. No usar un recorte generado como prueba de una visita.
+
+Preparar el texto en otra capa cuando haga falta. Un texto en PNG sin soporte puede preservar la tipografía si el editor no la reproduce; no obliga a integrar ilustración y texto ni a añadir fondo. Nunca colocar muestras con datos de ejemplo. Elegir el recurso por su resultado sobre el video, no por pertenecer a un catálogo.
+
+Una mesa visual o mockup acredita diseño estático. Después del montaje, comprobar importación, escala, transparencia, movimiento completo y exportación en el editor real; no afirmar esas pruebas por tener un PNG disponible.
+
+## Familia gráfica v01, conservada como referencia
 
 Iconos de línea, extremos redondos, rejilla 32 × 32, trazo 1.8. Las flechas tienen una curvatura suave propia; no simulan un mapa preciso. PNG transparentes en café oscuro, arena y turquesa; SVG fuente con `currentColor`. Emplear café/arena o arena/petróleo para datos pequeños. Terracota/turquesa como detalles, comprobando contraste sobre la toma. No depender de rojo/verde para expresar una opinión.
 
-Un gráfico debe localizar, explicar, atribuir o comparar. Mostrar el mínimo necesario. Mantener un dato protagonista por placa. Evitar rótulo + subtítulos + valoración + precio simultáneos; desplazar o escalonar según el audio. Los iconos acompañan texto cuando su significado sea ambiguo.
+Un gráfico debe localizar, explicar, atribuir o comparar. Mostrar el mínimo necesario. Mantener un dato protagonista por inserto. Evitar rótulo + subtítulos + valoración + precio simultáneos; desplazar o escalonar según el audio. Los iconos acompañan texto cuando su significado sea ambiguo.
 
-## Componentes iniciales
+## Componentes v01 de referencia, sin imponer su soporte
 
 | ID | Campos editables deseados | Uso y condición |
 |---|---|---|

@@ -1,6 +1,6 @@
 {
   "status": "borrador",
-  "updated_at": "2026-11-14",
+  "updated_at": "2026-11-16",
   "timezone": "America/Mexico_City",
   "source": "Respuestas de Arturo en esta conversación; sin entrevista separada de Liz",
   "brand": "AL DESTINO",
@@ -39,8 +39,28 @@
       "declared_at": "2026-11-14",
       "feeling": "profesional y elegante",
       "reference_url": "https://www.youtube.com/watch?v=vPsSfW0X_sI",
-      "scope": "referencia de edición adaptada a AL DESTINO; aplicaciones concretas en borrador",
-      "review_scope": "muestreo visual por puntos; sin escucha crítica ni medición de curvas o ritmo continuo"
+      "horizontal_reference_urls": [
+        "https://www.youtube.com/watch?v=vPsSfW0X_sI",
+        "https://www.youtube.com/watch?v=ve0gSCrhuyQ",
+        "https://www.youtube.com/watch?v=OWaR68LiZLs"
+      ],
+      "horizontal_references_declared_at": "2026-11-16",
+      "scope": "referencia de edición adaptada a AL DESTINO; procedimiento horizontal operativo v1.5, sin aprobación global de recursos ni episodios",
+      "review_scope": "malla visual de toda la extensión temporal y secuencias de fotogramas concretas; sin escucha crítica ni visionado continuo de los referentes",
+      "horizontal_workflow": {
+        "version": "1.5",
+        "status": "operativo",
+        "effective_at": "2026-11-16",
+        "requested_by": "Arturo",
+        "decision_id": "D-EDICION-09",
+        "default_destination": "YouTube",
+        "duration_policy": "Según material explorado y desarrollo completo de la historia; sin objetivo universal de minutos ni recortes que eliminen momentos sustantivos.",
+        "finishing": "Kit editorial con contraste local dentro del alfa, sin placa; probar el mismo PNG sobre claro, sombra y detalle. Firma animada con piezas originales, APNG/WebM transparentes; verificar importación en el editor antes de afirmar compatibilidad.",
+        "skill_path": ".agents/skills/al-destino-edicion-horizontal/SKILL.md",
+        "validation_scope": "validación documental, recursos estáticos y diagnóstico temporal parcial del MP4 existente; no equivale a corregir o aprobar el episodio",
+        "continuity": "Identificar acciones filmadas desde varias perspectivas antes de recortar; comprobar fases equivalentes y corte durante el movimiento.",
+        "export_review": "Comprobar avance de imagen; hash, capturas y decodificación no descartan congelamientos. Comparar original/copia/exportación ante fallos."
+      }
     }
   },
   "equipment_declared": [
@@ -104,6 +124,35 @@
     "design_system_focus": "fotografía propia, pareja protagonista y consejos cercanos; gráficos discretos y colores naturales",
     "background_preference": "beige arena, con menos matiz rosado",
     "working_background_hex": "#E3DEC9",
-    "social_feeling": "pareja protagonista, lugares visualmente atractivos, fotografía natural y consejos cercanos"
+    "social_feeling": "pareja protagonista, lugares visualmente atractivos, fotografía natural y consejos cercanos",
+    "video_graphics_preference": {
+      "status": "preferencia_declarada",
+      "declared_at": "2026-11-16",
+      "reference": "Alan por el Mundo",
+      "direction": "Kit editorial consistente sin placa; texto independiente cuando aporte. Logo original conservado, sin redibujar ni recolorear. Ilustraciones de comida opcionales, fuera del foco de esta petición.",
+      "tool_policy": "Canva u otra herramienta autorizados cuando hagan falta para preparar los elementos; sustituye la restricción anterior sin Canva",
+      "proposals_status": "borrador",
+      "reference_url": "https://www.youtube.com/watch?v=OWaR68LiZLs",
+      "discarded_proposals": [
+        "barra verde con texto blanco contorneado",
+        "soporte tipo papel v02"
+      ],
+      "priority_resources": [
+        "likes",
+        "pin de ubicación",
+        "logo y firma"
+      ],
+      "on_footage_requirement": "Debe lucir sobre metraje sin depender de fondos verde/beige; prueba del mismo archivo a tamaño final.",
+      "logo_motion": "Animación premium solicitada, preparada como variante por piezas de 4 s y monograma; BORRADOR.",
+      "latest_feedback": {
+        "declared_at": "2026-11-16",
+        "declared_by": "Arturo",
+        "quote": "me gusto",
+        "status": "valoracion_favorable",
+        "scope": "Iconos v04.1 con contraste local y firma animada de 4 s, completa y monograma, mostrados sobre fotogramas del viaje.",
+        "use": "Dirección visual preferida para próximos montajes; conservar revisión técnica y aprobación de cada episodio por separado.",
+        "decision_id": "D-EDICION-10"
+      }
+    }
   }
 }

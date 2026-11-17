@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "brand": "AL DESTINO",
   "status": "borrador",
-  "updated_at": "2026-11-14",
+  "updated_at": "2026-11-16",
   "path_base": "repository_root",
   "brand_version": "0.6",
   "generated_by": "scripts/catalogar-recursos.py",
@@ -22,6 +22,26 @@
       "id": "video",
       "path": "marca/video/v01/catalogo.json",
       "role": "Iconos y componentes editables/muestras"
+    },
+    {
+      "id": "video.graficos-viaje",
+      "path": "marca/video/v02/catalogo.json",
+      "role": "Antecedente con fondo de papel descartado para la dirección vigente"
+    },
+    {
+      "id": "video.recortes",
+      "path": "marca/video/v03/catalogo.json",
+      "role": "PNG recortados sin placa; propuestas BORRADOR"
+    },
+    {
+      "id": "video.editorial",
+      "path": "marca/video/v04/catalogo.json",
+      "role": "Likes, pin, corazón y firma original; kit editorial BORRADOR"
+    },
+    {
+      "id": "motion.logo.horizontal.premium",
+      "path": "marca/motion/logo-al-destino/premium/renders/catalogo.json",
+      "role": "Firma de 4 s en APNG y WebM con transparencia verificada"
     },
     {
       "id": "motion.logo.horizontal",
@@ -75,6 +95,14 @@
           "width": 1700,
           "height": 370,
           "has_alpha": false
+        },
+        {
+          "role": "png_overlay_contrast",
+          "path": "marca/exportaciones/video-v04/logo-horizontal-contraste.png",
+          "sha256": "12dc842dbc52789ba717e6239b14d94de2410bee002595d8d8f7b76447e0a473",
+          "width": 1728,
+          "height": 398,
+          "has_alpha": true
         }
       ],
       "editability": "raster; capas PNG originales disponibles en el catálogo de piezas",
@@ -910,7 +938,8 @@
       "motion_id": "motion.video.deslizar",
       "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente",
       "is_mockup": true,
-      "generator": "scripts/generar-kit-video.cjs"
+      "generator": "scripts/generar-kit-video.cjs",
+      "visual_selection": "Muestra v01; no usar como acabado premium por defecto. Consultar visual.md y preparar el texto real."
     },
     {
       "id": "video.componente.precio",
@@ -953,7 +982,8 @@
       "motion_id": "motion.video.enfatizar",
       "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente",
       "is_mockup": true,
-      "generator": "scripts/generar-kit-video.cjs"
+      "generator": "scripts/generar-kit-video.cjs",
+      "visual_selection": "Muestra v01; no usar como acabado premium por defecto. Consultar visual.md y preparar el texto real."
     },
     {
       "id": "video.componente.consejo",
@@ -993,7 +1023,8 @@
       "motion_id": "motion.video.deslizar",
       "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente",
       "is_mockup": true,
-      "generator": "scripts/generar-kit-video.cjs"
+      "generator": "scripts/generar-kit-video.cjs",
+      "visual_selection": "Muestra v01; no usar como acabado premium por defecto. Consultar visual.md y preparar el texto real."
     },
     {
       "id": "video.componente.opinion",
@@ -1035,7 +1066,8 @@
       "motion_id": "motion.video.aparecer",
       "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente",
       "is_mockup": true,
-      "generator": "scripts/generar-kit-video.cjs"
+      "generator": "scripts/generar-kit-video.cjs",
+      "visual_selection": "Muestra v01; no usar como acabado premium por defecto. Consultar visual.md y preparar el texto real."
     },
     {
       "id": "video.componente.presentacion",
@@ -1073,7 +1105,8 @@
       "motion_id": "motion.video.deslizar",
       "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente",
       "is_mockup": true,
-      "generator": "scripts/generar-kit-video.cjs"
+      "generator": "scripts/generar-kit-video.cjs",
+      "visual_selection": "Muestra v01; no usar como acabado premium por defecto. Consultar visual.md y preparar el texto real."
     },
     {
       "id": "video.componente.cierre",
@@ -1111,7 +1144,8 @@
       "motion_id": "motion.video.aparecer",
       "editability": "SVG fuente por capas; PNG aplanado; aplicación nativa Clipo pendiente",
       "is_mockup": true,
-      "generator": "scripts/generar-kit-video.cjs"
+      "generator": "scripts/generar-kit-video.cjs",
+      "visual_selection": "Muestra v01; no usar como acabado premium por defecto. Consultar visual.md y preparar el texto real."
     },
     {
       "id": "motion.video.aparecer",
@@ -1180,6 +1214,489 @@
       "selector": "trazar",
       "implementation": "pendiente",
       "usage": "Valor de ensayo propio; no medido del referente ni validado en Clipo."
+    },
+    {
+      "id": "video.ilustracion.ubicacion",
+      "title": "Mapa y ubicación",
+      "kind": "illustration",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "svg_source",
+          "path": "marca/video/v02/ubicacion.svg",
+          "sha256": "20020ddb15a6eda0c45fa87430d4735a0c03d06e749f81cfc233ef6394398500"
+        },
+        {
+          "role": "png_transparent",
+          "path": "marca/exportaciones/video-v02/ubicacion.png",
+          "sha256": "bfac0bd93c6f3d61a45a679a0b3e8aaa39118da1ad535234067e878411503f12",
+          "width": 280,
+          "height": 280,
+          "has_alpha": true
+        }
+      ],
+      "generator": "scripts/generar-graficos-viaje.cjs",
+      "editability": "SVG fuente; PNG transparente independiente",
+      "selection_status": "descartado_para_direccion_vigente",
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "usage": "Antecedente v02 con fondo de papel rechazado por Arturo. Conservar para trazabilidad; no seleccionar como acabado vigente."
+    },
+    {
+      "id": "video.ilustracion.sabores",
+      "title": "Pan y café",
+      "kind": "illustration",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "svg_source",
+          "path": "marca/video/v02/sabores.svg",
+          "sha256": "ad87cff22102934271db5e9ee6f0aa0fa5f3af30ee92a6f3184bd4ee7f44c3e6"
+        },
+        {
+          "role": "png_transparent",
+          "path": "marca/exportaciones/video-v02/sabores.png",
+          "sha256": "c9758907ba67de6811aac9813de3b6c87da6bcb3a589fc82060787b73a0720d6",
+          "width": 280,
+          "height": 280,
+          "has_alpha": true
+        }
+      ],
+      "generator": "scripts/generar-graficos-viaje.cjs",
+      "editability": "SVG fuente; PNG transparente independiente",
+      "selection_status": "descartado_para_direccion_vigente",
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "usage": "Antecedente v02 con fondo de papel rechazado por Arturo. Conservar para trazabilidad; no seleccionar como acabado vigente."
+    },
+    {
+      "id": "video.ilustracion.consejo",
+      "title": "Cuaderno y brújula",
+      "kind": "illustration",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "svg_source",
+          "path": "marca/video/v02/consejo.svg",
+          "sha256": "42f39175a76cd928e2e76537f0e247b8caafed199018ab3ca8b6efa11c02e9de"
+        },
+        {
+          "role": "png_transparent",
+          "path": "marca/exportaciones/video-v02/consejo.png",
+          "sha256": "787bfa524225d06293a6b206f6f9868df2456d407187d2cf143d2e85103c2fb5",
+          "width": 280,
+          "height": 280,
+          "has_alpha": true
+        }
+      ],
+      "generator": "scripts/generar-graficos-viaje.cjs",
+      "editability": "SVG fuente; PNG transparente independiente",
+      "selection_status": "descartado_para_direccion_vigente",
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "usage": "Antecedente v02 con fondo de papel rechazado por Arturo. Conservar para trazabilidad; no seleccionar como acabado vigente."
+    },
+    {
+      "id": "video.ilustracion.pan-cafe-recortado",
+      "title": "Pan y café sin placa",
+      "kind": "illustration",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "raster_source",
+          "path": "marca/video/v03/fuentes/pan-cafe-master.png",
+          "sha256": "0e8a6c7ef3da5211028dc772a4a56eb7ee766d02af49468bf27d30170d9f0395",
+          "width": 1536,
+          "height": 1024,
+          "has_alpha": true
+        },
+        {
+          "role": "png_transparent",
+          "path": "marca/exportaciones/video-v03/pan-cafe-recortado.png",
+          "sha256": "0e8a6c7ef3da5211028dc772a4a56eb7ee766d02af49468bf27d30170d9f0395",
+          "width": 1536,
+          "height": 1024,
+          "has_alpha": true
+        },
+        {
+          "role": "provenance",
+          "path": "marca/video/v03/procedencia.json",
+          "sha256": "27ac48d6a80c50ef04c3a573e9ba9b3af571a4f562e0a07be9288d85a8143b49"
+        }
+      ],
+      "generator": "scripts/preparar-graficos-sin-placa.cjs",
+      "editability": "Maestro raster y prompts; sin capas vectoriales",
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "selection_status": "ilustracion_opcional_fuera_del_kit_editorial",
+      "usage": "Ilustración genérica; no producto ni vajilla exactos consumidos. PNG sin fondo; revisar tamaño y oportunidad sobre la toma. BORRADOR."
+    },
+    {
+      "id": "video.ilustracion.pan-almendrado-recortado",
+      "title": "Pan almendrado sin placa",
+      "kind": "illustration",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "raster_source",
+          "path": "marca/video/v03/fuentes/pan-almendrado-master.png",
+          "sha256": "783ce9f6d11d9622c80db634082330e6e0f5c3e16943b94f6ed0d6d04277d017",
+          "width": 1536,
+          "height": 1024,
+          "has_alpha": true
+        },
+        {
+          "role": "png_transparent",
+          "path": "marca/exportaciones/video-v03/pan-almendrado-recortado.png",
+          "sha256": "783ce9f6d11d9622c80db634082330e6e0f5c3e16943b94f6ed0d6d04277d017",
+          "width": 1536,
+          "height": 1024,
+          "has_alpha": true
+        },
+        {
+          "role": "provenance",
+          "path": "marca/video/v03/procedencia.json",
+          "sha256": "27ac48d6a80c50ef04c3a573e9ba9b3af571a4f562e0a07be9288d85a8143b49"
+        }
+      ],
+      "generator": "scripts/preparar-graficos-sin-placa.cjs",
+      "editability": "Maestro raster y prompts; sin capas vectoriales",
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "selection_status": "ilustracion_opcional_fuera_del_kit_editorial",
+      "usage": "Ilustración generada a partir del pan visible en material propio; no fotografía exacta del producto. PNG sin fondo; revisar tamaño y oportunidad sobre la toma. BORRADOR."
+    },
+    {
+      "id": "video.editorial.like",
+      "title": "Like · contorno",
+      "kind": "editorial_icon",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "svg_source",
+          "path": "marca/video/v04/like.svg",
+          "sha256": "b33517817c68bd873240590efa45cb52c6aebcda488a63eb59f7f74a5d210d70"
+        },
+        {
+          "role": "png_universal",
+          "path": "marca/exportaciones/video-v04/universal/like.png",
+          "sha256": "801f1b1d88ee3d418c22e67695c33dc1bc7e8183a2cc65d7b9a42aca957d140a",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_claro",
+          "path": "marca/exportaciones/video-v04/claro/like.png",
+          "sha256": "801f1b1d88ee3d418c22e67695c33dc1bc7e8183a2cc65d7b9a42aca957d140a",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_oscuro",
+          "path": "marca/exportaciones/video-v04/oscuro/like.png",
+          "sha256": "e07ccdff1d0cac67cfa89ba2518d2d242c883f9ace718a005fa4b7721ff7dfa0",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_acento",
+          "path": "marca/exportaciones/video-v04/acento/like.png",
+          "sha256": "52ea034837109ba484ce0e36250848ddfa9cc471ec8c3b6c8274a5baf652b5ed",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        }
+      ],
+      "generator": "scripts/generar-kit-iconos-editoriales.cjs",
+      "editability": "SVG geométrico propio; PNG transparente por variante",
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "selection_status": "propuesta_kit_editorial",
+      "default_variant": "universal",
+      "usage": "Opinión contextual o CTA según el evento; no implica una cantidad de likes. Contraste local incorporado, sin placa. Prueba sobre metraje requerida; no implica movimiento implementado ni aprobación."
+    },
+    {
+      "id": "video.editorial.like-activo",
+      "title": "Like · énfasis",
+      "kind": "editorial_icon",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "svg_source",
+          "path": "marca/video/v04/like-activo.svg",
+          "sha256": "9e0257ed169f14db75180e602b893c2864778f1f5381095cd1f5fa4d4bc2a6b5"
+        },
+        {
+          "role": "png_universal",
+          "path": "marca/exportaciones/video-v04/universal/like-activo.png",
+          "sha256": "f6e2ccaf6c2a90ce0dff1c1d6f432b22417ef7187bcb5464906e35ca7c916b6e",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_claro",
+          "path": "marca/exportaciones/video-v04/claro/like-activo.png",
+          "sha256": "f6e2ccaf6c2a90ce0dff1c1d6f432b22417ef7187bcb5464906e35ca7c916b6e",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_oscuro",
+          "path": "marca/exportaciones/video-v04/oscuro/like-activo.png",
+          "sha256": "848b66fa3dd5a088073f9dc57faba9226fa747387b31878c1171e3ab3f1292f4",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_acento",
+          "path": "marca/exportaciones/video-v04/acento/like-activo.png",
+          "sha256": "557b4590064ecf270962cd9cb5ebcba8639a901de00e45639b8547d1bdb9e445",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        }
+      ],
+      "generator": "scripts/generar-kit-iconos-editoriales.cjs",
+      "editability": "SVG geométrico propio; PNG transparente por variante",
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "selection_status": "propuesta_kit_editorial",
+      "default_variant": "universal",
+      "usage": "Estado visual alternativo del like; no es animación ni puntuación por sí mismo. Contraste local incorporado, sin placa. Prueba sobre metraje requerida; no implica movimiento implementado ni aprobación."
+    },
+    {
+      "id": "video.editorial.ubicacion",
+      "title": "Pin de ubicación",
+      "kind": "editorial_icon",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "svg_source",
+          "path": "marca/video/v04/ubicacion.svg",
+          "sha256": "69a7240a6040ae5da979b06786a5f3b431d5bb26ac8c092ac1e499995000ef8b"
+        },
+        {
+          "role": "png_universal",
+          "path": "marca/exportaciones/video-v04/universal/ubicacion.png",
+          "sha256": "74d304a7718815aebc9008624185bbe1018452dda6b6cc7ceccde00489da6073",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_claro",
+          "path": "marca/exportaciones/video-v04/claro/ubicacion.png",
+          "sha256": "74d304a7718815aebc9008624185bbe1018452dda6b6cc7ceccde00489da6073",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_oscuro",
+          "path": "marca/exportaciones/video-v04/oscuro/ubicacion.png",
+          "sha256": "2fda3722523cd4cc5bc4cb4eb5e98cd6038ffab54e6620b22d45599230f856ae",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_acento",
+          "path": "marca/exportaciones/video-v04/acento/ubicacion.png",
+          "sha256": "1ee79523e2e220b159e6a86d667853c2be7a64ab36ea1f8b41be941a4c7dded6",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        }
+      ],
+      "generator": "scripts/generar-kit-iconos-editoriales.cjs",
+      "editability": "SVG geométrico propio; PNG transparente por variante",
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "selection_status": "propuesta_kit_editorial",
+      "default_variant": "universal",
+      "usage": "Junto al nombre confirmado del lugar; el pin no representa coordenadas ni un mapa exacto. Contraste local incorporado, sin placa. Prueba sobre metraje requerida; no implica movimiento implementado ni aprobación."
+    },
+    {
+      "id": "video.editorial.corazon",
+      "title": "Corazón",
+      "kind": "editorial_icon",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "svg_source",
+          "path": "marca/video/v04/corazon.svg",
+          "sha256": "8620fa29cc9c1cd71755b51a7e81b6ead7abc877cfb39e3ba033c8706a530ddd"
+        },
+        {
+          "role": "png_universal",
+          "path": "marca/exportaciones/video-v04/universal/corazon.png",
+          "sha256": "091239ca12d176f04383c5cfc85b1886a920e01953f35faaee59030310fbe91b",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_claro",
+          "path": "marca/exportaciones/video-v04/claro/corazon.png",
+          "sha256": "091239ca12d176f04383c5cfc85b1886a920e01953f35faaee59030310fbe91b",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_oscuro",
+          "path": "marca/exportaciones/video-v04/oscuro/corazon.png",
+          "sha256": "09c1c9f6eea5b0b2f6462a652f1d44acf8dedbdd1f9b72bffc578c3b4cb10c1c",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        },
+        {
+          "role": "png_acento",
+          "path": "marca/exportaciones/video-v04/acento/corazon.png",
+          "sha256": "69f5949c9aacf6230821aa1bbc6b46b112cf3ef19747c346fa06b7a0dda24b86",
+          "width": 512,
+          "height": 512,
+          "has_alpha": true
+        }
+      ],
+      "generator": "scripts/generar-kit-iconos-editoriales.cjs",
+      "editability": "SVG geométrico propio; PNG transparente por variante",
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "selection_status": "propuesta_kit_editorial",
+      "default_variant": "universal",
+      "usage": "Afinidad o invitación contextual; no sustituye ni inventa una reacción de Arturo o Liz. Contraste local incorporado, sin placa. Prueba sobre metraje requerida; no implica movimiento implementado ni aprobación."
+    },
+    {
+      "id": "marca.logo.monograma-video",
+      "title": "Monograma original transparente para video",
+      "kind": "logo",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "raster_source",
+          "path": "marca/assets/logos/piezas/logo-horizontal-transparente.png",
+          "sha256": "c02f45fde6bac378e0856c2fb03ef9076c3e4c2ef78f4f2b639bd1c3c9a1095a",
+          "width": 1700,
+          "height": 370,
+          "has_alpha": true
+        },
+        {
+          "role": "png_transparent",
+          "path": "marca/exportaciones/video-v04/monograma-transparente.png",
+          "sha256": "f9d84a04de4b3265728acd9d948fa4315f2c653f4617ed9ba3a9731f17c555aa",
+          "width": 599,
+          "height": 307,
+          "has_alpha": true
+        },
+        {
+          "role": "png_overlay_contrast",
+          "path": "marca/exportaciones/video-v04/monograma-contraste.png",
+          "sha256": "b074caf88ab8a2ab34648fa5c359f76d70e19eacdd76aaf5d3f2ac9a007ca411",
+          "width": 627,
+          "height": 335,
+          "has_alpha": true
+        }
+      ],
+      "generator": "scripts/generar-kit-iconos-editoriales.cjs",
+      "editability": "recorte raster; conserva los píxeles del original",
+      "catalog": "marca/video/v04/catalogo.json",
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "usage": "Firma pequeña cuando se lea mejor que el logo completo. No recolorear ni deformar; reutilizar animaciones existentes si corresponde."
+    },
+    {
+      "id": "motion.logo.horizontal.premium",
+      "title": "Firma por piezas con contraste local",
+      "kind": "logo_animation",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "editable_composition",
+          "path": "marca/motion/logo-al-destino/premium/index.html",
+          "sha256": "9d963e3a77d5ba8200af13fba8be5b9f18f88c9deb9fe148e16686ec6e70fd53"
+        },
+        {
+          "role": "animated_png",
+          "path": "marca/motion/logo-al-destino/premium/renders/AL-DESTINO-firma-premium.png",
+          "sha256": "6e25f1488164903d0f8e703ce1dd861b09c4b10f35a1e06b16d2471ea566b900",
+          "width": 1920,
+          "height": 1080,
+          "has_alpha": true
+        },
+        {
+          "role": "webm_alpha",
+          "path": "marca/motion/logo-al-destino/premium/renders/AL-DESTINO-firma-premium.webm",
+          "sha256": "d8247e6a87537f529545638b540ab2a5f9386ac11c13919126afeb7936f8f03a"
+        },
+        {
+          "role": "poster",
+          "path": "marca/motion/logo-al-destino/premium/renders/poster.png",
+          "sha256": "058ee52c8c450f924a7af7e5d28f31fc534ef9a3b4228724a87389dcaf3b885b",
+          "width": 1920,
+          "height": 1080,
+          "has_alpha": true
+        }
+      ],
+      "catalog": "marca/motion/logo-al-destino/premium/renders/catalogo.json",
+      "sequence_directory": "marca/motion/logo-al-destino/premium/renders/secuencia-png",
+      "duration_seconds": 4,
+      "fps": 30,
+      "audio": false,
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "generator": "scripts/generar-logo-premium.cjs",
+      "usage": "Piezas raster originales con apoyo de alfa detrás; entrada coordinada, pausa y salida transparente. APNG/WebM renderizados y alfa verificado, sin prueba de importación en Clipo. BORRADOR."
+    },
+    {
+      "id": "motion.logo.monograma.premium",
+      "title": "Monograma animado para firma en esquina",
+      "kind": "logo_animation",
+      "status": "borrador",
+      "availability": "archivo_disponible",
+      "files": [
+        {
+          "role": "editable_composition",
+          "path": "marca/motion/logo-al-destino/premium/index.html",
+          "sha256": "9d963e3a77d5ba8200af13fba8be5b9f18f88c9deb9fe148e16686ec6e70fd53"
+        },
+        {
+          "role": "animated_png",
+          "path": "marca/motion/logo-al-destino/premium/renders/AL-DESTINO-monograma-premium.png",
+          "sha256": "413796e938f348a96d7e7929cc3e5309695cce92090479e5b02209cc46175b2d",
+          "width": 528,
+          "height": 320,
+          "has_alpha": true
+        },
+        {
+          "role": "webm_alpha",
+          "path": "marca/motion/logo-al-destino/premium/renders/AL-DESTINO-monograma-premium.webm",
+          "sha256": "c9a20f6436f37f16d174a57ff74b9de639574bf18688a1075c5007eabe15c659"
+        },
+        {
+          "role": "poster",
+          "path": "marca/motion/logo-al-destino/premium/renders/monograma-poster.png",
+          "sha256": "fb8856e51ee04c669615592313fd5f47f6d73786ecca7955a7f35bc6c18fa036",
+          "width": 528,
+          "height": 320,
+          "has_alpha": true
+        }
+      ],
+      "catalog": "marca/motion/logo-al-destino/premium/renders/catalogo.json",
+      "selector": "monogram",
+      "sequence_directory": "marca/motion/logo-al-destino/premium/renders/monograma-png",
+      "duration_seconds": 4,
+      "fps": 30,
+      "audio": false,
+      "compatibility": "pendiente_de_prueba_en_editor",
+      "usage": "Recorte de la misma animación, sin redibujar ni recolorear. Usar cuando el logo completo no se lea en pequeño; BORRADOR con alfa verificado."
     }
   ],
   "excluded_by_default": [

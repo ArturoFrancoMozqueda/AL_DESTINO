@@ -3,5 +3,5 @@
   "status": "borrador",
   "updated_at": "2026-11-14",
   "path_base": "repository_root",
-  "episodes": []
+  "episodes": [{"episode_id":"ad-0001","path":"produccion/episodios/ad-0001/episodio.json"}]
 }

@@ -1,0 +1,100 @@
+{
+  "status": "borrador",
+  "source": "../index.html",
+  "generator": "scripts/generar-logo-premium.cjs",
+  "framework": "HyperFrames",
+  "version": "0.9.58",
+  "duration_seconds": 4,
+  "fps": 30,
+  "size_px": [
+    1920,
+    1080
+  ],
+  "layers": 15,
+  "alpha": true,
+  "audio": false,
+  "frame_count": 120,
+  "animated_png": "AL-DESTINO-firma-premium.png",
+  "webm": "AL-DESTINO-firma-premium.webm",
+  "poster": "poster.png",
+  "sequence_dir": "secuencia-png",
+  "proof_times": [
+    0,
+    0.2,
+    0.55,
+    1,
+    1.6,
+    2.3,
+    3.2,
+    3.7,
+    3.98
+  ],
+  "checks": {
+    "hyperframes_ok": true,
+    "motion_assertions_ok": true,
+    "transparent_first_last_frame": true,
+    "apng_frames": 120,
+    "webm_alpha_decoded": [
+      0,
+      255
+    ],
+    "source_piece_hashes_match": true,
+    "continuous_listening": false,
+    "warning": "Primer frame vacío deliberado: overlay entra desde transparencia; se entrega poster separado."
+  },
+  "files": [
+    {
+      "file": "AL-DESTINO-firma-premium.png",
+      "sha256": "6e25f1488164903d0f8e703ce1dd861b09c4b10f35a1e06b16d2471ea566b900"
+    },
+    {
+      "file": "AL-DESTINO-firma-premium.webm",
+      "sha256": "d8247e6a87537f529545638b540ab2a5f9386ac11c13919126afeb7936f8f03a"
+    },
+    {
+      "file": "poster.png",
+      "sha256": "058ee52c8c450f924a7af7e5d28f31fc534ef9a3b4228724a87389dcaf3b885b"
+    }
+  ],
+  "composition_sha256": "9d963e3a77d5ba8200af13fba8be5b9f18f88c9deb9fe148e16686ec6e70fd53",
+  "verified_at": "2026-11-16",
+  "monogram": {
+    "duration_seconds": 4,
+    "fps": 30,
+    "size_px": [
+      528,
+      320
+    ],
+    "alpha": true,
+    "crop_from_full_xywh": [
+      280,
+      384,
+      528,
+      320
+    ],
+    "animated_png": "AL-DESTINO-monograma-premium.png",
+    "webm": "AL-DESTINO-monograma-premium.webm",
+    "poster": "monograma-poster.png",
+    "sequence_dir": "monograma-png",
+    "frame_count": 120,
+    "files": [
+      {
+        "file": "AL-DESTINO-monograma-premium.png",
+        "sha256": "413796e938f348a96d7e7929cc3e5309695cce92090479e5b02209cc46175b2d"
+      },
+      {
+        "file": "AL-DESTINO-monograma-premium.webm",
+        "sha256": "c9a20f6436f37f16d174a57ff74b9de639574bf18688a1075c5007eabe15c659"
+      },
+      {
+        "file": "monograma-poster.png",
+        "sha256": "fb8856e51ee04c669615592313fd5f47f6d73786ecca7955a7f35bc6c18fa036"
+      }
+    ],
+    "alpha_decoded_range": [
+      0,
+      255
+    ],
+    "transparent_frame_edges_verified": true
+  }
+}

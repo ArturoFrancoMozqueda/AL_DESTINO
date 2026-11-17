@@ -1,0 +1,37 @@
+{
+  "brand": "AL DESTINO",
+  "version": "0.3",
+  "status": "borrador",
+  "created_at": "2026-11-16",
+  "generator": "scripts/preparar-graficos-sin-placa.cjs",
+  "provenance": "procedencia.json",
+  "direction": "Recorte aislado, sin tarjeta, papel, borde blanco ni texto integrado. Propuesta aún sin prueba en Clipo.",
+  "items": [
+    {
+      "id": "pan-cafe-recortado",
+      "title": "Pan y café sin placa",
+      "source": "fuentes/pan-cafe-master.png",
+      "png": "../../exportaciones/video-v03/pan-cafe-recortado.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": true,
+      "status": "borrador",
+      "usage": "Ilustración genérica; no producto ni vajilla exactos consumidos.",
+      "source_sha256": "0e8a6c7ef3da5211028dc772a4a56eb7ee766d02af49468bf27d30170d9f0395",
+      "png_sha256": "0e8a6c7ef3da5211028dc772a4a56eb7ee766d02af49468bf27d30170d9f0395"
+    },
+    {
+      "id": "pan-almendrado-recortado",
+      "title": "Pan almendrado sin placa",
+      "source": "fuentes/pan-almendrado-master.png",
+      "png": "../../exportaciones/video-v03/pan-almendrado-recortado.png",
+      "width": 1536,
+      "height": 1024,
+      "alpha": true,
+      "status": "borrador",
+      "usage": "Ilustración generada a partir del pan visible en material propio; no fotografía exacta del producto.",
+      "source_sha256": "783ce9f6d11d9622c80db634082330e6e0f5c3e16943b94f6ed0d6d04277d017",
+      "png_sha256": "783ce9f6d11d9622c80db634082330e6e0f5c3e16943b94f6ed0d6d04277d017"
+    }
+  ]
+}

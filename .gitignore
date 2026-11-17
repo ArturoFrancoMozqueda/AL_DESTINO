@@ -12,6 +12,7 @@ node_modules/
 
 # Material privado/pesado de episodios; los recursos PNG públicos de marca sí se versionan.
 *.local.json
+*.local.log
 produccion/episodios/**/captura/
 produccion/episodios/**/proyecto-local/
 produccion/episodios/**/exportaciones/

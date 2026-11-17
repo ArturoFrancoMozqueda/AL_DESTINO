@@ -17,11 +17,15 @@ Repositorio para investigar, crear, editar y revisar contenido. **BORRADOR · ma
 | Planes locales y restaurantes | [Skill local](.agents/skills/al-destino-local/SKILL.md) |
 | Alojamientos Airbnb | [Skill Airbnb](.agents/skills/al-destino-airbnb/SKILL.md) |
 | Hoteles de playa | [Skill hoteles](.agents/skills/al-destino-hoteles-playa/SKILL.md) |
-| Historia, hooks, montaje, audio, color, gráficos y motion | [Skill de edición](.agents/skills/al-destino-edicion/SKILL.md) |
+| Dirección compartida, cobertura, marca y ejecución MCP | [Base de edición](.agents/skills/al-destino-edicion/SKILL.md) |
+| Pieza vertical: historia autónoma, reencuadre y lectura móvil | [Edición vertical](.agents/skills/al-destino-edicion-vertical/SKILL.md) |
+| Pieza horizontal: experiencia, continuidad y ritmo por bloques | [Edición horizontal](.agents/skills/al-destino-edicion-horizontal/SKILL.md) |
 | Identidad y reglas gráficas | [Manual](marca/manual.md), [tokens](marca/tokens/brand_tokens.json), [mapa de marca](marca/LEEME.md) |
 | Evaluar esfuerzo y resultados propios | [Plantilla de resultados](resultados/plantilla-episodio.json) |
 
 Arturo desarrolla Clipo y su MCP. El paquete editorial define qué montar y qué recursos aplicar; la conexión se comprueba al ejecutar una tarea. La disponibilidad de un gráfico o APNG no garantiza que un editor lo reproduzca correctamente.
+
+Elegir por orientación real, no sólo por plataforma o duración. Ambas skills conservan la cobertura de clips grandes y reutilizan la misma marca. Las variantes de una experiencia se enlazan dentro del mismo episodio; se producen sólo los formatos solicitados.
 
 ## Organización
 

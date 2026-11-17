@@ -1,0 +1,943 @@
+{
+  "schema_version": "0.1",
+  "status": "borrador",
+  "execution_status": "aplicado_verificado_en_muestras_y_guardado",
+  "episode_id": "ad-0001",
+  "experience_date": null,
+  "brief_path": "brief.md",
+  "story_question": "¿Cómo vivimos una pausa para café y pan durante nuestro paseo por Pátzcuaro?",
+  "declared_style": "Profesional y elegante, conversación natural y color real.",
+  "output": {
+    "aspect": "16:9",
+    "duration_target_seconds": 135.9,
+    "fps": null
+  },
+  "media": [
+    {
+      "id": "src-img_9123",
+      "name": "IMG_9123.MOV",
+      "duration_seconds": 76.733333,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Detalle del pan; Panadería; Detalles de pan",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9103",
+      "name": "IMG_9103.MOV",
+      "duration_seconds": 4.8167,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "En camino",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9108",
+      "name": "IMG_9108.MOV",
+      "duration_seconds": 5.418333,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Violín en la calle",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9112",
+      "name": "IMG_9112.MOV",
+      "duration_seconds": 8.0867,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Paseo de Liz",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9116",
+      "name": "IMG_9116.MOV",
+      "duration_seconds": 5.585,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Calles",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9124",
+      "name": "IMG_9124.MOV",
+      "duration_seconds": 23.11,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Elegir la mesa",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9125",
+      "name": "IMG_9125.MOV",
+      "duration_seconds": 12.6717,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Menú",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9126",
+      "name": "IMG_9126.MOV",
+      "duration_seconds": 6.926667,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Terraza",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9127",
+      "name": "IMG_9127.MOV",
+      "duration_seconds": 130.608333,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Primer sorbo; Una opinión distinta; Probar y compartir",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9128",
+      "name": "IMG_9128.MOV",
+      "duration_seconds": 30.38,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Arturo prueba el pan; Liz prueba el pan; La reacción",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9129",
+      "name": "IMG_9129.MOV",
+      "duration_seconds": 19.358333,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Pan para llevar",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9130",
+      "name": "IMG_9130.MOV",
+      "duration_seconds": 9.653333,
+      "kind": "video",
+      "width": 3840,
+      "height": 2160,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "La bolsa",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9133",
+      "name": "IMG_9133.MOV",
+      "duration_seconds": 50.1717,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Lo que vivimos en domingo",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9137",
+      "name": "IMG_9137.MOV",
+      "duration_seconds": 30.145,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Cierre; Despedida",
+      "path_reference": "rutas.local.json"
+    },
+    {
+      "id": "src-img_9138",
+      "name": "IMG_9138.MOV",
+      "duration_seconds": 12.1217,
+      "kind": "video",
+      "width": 1920,
+      "height": 1080,
+      "metadata_verified": "MCP Clipo; original importado",
+      "content_notes": "Paisaje",
+      "path_reference": "rutas.local.json"
+    }
+  ],
+  "hook_candidates": [
+    {
+      "id": "pan-visual",
+      "family": "descubrimiento",
+      "proposal": "Detalle del pan, Pátzcuaro y la pareja en camino.",
+      "selection_ids": [
+        "sel-01"
+      ],
+      "promise": "Un paseo con una pausa para pan.",
+      "evidence": "Material propio y encargo de Arturo.",
+      "risks": "La primera imagen funciona como anticipo; no presenta un segundo acontecimiento."
+    },
+    {
+      "id": "sorbo-real",
+      "family": "momento_real",
+      "proposal": "Primera prueba del café, indicando que es un anticipo.",
+      "selection_ids": [
+        "sel-11"
+      ],
+      "promise": "Compartir las opiniones reales de ambos.",
+      "evidence": "IMG_9127.",
+      "risks": "No confundir café con reacción al pan."
+    }
+  ],
+  "selected_hook_id": "pan-visual",
+  "selections": [
+    {
+      "id": "sel-01",
+      "media_id": "src-img_9123",
+      "source_in_seconds": 64,
+      "source_out_seconds": 66.5,
+      "reason": "Detalle del pan",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-02",
+      "media_id": "src-img_9103",
+      "source_in_seconds": 0.35,
+      "source_out_seconds": 4.15,
+      "reason": "En camino",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-03",
+      "media_id": "src-img_9108",
+      "source_in_seconds": 0.8,
+      "source_out_seconds": 4.8,
+      "reason": "Violín en la calle",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-04",
+      "media_id": "src-img_9112",
+      "source_in_seconds": 1,
+      "source_out_seconds": 6.2,
+      "reason": "Paseo de Liz",
+      "speaker": null,
+      "privacy_reviewed": "encuadre ajustado para excluir placa legible"
+    },
+    {
+      "id": "sel-05",
+      "media_id": "src-img_9116",
+      "source_in_seconds": 0.7,
+      "source_out_seconds": 4.5,
+      "reason": "Calles",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-06",
+      "media_id": "src-img_9123",
+      "source_in_seconds": 35.8,
+      "source_out_seconds": 40.5,
+      "reason": "Panadería",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-07",
+      "media_id": "src-img_9123",
+      "source_in_seconds": 62,
+      "source_out_seconds": 68,
+      "reason": "Detalles de pan",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-08",
+      "media_id": "src-img_9124",
+      "source_in_seconds": 17.4,
+      "source_out_seconds": 21.95,
+      "reason": "Elegir la mesa",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-09",
+      "media_id": "src-img_9125",
+      "source_in_seconds": 0.5,
+      "source_out_seconds": 5,
+      "reason": "Menú",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-10",
+      "media_id": "src-img_9126",
+      "source_in_seconds": 0.8,
+      "source_out_seconds": 5.8,
+      "reason": "Terraza",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-11",
+      "media_id": "src-img_9127",
+      "source_in_seconds": 9.5,
+      "source_out_seconds": 16.4,
+      "reason": "Primer sorbo",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-12",
+      "media_id": "src-img_9127",
+      "source_in_seconds": 50.28,
+      "source_out_seconds": 56.1,
+      "reason": "Una opinión distinta",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-13",
+      "media_id": "src-img_9127",
+      "source_in_seconds": 64.8,
+      "source_out_seconds": 75.1,
+      "reason": "Probar y compartir",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-14",
+      "media_id": "src-img_9128",
+      "source_in_seconds": 4.5,
+      "source_out_seconds": 8.5,
+      "reason": "Arturo prueba el pan",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-15",
+      "media_id": "src-img_9128",
+      "source_in_seconds": 11,
+      "source_out_seconds": 14.5,
+      "reason": "Liz prueba el pan",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-16",
+      "media_id": "src-img_9128",
+      "source_in_seconds": 22.5,
+      "source_out_seconds": 27.8,
+      "reason": "La reacción",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-17",
+      "media_id": "src-img_9129",
+      "source_in_seconds": 5,
+      "source_out_seconds": 13.8,
+      "reason": "Pan para llevar",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-18",
+      "media_id": "src-img_9130",
+      "source_in_seconds": 0.8,
+      "source_out_seconds": 8.4,
+      "reason": "La bolsa",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-19",
+      "media_id": "src-img_9133",
+      "source_in_seconds": 6.92,
+      "source_out_seconds": 25.25,
+      "reason": "Lo que vivimos en domingo",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-20",
+      "media_id": "src-img_9137",
+      "source_in_seconds": 7.32,
+      "source_out_seconds": 11.68,
+      "reason": "Cierre",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-21",
+      "media_id": "src-img_9137",
+      "source_in_seconds": 16.46,
+      "source_out_seconds": 27.9,
+      "reason": "Despedida",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    },
+    {
+      "id": "sel-22",
+      "media_id": "src-img_9138",
+      "source_in_seconds": 6,
+      "source_out_seconds": 11.5,
+      "reason": "Paisaje",
+      "speaker": null,
+      "privacy_reviewed": "muestreo visual; revisión humana final pendiente"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl-1",
+      "selection_id": "sel-01",
+      "start_seconds": 0,
+      "end_seconds": 2.5,
+      "speed": 1,
+      "role": "Detalle del pan",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-2",
+      "selection_id": "sel-02",
+      "start_seconds": 2.5,
+      "end_seconds": 6.3,
+      "speed": 1,
+      "role": "En camino",
+      "transition_to_next": "fade 0.3 s"
+    },
+    {
+      "id": "tl-3",
+      "selection_id": "sel-03",
+      "start_seconds": 6.3,
+      "end_seconds": 10.3,
+      "speed": 1,
+      "role": "Violín en la calle",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-4",
+      "selection_id": "sel-04",
+      "start_seconds": 10.3,
+      "end_seconds": 15.5,
+      "speed": 1,
+      "role": "Paseo de Liz",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-5",
+      "selection_id": "sel-05",
+      "start_seconds": 15.5,
+      "end_seconds": 19.3,
+      "speed": 1,
+      "role": "Calles",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-6",
+      "selection_id": "sel-06",
+      "start_seconds": 19.3,
+      "end_seconds": 24,
+      "speed": 1,
+      "role": "Panadería",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-7",
+      "selection_id": "sel-07",
+      "start_seconds": 24,
+      "end_seconds": 30,
+      "speed": 1,
+      "role": "Detalles de pan",
+      "transition_to_next": "fade 0.3 s"
+    },
+    {
+      "id": "tl-8",
+      "selection_id": "sel-08",
+      "start_seconds": 30,
+      "end_seconds": 34.55,
+      "speed": 1,
+      "role": "Elegir la mesa",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-9",
+      "selection_id": "sel-09",
+      "start_seconds": 34.55,
+      "end_seconds": 39.05,
+      "speed": 1,
+      "role": "Menú",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-10",
+      "selection_id": "sel-10",
+      "start_seconds": 39.05,
+      "end_seconds": 44.05,
+      "speed": 1,
+      "role": "Terraza",
+      "transition_to_next": "fade 0.3 s"
+    },
+    {
+      "id": "tl-11",
+      "selection_id": "sel-11",
+      "start_seconds": 44.05,
+      "end_seconds": 50.95,
+      "speed": 1,
+      "role": "degustacion",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-12",
+      "selection_id": "sel-12",
+      "start_seconds": 50.95,
+      "end_seconds": 56.77,
+      "speed": 1,
+      "role": "degustacion",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-13",
+      "selection_id": "sel-13",
+      "start_seconds": 56.77,
+      "end_seconds": 67.07,
+      "speed": 1,
+      "role": "degustacion",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-14",
+      "selection_id": "sel-14",
+      "start_seconds": 67.07,
+      "end_seconds": 71.07,
+      "speed": 1,
+      "role": "degustacion",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-15",
+      "selection_id": "sel-15",
+      "start_seconds": 71.07,
+      "end_seconds": 74.57,
+      "speed": 1,
+      "role": "degustacion",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-16",
+      "selection_id": "sel-16",
+      "start_seconds": 74.57,
+      "end_seconds": 79.87,
+      "speed": 1,
+      "role": "degustacion",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-17",
+      "selection_id": "sel-17",
+      "start_seconds": 79.87,
+      "end_seconds": 88.67,
+      "speed": 1,
+      "role": "Pan para llevar",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-18",
+      "selection_id": "sel-18",
+      "start_seconds": 88.67,
+      "end_seconds": 96.27,
+      "speed": 1,
+      "role": "La bolsa",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-19",
+      "selection_id": "sel-19",
+      "start_seconds": 96.27,
+      "end_seconds": 114.6,
+      "speed": 1,
+      "role": "Lo que vivimos en domingo",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-20",
+      "selection_id": "sel-20",
+      "start_seconds": 114.6,
+      "end_seconds": 118.96,
+      "speed": 1,
+      "role": "Cierre",
+      "transition_to_next": "corte"
+    },
+    {
+      "id": "tl-21",
+      "selection_id": "sel-21",
+      "start_seconds": 118.96,
+      "end_seconds": 130.4,
+      "speed": 1,
+      "role": "Despedida",
+      "transition_to_next": "fade 0.3 s"
+    },
+    {
+      "id": "tl-22",
+      "selection_id": "sel-22",
+      "start_seconds": 130.4,
+      "end_seconds": 135.9,
+      "speed": 1,
+      "role": "Paisaje",
+      "transition_to_next": "corte"
+    }
+  ],
+  "graphics": [
+    {
+      "id": "graf-bh52gny00szj",
+      "component_id": "video.componente.lugar",
+      "fields": {
+        "text": "Pátzcuaro"
+      },
+      "fact_ids": [],
+      "start_seconds": 0.25,
+      "reading_hold_seconds": 5,
+      "placement": {
+        "x": 0.5,
+        "y": 0.15,
+        "size": 0.095
+      },
+      "motion_preset": "fade nativo; no se afirma equivalencia a curvas del kit",
+      "adaptations": "Textos editables; Cormorant Garamond nativa. Manrope sustituye Plus Jakarta Sans ausente del catálogo. No se usaron PNG de ejemplo con placeholders."
+    },
+    {
+      "id": "graf-uogdvuxp0szj",
+      "component_id": "video.componente.cierre",
+      "fields": {
+        "text": "PAN EN PAREJA · ARTURO Y LIZ"
+      },
+      "fact_ids": [],
+      "start_seconds": 0.55,
+      "reading_hold_seconds": 4.5,
+      "placement": {
+        "x": 0.5,
+        "y": 0.28,
+        "size": 0.031
+      },
+      "motion_preset": "fade nativo; no se afirma equivalencia a curvas del kit",
+      "adaptations": "Textos editables; Cormorant Garamond nativa. Manrope sustituye Plus Jakarta Sans ausente del catálogo. No se usaron PNG de ejemplo con placeholders."
+    },
+    {
+      "id": "graf-cvmn2egn0szj",
+      "component_id": "video.componente.lugar",
+      "fields": {
+        "text": "Una mesa para dos"
+      },
+      "fact_ids": [],
+      "start_seconds": 39.35,
+      "reading_hold_seconds": 4,
+      "placement": {
+        "x": 0.5,
+        "y": 0.15,
+        "size": 0.068
+      },
+      "motion_preset": "fade nativo; no se afirma equivalencia a curvas del kit",
+      "adaptations": "Textos editables; Cormorant Garamond nativa. Manrope sustituye Plus Jakarta Sans ausente del catálogo. No se usaron PNG de ejemplo con placeholders."
+    },
+    {
+      "id": "graf-v2mxfa8l0szj",
+      "component_id": "video.componente.lugar",
+      "fields": {
+        "text": "Y un pan para el camino"
+      },
+      "fact_ids": [],
+      "start_seconds": 80.2,
+      "reading_hold_seconds": 4,
+      "placement": {
+        "x": 0.5,
+        "y": 0.15,
+        "size": 0.065
+      },
+      "motion_preset": "fade nativo; no se afirma equivalencia a curvas del kit",
+      "adaptations": "Textos editables; Cormorant Garamond nativa. Manrope sustituye Plus Jakarta Sans ausente del catálogo. No se usaron PNG de ejemplo con placeholders."
+    },
+    {
+      "id": "graf-bq81k3cw0szj",
+      "component_id": "video.componente.cierre",
+      "fields": {
+        "text": "ASÍ LO VIVIMOS UN DOMINGO"
+      },
+      "fact_ids": [],
+      "start_seconds": 96.5,
+      "reading_hold_seconds": 3.6,
+      "placement": {
+        "x": 0.5,
+        "y": 0.13,
+        "size": 0.028
+      },
+      "motion_preset": "fade nativo; no se afirma equivalencia a curvas del kit",
+      "adaptations": "Textos editables; Cormorant Garamond nativa. Manrope sustituye Plus Jakarta Sans ausente del catálogo. No se usaron PNG de ejemplo con placeholders."
+    },
+    {
+      "id": "graf-6j4p79k70szj",
+      "component_id": "video.componente.cierre",
+      "fields": {
+        "text": "PÁTZCUARO · MICHOACÁN"
+      },
+      "fact_ids": [],
+      "start_seconds": 131,
+      "reading_hold_seconds": 4.4,
+      "placement": {
+        "x": 0.5,
+        "y": 0.67,
+        "size": 0.029
+      },
+      "motion_preset": "fade nativo; no se afirma equivalencia a curvas del kit",
+      "adaptations": "Textos editables; Cormorant Garamond nativa. Manrope sustituye Plus Jakarta Sans ausente del catálogo. No se usaron PNG de ejemplo con placeholders."
+    }
+  ],
+  "audio": [
+    {
+      "id": "musica-1",
+      "media_id": "musica-acustica-clipo",
+      "source_in_seconds": 0,
+      "source_out_seconds": 6.3,
+      "start_seconds": 0,
+      "role": "music",
+      "license_source": "Síntesis local de Clipo, src/sound.ts; sin grabación de terceros importada.",
+      "mix_notes": "volumen 0.2; fadeIn 0.6; fadeOut 1.2. Sin música añadida bajo degustación ni conversación final."
+    },
+    {
+      "id": "musica-2",
+      "media_id": "musica-acustica-clipo",
+      "source_in_seconds": 10.3,
+      "source_out_seconds": 30,
+      "start_seconds": 10.3,
+      "role": "music",
+      "license_source": "Síntesis local de Clipo, src/sound.ts; sin grabación de terceros importada.",
+      "mix_notes": "volumen 0.2; fadeIn 0.6; fadeOut 1.2. Sin música añadida bajo degustación ni conversación final."
+    },
+    {
+      "id": "musica-3",
+      "media_id": "musica-acustica-clipo",
+      "source_in_seconds": 34.55,
+      "source_out_seconds": 44.05,
+      "start_seconds": 34.55,
+      "role": "music",
+      "license_source": "Síntesis local de Clipo, src/sound.ts; sin grabación de terceros importada.",
+      "mix_notes": "volumen 0.16; fadeIn 0.6; fadeOut 1.2. Sin música añadida bajo degustación ni conversación final."
+    },
+    {
+      "id": "musica-4",
+      "media_id": "musica-acustica-clipo",
+      "source_in_seconds": 79.87,
+      "source_out_seconds": 96.27,
+      "start_seconds": 79.87,
+      "role": "music",
+      "license_source": "Síntesis local de Clipo, src/sound.ts; sin grabación de terceros importada.",
+      "mix_notes": "volumen 0.18; fadeIn 0.6; fadeOut 1.2. Sin música añadida bajo degustación ni conversación final."
+    },
+    {
+      "id": "musica-5",
+      "media_id": "musica-acustica-clipo",
+      "source_in_seconds": 130.4,
+      "source_out_seconds": 135.9,
+      "start_seconds": 130.4,
+      "role": "music",
+      "license_source": "Síntesis local de Clipo, src/sound.ts; sin grabación de terceros importada.",
+      "mix_notes": "volumen 0.18; fadeIn 0.6; fadeOut 1.2. Sin música añadida bajo degustación ni conversación final."
+    }
+  ],
+  "facts": [
+    {
+      "id": "f-01",
+      "statement": "El lugar es Pátzcuaro.",
+      "source": "Declaración de Arturo y material propio.",
+      "observed_at": "2026-11-14",
+      "status": "confirmado_por_usuario"
+    },
+    {
+      "id": "f-02",
+      "statement": "La conversación sobre horarios se presenta como experiencia de un domingo, no como horario del negocio.",
+      "source": "Audio IMG_9133, reconocimiento local 10.5–11.38 s y 19.72–25 s.",
+      "observed_at": "2026-11-14",
+      "status": "opinion_con_contexto"
+    }
+  ],
+  "privacy_exclusions": [
+    {
+      "media_id": "src-img_9106",
+      "source_in_seconds": 17.8,
+      "source_out_seconds": 20.3,
+      "reason": "Se retiró esta toma de coches de la apertura."
+    },
+    {
+      "media_id": "src-img_9112",
+      "source_in_seconds": 1,
+      "source_out_seconds": 6.2,
+      "reason": "Se recortó el encuadre a x=0, y=0, w=0.60, h=1 para excluir una placa legible."
+    }
+  ],
+  "pending": [
+    {
+      "id": "escucha",
+      "kind": "revision",
+      "detail": "No se realizó escucha humana continua; revisar mezcla y palabras en voces bajas. Los reconocimientos con repeticiones de interjecciones se descartaron, sin rellenar el audio con palabras inventadas.",
+      "timeline_seconds": null,
+      "owner": "Arturo/Liz"
+    },
+    {
+      "id": "mediodia",
+      "kind": "subtitulo",
+      "detail": "Frase sobre mediodía en IMG_9133 11.38–12 s no subtitulada por reconocimiento dudoso. Se conserva el audio original.",
+      "timeline_seconds": 100.73,
+      "owner": "Arturo/Liz"
+    },
+    {
+      "id": "font",
+      "kind": "capacidad",
+      "detail": "Plus Jakarta Sans ausente del catálogo MCP de Clipo; se documenta adaptación a Manrope.",
+      "timeline_seconds": null,
+      "owner": null
+    }
+  ],
+  "review": {
+    "preview": "Muestras revisadas: apertura, recorte de privacidad, conversación, Arturo con pan, Liz con pan y cierre.",
+    "listening": "Reconocimiento local por palabras; sin escucha humana continua.",
+    "export": "MP4 1920x1080, 135.914667 s; recibo SHA-256 verificado; reimportado por MCP y revisado en 52.5 y 72.8 s.",
+    "reopened": "Proyecto editable reabierto desde almacenamiento; cero medios ausentes; guardado; abierto en 44.1 s.",
+    "notes": [
+      "La degustación se redujo a 35.82 s por instrucción posterior de Arturo; duración total 135.9 s.",
+      "Sin LUT ni filtros creativos. Los HDR se prepararon como fragmentos H.264/SDR para evitar bloqueos y cambios de color del decodificador.",
+      "La primera conversión fue demasiado clara; se retiraron esas copias y se sustituyeron por Hable con pico explícito y primarias BT.709 antes del mapeo.",
+      "Las pistas de subtítulos, música y firma se conservaron editables. Cormorant Garamond nativa; Manrope adapta Plus Jakarta Sans ausente del catálogo.",
+      "Firma final con el logo horizontal original sobre arena, sin redibujar sus píxeles.",
+      "Las pruebas específicas del MCP y la prueba en app empaquetada cubren archivos grandes, lectura por bloques, HLG, intervalos, persistencia y exportación. No prueban todas las funciones futuras ni cuentas de terceros.",
+      "No se midió un desglose de tiempo de selección/montaje/gráficos/escucha humana; el tiempo transcurrido del agente incluye desarrollo y depuración del MCP."
+    ]
+  },
+  "working_representations": [
+    {
+      "selection_id": "sel-02",
+      "source_name": "IMG_9103.MOV",
+      "source_in_seconds": 0.35,
+      "source_out_seconds": 4.15,
+      "working_name": "IMG_9103_compatible_350-4150.mp4",
+      "working_in_seconds": 0,
+      "working_out_seconds": 3.8,
+      "color": "HDR HLG/BT.2020 a SDR BT.709; Hable, peak=10; primarias antes del tone mapping",
+      "original_unchanged": true
+    },
+    {
+      "selection_id": "sel-05",
+      "source_name": "IMG_9116.MOV",
+      "source_in_seconds": 0.7,
+      "source_out_seconds": 4.5,
+      "working_name": "IMG_9116_compatible_700-4500.mp4",
+      "working_in_seconds": 0,
+      "working_out_seconds": 3.8,
+      "color": "HDR HLG/BT.2020 a SDR BT.709; Hable, peak=10; primarias antes del tone mapping",
+      "original_unchanged": true
+    },
+    {
+      "selection_id": "sel-10",
+      "source_name": "IMG_9126.MOV",
+      "source_in_seconds": 0.8,
+      "source_out_seconds": 5.8,
+      "working_name": "IMG_9126_compatible_800-5800.mp4",
+      "working_in_seconds": 0,
+      "working_out_seconds": 5.0,
+      "color": "HDR HLG/BT.2020 a SDR BT.709; Hable, peak=10; primarias antes del tone mapping",
+      "original_unchanged": true
+    },
+    {
+      "selection_id": "sel-11",
+      "source_name": "IMG_9127.MOV",
+      "source_in_seconds": 9.5,
+      "source_out_seconds": 16.4,
+      "working_name": "IMG_9127_compatible_9500-16400.mp4",
+      "working_in_seconds": 0,
+      "working_out_seconds": 6.9,
+      "color": "HDR HLG/BT.2020 a SDR BT.709; Hable, peak=10; primarias antes del tone mapping",
+      "original_unchanged": true
+    },
+    {
+      "selection_id": "sel-12",
+      "source_name": "IMG_9127.MOV",
+      "source_in_seconds": 50.28,
+      "source_out_seconds": 56.1,
+      "working_name": "IMG_9127_compatible_50280-56100.mp4",
+      "working_in_seconds": 0,
+      "working_out_seconds": 5.82,
+      "color": "HDR HLG/BT.2020 a SDR BT.709; Hable, peak=10; primarias antes del tone mapping",
+      "original_unchanged": true
+    },
+    {
+      "selection_id": "sel-13",
+      "source_name": "IMG_9127.MOV",
+      "source_in_seconds": 64.8,
+      "source_out_seconds": 75.1,
+      "working_name": "IMG_9127_compatible_64800-75100.mp4",
+      "working_in_seconds": 0,
+      "working_out_seconds": 10.3,
+      "color": "HDR HLG/BT.2020 a SDR BT.709; Hable, peak=10; primarias antes del tone mapping",
+      "original_unchanged": true
+    },
+    {
+      "selection_id": "sel-15",
+      "source_name": "IMG_9128.MOV",
+      "source_in_seconds": 11,
+      "source_out_seconds": 14.5,
+      "working_name": "IMG_9128_compatible_11000-14500.mp4",
+      "working_in_seconds": 0,
+      "working_out_seconds": 3.5,
+      "color": "HDR HLG/BT.2020 a SDR BT.709; Hable, peak=10; primarias antes del tone mapping",
+      "original_unchanged": true
+    },
+    {
+      "selection_id": "sel-16",
+      "source_name": "IMG_9128.MOV",
+      "source_in_seconds": 22.5,
+      "source_out_seconds": 27.8,
+      "working_name": "IMG_9128_compatible_22500-27800.mp4",
+      "working_in_seconds": 0,
+      "working_out_seconds": 5.3,
+      "color": "HDR HLG/BT.2020 a SDR BT.709; Hable, peak=10; primarias antes del tone mapping",
+      "original_unchanged": true
+    },
+    {
+      "selection_id": "sel-18",
+      "source_name": "IMG_9130.MOV",
+      "source_in_seconds": 0.8,
+      "source_out_seconds": 8.4,
+      "working_name": "IMG_9130_compatible_800-8400.mp4",
+      "working_in_seconds": 0,
+      "working_out_seconds": 7.6,
+      "color": "HDR HLG/BT.2020 a SDR BT.709; Hable, peak=10; primarias antes del tone mapping",
+      "original_unchanged": true
+    },
+    {
+      "selection_id": "sel-14",
+      "source_name": "IMG_9128.MOV",
+      "source_in_seconds": 4.5,
+      "source_out_seconds": 8.5,
+      "working_name": "IMG_9128_compatible_4500-8500.mp4",
+      "working_in_seconds": 0,
+      "working_out_seconds": 4.0,
+      "color": "HDR HLG/BT.2020 a SDR BT.709; Hable, peak=10; primarias antes del tone mapping",
+      "original_unchanged": true
+    }
+  ]
+}

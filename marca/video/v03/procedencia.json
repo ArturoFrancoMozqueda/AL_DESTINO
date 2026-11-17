@@ -1,0 +1,28 @@
+{
+  "status": "borrador",
+  "created_at": "2026-11-16",
+  "tool": "image_gen.imagegen integrado",
+  "model": "no_expuesto_por_la_herramienta",
+  "asset_kind": "ilustracion_generada_generica",
+  "selected_source": "fuentes/pan-cafe-master.png",
+  "source_is_visit_photo": false,
+  "reference_scope": "Dirección propia de AL DESTINO: recorte aislado sin placa. No se copiaron gráficos de Alan por el Mundo ni se usaron sus fotogramas como imagen de entrada.",
+  "operations": [
+    {
+      "kind": "generate",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Asset type: original transparent PNG spot illustration for AL DESTINO premium travel vlog food moment. Create ONE cohesive, elegant, beautifully crafted editorial food illustration: a small golden Mexican artisan bread roll with beautifully rendered baked crust, a small torn edge showing airy crumb, next to one refined handmade ceramic coffee cup in deep muted turquoise with dark coffee visible. View three quarters, bread foreground left, cup slightly behind right, clear compact silhouette. Style: sophisticated illustrative 2.5D editorial rendering with subtle painterly texture, delicate warm highlights, credible materials, intentional detail that remains readable when placed small over live-action footage. Refined and warm, not stock vector clip-art, not childish kawaii, no faces or cartoon eyes. Background: truly transparent alpha, ONLY the bread and cup. No paper, no card, no plaque, no white sticker contour, no beige backing, no disk, no tabletop, no scenery, no rectangular background, no floating decorative doodles. No text, typography, labels, letters, numbers, logos or watermarks. Any contact shading must stay tightly confined to the objects, no cast ground shadow. Entire object pair fully visible with comfortable transparent margin. The illustration represents food generically, not a photograph of a specific bakery or an invented visit. Output a polished isolated bitmap asset, not a scene or a layout."
+    },
+    {
+      "kind": "edit",
+      "transparent_background": true,
+      "prompt": "Edit the provided bread and turquoise coffee cup image. Preserve exactly the two food objects, their shapes, colors and realistic fine material detail. Remove EVERYTHING around the physical silhouette of the bread and the physical silhouette of the cup. In particular REMOVE the large soft brown/gold/green halo, blurred colored fog and all cast ground shadows. The only visible pixels should belong to the actual bread or actual cup; antialias their edges naturally but do not feather into surrounding haze. The hole in the cup handle must also be fully transparent. Resize the entire intact pair to fit centrally in the canvas with 10 percent completely empty transparent margins on every side; do not crop objects. The result is an isolated alpha-cutout overlay for live-action video. No background whatsoever, no backing shape, no sticker border, no glow, no table, no paper, no plaque, no text or logos. Truly transparent RGBA PNG."
+    }
+  ],
+  "limitations": [
+    "Raster sin capas vectoriales; fuente y exportación conservan alfa.",
+    "No representa el pan, café ni vajilla exactos consumidos.",
+    "BORRADOR sin importación ni animación verificadas en Clipo."
+  ],
+  "additional_asset_provenance": "procedencia-pan-almendrado.json"
+}

@@ -64,3 +64,25 @@ El apartado de video de `design-system.html` lleva a `video/v01/index.html`. Es 
 `recursos.json` es el índice común generado para el agente: IDs estables, rutas de fuentes/exportaciones, hashes y limitaciones. Vincula el material existente, sin mover originales ni crear otro logo. Los catálogos detallados conservan sus rutas. `video/v01/motion.json` contiene movimientos propuestos; las animaciones del logo en `motion/` sí tienen renders, pero su importación/reproducción en Clipo sigue pendiente de prueba. Usarlas como firma/cierre cuando aporten y conservar su duración/fps originales al importarlas.
 
 La skill de contenido trabaja concepto y voz; la de edición decide selección, montaje y colocación de recursos; Clipo/MCP aplica lo que sus capacidades permitan. La aprobación de una pieza, la prueba técnica y la autorización de publicar son hechos distintos y se registran por separado.
+
+## Dirección de gráficos de viaje · 16 de noviembre de 2026
+
+Arturo pide PNG ilustrados con intención profesional y elegante y Alan por el Mundo como referente. La barra verde con texto blanco contorneado fue rechazada como solución por defecto. Preparar los elementos antes de montarlos, con tipografía propia y prueba sobre la toma; Canva u otra herramienta pueden utilizarse cuando hagan falta. La ilustración acompaña la experiencia sin copiar la identidad del referente. Las muestras v01 se conservan como referencia, sin imponerlas al episodio.
+
+Corrección posterior de Arturo: también rechaza el fondo de papel. La dirección vigente es el elemento recortado sobre el metraje, sin soporte ni borde blanco; texto independiente sólo si aporta. La imagen puede quedar sin gráfico. La [mesa v02](exportaciones/video-v02/index.html) se conserva como antecedente descartado para esta dirección.
+
+Propuestas BORRADOR actuales: [recortes sin placa v03](exportaciones/video-v03/index.html). Fuentes raster, procedencia/prompts y catálogo en `video/v03/`; PNG transparentes en `exportaciones/video-v03/`. Incluyen pan/café genéricos y una ilustración de pan almendrado basada en material propio. No son fotos exactas de la experiencia. No cambian logos ni tokens y aún no tienen importación/animación comprobadas en Clipo. Las pruebas sobre grabaciones propias se conservan con el episodio, fuera del área pública.
+
+
+### Alcance aclarado: iconos editoriales y firma
+
+Arturo precisa que busca sobre todo likes, pin de ubicación y nuestro logo, con un acabado coherente sobre el metraje. El [kit editorial v04](exportaciones/video-v04/index.html) es la propuesta principal: SVG propios y PNG transparentes, con variantes claras/oscuras para los iconos. El logo horizontal es copia de la extracción existente; el monograma se recorta de ella conservando sus píxeles, formas y colores. No se recolorea el logo para hacerlo coincidir con los iconos. Ambas animaciones existentes siguen disponibles por referencia.
+
+Los recortes alimentarios v03 son exploración opcional; no sustituyen el kit de likes, ubicación y firma. No se aprueba una escala de valoraciones ni se inventan contadores. Se comprueban lectura, transparencia, posición y movimiento sobre la toma; los recursos siguen BORRADOR, sin prueba de importación/animación en Clipo.
+
+
+### Revisión para funcionar sobre video · 16 de noviembre de 2026
+
+Arturo pide que los recursos no dependan de un fondo verde o beige para lucir y solicita animación premium del logo. El kit v04.1 incorpora contraste local dentro del alfa de los PNG; la variante universal se prueba sobre claro, sombra y detalle, sin placa. El raster original del logo se conserva delante y una capa fina de apoyo va detrás. Las versiones originales sin apoyo siguen disponibles.
+
+La [firma animada por piezas](motion/logo-al-destino/premium/revision.html) entrega logo completo y monograma de 4 s, en APNG y WebM transparentes, con secuencias PNG. La ola, el sol y las letras entran coordinados, sostienen lectura y salen a transparencia. Se conserva la versión anterior. Son recursos BORRADOR, renderizados y con alfa comprobado; su uso e importación en Clipo todavía necesitan prueba. Los fotogramas del viaje usados para contraste y la demo permanecen privados con el episodio.

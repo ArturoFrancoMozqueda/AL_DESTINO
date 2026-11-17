@@ -1,6 +1,6 @@
 interface:
   display_name: "AL DESTINO · Edición"
-  short_description: "Historia, montaje y gráficos propios de AL DESTINO"
-  default_prompt: "Usa $al-destino-edicion para preparar una preedición con nuestra voz, recursos gráficos y movimientos de marca."
+  short_description: "Base compartida de marca, cobertura y MCP"
+  default_prompt: "Usa $al-destino-edicion para preparar la dirección común del montaje y aplicar la skill vertical u horizontal según el formato solicitado."
 policy:
   allow_implicit_invocation: true

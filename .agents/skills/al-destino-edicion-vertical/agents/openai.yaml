@@ -1,0 +1,6 @@
+interface:
+  display_name: "AL DESTINO · Vertical"
+  short_description: "Montaje vertical, reencuadre y lectura móvil"
+  default_prompt: "Usa $al-destino-edicion-vertical para preparar una pieza vertical con historia propia, reencuadres y subtítulos de AL DESTINO."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "AL DESTINO · Horizontal"
+  short_description: "Historias horizontales, ritmo y continuidad"
+  default_prompt: "Usa $al-destino-edicion-horizontal y la base vigente de AL_DESTINO para editar un video de YouTube con historia completa según el material, likes y pin con contraste local, firma animada con el logo original y prueba sobre metraje, sólo cuando aporten, continuidad entre perspectivas, FX pertinentes y revisión temporal del MP4."
+policy:
+  allow_implicit_invocation: true

@@ -181,6 +181,41 @@ for preset in motion['presets']:
 board=video_base/video['board']['file'];check(board.is_file(),'Mesa visual ausente')
 if board.is_file():check(hashlib.sha256(board.read_bytes()).hexdigest()==video['board']['sha256'],'Mesa visual divergente')
 
+# Editorial overlays and the new transparent logo variant: catch stale or opaque exports.
+editorial_base=R/'marca/video/v04'
+editorial=read('marca/video/v04/catalogo.json')
+check(editorial.get('default_variant')=='universal','Kit editorial sin variante de contraste predeterminada')
+for item in editorial['items']:
+ source=editorial_base/item['source']
+ check(source.is_file() and hashlib.sha256(source.read_bytes()).hexdigest()==item['source_sha256'],f"Fuente editorial divergente: {item['id']}")
+ for variant,export in item['png'].items():
+  f=editorial_base/export['file'];check(f.is_file(),f"Icono ausente: {item['id']}/{variant}")
+  if f.is_file():
+   data=f.read_bytes()
+   check(struct.unpack('>II',data[16:24])==(512,512),f"Icono deformado: {item['id']}/{variant}")
+   check(data[25]==6,f"Icono sin RGBA: {item['id']}/{variant}")
+   check(hashlib.sha256(data).hexdigest()==export['sha256'],f"Icono editorial divergente: {item['id']}/{variant}")
+premium_base=R/'marca/motion/logo-al-destino/premium'
+premium=read('marca/motion/logo-al-destino/premium/renders/catalogo.json')
+check(hashlib.sha256((premium_base/'index.html').read_bytes()).hexdigest()==premium['composition_sha256'],'Fuente de firma distinta de la exportación verificada; volver a renderizar')
+for spec in [premium,premium['monogram']]:
+ seq=premium_base/'renders'/spec.get('sequence_dir','secuencia-png')
+ frames=sorted(seq.glob('frame_*.png'))
+ check(len(frames)==spec['frame_count']==120,'Secuencia de firma premium incompleta')
+ for frame in frames:
+  data=frame.read_bytes()
+  check(struct.unpack('>II',data[16:24])==tuple(spec['size_px']),f'Firma deformada: {frame.name}')
+  check(data[25]==6,f'Firma sin RGBA: {frame.name}')
+ apng=(premium_base/'renders'/spec['animated_png']).read_bytes();offset=8;frame_count=None
+ while offset+12<=len(apng):
+  length=struct.unpack('>I',apng[offset:offset+4])[0]
+  if apng[offset+4:offset+8]==b'acTL':frame_count=struct.unpack('>I',apng[offset+8:offset+12])[0];break
+  offset+=length+12
+ check(frame_count==120,'APNG premium incompleto')
+ for item in spec['files']:
+  f=premium_base/'renders'/item['file']
+  check(f.is_file() and hashlib.sha256(f.read_bytes()).hexdigest()==item['sha256'],f"Entrega de firma divergente: {item['file']}")
+
 # Portable agent entrypoints and derived resource registry.
 def repo_path(value,label,base=R):
  try:

@@ -1,0 +1,34 @@
+{
+  "duration": 4,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#core-letra-a",
+      "bySec": 0.8
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#core-sol",
+      "bySec": 1.1
+    },
+    {
+      "kind": "appearsBy",
+      "selector": "#core-tagline",
+      "bySec": 2.25
+    },
+    {
+      "kind": "before",
+      "a": "#core-letra-a",
+      "b": "#core-tagline"
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#logo-stage"
+    },
+    {
+      "kind": "keepsMoving",
+      "withinSelector": "#scene",
+      "maxStaticSec": 1.5
+    }
+  ]
+}

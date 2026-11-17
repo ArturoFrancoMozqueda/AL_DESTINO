@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "status": "borrador",
+  "episode_id": "ad-0001",
+  "updated_at": "2026-11-16",
+  "experience": "Pátzcuaro: viaje por pan y paseo en pareja",
+  "experience_date": null,
+  "experience_status": "realizada",
+  "idea_id": null,
+  "idea_path": null,
+  "stage": "revision",
+  "promise": "Acompañar la intención de ir por pan, vivir el paseo y conocer las opiniones reales de Arturo y Liz.",
+  "deliverables_requested": [
+    "Conservar el piloto previo de café y pan.",
+    "Montaje editable horizontal para YouTube con IMG_9103–IMG_9138 y duración de episodio largo; encargo del 16 de noviembre de 2026."
+  ],
+  "documents": {
+    "brief": "brief.md",
+    "plan": "plan-montaje.json",
+    "aprendizajes": "aprendizajes.md",
+    "plan_youtube": "plan-montaje-youtube.json",
+    "revision_skill_v12": "revision-skill-v12.md",
+    "revision_referente_alan": "../../automatizacion/revisiones/2026-11-16-alan-sin-placa.md",
+    "revision_aplicada_v02": "revision-aplicada-v02.md"
+  },
+  "media_index": "medios.json",
+  "resource_ids": [
+    "marca.logo.horizontal",
+    "video.editorial.ubicacion",
+    "video.editorial.like",
+    "motion.logo.horizontal.premium",
+    "motion.logo.monograma.premium"
+  ],
+  "sources": [
+    {
+      "statement": "Lugar y experiencia confirmados por Arturo y por los videos originales; fecha de visita sin confirmar.",
+      "source": "Encargo de Arturo en Codex, 14 de noviembre de 2026",
+      "observed_at": "2026-11-14",
+      "status": "declaracion_y_material_propio"
+    },
+    {
+      "statement": "Dirección profesional/elegante, color real y prioridad a la pareja.",
+      "source": "contexto/vision-y-preferencias.md; marca/manual.md; skill al-destino-edicion",
+      "observed_at": "2026-11-14",
+      "status": "preferencia_declarada"
+    },
+    {
+      "statement": "Arturo pide un video largo para YouTube orientado a monetización con IMG_9103–IMG_9138.",
+      "source": "Conversación actual en Codex",
+      "observed_at": "2026-11-16",
+      "status": "instruccion_expresa_del_usuario"
+    },
+    {
+      "statement": "Arturo pide mejorar PNG con referencia Alan por el Mundo y permite Canva si hace falta; reporta congelamiento en MP4 descargado y tomas deliberadas de una acción desde varias perspectivas.",
+      "source": "Conversación en Codex, revisión del montaje",
+      "observed_at": "2026-11-16",
+      "status": "preferencia_y_fallo_reportado_por_usuario"
+    },
+    {
+      "statement": "Arturo pide aplicar al episodio los iconos y la animación que le gustaron, corregir el trabón de 2:00 y ordenar perspectivas del coche.",
+      "source": "Conversación en Codex del 16 de noviembre de 2026",
+      "observed_at": "2026-11-16",
+      "status": "instruccion_expresa_del_usuario"
+    }
+  ],
+  "privacy_review": "placa cercana excluida por recorte; revisión visual por muestras; revisión humana final pendiente",
+  "pending": [
+    "Escucha y visionado continuos finales de Arturo/Liz; no se presume aprobación del episodio.",
+    "IMG_9122 ausente; IMG_9111 es captura personal excluida.",
+    "Los rótulos usan ahora las fuentes locales en PNG separados; cambiar su texto requiere regenerarlos con el generador conservado.",
+    "La secuencia del coche usa una elipsis de puerta abierta a cerrada; no se encontró una apertura equivalente grabada desde el interior.",
+    "Revisión continua de privacidad antes de publicar; el encargo no solicita publicación."
+  ],
+  "review": {
+    "arturo": null,
+    "liz": null,
+    "agent": "Revisión v02 aplicada a una copia editable en Clipo: iconos transparentes sin placa, monograma y firma premium animados. Trabón de 2:00 sustituido con otros tramos continuos del mismo original; comparación original/copia/exportación y prueba corta antes del render completo. Coche: apertura exterior, Liz tras ventana y paneo interior recuperado. MP4 1080p nuevo de 9:44.62 comprobado por hash, decodificación completa y muestras temporales; proyecto guardado y reabierto sin faltantes. Escucha y visionado audiovisual continuos pendientes."
+  },
+  "approval": {
+    "decided_by": null,
+    "decided_at": null,
+    "scope": null,
+    "decision_source": null
+  },
+  "publication": {
+    "requested": false,
+    "request_source": null,
+    "published_at": null,
+    "url": null
+  },
+  "production_hours_actual": null,
+  "agent_elapsed_scope": "Incluye correcciones de MCP/importación/HDR; no son horas conjuntas de Arturo y Liz.",
+  "local_documents": {
+    "exportacion_youtube": "exportacion-youtube.local.json",
+    "reubicacion_exports": "reubicacion-exports.local.json"
+  }
+}

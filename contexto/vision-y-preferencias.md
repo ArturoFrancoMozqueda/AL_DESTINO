@@ -43,3 +43,17 @@ Arturo señala @elmundoenpareja_ y confirma las tres prioridades: pareja y momen
 Arturo desarrolla Clipo y su MCP; aquí se construye el paquete editorial y visual que los utilizará para preparar montajes editables. Pide un acabado profesional y elegante, con el video de Hard Rock Vallarta de El Mundo en Pareja como referencia de edición. La inspección visual es parcial; audio, ritmo continuo y curvas no están medidos. No cambia la voz natural de Arturo y Liz ni aprueba todavía los recursos o presets propuestos.
 
 Arturo solicita consolidar el repo para el agente de contenido: una entrada visual, recursos compartidos, skills por tarea y decisiones conservadas. Las grabaciones y pruebas con material real siguen pendientes; organizar el proyecto no convierte oportunidades anteriores en experiencias realizadas.
+
+## Gráficos y continuidad · 16 de noviembre de 2026
+
+Arturo pide mejorar la skill horizontal después de revisar el viaje a Pátzcuaro. Rechaza el acabado de barra verde, texto blanco contorneado e icono pequeño; quiere PNG con una intención profesional y elegante, con Alan por el Mundo como referente. Autoriza prepararlos en Canva u otra herramienta si hace falta: esta instrucción sustituye la restricción anterior de producir sin Canva, sin recuperar diseños descartados ni aprobar una propuesta nueva.
+
+Explica que grabaron acciones desde distintas perspectivas para enlazarlas, por ejemplo abrir el coche desde fuera y continuar desde dentro. El montaje debe buscar esa cobertura antes de recortar los arranques y repeticiones. Reporta además congelamiento en el MP4 descargado; ubicado después por Arturo aproximadamente en 2:00; causa sin confirmar. Se refuerza la revisión del avance de imagen, independiente de la decodificación y las capturas.
+
+Corrección posterior del mismo día: también rechaza el fondo tipo papel y aporta el video del resort de Alan por el Mundo (OWaR68LiZLs). Pide analizarlo, mejorar la skill e incorporar los PNG útiles al repo. La dirección queda en elementos recortados sin soporte, con texto separado sólo si aporta y metraje protagonista. V02 queda descartado para esta dirección; las propuestas v03 conservan estado BORRADOR.
+
+Aclaración del alcance: se refiere principalmente a iconos de likes, pin de ubicación, logo y firma, no a ilustraciones de la comida. Se prioriza un kit editorial consistente, sin placas, usando el logo original. Los recortes alimentarios v03 son opcionales y no cuentan como respuesta al kit solicitado. V04 conserva estado BORRADOR y no se ha aplicado al montaje.
+
+Arturo pide después mejorar esos recursos para que luzcan sobre video sin depender de un fondo verde o beige y añadir una animación premium al logo. Se autoriza preparar y renderizar esa variante con las piezas originales. V04.1 añade contraste local; la firma completa y el monograma animados se prueban sobre fotogramas propios. Las propuestas y su aplicación conservan revisión independiente; no se publica ni se reexporta el episodio por esta petición.
+
+Arturo responde «me gusto» a esa entrega. Se conserva v04.1 y la firma animada por piezas como dirección visual preferida para próximos montajes. La valoración se limita a lo mostrado; la importación en Clipo y la revisión de cada episodio siguen siendo comprobaciones propias.

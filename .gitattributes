@@ -4,6 +4,11 @@ marca/motion/** -text
 marca/video/** -text
 marca/exportaciones/** -text
 
+# Admitir CRLF en metadatos de marca sin alterar los bytes catalogados.
+marca/** whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Dependencia vendorizada: conservar el archivo de distribución intacto.
+marca/motion/logo-al-destino/premium/assets/gsap.min.js -whitespace
+
 # Los originales importados no se normalizan ni se reescriben al hacer checkout.
 **/originales/** -text
 contexto/documento-maestro-original.txt -text

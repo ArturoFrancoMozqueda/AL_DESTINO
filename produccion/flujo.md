@@ -29,6 +29,14 @@ Crear `episodio.json` desde la plantilla y registrar su `episode_id` y ruta en e
 
 Conservar el inventario portable de medios como `medios.json` (ID, nombre, metadata verificada y notas mínimas). Guardar rutas absolutas personales en `rutas.local.json` y planes de ejecución con rutas locales en archivos `*.local.json`, excluidos de Git. En Clipo, los IDs reales se consultan en cada sesión; no se confunden con nuestros IDs editoriales.
 
+## Variantes vertical y horizontal
+
+Usar la [skill vertical](../.agents/skills/al-destino-edicion-vertical/SKILL.md) o la [horizontal](../.agents/skills/al-destino-edicion-horizontal/SKILL.md) según el formato real. Ambas reutilizan la [base común](../.agents/skills/al-destino-edicion/SKILL.md), la marca, el inventario y la cobertura del episodio. Un nombre de plataforma no sustituye esa elección.
+
+Crear sólo las variantes solicitadas. Conservar un `episode_id` y planes/proyectos identificables por `variant_id`; por ejemplo, un plan horizontal existente y un plan vertical derivado cuando se encargue. `source_variant_id` vincula el origen del derivado y `source_coverage_reference` enlaza evidencia de exploración reutilizada. No duplicar el episodio ni reconstruir la revisión de todos los archivos por cada encuadre. Si se usan otros tramos, ampliar su cobertura real.
+
+Cada variante conserva aspecto, dimensiones, duración, selección y tiempos propios de textos, música y otros elementos. Registrar sus documentos en `episodio.json`; el plan anterior puede mantenerse con su nombre. No sobrescribir una orientación para entregar la otra ni asumir que cambiar el tamaño del lienzo produce una adaptación terminada.
+
 ## Presupuesto de tiempo propuesto
 
 | Actividad | Horas conjuntas |
@@ -50,7 +58,13 @@ Capturar sonido ambiente y tomas estables. Trípode pendiente, no es requisito p
 
 ## Archivo por episodio
 
-ID estable + fecha + tema. Subcarpetas de captura, selección, proyecto editable, gráficos y exportaciones; mantener material pesado fuera de Git y guardar aquí el índice/brief. Dos copias antes de borrar del celular. Música y gráficos con fuente/licencia registrada.
+ID estable + fecha + tema. Subcarpetas de captura, selección, proyecto editable y gráficos; exportaciones finales en una carpeta externa según la regla siguiente. Mantener material pesado fuera de Git y guardar aquí el índice/brief. Dos copias antes de borrar del celular. Música y gráficos con fuente/licencia registrada.
+
+### Ubicación de exportaciones finales
+
+Guardar los videos finales fuera del repositorio y de cualquier carpeta de skill, incluida su copia personal instalada. Usar la carpeta externa indicada por el usuario; si no existe una preferencia, usar `Videos/AL_DESTINO/<episodio>/` dentro del perfil del sistema. No crear `exports/`, `renders/` ni salidas de episodios dentro de `.agents/skills/` o de las skills personales. Registrar la ruta absoluta y el recibo en archivos `*.local.json` excluidos de Git; los documentos portables identifican el entregable sin incorporar rutas personales ni exigir que el MP4 exista al clonar el repo.
+
+Los PNG, SVG y animaciones reutilizables de marca conservan sus fuentes y exportaciones en `marca/`, con sus catálogos. Son recursos compartidos para montar videos, distintos de los exports finales de un episodio. Los originales, cachés y muestras privadas conservan sus reglas de archivo y exclusión de Git.
 
 Para aplicar recursos, la skill lee el índice común: logos y ambas animaciones existentes, fuentes, iconos, componentes y especificaciones de motion. Los APNG disponibles y los presets sin render tienen estados distintos. Confirmar transparencia, tipografía, búsqueda por tiempo y exportación al usar un editor; no sustituir los logos porque falte compatibilidad.
 
